@@ -1,0 +1,65 @@
+# Project: AI Ocular Triage Agent
+
+## Project Overview
+An AI-powered medical triage system for ocular emergencies using The Wills Eye Manual as knowledge base, Zep Graphiti for knowledge graphs, and Django + Next.js architecture.
+
+## Critical Safety Requirements
+- NEVER bypass red flag detection logic
+- ALWAYS validate medical recommendations against Wills Eye Manual source
+- NEVER suggest specific medications without "consult doctor" disclaimer
+- ALL medical decision points must be logged for audit
+
+## Technology Stack
+- Backend: Django 5.0 + Django REST Framework
+- Frontend: Next.js 14 (App Router)
+- LLM: Claude 3.5 Sonnet (primary) / GPT-4o (fallback)
+- Knowledge Graph: Zep Graphiti
+- Database: PostgreSQL 15+
+- Monitoring: Langfuse
+- Deployment: Docker + Kubernetes
+
+## Development Priorities
+1. Medical safety and accuracy (highest priority)
+2. HIPAA/GDPR compliance
+3. Performance and cost optimization
+4. User experience
+
+## Code Style
+- Python: Black formatter, type hints required, docstrings for all public methods
+- JavaScript/TypeScript: Prettier, ESLint strict mode
+- Commit messages: Conventional Commits format
+- Branch naming: feature/, bugfix/, hotfix/
+
+## Testing Requirements
+- Unit tests required for all medical logic
+- Integration tests for triage flow
+- Minimum 80% coverage for medical decision code
+- Mock external APIs in tests
+
+## Key Documentation
+- Medical Framework: docs/medical/framework.md
+- Architecture: docs/ARCHITECTURE.md
+- Triage Algorithm: docs/technical/triage-algorithm.md
+- Red Flags List: docs/medical/red-flags.md
+
+## Common Commands
+See .claude/commands.md for project-specific commands
+
+## When Making Changes
+1. Check relevant docs/ files first
+2. Update tests if modifying medical logic
+3. Update documentation if changing architecture
+4. Add Langfuse traces for new LLM calls
+5. Validate against Wills Eye Manual source
+
+## External Dependencies
+- Wills Eye Manual JSON: data/wills_eye_structured.json
+- Zep API Key: Required for knowledge graph
+- Paziresh24 API: For appointment booking (Iran)
+- Langfuse: For LLM monitoring
+
+## File Locations
+- LLM Prompts: backend/prompts/
+- Medical Logic: backend/apps/triage/services/
+- Knowledge Graph: backend/knowledge_graph/
+- API Specs: docs/technical/api-specifications.md

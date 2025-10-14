@@ -1,0 +1,30 @@
+# Knowledge Graph Indexing Dependencies
+
+# Core
+python-dotenv>=1.0.0
+
+# Graphiti (Graph Knowledge Base)
+graphiti-core>=0.3.0
+neo4j>=5.14.0         # Neo4j driver for Graphiti
+
+# OpenAI (for LLM and embeddings)
+openai>=1.0.0
+
+# Data Processing
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.65.0          # Progress bars
+pydantic>=2.0.0       # Data validation
+python-json-logger>=2.0.0  # Structured logging
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: Sentence Transformers (for BioBERT embeddings)
+# Only install if using EMBEDDING_PROVIDER=sentence-transformers
+# Uncomment to install:
+# sentence-transformers>=2.2.2
+# transformers>=4.30.0
+# torch>=2.0.0

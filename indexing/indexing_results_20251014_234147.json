@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "chapters_processed": 1,
+  "stats": {
+    "conditions_processed": 0,
+    "episodes_created": 0,
+    "errors": 27
+  },
+  "validation": {
+    "validations": [
+      {
+        "query": "sudden vision loss",
+        "error": "Request timed out.",
+        "passed": false
+      },
+      {
+        "query": "chemical burn",
+        "error": "Request timed out.",
+        "passed": false
+      },
+      {
+        "query": "mild allergic conjunctivitis",
+        "error": "Request timed out.",
+        "passed": false
+      }
+    ],
+    "all_passed": false
+  }
+}
