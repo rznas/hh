@@ -1,138 +1,169 @@
-# Graphiti Integration - Implementation Complete ✅
+# Knowledge Graph Integration - Migration to Microsoft GraphRAG 🔄
 
 ## Summary
 
-Successfully implemented Zep Graphiti integration with custom Neo4j and OpenAI client configurations for the Wills Eye Manual knowledge graph.
+Migrating from Zep Graphiti to Microsoft GraphRAG for improved knowledge organization, hierarchical search capabilities, and better medical domain optimization.
 
-## What Was Implemented
+**Status**: 🟡 In Progress (Core components implemented, see `GRAPHRAG_IMPLEMENTATION_STATUS.md`)
 
-### 1. Core Components ✅
+## Microsoft GraphRAG Implementation
+
+### 1. Core Components
 
 | Component | File | Status |
 |-----------|------|--------|
-| **Configuration** | `indexing/config.py` | ✅ Complete |
-| **Graphiti Client** | `indexing/graphiti_client.py` | ✅ Complete |
-| **Graph Builder** | `indexing/graph_builder.py` | ✅ Complete |
-| **Embedding Service** | `indexing/embedding_service.py` | ✅ Complete |
-| **Main Indexing Script** | `indexing/index_knowledge_graph.py` | ✅ Complete |
-| **Parser** | `indexing/parsers/wills_eye_parser.py` | ✅ Complete |
+| **Configuration** | `indexing/graphrag_config.py` | ✅ Complete |
+| **Entity Extractor** | `indexing/entity_extractor.py` | ✅ Complete |
+| **Relationship Extractor** | `indexing/relationship_extractor.py` | ✅ Complete |
+| **Embedding Service** | `indexing/graphrag_embeddings.py` | 🚧 To be implemented |
+| **Community Detector** | `indexing/community_detector.py` | 🚧 To be implemented |
+| **Community Summarizer** | `indexing/community_summarizer.py` | 🚧 To be implemented |
+| **Neo4j Storage** | `indexing/graphrag_storage.py` | 🚧 To be implemented |
+| **Local Search** | `indexing/local_search.py` | 🚧 To be implemented |
+| **Global Search** | `indexing/global_search.py` | 🚧 To be implemented |
+| **Main Indexing Pipeline** | `indexing/graphrag_indexer.py` | 🚧 To be implemented |
+| **GraphRAG Client** | `indexing/graphrag_client.py` | 🚧 To be implemented |
+| **Parser** | `indexing/parsers/wills_eye_parser.py` | ✅ Complete (legacy) |
 
-### 2. Documentation ✅
+### 2. Legacy Components (Deprecated)
+
+| Component | File | Status |
+|-----------|------|--------|
+| ~~Graphiti Client~~ | `indexing/graphiti_client.py` | ⚠️ Deprecated |
+| ~~Graph Builder~~ | `indexing/graph_builder.py` | ⚠️ Deprecated |
+| ~~Old Indexing Script~~ | `indexing/index_knowledge_graph.py` | ⚠️ Deprecated |
+
+### 3. Documentation ✅
 
 | Document | Purpose | Status |
 |----------|---------|--------|
-| `GRAPHRAG_RECOMMENDATION.md` | Executive summary | ✅ Complete |
-| `docs/technical/graphrag-strategy.md` | Detailed architecture (20+ pages) | ✅ Complete |
-| `indexing/README.md` | Implementation guide | ✅ Complete |
-| `indexing/QUICKSTART.md` | Quick start guide | ✅ Complete |
+| `docs/GRAPHRAG_ARCHITECTURE.md` | Architecture design | ✅ Complete |
+| `GRAPHRAG_IMPLEMENTATION_STATUS.md` | Implementation progress | ✅ Complete |
+| `indexing/QUICKSTART_GRAPHRAG.md` | Quick start guide | ✅ Complete |
+| `CLAUDE.md` | Updated with GraphRAG | ✅ Complete |
 
-### 3. Testing ✅
+### 4. Testing 🚧
 
-| Test | File | Result |
+| Test | File | Status |
 |------|------|--------|
-| **Integration Tests** | `indexing/test_integration.py` | ✅ 2/5 core tests passed |
-| **Configuration Test** | ✅ | 15 node types, 15 edge types |
-| **Parser Test** | ✅ | 14 chapters, 27 Trauma conditions parsed |
+| **Entity Extraction Tests** | `indexing/tests/test_entity_extraction.py` | 🚧 To be implemented |
+| **Relationship Extraction Tests** | `indexing/tests/test_relationship_extraction.py` | 🚧 To be implemented |
+| **Community Detection Tests** | `indexing/tests/test_communities.py` | 🚧 To be implemented |
+| **Search Tests** | `indexing/tests/test_search.py` | 🚧 To be implemented |
+| **Integration Tests** | `indexing/tests/test_graphrag.py` | 🚧 To be implemented |
 
-## Architecture Implemented
+## Microsoft GraphRAG Architecture
 
-### Graphiti Client (`graphiti_client.py`)
+### Why GraphRAG?
+
+**Key Advantages over Zep Graphiti:**
+- **Hierarchical Organization**: Communities naturally group related medical conditions
+- **Dual Search Modes**: Local (entity-specific) and Global (broad thematic queries)
+- **Better Medical Domain Fit**: Structured knowledge vs narrative episodes
+- **Cost Efficiency**: Pre-computed community summaries reduce LLM calls
+- **Explainability**: Can trace reasoning through graph relationships
+
+### Entity Extractor (`entity_extractor.py`)
 
 **Features:**
-- ✅ Custom Neo4j configuration (`NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`)
-- ✅ Custom OpenAI client (`CUSTOM_OPENAI_BASE_URL`, `CUSTOM_OPENAI_API_KEY`, `CUSTOM_OPENAI_MODEL`)
-- ✅ Episode-based knowledge ingestion
-- ✅ High-level medical condition API
-- ✅ Natural language query builder
-- ✅ Statistics tracking
+- ✅ LLM-based entity extraction (Claude/GPT)
+- ✅ Medical entity types: DISEASE, SYMPTOM, SIGN, TREATMENT, etc.
+- ✅ Batch processing with concurrency control
+- ✅ Retry logic with exponential backoff
+- ✅ Context preservation
 
 **Example Usage:**
 ```python
-from graphiti_client import GraphitiClient
+from entity_extractor import EntityExtractor
+from graphrag_config import load_config
 
-# Initialize with custom config
-client = GraphitiClient(
-    neo4j_uri="bolt://localhost:7687",
-    neo4j_user="neo4j",
-    neo4j_password="your_password",
-    openai_base_url="https://api.openai.com/v1",
-    openai_api_key="sk-...",
-    openai_model="gpt-4"
-)
+config = load_config()
+extractor = EntityExtractor(config)
 
-# Add medical condition
-await client.add_medical_condition(
-    condition_name="Chemical Burn",
-    chapter="Trauma",
-    section_id="3.1",
-    symptoms=["eye pain", "vision loss"],
-    signs=["corneal opacity"],
-    treatment=["copious irrigation"],
-    urgency_level="EMERGENT",
-    red_flags=["chemical burn"]
-)
+text = """
+Acute angle-closure glaucoma presents with severe eye pain,
+blurred vision, and nausea. Signs include corneal edema and
+fixed mid-dilated pupil.
+"""
 
-# Search
-results = await client.search("What causes sudden vision loss?")
+entities = await extractor.extract_entities(text)
+# Returns: List[MedicalEntity] with disease, symptoms, signs
 ```
 
-### Graph Builder (`graph_builder.py`)
+### Relationship Extractor (`relationship_extractor.py`)
 
 **Features:**
-- ✅ Batch processing with concurrency
-- ✅ Chapter-by-chapter indexing
-- ✅ Entity extraction and relationship mapping
-- ✅ Medical-specific query methods
-- ✅ Validation suite
+- ✅ Extracts relationships between entities
+- ✅ Medical relationship types: PRESENTS_WITH, TREATED_WITH, AFFECTS, etc.
+- ✅ Relationship weighting (strength 0-1)
+- ✅ Batch processing
+- ✅ LLM-based with structured output
 
 **Example Usage:**
 ```python
-from graph_builder import GraphIndexer
+from relationship_extractor import RelationshipExtractor
 
-# Initialize
-indexer = GraphIndexer("../data/wills_eye_structured.json")
-
-# Index Trauma chapter
-result = await indexer.index_chapter("Trauma", batch_size=10)
-
-# Search by symptom
-results = await indexer.builder.search_conditions_by_symptom(
-    "eye pain",
-    urgency_filter="EMERGENT"
-)
-
-# Check for red flags
-red_flags = await indexer.builder.check_for_red_flags(
-    ["sudden vision loss"]
-)
+extractor = RelationshipExtractor(config)
+relationships = await extractor.extract_relationships(entities, text)
+# Returns: List[MedicalRelationship] with typed edges
 ```
 
-### Embedding Service (`embedding_service.py`)
+### GraphRAG Pipeline (To Be Implemented)
 
-**Features:**
-- ✅ BioBERT medical embeddings
-- ✅ GPU auto-detection
-- ✅ Batch encoding
-- ✅ Semantic search
-- ✅ Symptom matching
-- ✅ Caching for performance
+**Planned Features:**
+- 🚧 Entity extraction from Wills Eye Manual
+- 🚧 Relationship extraction between entities
+- 🚧 Graph construction in NetworkX
+- 🚧 Community detection (Leiden algorithm)
+- 🚧 Hierarchical clustering (multi-level)
+- 🚧 Community summarization (LLM-based)
+- 🚧 Neo4j storage with vector indexes
+- 🚧 Local search (entity-based retrieval)
+- 🚧 Global search (community-based retrieval)
 
-**Example Usage:**
+**Future Usage:**
 ```python
-from embedding_service import MedicalEmbeddingService, SymptomMatcher
+from graphrag_client import GraphRAGClient
 
 # Initialize
-service = MedicalEmbeddingService()
+client = GraphRAGClient()
 
-# Encode text
-embedding = service.encode("sudden vision loss")
+# Local search (specific entity query)
+result = await client.search("What causes sudden vision loss?")
 
-# Match symptoms
-matcher = SymptomMatcher(service)
-matcher.add_symptoms(["eye pain", "red eye", "blurry vision"])
+# Global search (broad thematic query)
+result = await client.search("What are common eye emergencies?")
 
-matches = matcher.match("I can't see well", top_k=3)
-# Returns: [("blurry vision", 0.89), ("eye pain", 0.65), ...]
+# Red flag check (multi-path detection)
+is_emergency = await client.check_red_flags(["sudden vision loss"])
+```
+
+### Embedding Service (To Be Implemented)
+
+**Planned Features:**
+- 🚧 OpenAI text-embedding-3-large support
+- 🚧 BioBERT domain-specific embeddings (optional)
+- 🚧 Batch embedding generation
+- 🚧 Vector similarity search
+- 🚧 Caching for performance
+
+**Future Usage:**
+```python
+from graphrag_embeddings import EmbeddingService
+
+# Initialize
+service = EmbeddingService(config)
+
+# Generate embeddings
+embedding = await service.embed_text("sudden vision loss")
+
+# Batch embeddings
+embeddings = await service.embed_batch([
+    "eye pain", "red eye", "blurry vision"
+])
+
+# Similarity search
+similar = await service.find_similar(query_embedding, top_k=10)
 ```
 
 ## Configuration

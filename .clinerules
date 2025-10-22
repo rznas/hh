@@ -1,7 +1,7 @@
 # Project: AI Ocular Triage Agent
 
 ## Project Overview
-An AI-powered medical triage system for ocular emergencies using The Wills Eye Manual as knowledge base, Zep Graphiti for knowledge graphs, and Django + Next.js architecture.
+An AI-powered medical triage system for ocular emergencies using The Wills Eye Manual as knowledge base, Microsoft GraphRAG for knowledge graphs, and Django + Next.js architecture.
 
 ## Critical Safety Requirements
 - NEVER bypass red flag detection logic
@@ -13,7 +13,7 @@ An AI-powered medical triage system for ocular emergencies using The Wills Eye M
 - Backend: Django 5.0 + Django REST Framework
 - Frontend: Next.js 14 (App Router)
 - LLM: Claude 3.5 Sonnet (primary) / GPT-4o (fallback)
-- Knowledge Graph: Zep Graphiti
+- Knowledge Graph: Microsoft GraphRAG
 - Database: PostgreSQL 15+
 - Monitoring: Langfuse
 - Deployment: Docker + Kubernetes

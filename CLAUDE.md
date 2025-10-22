@@ -10,8 +10,8 @@ AI-powered medical triage system for ocular emergencies using The Wills Eye Manu
 - Backend: Django 5.0 + Django REST Framework
 - Frontend: Next.js 14 (App Router)
 - LLM: Claude 3.5 Sonnet (primary) / GPT-4o (fallback)
-- Knowledge Graph: Zep Graphiti
-- Database: PostgreSQL 15+
+- Knowledge Graph: Microsoft GraphRAG + Neo4j
+- Database: PostgreSQL 15+ (application data) + Neo4j (knowledge graph)
 - Monitoring: Langfuse
 - Deployment: Docker + Kubernetes
 
@@ -70,10 +70,13 @@ cd frontend && npm run dev
 # Parse Wills Eye Manual EPUB to JSON (if needed)
 python scripts/parse_wills_eye.py data/wills_eye_manual.epub
 
-# Populate knowledge graph with medical data
-# See indexing/QUICKSTART_INDEXING.md for full guide
-python indexing/index_knowledge_graph.py --data data/wills_eye_structured.json --dry-run
-python indexing/index_knowledge_graph.py --data data/wills_eye_structured.json
+# Populate knowledge graph with medical data (Microsoft GraphRAG)
+# See indexing/QUICKSTART_GRAPHRAG.md for full guide
+python indexing/graphrag_indexer.py --data data/wills_eye_structured.json --dry-run
+python indexing/graphrag_indexer.py --data data/wills_eye_structured.json
+
+# Legacy Graphiti indexing (deprecated)
+# python indexing/index_knowledge_graph.py --data data/wills_eye_structured.json
 ```
 
 ## Architecture Overview
@@ -115,10 +118,13 @@ Patient Input → Red Flag Check → Systematic Questions → Risk Stratificatio
 - Must have zero false negatives
 - See docs/medical/red-flags.md for complete list
 
-**Knowledge Graph** (`backend/knowledge_graph/`)
-- Zep Graphiti integration
-- Structured Wills Eye Manual content
-- Schema: Condition → Symptoms → Signs → DDx → Urgency Level
+**Knowledge Graph** (`indexing/`)
+- Microsoft GraphRAG implementation with Neo4j
+- Entity extraction (diseases, symptoms, signs, treatments)
+- Relationship extraction (presents_with, treated_with, etc.)
+- Community detection (hierarchical clustering)
+- Local search (entity-specific) and Global search (community-based)
+- Schema: Entities → Relationships → Communities → Hierarchical Summaries
 
 **LLM Prompts** (`backend/prompts/`)
 - System prompts for each phase
@@ -191,7 +197,7 @@ def detect_red_flags(text: str) -> tuple[bool, str | None]:
 **For Medical Logic Changes:**
 1. Unit tests with 80%+ coverage
 2. Integration tests for triage flow
-3. Mock external APIs (Zep, Claude, Paziresh24)
+3. Mock external APIs (Neo4j, Claude, Paziresh24)
 4. Test against validation scenarios in `test_scenarios/`
 
 **Red Flag Tests:**
@@ -202,6 +208,9 @@ def detect_red_flags(text: str) -> tuple[bool, str | None]:
 ## Key Documentation
 
 Always check these before making changes:
+- **GraphRAG Architecture**: docs/GRAPHRAG_ARCHITECTURE.md (knowledge graph design)
+- **GraphRAG Quick Start**: indexing/QUICKSTART_GRAPHRAG.md (implementation guide)
+- **GraphRAG Status**: GRAPHRAG_IMPLEMENTATION_STATUS.md (current progress)
 - **Medical Framework**: docs/medical/framework.md (authoritative triage logic)
 - **Red Flags**: docs/medical/red-flags.md (complete emergent conditions list)
 - **Urgency Levels**: docs/medical/urgency-levels.md
@@ -212,8 +221,11 @@ Always check these before making changes:
 
 - **LLM Prompts**: `backend/prompts/`
 - **Medical Logic**: `backend/apps/triage/services/`
-- **Knowledge Graph**: `backend/knowledge_graph/`
-- **Knowledge Graph Indexing**: `indexing/` (scripts to populate Zep Graphiti)
+- **Knowledge Graph Indexing**: `indexing/` (Microsoft GraphRAG implementation)
+  - Entity extraction: `indexing/entity_extractor.py`
+  - Relationship extraction: `indexing/relationship_extractor.py`
+  - Community detection: `indexing/community_detector.py` (to be implemented)
+  - Search interfaces: `indexing/local_search.py`, `indexing/global_search.py` (to be implemented)
 - **Tests**: `backend/apps/triage/tests/`
 - **Wills Eye Data**: `data/wills_eye_structured.json`
 - **Test Scenarios**: `test_scenarios/`
@@ -230,10 +242,11 @@ Always check these before making changes:
 ## External Dependencies
 
 - **Wills Eye Manual JSON**: Primary medical knowledge source
-- **Zep API**: Knowledge graph requires API key
+- **Neo4j**: Knowledge graph database (self-hosted or cloud)
+- **Claude API**: Primary LLM (Anthropic key required)
+- **OpenAI API**: Embeddings and fallback LLM (optional)
 - **Paziresh24 API**: Iran appointment booking
 - **Langfuse**: LLM call monitoring and token tracking
-- **Claude API**: Primary LLM (Anthropic key required)
 
 ## Development Priorities
 
@@ -246,6 +259,20 @@ Always check these before making changes:
 
 MVP Development - Focus on:
 - Core triage flow with red flag detection
-- Wills Eye Manual knowledge graph population
+- Microsoft GraphRAG implementation (entity/relationship extraction complete)
+- Wills Eye Manual knowledge graph population with community detection
+- Local and global search implementations
 - Basic appointment booking integration
 - Comprehensive testing of medical logic
+
+**GraphRAG Implementation Status:**
+- ✅ Architecture design
+- ✅ Entity extraction
+- ✅ Relationship extraction
+- 🚧 Embedding service
+- 🚧 Community detection
+- 🚧 Neo4j storage layer
+- 🚧 Search interfaces (local/global)
+- 🚧 Main indexing pipeline
+
+See `GRAPHRAG_IMPLEMENTATION_STATUS.md` for detailed progress.
