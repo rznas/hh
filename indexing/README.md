@@ -221,8 +221,8 @@ print(conditions)
 
 ### Common Issues
 
-**Issue:** `ZepAPIError: Authentication failed`
-- **Solution:** Check `ZEP_API_KEY` environment variable
+**Issue:** `Neo4jError: Connection refused`
+- **Solution:** Ensure Neo4j is running and accessible at `NEO4J_URI`
 
 **Issue:** `JSONDecodeError: Extra data`
 - **Solution:** Verify JSON file encoding (use UTF-8)
@@ -230,16 +230,15 @@ print(conditions)
 **Issue:** `MemoryError during embedding generation`
 - **Solution:** Reduce `BATCH_SIZE` or use GPU acceleration
 
-**Issue:** Duplicate nodes created
-- **Solution:** Run `python index_knowledge_graph.py --clean` to reset graph
+**Issue:** Missing API key errors
+- **Solution:** Check environment variables are set: `NEO4J_PASSWORD`, `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`
 
 ### Debug Mode
 ```bash
 # Enable verbose logging
-python index_knowledge_graph.py \
+python graphrag_indexer.py \
     --data ../data/wills_eye_structured.json \
-    --verbose \
-    --log-level DEBUG
+    --verbose
 ```
 
 ## Medical Safety Notes

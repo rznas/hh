@@ -54,7 +54,7 @@ See .claude/commands.md for project-specific commands
 
 ## External Dependencies
 - Wills Eye Manual JSON: data/wills_eye_structured.json
-- Zep API Key: Required for knowledge graph
+- Neo4j Database: For knowledge graph (Microsoft GraphRAG)
 - Paziresh24 API: For appointment booking (Iran)
 - Langfuse: For LLM monitoring
 

@@ -25,7 +25,7 @@ Start here for all project documentation.
 
 ### For AI/ML Engineers
 - [technical/llm-integration.md](./technical/llm-integration.md) - LLM setup
-- [technical/knowledge-graph.md](./technical/knowledge-graph.md) - Zep Graphiti
+- [technical/knowledge-graph.md](./technical/knowledge-graph.md) - Microsoft GraphRAG
 - [technical/triage-algorithm.md](./technical/triage-algorithm.md) - Core algorithm
 - [integrations/langfuse.md](./integrations/langfuse.md) - Monitoring
 
@@ -43,7 +43,7 @@ Start here for all project documentation.
 - [safety-protocols.md](./medical/safety-protocols.md) - Safety requirements
 
 ### Technical Implementation
-- [data-pipeline.md](./technical/data-pipeline.md) - EPUB → JSON → Zep
+- [data-pipeline.md](./technical/data-pipeline.md) - EPUB → JSON → GraphRAG
 - [llm-integration.md](./technical/llm-integration.md) - LLM usage
 - [knowledge-graph.md](./technical/knowledge-graph.md) - Graph schema
 - [triage-algorithm.md](./technical/triage-algorithm.md) - Core logic
@@ -53,7 +53,6 @@ Start here for all project documentation.
 - [paziresh24.md](./integrations/paziresh24.md) - Appointment booking (Iran)
 - [nobat.md](./integrations/nobat.md) - Alternative booking
 - [langfuse.md](./integrations/langfuse.md) - LLM monitoring
-- [zep-graphiti.md](./integrations/zep-graphiti.md) - Knowledge graph
 
 ## 🔍 Quick Reference
 

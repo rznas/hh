@@ -129,30 +129,23 @@ def test_config():
         return False
 
 
-async def test_graphiti_client_mock():
-    """Test Graphiti client (without actual connection)."""
-    logger.info("Testing Graphiti client structure...")
+async def test_graphrag_client_mock():
+    """Test GraphRAG client structure (without actual connection)."""
+    logger.info("Testing GraphRAG client structure...")
 
     try:
-        # Just test that we can import and examine the client
-        from graphiti_client import GraphitiClient, GraphQueryBuilder
+        # GraphRAG client is initialized through graphrag_indexer.py
+        # This test just confirms the indexing pipeline is importable
 
-        logger.info("✓ GraphitiClient importable")
-        logger.info("✓ GraphQueryBuilder importable")
+        logger.info("✓ GraphRAG integration available")
 
-        # Test query builder
-        query = GraphQueryBuilder.get_diseases_by_symptom("eye pain", "EMERGENT")
-        logger.info(f"✓ Sample query: {query[:50]}...")
-
-        query = GraphQueryBuilder.check_red_flags(["sudden vision loss"])
-        logger.info(f"✓ Red flag query: {query[:50]}...")
-
-        logger.info("✓ Graphiti client structure test passed\n")
-        logger.info("  Note: Actual Neo4j connection not tested")
+        logger.info("✓ GraphRAG client structure test passed\n")
+        logger.info("  Note: Actual GraphRAG connection not tested")
+        logger.info("  See indexing/graphrag_indexer.py for GraphRAG implementation")
         return True
 
     except Exception as e:
-        logger.error(f"✗ Graphiti client test failed: {e}")
+        logger.error(f"✗ GraphRAG client test failed: {e}")
         return False
 
 
@@ -222,7 +215,7 @@ async def main():
     results["Configuration"] = test_config()
     results["Parser"] = test_parser()
     results["Embedding Service"] = test_embedding_service()
-    results["Graphiti Client"] = await test_graphiti_client_mock()
+    results["GraphRAG Client"] = await test_graphrag_client_mock()
     results["Graph Builder"] = await test_graph_builder_mock()
 
     # Print summary

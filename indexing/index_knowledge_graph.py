@@ -26,7 +26,6 @@ from typing import Optional, List
 from dotenv import load_dotenv
 
 from graph_builder import GraphIndexer
-from graphiti_client import GraphitiClient
 from config import validate_config, LOG_FILE, LOG_LEVEL
 
 # Load environment variables

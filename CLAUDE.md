@@ -74,9 +74,6 @@ python scripts/parse_wills_eye.py data/wills_eye_manual.epub
 # See indexing/QUICKSTART_GRAPHRAG.md for full guide
 python indexing/graphrag_indexer.py --data data/wills_eye_structured.json --dry-run
 python indexing/graphrag_indexer.py --data data/wills_eye_structured.json
-
-# Legacy Graphiti indexing (deprecated)
-# python indexing/index_knowledge_graph.py --data data/wills_eye_structured.json
 ```
 
 ## Architecture Overview

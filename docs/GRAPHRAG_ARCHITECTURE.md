@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the implementation of Microsoft GraphRAG approach for the medical triage knowledge graph, replacing the previous Zep Graphiti implementation.
+This document describes the implementation of Microsoft GraphRAG approach for the medical triage knowledge graph.
 
 ## Architecture Components
 
@@ -57,16 +57,6 @@ Map-Reduce LLM Summarization
     ↓
 Final Response
 ```
-
-## Key Differences from Zep Graphiti
-
-| Aspect | Zep Graphiti | Microsoft GraphRAG |
-|--------|--------------|-------------------|
-| **Knowledge Addition** | Episode-based | Entity + Relationship extraction |
-| **Graph Structure** | Dynamic episodes | Static entities with communities |
-| **Retrieval** | Semantic search | Local (entity) + Global (community) |
-| **Summarization** | None | Hierarchical community summaries |
-| **Best For** | Temporal/narrative data | Structured knowledge domains |
 
 ## Implementation Phases
 
@@ -178,26 +168,6 @@ Communities will naturally group:
 - **Algorithm**: Leiden (better than Louvain for hierarchical)
 - **Resolution**: 1.0 (default)
 - **Levels**: 3-4 levels of hierarchy
-
-## Migration from Zep Graphiti
-
-### Backward Compatibility
-- Keep existing triage API interface unchanged
-- Replace GraphitiClient with GraphRAGClient internally
-- Maintain same query methods (search_conditions_by_symptom, etc.)
-
-### Migration Steps
-1. Export existing Graphiti data (if any)
-2. Install Microsoft GraphRAG package
-3. Run new indexing pipeline on Wills Eye JSON
-4. Update client code to use GraphRAG API
-5. Test against validation scenarios
-6. Deploy new version
-
-### Rollback Plan
-- Keep Graphiti code in separate branch
-- Feature flag to switch between implementations
-- Maintain same Neo4j instance (different node labels)
 
 ## Testing Strategy
 

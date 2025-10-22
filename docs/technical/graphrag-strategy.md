@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This document outlines the optimal GraphRAG approach for transforming the Wills Eye Manual structured JSON into a queryable knowledge graph using Zep Graphiti. The strategy prioritizes medical safety, efficient retrieval, and accurate triage recommendations.
+This document outlines the Microsoft GraphRAG implementation approach for transforming the Wills Eye Manual structured JSON into a queryable knowledge graph. The strategy prioritizes medical safety, efficient retrieval, accurate triage recommendations, and hierarchical knowledge organization.
 
 ## Data Structure Analysis
 

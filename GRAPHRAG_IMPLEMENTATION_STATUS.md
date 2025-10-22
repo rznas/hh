@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document tracks the implementation of Microsoft GraphRAG approach for the medical triage knowledge graph, replacing the previous Zep Graphiti implementation.
+This document tracks the implementation of Microsoft GraphRAG approach for the medical triage knowledge graph.
 
 **Status**: 🟡 In Progress (Core components implemented, remaining components outlined)
 
@@ -224,7 +224,7 @@ class GraphRAGIndexer:
 **File to create**: `indexing/graphrag_client.py`
 
 Required features:
-- Unified query interface (backward compatible with GraphitiClient)
+- Unified query interface for medical triage
 - Automatic query classification (local vs global)
 - Hybrid search option
 - Medical domain query builders
@@ -239,7 +239,6 @@ class GraphRAGClient:
     - async def search_conditions_by_symptom(symptom: str)
     - async def check_red_flags(symptoms: List[str])
     - async def get_differential_diagnosis(symptoms: List[str])
-    # Maintain same API as old GraphitiClient for compatibility
 ```
 
 ### 🔲 15. Testing Suite
@@ -254,15 +253,14 @@ Required tests:
 - Integration tests for full pipeline
 - Performance benchmarks
 
-### 🔲 16. Migration Script
-**File to create**: `scripts/migrate_to_graphrag.py`
+### 🔲 16. Validation and Deployment
+**File to update**: `scripts/deploy_graphrag.py`
 
 Required features:
-- Backup existing Graphiti data (if any)
 - Run new indexing pipeline
-- Validate results
-- Comparison with old system
-- Rollback capability
+- Validate results against test scenarios
+- Performance benchmarking
+- Deployment verification
 
 ## Next Steps (Priority Order)
 
@@ -368,17 +366,6 @@ is_emergency = await client.check_red_flags(["sudden vision loss", "eye pain"])
 - **Cost**: <$0.05 per triage session
 - **Accuracy**: 100% red flag detection, >90% urgency classification
 
-## Key Benefits vs Zep Graphiti
-
-| Benefit | Impact |
-|---------|--------|
-| **Better structure** | Medical knowledge naturally organized into communities |
-| **Hierarchical search** | Can answer both specific and broad questions |
-| **Lower latency** | Pre-computed community summaries reduce LLM calls |
-| **Better explainability** | Can trace reasoning through graph structure |
-| **Medical optimization** | Domain-specific embeddings (BioBERT) improve accuracy |
-| **Cost efficiency** | Fewer LLM calls per query with pre-computed summaries |
-
 ## Critical Safety Notes
 
 1. **Red flags MUST be tested extensively** - 100% detection rate required
@@ -392,7 +379,6 @@ is_emergency = await client.check_red_flags(["sudden vision loss", "eye pain"])
 - [ ] Which embedding model? (OpenAI vs BioBERT vs both)
 - [ ] How many community levels? (Recommend 3)
 - [ ] Neo4j hosted or self-hosted?
-- [ ] Should we keep Graphiti code for comparison?
 - [ ] Feature flag for gradual rollout?
 
 ## Resources

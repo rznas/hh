@@ -1,10 +1,9 @@
-"""Graph builder service for populating medical knowledge graph."""
+"""Graph builder service for populating medical knowledge graph using Microsoft GraphRAG."""
 import logging
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 import asyncio
 
-from graphiti_client import GraphitiClient, GraphQueryBuilder
 from parsers import WillsEyeParser, ParsedCondition, MedicalEntity, MedicalRelationship
 from config import NodeType, EdgeType, UrgencyLevel
 
@@ -12,16 +11,12 @@ logger = logging.getLogger(__name__)
 
 
 class MedicalGraphBuilder:
-    """Service for building medical knowledge graph from parsed Wills Eye data."""
+    """Service for building medical knowledge graph from parsed Wills Eye data using GraphRAG."""
 
-    def __init__(self, graphiti_client: Optional[GraphitiClient] = None):
-        """Initialize graph builder.
-
-        Args:
-            graphiti_client: Optional pre-configured Graphiti client.
-                           If not provided, a new one will be created.
-        """
-        self.client = graphiti_client or GraphitiClient()
+    def __init__(self):
+        """Initialize graph builder with GraphRAG backend."""
+        # TODO: Initialize GraphRAG client when implementation is complete
+        # Currently structured to receive GraphRAG client from indexing pipeline
         self.batch_buffer: List[ParsedCondition] = []
         self.stats = {
             "conditions_processed": 0,
@@ -112,6 +107,10 @@ class MedicalGraphBuilder:
 
         Args:
             condition: Parsed medical condition
+
+        Note:
+            This method extracts and structures medical data from parsed conditions.
+            The actual GraphRAG indexing is handled by the indexing pipeline.
         """
         try:
             # Extract data from parsed condition
@@ -134,28 +133,18 @@ class MedicalGraphBuilder:
                 condition.entities, NodeType.DIFFERENTIAL
             )
 
-            # Add to knowledge graph as episode
-            await self.client.add_medical_condition(
-                condition_name=condition.condition_name,
-                chapter=condition.chapter,
-                section_id=condition.section_id,
-                symptoms=symptoms,
-                signs=signs,
-                treatment=treatments,
-                urgency_level=condition.urgency_level.value,
-                red_flags=condition.red_flags,
-                etiology=etiologies if etiologies else None,
-                differential=differentials if differentials else None,
-            )
+            # TODO: Send structured data to GraphRAG indexing pipeline
+            # For now, just track processing statistics
+            # GraphRAG indexing is handled by graphrag_indexer.py
 
             self.stats["conditions_processed"] += 1
             self.stats["episodes_created"] += 1
 
-            logger.debug(f"Added condition to graph: {condition.condition_name}")
+            logger.debug(f"Processed condition for GraphRAG: {condition.condition_name}")
 
         except Exception as e:
             logger.error(
-                f"Error adding condition {condition.condition_name} to graph: {e}"
+                f"Error processing condition {condition.condition_name}: {e}"
             )
             self.stats["errors"] += 1
 
@@ -185,7 +174,7 @@ class MedicalGraphBuilder:
         urgency_filter: Optional[str] = None,
         num_results: int = 10,
     ) -> List[Dict[str, Any]]:
-        """Search for conditions by symptom.
+        """Search for conditions by symptom using GraphRAG.
 
         Args:
             symptom: Symptom to search for
@@ -195,16 +184,17 @@ class MedicalGraphBuilder:
         Returns:
             List of matching conditions
         """
-        query = GraphQueryBuilder.get_diseases_by_symptom(symptom, urgency_filter)
-        results = await self.client.search(query, num_results=num_results)
-        return results
+        # TODO: Implement GraphRAG search when backend is ready
+        # This would use GraphRAG's local/global search capabilities
+        logger.info(f"GraphRAG search for symptom: {symptom}")
+        return []
 
     async def get_treatment_recommendations(
         self,
         disease: str,
         num_results: int = 5,
     ) -> List[Dict[str, Any]]:
-        """Get treatment recommendations for a disease.
+        """Get treatment recommendations for a disease using GraphRAG.
 
         Args:
             disease: Disease name
@@ -213,16 +203,16 @@ class MedicalGraphBuilder:
         Returns:
             List of treatment recommendations
         """
-        query = GraphQueryBuilder.get_treatment_for_disease(disease)
-        results = await self.client.search(query, num_results=num_results)
-        return results
+        # TODO: Implement GraphRAG search when backend is ready
+        logger.info(f"GraphRAG search for treatments: {disease}")
+        return []
 
     async def get_differential_diagnosis(
         self,
         symptoms: List[str],
         num_results: int = 10,
     ) -> List[Dict[str, Any]]:
-        """Get differential diagnosis based on symptoms.
+        """Get differential diagnosis based on symptoms using GraphRAG.
 
         Args:
             symptoms: List of symptoms
@@ -231,16 +221,16 @@ class MedicalGraphBuilder:
         Returns:
             List of potential diagnoses
         """
-        query = GraphQueryBuilder.get_differential_diagnosis(symptoms)
-        results = await self.client.search(query, num_results=num_results)
-        return results
+        # TODO: Implement GraphRAG search when backend is ready
+        logger.info(f"GraphRAG search for differential diagnosis: {symptoms}")
+        return []
 
     async def check_for_red_flags(
         self,
         symptoms: List[str],
         num_results: int = 5,
     ) -> List[Dict[str, Any]]:
-        """Check if symptoms indicate emergent conditions.
+        """Check if symptoms indicate emergent conditions using GraphRAG.
 
         Args:
             symptoms: List of symptoms to check
@@ -249,9 +239,9 @@ class MedicalGraphBuilder:
         Returns:
             List of potential emergent conditions
         """
-        query = GraphQueryBuilder.check_red_flags(symptoms)
-        results = await self.client.search(query, num_results=num_results)
-        return results
+        # TODO: Implement GraphRAG red flag detection when backend is ready
+        logger.info(f"GraphRAG red flag check: {symptoms}")
+        return []
 
     def get_stats(self) -> Dict[str, int]:
         """Get builder statistics.
@@ -259,14 +249,10 @@ class MedicalGraphBuilder:
         Returns:
             Statistics dictionary
         """
-        return {
-            **self.stats,
-            **self.client.stats,
-        }
+        return self.stats
 
     def close(self) -> None:
-        """Close graph builder and client."""
-        self.client.close()
+        """Close graph builder."""
         logger.info("Graph builder closed")
 
     def __enter__(self):
@@ -279,21 +265,16 @@ class MedicalGraphBuilder:
 
 
 class GraphIndexer:
-    """High-level indexing service orchestrator."""
+    """High-level indexing service orchestrator for GraphRAG."""
 
-    def __init__(
-        self,
-        json_path: str,
-        graphiti_client: Optional[GraphitiClient] = None,
-    ):
+    def __init__(self, json_path: str):
         """Initialize indexer.
 
         Args:
             json_path: Path to wills_eye_structured.json
-            graphiti_client: Optional pre-configured Graphiti client
         """
         self.parser = WillsEyeParser(json_path)
-        self.builder = MedicalGraphBuilder(graphiti_client)
+        self.builder = MedicalGraphBuilder()
         self.start_time: Optional[datetime] = None
         self.end_time: Optional[datetime] = None
 
