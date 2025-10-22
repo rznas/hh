@@ -1,0 +1,110 @@
+[
+  {
+    "entity_id": "sign_001",
+    "name": "Corneal Edema",
+    "name_normalized": "corneal edema",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Corneal Edema",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_002",
+    "name": "Embolus",
+    "name_normalized": "embolus",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Embolus",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_003",
+    "name": "Retinal Neovascularization",
+    "name_normalized": "retinal neovascularization",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Retinal Neovascularization",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_004",
+    "name": "Iris Heterochromia (Irides of Different Colors)",
+    "name_normalized": "iris heterochromia (irides of different colors)",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Iris Heterochromia (Irides of Different Colors)",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_005",
+    "name": "Iris Lesion",
+    "name_normalized": "iris lesion",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Iris Lesion",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_006",
+    "name": "Lenticonus",
+    "name_normalized": "lenticonus",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Lenticonus",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_007",
+    "name": "Afferent Pupillary Defect",
+    "name_normalized": "afferent pupillary defect",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Afferent Pupillary Defect",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_008",
+    "name": "Limitation of Ocular Motility",
+    "name_normalized": "limitation of ocular motility",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Limitation of Ocular Motility",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "sign_009",
+    "name": "Shallow Anterior Chamber",
+    "name_normalized": "shallow anterior chamber",
+    "type": "sign",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 2,
+    "section": "Shallow Anterior Chamber",
+    "associated_conditions": [],
+    "variations": []
+  }
+]

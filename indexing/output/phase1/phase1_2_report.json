@@ -1,0 +1,68 @@
+{
+  "phase": "1.2 - Table Extraction",
+  "total_tables": 21,
+  "chapters_processed": 8,
+  "tables_by_chapter": {
+    "chapter_3": {
+      "count": 2,
+      "table_ids": [
+        "ch3_table_0",
+        "ch3_table_1"
+      ]
+    },
+    "chapter_4": {
+      "count": 2,
+      "table_ids": [
+        "ch4_table_0",
+        "ch4_table_1"
+      ]
+    },
+    "chapter_7": {
+      "count": 5,
+      "table_ids": [
+        "ch7_table_0",
+        "ch7_table_1",
+        "ch7_table_2",
+        "ch7_table_3",
+        "ch7_table_4"
+      ]
+    },
+    "chapter_9": {
+      "count": 1,
+      "table_ids": [
+        "ch9_table_0"
+      ]
+    },
+    "chapter_11": {
+      "count": 1,
+      "table_ids": [
+        "ch11_table_0"
+      ]
+    },
+    "chapter_12": {
+      "count": 6,
+      "table_ids": [
+        "ch12_table_0",
+        "ch12_table_1",
+        "ch12_table_2",
+        "ch12_table_3",
+        "ch12_table_4",
+        "ch12_table_5"
+      ]
+    },
+    "chapter_13": {
+      "count": 2,
+      "table_ids": [
+        "ch13_table_0",
+        "ch13_table_1"
+      ]
+    },
+    "chapter_14": {
+      "count": 2,
+      "table_ids": [
+        "ch14_table_0",
+        "ch14_table_1"
+      ]
+    }
+  }
+}

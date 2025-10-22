@@ -1,0 +1,21 @@
+{
+  "phase": "2.2 - Symptom & Sign Entity Extraction",
+  "total_symptoms": 5,
+  "total_signs": 9,
+  "red_flag_symptoms": 0,
+  "red_flag_signs": 0,
+  "sample_symptoms": [
+    "Double Vision (Diplopia)",
+    "Pain",
+    "Red Eye",
+    "\u201cSpots\u201d in Front of the Eyes",
+    "Tearing"
+  ],
+  "sample_signs": [
+    "Corneal Edema",
+    "Embolus",
+    "Retinal Neovascularization",
+    "Iris Heterochromia (Irides of Different Colors)",
+    "Iris Lesion"
+  ]
+}

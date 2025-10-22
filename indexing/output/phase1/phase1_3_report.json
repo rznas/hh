@@ -1,0 +1,14 @@
+{
+  "phase": "1.3 - List Extraction",
+  "total_lists": 313,
+  "chapters_processed": 5,
+  "type_distribution": {
+    "procedure": 10,
+    "general": 54,
+    "medication": 57,
+    "treatment": 143,
+    "differential_diagnosis": 48,
+    "symptoms_signs": 1
+  },
+  "avg_items_per_list": 4.968051118210862
+}

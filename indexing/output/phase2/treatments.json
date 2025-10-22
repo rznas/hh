@@ -1,0 +1,1125 @@
+[
+  {
+    "entity_id": "treatment_001",
+    "name": "Acetate",
+    "name_normalized": "acetate",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial and Stromal Rejection (Subepithelial Infiltrates or Epithelial Rejection Line)",
+      "Follow Up"
+    ],
+    "description": "Therapeutic dose topical steroid: Prednisolone acetate 1% six to eight times daily tapered slowly. Patients may require low dose/potency maintenance t",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_002",
+    "name": "Acetazolamide",
+    "name_normalized": "acetazolamide",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 9
+  },
+  {
+    "entity_id": "treatment_003",
+    "name": "Acetylcysteine",
+    "name_normalized": "acetylcysteine",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      5
+    ],
+    "sections": [
+      "Moderate to Severe (in Addition to Preceding)",
+      "Unknown"
+    ],
+    "description": "If any melting of the cornea occurs, other collagenase inhibitors may be used (e.g., acetylcysteine 10% to 20% drops q4h while awake).",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_004",
+    "name": "Acyclovir",
+    "name_normalized": "acyclovir",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis",
+      "Follow Up",
+      "Ocular Involvement"
+    ],
+    "description": "Either systemic or topical antiviral therapy may be used. Many cornea specialists now prefer systemic treatment for greater intraocular concentration,",
+    "mention_count": 10
+  },
+  {
+    "entity_id": "treatment_005",
+    "name": "Adhesive",
+    "name_normalized": "adhesive",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Procedure Steps",
+      "Unknown"
+    ],
+    "description": "Final steps:\n\nRemove the protective scleral shell.\nApply antibiotic ointment (e.g., bacitracin or erythromycin) to the wound t.i.d.\nDress the wound an",
+    "mention_count": 3
+  },
+  {
+    "entity_id": "treatment_006",
+    "name": "Alpha",
+    "name_normalized": "alpha",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 9
+  },
+  {
+    "entity_id": "treatment_007",
+    "name": "Anesthesia",
+    "name_normalized": "anesthesia",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      5
+    ],
+    "sections": [
+      "Conjunctival Foreign Body",
+      "Moderate to Severe (in Addition to Preceding)"
+    ],
+    "description": "Remove foreign body under topical anesthesia.\n\nMultiple or loose superficial foreign bodies can often be removed with saline irrigation.\nA foreign bod",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_008",
+    "name": "Anesthetic",
+    "name_normalized": "anesthetic",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Conjunctival Foreign Body",
+      "Corneal Foreign Body (Superficial or Partial Thickness)",
+      "Epithelial Keratitis"
+    ],
+    "description": "Apply topical anesthetic (e.g., proparacaine). Remove the corneal foreign body with a foreign body spud or fine forceps such as jeweler’s forceps at a",
+    "mention_count": 12
+  },
+  {
+    "entity_id": "treatment_009",
+    "name": "Antibiotic",
+    "name_normalized": "antibiotic",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Conjunctival Foreign Body",
+      "Corneal Foreign Body (Superficial or Partial Thickness)",
+      "Epithelial Keratitis"
+    ],
+    "description": "Treat as indicated for corneal abrasion (see 3.2, Corneal Abrasion).\n\n NOTE: Erythromycin ointment should not be used for residual epithelial defects ",
+    "mention_count": 50
+  },
+  {
+    "entity_id": "treatment_010",
+    "name": "Antibiotics",
+    "name_normalized": "antibiotics",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Follow Up",
+      "Low Risk of Visual Loss",
+      "Ocular Involvement"
+    ],
+    "description": "Final steps:\n\nRemove the protective scleral shell.\nApply antibiotic ointment (e.g., bacitracin or erythromycin) to the wound t.i.d.\nDress the wound an",
+    "mention_count": 10
+  },
+  {
+    "entity_id": "treatment_011",
+    "name": "Antiviral",
+    "name_normalized": "antiviral",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis",
+      "Follow Up",
+      "Ocular Involvement"
+    ],
+    "description": "Either systemic or topical antiviral therapy may be used. Many cornea specialists now prefer systemic treatment for greater intraocular concentration,",
+    "mention_count": 29
+  },
+  {
+    "entity_id": "treatment_012",
+    "name": "Antivirals",
+    "name_normalized": "antivirals",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Ocular Involvement",
+      "Unknown"
+    ],
+    "description": "While oral antivirals (e.g., acyclovir, valacyclovir, and famciclovir) have not been shown to be beneficial in the treatment of stromal disease, they ",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_013",
+    "name": "Artificial Tears",
+    "name_normalized": "artificial tears",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Conjunctival Foreign Body",
+      "Limbal Stem Cell Deficiency",
+      "Moderate Dry Eye"
+    ],
+    "description": "Preservative-free artificial tears may be given as needed for irritation.",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_014",
+    "name": "Bacitracin",
+    "name_normalized": "bacitracin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Conjunctival Foreign Body",
+      "Follow Up",
+      "Moderate to Severe"
+    ],
+    "description": "A topical antibiotic (e.g., bacitracin ointment, trimethoprim/polymyxin B drops, or fluoroquinolone drops q.i.d.) may be used.",
+    "mention_count": 16
+  },
+  {
+    "entity_id": "treatment_015",
+    "name": "Brimonidine",
+    "name_normalized": "brimonidine",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Ocular Involvement",
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_016",
+    "name": "Brinzolamide",
+    "name_normalized": "brinzolamide",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 3
+  },
+  {
+    "entity_id": "treatment_017",
+    "name": "Carbonic",
+    "name_normalized": "carbonic",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Ocular Involvement",
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_018",
+    "name": "Ciprofloxacin",
+    "name_normalized": "ciprofloxacin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Low Risk of Visual Loss",
+      "Unknown",
+      "Vision Threatening"
+    ],
+    "description": "Antibiotic: Fluoroquinolone (e.g., ciprofloxacin, gatifloxacin, moxifloxacin, or besifloxacin) or aminoglycoside (e.g., tobramycin) drops four to six ",
+    "mention_count": 4
+  },
+  {
+    "entity_id": "treatment_019",
+    "name": "Cyclopentolate",
+    "name_normalized": "cyclopentolate",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial Keratitis",
+      "Ocular Involvement"
+    ],
+    "description": "Consider a cycloplegic drop (e.g., cyclopentolate 1% t.i.d.) for relief of pain and photophobia.",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "treatment_020",
+    "name": "Cycloplegic",
+    "name_normalized": "cycloplegic",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial Keratitis",
+      "Epithelial and Stromal Rejection (Subepithelial Infiltrates or Epithelial Rejection Line)"
+    ],
+    "description": "If resolved, discontinue the cycloplegic agent and taper steroid drops if using.",
+    "mention_count": 20
+  },
+  {
+    "entity_id": "treatment_021",
+    "name": "Cyclosporine",
+    "name_normalized": "cyclosporine",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial and Stromal Rejection (Subepithelial Infiltrates or Epithelial Rejection Line)"
+    ],
+    "description": "Topical cyclosporine 0.05% to 2% b.i.d. to q.i.d. may be helpful in the treatment and prevention of graft rejection.",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_022",
+    "name": "Dexamethasone",
+    "name_normalized": "dexamethasone",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Moderate to Severe"
+    ],
+    "description": "Treat as described for mild, but add a low-dose topical steroid (e.g., loteprednol 0.5%, fluorometholone 0.1%, fluorometholone acetate 0.1% or prednis",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_023",
+    "name": "Dorzolamide",
+    "name_normalized": "dorzolamide",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Ocular Involvement",
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "treatment_024",
+    "name": "Erythromycin",
+    "name_normalized": "erythromycin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Corneal Foreign Body (Superficial or Partial Thickness)",
+      "Epithelial Keratitis",
+      "Follow Up"
+    ],
+    "description": "Treat as indicated for corneal abrasion (see 3.2, Corneal Abrasion).\n\n NOTE: Erythromycin ointment should not be used for residual epithelial defects ",
+    "mention_count": 22
+  },
+  {
+    "entity_id": "treatment_025",
+    "name": "Famciclovir",
+    "name_normalized": "famciclovir",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis",
+      "Skin Involvement",
+      "Stromal Keratitis With Epithelial Ulceration"
+    ],
+    "description": "Either systemic or topical antiviral therapy may be used. Many cornea specialists now prefer systemic treatment for greater intraocular concentration,",
+    "mention_count": 8
+  },
+  {
+    "entity_id": "treatment_026",
+    "name": "Fluorometholone",
+    "name_normalized": "fluorometholone",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4,
+      5
+    ],
+    "sections": [
+      "Limbal Stem Cell Deficiency",
+      "Moderate Dry Eye",
+      "Moderate to Severe"
+    ],
+    "description": "Cyclosporine 0.05% or 0.09% b.i.d. is effective for patients with chronic dry eye and decreased tears secondary to ocular inflammation. Cyclosporine o",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_027",
+    "name": "Foreign",
+    "name_normalized": "foreign",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Conjunctival Foreign Body"
+    ],
+    "description": "Remove foreign body under topical anesthesia.\n\nMultiple or loose superficial foreign bodies can often be removed with saline irrigation.\nA foreign bod",
+    "mention_count": 3
+  },
+  {
+    "entity_id": "treatment_028",
+    "name": "Ganciclovir",
+    "name_normalized": "ganciclovir",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis"
+    ],
+    "description": "Either systemic or topical antiviral therapy may be used. Many cornea specialists now prefer systemic treatment for greater intraocular concentration,",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "treatment_029",
+    "name": "Gatifloxacin",
+    "name_normalized": "gatifloxacin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Low Risk of Visual Loss",
+      "Severe (e.g., Obstruction of Vision, Irritation Not Relieved by Lubricants, Cosmetic Problem)",
+      "Unknown"
+    ],
+    "description": "Antibiotic: Fluoroquinolone (e.g., ciprofloxacin, gatifloxacin, moxifloxacin, or besifloxacin) or aminoglycoside (e.g., tobramycin) drops four to six ",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "treatment_030",
+    "name": "Gel",
+    "name_normalized": "gel",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Canthotomy and Cantholysis",
+      "Epithelial Keratitis",
+      "Moderate Dry Eye"
+    ],
+    "description": "The incision will bleed; however, cautery is usually unnecessary. Pressure over the bone of the lateral orbital rim (but not on the globe and orbit) f",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_031",
+    "name": "Lifitegrast",
+    "name_normalized": "lifitegrast",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Moderate Dry Eye",
+      "Moderate to Severe",
+      "Severe Dry Eye"
+    ],
+    "description": "Lifitegrast 5% b.i.d. is effective for the signs and symptoms of dry eye disease. Lifitegrast may burn on instillation, may cause blurred vision for s",
+    "mention_count": 4
+  },
+  {
+    "entity_id": "treatment_032",
+    "name": "Mannitol",
+    "name_normalized": "mannitol",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 9
+  },
+  {
+    "entity_id": "treatment_033",
+    "name": "Moxifloxacin",
+    "name_normalized": "moxifloxacin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Low Risk of Visual Loss",
+      "Severe (e.g., Obstruction of Vision, Irritation Not Relieved by Lubricants, Cosmetic Problem)",
+      "Unknown"
+    ],
+    "description": "Antibiotic: Fluoroquinolone (e.g., ciprofloxacin, gatifloxacin, moxifloxacin, or besifloxacin) or aminoglycoside (e.g., tobramycin) drops four to six ",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_034",
+    "name": "Ofloxacin",
+    "name_normalized": "ofloxacin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Low Risk of Visual Loss",
+      "Unknown",
+      "Vision Threatening"
+    ],
+    "description": "Antibiotic: Fluoroquinolone (e.g., ciprofloxacin, gatifloxacin, moxifloxacin, or besifloxacin) or aminoglycoside (e.g., tobramycin) drops four to six ",
+    "mention_count": 4
+  },
+  {
+    "entity_id": "treatment_035",
+    "name": "Ointment",
+    "name_normalized": "ointment",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Conjunctival Foreign Body",
+      "Corneal Foreign Body (Superficial or Partial Thickness)",
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)"
+    ],
+    "description": "Treat as indicated for corneal abrasion (see 3.2, Corneal Abrasion).\n\n NOTE: Erythromycin ointment should not be used for residual epithelial defects ",
+    "mention_count": 38
+  },
+  {
+    "entity_id": "treatment_036",
+    "name": "Prednisolone",
+    "name_normalized": "prednisolone",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Corneal Neovascularization",
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial and Stromal Rejection (Subepithelial Infiltrates or Epithelial Rejection Line)"
+    ],
+    "description": "Therapeutic dose topical steroid: Prednisolone acetate 1% six to eight times daily tapered slowly. Patients may require low dose/potency maintenance t",
+    "mention_count": 12
+  },
+  {
+    "entity_id": "treatment_037",
+    "name": "Serum",
+    "name_normalized": "serum",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4,
+      5
+    ],
+    "sections": [
+      "Limbal Stem Cell Deficiency",
+      "Moderate to Severe (in Addition to Preceding)"
+    ],
+    "description": "Consider autologous serum drops (e.g. 20% q.i.d.).",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_038",
+    "name": "Solution",
+    "name_normalized": "solution",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4,
+      5
+    ],
+    "sections": [
+      "Follow Up",
+      "Moderate to Severe (in Addition to Preceding)",
+      "Papilloma"
+    ],
+    "description": "Wipe a cellulose sponge or cotton swab saturated with the EDTA solution over the band keratopathy until the calcium clears (which may take 10 to 60 mi",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_039",
+    "name": "Steroid",
+    "name_normalized": "steroid",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Corneal Neovascularization",
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial Keratitis"
+    ],
+    "description": "If resolved, discontinue the cycloplegic agent and taper steroid drops if using.",
+    "mention_count": 46
+  },
+  {
+    "entity_id": "treatment_040",
+    "name": "Steroids",
+    "name_normalized": "steroids",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Endothelial Rejection (Endothelial Rejection Line, Corneal Edema, and/or Keratic Precipitates)",
+      "Epithelial Keratitis",
+      "Epithelial and Stromal Rejection (Subepithelial Infiltrates or Epithelial Rejection Line)"
+    ],
+    "description": "After the initial close follow-up period, the patient may be maintained on a long-acting cycloplegic agent (e.g., atropine 1% daily to b.i.d.) dependi",
+    "mention_count": 16
+  },
+  {
+    "entity_id": "treatment_041",
+    "name": "Therapy",
+    "name_normalized": "therapy",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis",
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "treatment_042",
+    "name": "Timolol",
+    "name_normalized": "timolol",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Ocular Involvement",
+      "Unknown"
+    ],
+    "description": "Non–sickle cell disease or trait (≥30 mm Hg):\n\nStart with a beta-blocker (e.g., timolol or levobunolol 0.5% b.i.d.).\nIf IOP is still high, add topical",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_043",
+    "name": "Tobramycin",
+    "name_normalized": "tobramycin",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Low Risk of Visual Loss",
+      "Moderate to Severe",
+      "Unknown"
+    ],
+    "description": "Antibiotic: Fluoroquinolone (e.g., ciprofloxacin, gatifloxacin, moxifloxacin, or besifloxacin) or aminoglycoside (e.g., tobramycin) drops four to six ",
+    "mention_count": 4
+  },
+  {
+    "entity_id": "treatment_044",
+    "name": "Treatment",
+    "name_normalized": "treatment",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis",
+      "Vision Threatening"
+    ],
+    "description": "For atypical mycobacteria, consider prolonged treatment (q1h for 1 week, then gradually tapering) with one or more of the following topical agents: fl",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "treatment_045",
+    "name": "Trifluridine",
+    "name_normalized": "trifluridine",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis"
+    ],
+    "description": "Either systemic or topical antiviral therapy may be used. Many cornea specialists now prefer systemic treatment for greater intraocular concentration,",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "treatment_046",
+    "name": "Trimethoprim",
+    "name_normalized": "trimethoprim",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Low Risk of Visual Loss"
+    ],
+    "description": "Noncontact lens wearer: Broad-spectrum topical antibiotics (e.g., fluoroquinolone [moxifloxacin, gatifloxacin, besifloxacin, levofloxacin] or polymyxi",
+    "mention_count": 2
+  },
+  {
+    "entity_id": "treatment_047",
+    "name": "Valacyclovir",
+    "name_normalized": "valacyclovir",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Epithelial Keratitis",
+      "Stromal Keratitis Without Epithelial Ulceration"
+    ],
+    "description": "Either systemic or topical antiviral therapy may be used. Many cornea specialists now prefer systemic treatment for greater intraocular concentration,",
+    "mention_count": 4
+  },
+  {
+    "entity_id": "treatment_048",
+    "name": "With",
+    "name_normalized": "with",
+    "type": "medication",
+    "category": "pharmacological",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Unknown",
+      "Vision Threatening"
+    ],
+    "description": "Admission to the hospital may be necessary if:\n\nInfection is sight threatening and/or impending perforation.\nPatient has difficulty administering the ",
+    "mention_count": 3
+  },
+  {
+    "entity_id": "treatment_049",
+    "name": "Biopsy",
+    "name_normalized": "biopsy",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5
+    ],
+    "sections": [
+      "Workup"
+    ],
+    "description": "If an infectious etiology is still suspected despite negative cultures, consider a corneal biopsy to obtain further diagnostic information.",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "treatment_050",
+    "name": "Cryotherapy",
+    "name_normalized": "cryotherapy",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      5
+    ],
+    "sections": [
+      "Treatment"
+    ],
+    "description": "Consider surgical correction of entropion and cryotherapy or electrolysis for trichiasis. Surgery carries the risk of further scarring and is best per",
+    "mention_count": 1
+  },
+  {
+    "entity_id": "treatment_051",
+    "name": "Culture",
+    "name_normalized": "culture",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Treatment",
+      "Treatment and Follow Up",
+      "Workup"
+    ],
+    "description": "Slit lamp examination: Locate and assess the depth of the foreign body. Examine closely for possible entry sites (rule out self-sealing lacerations), ",
+    "mention_count": 32
+  },
+  {
+    "entity_id": "treatment_052",
+    "name": "Debridement",
+    "name_normalized": "debridement",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Treatment",
+      "Treatment and Follow Up"
+    ],
+    "description": "Repair eyelid laceration.\n3A.Determine appropriate setting for repair. Indications for operating room repair include the following:\n\nAssociation with ",
+    "mention_count": 12
+  },
+  {
+    "entity_id": "treatment_053",
+    "name": "Drainage",
+    "name_normalized": "drainage",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3
+    ],
+    "sections": [
+      "Treatment",
+      "Workup"
+    ],
+    "description": "Repair eyelid laceration.\n3A.Determine appropriate setting for repair. Indications for operating room repair include the following:\n\nAssociation with ",
+    "mention_count": 4
+  },
+  {
+    "entity_id": "treatment_054",
+    "name": "Excision",
+    "name_normalized": "excision",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Emergency Treatment",
+      "Treatment"
+    ],
+    "description": "Acidic or basic foreign bodies embedded in the conjunctiva, cornea, sclera, or surrounding tissues may require surgical excision.",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "treatment_055",
+    "name": "Graft",
+    "name_normalized": "graft",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Treatment"
+    ],
+    "description": "Other considerations:\n\nFor poorly healing epithelial defects, a therapeutic soft contact lens, collagen shield, amniotic membrane graft (e.g., sutured",
+    "mention_count": 20
+  },
+  {
+    "entity_id": "treatment_056",
+    "name": "Injection",
+    "name_normalized": "injection",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Treatment",
+      "Workup"
+    ],
+    "description": "Slit lamp examination: Locate and assess the depth of the foreign body. Examine closely for possible entry sites (rule out self-sealing lacerations), ",
+    "mention_count": 11
+  },
+  {
+    "entity_id": "treatment_057",
+    "name": "Irrigation",
+    "name_normalized": "irrigation",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Emergency Treatment",
+      "Treatment",
+      "Treatment and Follow Up"
+    ],
+    "description": "Copious but gentle irrigation using saline or Ringer lactate solution. Tap water can be used in the absence of these solutions and may be more efficac",
+    "mention_count": 13
+  },
+  {
+    "entity_id": "treatment_058",
+    "name": "Keratoplasty",
+    "name_normalized": "keratoplasty",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Treatment",
+      "Workup"
+    ],
+    "description": "Sometimes all tests are negative, yet the disease continues to progress and therapeutic penetrating keratoplasty (PK) is necessary for diagnosis and t",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "treatment_059",
+    "name": "Laser",
+    "name_normalized": "laser",
+    "type": "procedure",
+    "category": "surgical",
+    "chapters": [
+      4,
+      5
+    ],
+    "sections": [
+      "Follow Up",
+      "Lattice Dystrophy",
+      "Treatment"
+    ],
+    "description": "For erosions not responsive to the preceding treatment, consider the following:\n\nProphylactic medical treatment with 5% sodium chloride ointment q.h.s",
+    "mention_count": 18
+  },
+  {
+    "entity_id": "treatment_060",
+    "name": "Removal",
+    "name_normalized": "removal",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Follow Up",
+      "Key Points",
+      "Treatment"
+    ],
+    "description": "Warm compresses q.i.d. may help remove any remaining glue stuck in the lashes that did not require urgent removal.",
+    "mention_count": 23
+  },
+  {
+    "entity_id": "treatment_061",
+    "name": "Repair",
+    "name_normalized": "repair",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Key Points",
+      "Repair in 1 to 2 Weeks",
+      "Treatment"
+    ],
+    "description": "Most lacerations will heal without surgical repair. Some large lacerations (≥1 to 1.5 cm) may be sutured with 8-0 polyglactin 910 (e.g., Vicryl) or 6-",
+    "mention_count": 21
+  },
+  {
+    "entity_id": "treatment_062",
+    "name": "Scraping",
+    "name_normalized": "scraping",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5
+    ],
+    "sections": [
+      "Workup"
+    ],
+    "description": "Corneal scrapings for smears and cultures if appropriate and if culture media are available. We routinely culture infiltrates if they are larger than ",
+    "mention_count": 10
+  },
+  {
+    "entity_id": "treatment_063",
+    "name": "Surgery",
+    "name_normalized": "surgery",
+    "type": "procedure",
+    "category": "surgical",
+    "chapters": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "Double Vision (Diplopia)",
+      "Early",
+      "Follow Up"
+    ],
+    "description": "Constant: Isolated sixth, third, or fourth cranial nerve palsy; orbital disease (e.g., thyroid eye disease, carotid cavernous sinus fistula); cavernou",
+    "mention_count": 46
+  },
+  {
+    "entity_id": "treatment_064",
+    "name": "Suture",
+    "name_normalized": "suture",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Key Points",
+      "Treatment"
+    ],
+    "description": "Other considerations:\n\nFor poorly healing epithelial defects, a therapeutic soft contact lens, collagen shield, amniotic membrane graft (e.g., sutured",
+    "mention_count": 12
+  },
+  {
+    "entity_id": "treatment_065",
+    "name": "Transplant",
+    "name_normalized": "transplant",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4
+    ],
+    "sections": [
+      "Lattice Dystrophy",
+      "Treatment",
+      "Workup"
+    ],
+    "description": "Other considerations:\n\nFor poorly healing epithelial defects, a therapeutic soft contact lens, collagen shield, amniotic membrane graft (e.g., sutured",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "treatment_066",
+    "name": "Vitrectomy",
+    "name_normalized": "vitrectomy",
+    "type": "procedure",
+    "category": "diagnostic",
+    "chapters": [
+      4
+    ],
+    "sections": [
+      "Treatment"
+    ],
+    "description": "Full-thickness corneal transplant or endothelial keratoplasty (DMEK or DSEK) combined with possible intraocular lens repositioning, replacement, or re",
+    "mention_count": 1
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "phase": "2.3 - Treatment & Procedure Entity Extraction",
+  "total_entities": 66,
+  "medications": 48,
+  "procedures": 18,
+  "sample_medications": [
+    "Acetate",
+    "Acetazolamide",
+    "Acetylcysteine",
+    "Acyclovir",
+    "Adhesive"
+  ],
+  "sample_procedures": [
+    "Biopsy",
+    "Cryotherapy",
+    "Culture",
+    "Debridement",
+    "Drainage"
+  ]
+}

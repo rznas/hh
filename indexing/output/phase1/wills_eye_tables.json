@@ -1,0 +1,913 @@
+[
+  {
+    "table_id": "ch3_table_0",
+    "chapter_number": 3,
+    "chapter_title": "Trauma",
+    "section": "Workup/Treatment",
+    "caption": "",
+    "headers": [
+      "Variable",
+      "Raw Points"
+    ],
+    "rows": [
+      [
+        "Initial Vision"
+      ],
+      [
+        "NLPLP/HM1/200 to 19/20020/200 to 20/50>20/40",
+        "60708090100"
+      ],
+      [
+        "Rupture",
+        "−23"
+      ],
+      [
+        "Endophthalmitis",
+        "−17"
+      ],
+      [
+        "Perforating injury",
+        "−14"
+      ],
+      [
+        "Retinal detachment",
+        "−11"
+      ],
+      [
+        "Afferent pupillary defect",
+        "−10"
+      ]
+    ],
+    "num_rows": 7,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch3_table_1",
+    "chapter_number": 3,
+    "chapter_title": "Trauma",
+    "section": "Workup/Treatment",
+    "caption": "",
+    "headers": [
+      "Sum of Raw Points",
+      "OTS",
+      "No Light Perception (%)",
+      "Light Perception/Hand Motion (%)",
+      "1/200 to 19/200 (%)",
+      "20/200 to 20/50 (%)",
+      ">20/40 (%)"
+    ],
+    "rows": [
+      [
+        "0 to 44",
+        "1",
+        "74",
+        "15",
+        "7",
+        "3",
+        "1"
+      ],
+      [
+        "45 to 65",
+        "2",
+        "27",
+        "26",
+        "18",
+        "15",
+        "15"
+      ],
+      [
+        "66 to 80",
+        "3",
+        "2",
+        "11",
+        "15",
+        "31",
+        "41"
+      ],
+      [
+        "81 to 91",
+        "4",
+        "1",
+        "2",
+        "3",
+        "22",
+        "73"
+      ],
+      [
+        "92 to 100",
+        "5",
+        "0",
+        "1",
+        "1",
+        "5",
+        "94"
+      ]
+    ],
+    "num_rows": 5,
+    "num_columns": 7
+  },
+  {
+    "table_id": "ch4_table_0",
+    "chapter_number": 4,
+    "chapter_title": "Cornea",
+    "section": "Treatment",
+    "caption": "",
+    "headers": [
+      "Drug",
+      "Dosing Information",
+      "Toxicities",
+      "Contraindications"
+    ],
+    "rows": [
+      [
+        "Acyclovir",
+        "If immunocompetent, 800 mg p.o. five times per day; if immunocompromised, start 10/mg/kg i.v. q8h (q12h if creatinine >2.0) for 7 to 10 d, followed by 800 mg p.o. five times per day to prevent reactivation.",
+        "Intravenous: reversible renal and neurologic toxicity",
+        "Use with caution in patients with a history of renal impairment."
+      ],
+      [
+        "Famciclovir",
+        "500 mg p.o. q8h. Adjust dosage for creatinine clearance <60 mL/min.",
+        "Headache, nausea, diarrhea, dizziness, fatigue",
+        "Use with caution in patients with a history of renal impairment."
+      ],
+      [
+        "Valacyclovir",
+        "1 g p.o. q8h. Adjust dosage for creatinine clearance <60 mL/min.",
+        "Headache, nausea, vomiting, diarrhea",
+        "TTP/HUS has been reported in patients with advanced HIV/AIDS."
+      ]
+    ],
+    "num_rows": 3,
+    "num_columns": 4
+  },
+  {
+    "table_id": "ch4_table_1",
+    "chapter_number": 4,
+    "chapter_title": "Cornea",
+    "section": "Complications of Surface Ablation Procedures (Photorefractive Keratectomy, Laser Subepithelial Keratectomy, and Epithelial Laser In Situ Keratomileusis)",
+    "caption": "",
+    "headers": [
+      "",
+      "PRK",
+      "LASEK",
+      "Epi-LASIK",
+      "LASIK",
+      "SMILE"
+    ],
+    "rows": [
+      [
+        "Epithelial flap or method of stromal exposure",
+        "No flap. Epithelium removed by blade, spatula, brush, excimer laser, or dilute absolute alcohol.",
+        "Epithelial flap created by 20% absolute alcohol concentrated on epithelium by marker well.",
+        "Epithelial flap created by a blunt blade epi-keratome. Epithelial flap may be replaced (epi-on) or discarded (epi-off).",
+        "Epithelial and stromal flap created by sharp microkeratome or femtosecond laser.",
+        "No flap. Thin disc of stroma created by femtosecond laser and then mechanically extracted through small incision."
+      ],
+      [
+        "Depth of exposure",
+        "Bowman membrane",
+        "Bowman membrane",
+        "Bowman membrane",
+        "Anterior stroma (sub-Bowman keratomileusis provides more superficial stromal exposure)",
+        "Anterior stroma"
+      ],
+      [
+        "Typical refractive limitations",
+        "Spherical range: −8.0D to +3.0D, cylinder range up to 3.0D",
+        "Spherical range: −8.0D to +3.0D, cylinder range up to 3.0D",
+        "Spherical range: −8.0D to +3.0D, cylinder range up to 3.0D",
+        "Spherical range: −10.0D to +3.0D, cylinder range up to 3.0D",
+        "Spherical range: −10.0D to −1.0D, cylinder range up to 3.0D"
+      ],
+      [
+        "Advantages",
+        "Useful in thin corneas, epithelial pathology. No stromal flap healing issues.",
+        "Useful in thin corneas, epithelial pathology. No stromal flap healing issues.",
+        "Useful in thin corneas, epithelial pathology. No stromal flap healing issues.",
+        "Minimal pain, rapid visual recovery, minimal stromal haze.",
+        "Minimal pain, rapid visual recovery. No flap complications. Possibly less dry eye than LASIK."
+      ],
+      [
+        "Disadvantages",
+        "Postoperative pain, slower visual recovery, higher risk of subepithelial haze.",
+        "Postoperative pain, slower visual recovery, higher risk of subepithelial haze.",
+        "Postoperative pain, slower visual recovery, higher risk of subepithelial haze. Not ideal with significant glaucoma or anterior corneal scarring.",
+        "Not ideal for thin corneas, epithelial dystrophies, severe dry eyes, significant glaucoma. Presence of flap with possible complications (see text).",
+        "Currently only for myopia or myopic astigmatism in the US. Not ideal for thin corneas or in corneas with epithelial pathology. Removal of stromal lenticule can be technically difficult. SMILE enhancements complex; reoperations often done with PRK."
+      ]
+    ],
+    "num_rows": 5,
+    "num_columns": 6
+  },
+  {
+    "table_id": "ch7_table_0",
+    "chapter_number": 7,
+    "chapter_title": "Orbit",
+    "section": "Treatment",
+    "caption": "",
+    "headers": [
+      "Age (y)",
+      "Cultures",
+      "Need to Drain"
+    ],
+    "rows": [
+      [
+        "<9",
+        "Sterile (58%) or single aerobe",
+        "No in 93%"
+      ],
+      [
+        "9 to 14",
+        "Mixed aerobe and anaerobe",
+        "±"
+      ],
+      [
+        ">14",
+        "Mixed, anaerobes in all",
+        "Yes"
+      ]
+    ],
+    "num_rows": 3,
+    "num_columns": 3
+  },
+  {
+    "table_id": "ch7_table_1",
+    "chapter_number": 7,
+    "chapter_title": "Orbit",
+    "section": "Signs",
+    "caption": "",
+    "headers": [
+      "Well circumscribed",
+      "Dermoid cyst, rhabdomyosarcoma, optic nerve glioma, plexiform neurofibroma, and hemangioma of infancy"
+    ],
+    "rows": [
+      [
+        "Diffuse and/or infiltrating",
+        "Lymphangioma, leukemia, IOIS, hemangioma of infancy, rhabdomyosarcoma, neuroblastoma, teratoma, and Langerhans cell histiocytosis"
+      ]
+    ],
+    "num_rows": 1,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch7_table_2",
+    "chapter_number": 7,
+    "chapter_title": "Orbit",
+    "section": "Signs",
+    "caption": "",
+    "headers": [
+      "",
+      "",
+      "MRI Features"
+    ],
+    "rows": [
+      [
+        "Dermoid or epidermoid cyst",
+        "A well-defined lesion that may mold to the bone of the orbital walls. On occasion, bony erosion is noted with the extension of the lesion intracranially or into the temporalis fossa (“dumbbell dermoid”).",
+        "Hypointense to fat, but usually hyperintense to vitreous. Only capsule enhances with gadolinium. Signal may increase if a large amount of viscous mucus (high protein-to-water ratio) is present within the lesion—an uncommon finding for most orbital masses and helpful in distinguishing this lesion from others.",
+        "Iso- or hypointense to fat"
+      ],
+      [
+        "Hemangioma of infancy",
+        "Irregular, contrast enhancing",
+        "Well defined, hypointense to fat, hyperintense to muscle",
+        "Hyperintense to fat and muscle"
+      ],
+      [
+        "Rhabdomyosarcoma",
+        "An irregular, well-defined lesion with possible bone destruction",
+        "Isointense to muscle",
+        "Hyperintense to muscle"
+      ],
+      [
+        "Metastatic neuroblastoma",
+        "Poorly defined mass with bony destruction",
+        "—",
+        "—"
+      ],
+      [
+        "Lymphangioma",
+        "Nonencapsulated irregular mass, “crabgrass of the orbit”",
+        "Cystic, possibly multiloculated, heterogeneous mass. Hypointense to fat, hyperintense to muscle, diffuse enhancement. May show signal of either acute or subacute hemorrhage (hyperintensity on T1).",
+        "Markedly hyperintense to fat and muscle"
+      ],
+      [
+        "Optic nerve glioma",
+        "Fusiform enlargement of the optic nerve",
+        "Tubular or fusiform mass, hypointense to gray matter",
+        "Homogeneous hyperintensity"
+      ],
+      [
+        "Plexiform neurofibroma",
+        "Diffuse, irregular soft tissue mass, possible defect in orbital roof",
+        "Iso- or slightly hyperintense to muscle",
+        "Hyperintense to fat and muscle"
+      ],
+      [
+        "Leukemia (granulocytic sarcoma)",
+        "Irregular mass with occasional bony erosion",
+        "—",
+        "—"
+      ],
+      [
+        "Langerhans cell histiocytosis",
+        "Lytic defect, most commonly in superotemporal orbit or sphenoid wing",
+        "Iso-intense to muscle, good enhancement",
+        "—"
+      ]
+    ],
+    "num_rows": 9,
+    "num_columns": 3
+  },
+  {
+    "table_id": "ch7_table_3",
+    "chapter_number": 7,
+    "chapter_title": "Orbit",
+    "section": "Signs",
+    "caption": "",
+    "headers": [
+      "",
+      "",
+      "MRI Features"
+    ],
+    "rows": [
+      [
+        "Metastasis",
+        "Poorly defined mass conforming to orbital structure; possible bony erosion",
+        "Infiltrating mass; hypointense to fat, isointense to muscle; moderate-to-marked enhancement",
+        "Hyperintense to fat and muscle"
+      ],
+      [
+        "Lymphoid tumors (Figure 7.6.1C)",
+        "Irregular mass molding to the shape of orbital bones or globe; bone destruction possible in aggressive lesions and HIV",
+        "Irregular mass; hypointense to fat, iso- or hyperintense to muscle; moderate-to-marked enhancement",
+        "Hyperintense to muscle"
+      ],
+      [
+        "Cavernous venous malformation (Figure 7.4.2.1.)",
+        "Encapsulated mass typically within the muscle cone",
+        "Iso- or hyperintense to muscle; delayed, heterogeneous, and diffuse enhancement",
+        "Hyperintense to muscle and fat"
+      ],
+      [
+        "Optic nerve sheath meningioma",
+        "Calcification may be present. Enhancement with contrast.",
+        "Three patterns may be seen: fusiform, tubular, and globular; marked enhancement of lesion with gadolinium with sparing of the optic nerve parenchyma.",
+        "The typical cuff of CSF around the optic nerve may be effaced by the tumor"
+      ],
+      [
+        "Mesenchymal tumors (e.g., SFT)",
+        "Well-defined mass anywhere in the orbit",
+        "Heterogeneous mass; hypointense to fat, hyper- or isointense to muscle; moderate diffuse or irregular enhancement. May have vascular flow voids.",
+        "Variable"
+      ],
+      [
+        "Neurilemmoma",
+        "Fusiform or ovoid mass often in the superior orbit",
+        "Iso- or hyperintense to muscle with variable enhancement",
+        "Variable intensity"
+      ],
+      [
+        "Neurofibroma",
+        "Diffuse, irregular soft tissue mass; a possible defect in orbital roof",
+        "Iso- or slightly hyperintense to muscle",
+        "Hyperintense to fat and muscle"
+      ]
+    ],
+    "num_rows": 7,
+    "num_columns": 3
+  },
+  {
+    "table_id": "ch7_table_4",
+    "chapter_number": 7,
+    "chapter_title": "Orbit",
+    "section": "Signs",
+    "caption": "",
+    "headers": [
+      "Mucocele (Figure 7.4.2.2)",
+      "Frontal or ethmoid sinus cyst that extends into orbit",
+      "Variable from hypo- to hyperintense, depending on the protein content/viscosity of the lesion",
+      "Hyperintense to fat"
+    ],
+    "rows": [
+      [
+        "Localized neurofibroma",
+        "Well-defined mass in superior orbit",
+        "Well-circumscribed, heterogeneous; iso- or hyperintense to muscle",
+        "Hyperintense to fat and muscle"
+      ]
+    ],
+    "num_rows": 1,
+    "num_columns": 4
+  },
+  {
+    "table_id": "ch9_table_0",
+    "chapter_number": 9,
+    "chapter_title": "Glaucoma",
+    "section": "Differential Diagnosis",
+    "caption": "",
+    "headers": [
+      "Diagnosis",
+      "Intraocular Pressure",
+      "Anterior Chamber",
+      "Iris Bombé",
+      "Pain",
+      "Bleb"
+    ],
+    "rows": [
+      [
+        "Inflammation",
+        "Variable; may be low",
+        "Deep",
+        "No",
+        "Possible",
+        "Varies"
+      ],
+      [
+        "Hyphema",
+        "Mild to moderately elevated",
+        "Varies",
+        "Not early",
+        "Possible",
+        "Varies"
+      ],
+      [
+        "Failure to filter",
+        "Moderately elevated",
+        "Deep",
+        "No",
+        "Possible",
+        "Flat"
+      ],
+      [
+        "Aqueous misdirection/malignant glaucoma",
+        "Early: moderately elevatedLate: moderately to markedly elevated",
+        "Diffusely shallow, Grade 2 or 3",
+        "No",
+        "Moderate",
+        "Flat"
+      ],
+      [
+        "Suprachoroidal hemorrhage",
+        "Early: markedly elevatedLate: mild to moderately elevated",
+        "Grade 1 and 2",
+        "No",
+        "Excruciating",
+        "Flat"
+      ],
+      [
+        "Pupillary block",
+        "Early: moderately elevated, may become markedly elevated",
+        "Grade 1 to 3",
+        "Yes",
+        "Possible if markedly elevated pressure",
+        "None"
+      ],
+      [
+        "Serous choroidal detachment",
+        "Low",
+        "Grade 1 to 3",
+        "No",
+        "Ache frequently present",
+        "Usually elevated; may flatten with time"
+      ]
+    ],
+    "num_rows": 7,
+    "num_columns": 6
+  },
+  {
+    "table_id": "ch11_table_0",
+    "chapter_number": 11,
+    "chapter_title": "Retina",
+    "section": "Follow Up",
+    "caption": "",
+    "headers": [
+      "Baseline Diabetic Retinopathy",
+      "Gestational Diabetes",
+      "None or Minimal Nonproliferative Diabetic Retinopathy (NPDR)",
+      "Mild-to-Moderate NPDR",
+      "High-Risk NPDR",
+      "Proliferative Diabetic Retinopathy (PDR)"
+    ],
+    "rows": [
+      [
+        "Gestational course",
+        "No risk of retinopathy",
+        "No progression in vast majority. Of those who progress, only a few have visual impairment.",
+        "Progression in up to 50%. Postpartum regression in many.",
+        "Progression in up to 50%. Postpartum regression in some.",
+        "Tends to progress rapidly."
+      ],
+      [
+        "Eye examinations",
+        "None",
+        "First and third trimester",
+        "Every trimester",
+        "Monthly",
+        "Monthly"
+      ],
+      [
+        "Treatment",
+        "None",
+        "None",
+        "None, unless high-risk proliferative retinopathy develops.",
+        "None, unless high-risk proliferative retinopathy develops.",
+        "Treat PDR with panretinal photocoagulation. Observe diabetic macular edema (high rate of spontaneous postpartum regression)."
+      ]
+    ],
+    "num_rows": 3,
+    "num_columns": 6
+  },
+  {
+    "table_id": "ch12_table_0",
+    "chapter_number": 12,
+    "chapter_title": "Uveitis",
+    "section": "Critical",
+    "caption": "",
+    "headers": [
+      "Grade",
+      "Cells in 1 × 1 mm Field"
+    ],
+    "rows": [
+      [
+        "0",
+        "<1"
+      ],
+      [
+        "0.5+",
+        "1 to 5"
+      ],
+      [
+        "1+",
+        "6 to 15"
+      ],
+      [
+        "2+",
+        "16 to 25"
+      ],
+      [
+        "3+",
+        "26 to 50"
+      ],
+      [
+        "4+",
+        ">50"
+      ]
+    ],
+    "num_rows": 6,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch12_table_1",
+    "chapter_number": 12,
+    "chapter_title": "Uveitis",
+    "section": "Critical",
+    "caption": "",
+    "headers": [
+      "Grade",
+      "Description"
+    ],
+    "rows": [
+      [
+        "0",
+        "None"
+      ],
+      [
+        "1+",
+        "Faint"
+      ],
+      [
+        "2+",
+        "Moderate (iris/lens details clear)"
+      ],
+      [
+        "3+",
+        "Marked (iris/lens details hazy)"
+      ],
+      [
+        "4+",
+        "Intense (fibrin/plastic aqueous)"
+      ]
+    ],
+    "num_rows": 5,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch12_table_2",
+    "chapter_number": 12,
+    "chapter_title": "Uveitis",
+    "section": "Workup",
+    "caption": "",
+    "headers": [
+      "Ankylosing spondylitis",
+      "HLA B27, SI joint films, rheumatology consult"
+    ],
+    "rows": [
+      [
+        "Reactive arthritis",
+        "HLA B27, SI joint films (if symptomatic), swab for Chlamydia"
+      ],
+      [
+        "Psoriatic arthritis",
+        "HLA B27, rheumatology and/or dermatology consult"
+      ],
+      [
+        "Lyme disease",
+        "Lyme antibody immunofluorescent assay (e.g., ELISA)"
+      ],
+      [
+        "Juvenile idiopathic arthritis or any suspect uveitis in children",
+        "Rheumatoid factor, antinuclear antibodies, HLA-B27, radiographs of affected joints, urinalysis and renal function tests, rheumatology consult"
+      ],
+      [
+        "Sarcoidosis",
+        "Chest radiograph and/or chest CT, PPD or IGRA, ACE, lysozyme"
+      ],
+      [
+        "Syphilis",
+        "RPR or VDRL, FTA-ABS or treponemal-specific assay; HIV testing if positive"
+      ],
+      [
+        "Ocular ischemic syndrome",
+        "Intravenous fluorescein angiography, carotid Doppler studies"
+      ]
+    ],
+    "num_rows": 7,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch12_table_3",
+    "chapter_number": 12,
+    "chapter_title": "Uveitis",
+    "section": "Differential Diagnosis",
+    "caption": "",
+    "headers": [
+      "",
+      "CMV",
+      "ARN",
+      "PORN",
+      "Toxoplasmosis"
+    ],
+    "rows": [
+      [
+        "Retinal hemorrhages",
+        "Common",
+        "Uncommon",
+        "Uncommon",
+        "Usually absent"
+      ],
+      [
+        "Vitritis",
+        "Minimal",
+        "Significant",
+        "Absent",
+        "Significant"
+      ],
+      [
+        "Pain",
+        "Absent",
+        "Significant",
+        "Absent",
+        "Moderate"
+      ],
+      [
+        "Immune status",
+        "Immunocompromised",
+        "Usually healthy",
+        "Immunocompromised",
+        "Either"
+      ],
+      [
+        "Appearance",
+        "“Brushfire” border with the leading edge of active retinitis and necrotic retina and mottled retinal pigment epithelium in its wake",
+        "Sharply demarcated lesions with a nearly homogeneous appearance",
+        "Multifocal patches of deep retinal necrosis, rapid progression with the involvement of the macula",
+        "“Headlight in the fog” with dense vitritis and smooth edges"
+      ]
+    ],
+    "num_rows": 5,
+    "num_columns": 5
+  },
+  {
+    "table_id": "ch12_table_4",
+    "chapter_number": 12,
+    "chapter_title": "Uveitis",
+    "section": "Treatment",
+    "caption": "",
+    "headers": [
+      "Drug",
+      "Dosing",
+      "Toxicities",
+      "Contraindications"
+    ],
+    "rows": [
+      [
+        "Ganciclovir\na",
+        "Induction: 5 mg/kg i.v. b.i.d. for 14 daysMaintenance: 5 mg/kg i.v. daily",
+        "Neutropenia,\nb\n thrombocytopenia, anemia;Discontinue nursing",
+        "Absolute neutrophil count <500/mm3, platelets <25,000/mm3;Potentially embryotoxic"
+      ],
+      [
+        "Valganciclovir",
+        "Induction: 900 mg p.o. b.i.d. for 21 daysMaintenance: 900 mg p.o. daily",
+        "Neutropenia,\nb\n thrombocytopenia, and anemia;Discontinue nursing",
+        "Absolute neutrophil count <500/mm3, platelets <25,000/mm3;Potentially embryotoxic"
+      ],
+      [
+        "Foscarnet",
+        "Induction: 90 mg/kg i.v. b.i.d. twice/wkMaintenance: 90 to 120 mg/kg i.v. daily\nc\n (monitor creatinine and electrolytes; adjust dosing as needed)",
+        "Renal impairment neutropenia, anemia, and electrolyte imbalances",
+        "Use caution with renal impairment or electrolyte imbalances"
+      ],
+      [
+        "Cidofovir",
+        "Induction: 5 mg/kg i.v. weekly for 3 wks maintenance: 3 to 5 mg/kg i.v. every 2 wks",
+        "Dose- and schedule-dependent nephrotoxicity, hypotony (necessitates discontinuation), iritis (steroid responsive);Must be given with probenecid",
+        "Recurrent uveitis, moderate to severe kidney disease, intolerance to probenecid"
+      ]
+    ],
+    "num_rows": 4,
+    "num_columns": 4
+  },
+  {
+    "table_id": "ch12_table_5",
+    "chapter_number": 12,
+    "chapter_title": "Uveitis",
+    "section": "Differential Diagnosis",
+    "caption": "",
+    "headers": [
+      "Harada Disease"
+    ],
+    "rows": [
+      [
+        "Malignant hypertension"
+      ],
+      [
+        "Toxemia of pregnancy"
+      ],
+      [
+        "Disseminated intravascular coagulopathy"
+      ],
+      [
+        "Idiopathic uveal effusion syndrome"
+      ],
+      [
+        "Sympathetic ophthalmia"
+      ],
+      [
+        "Posterior scleritis"
+      ],
+      [
+        "Central serous chorioretinopathy"
+      ],
+      [
+        "Choroidal tumors (including metastases)"
+      ],
+      [
+        "Choroidal neovascularization"
+      ],
+      [
+        "Congenital optic disc pit"
+      ],
+      [
+        "Nanophthalmos"
+      ]
+    ],
+    "num_rows": 11,
+    "num_columns": 1
+  },
+  {
+    "table_id": "ch13_table_0",
+    "chapter_number": 13,
+    "chapter_title": "General Ophthalmic Problems",
+    "section": "13.8 Vitamin A Deficiency",
+    "caption": "",
+    "headers": [
+      "XN",
+      "Night Blindness"
+    ],
+    "rows": [
+      [
+        "X1A",
+        "Conjunctival xerosis"
+      ],
+      [
+        "X1B",
+        "Bitôt spot"
+      ],
+      [
+        "X2",
+        "Corneal xerosis"
+      ],
+      [
+        "X3A",
+        "Corneal ulceration or keratomalacia with less than one-third corneal involvement"
+      ],
+      [
+        "X3B",
+        "Corneal ulceration or keratomalacia with one-third or more corneal involvement"
+      ],
+      [
+        "XS",
+        "Corneal scar"
+      ],
+      [
+        "XF",
+        "Xerophthalmia fundus"
+      ]
+    ],
+    "num_rows": 7,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch13_table_1",
+    "chapter_number": 13,
+    "chapter_title": "General Ophthalmic Problems",
+    "section": "Criteria for Diagnosis",
+    "caption": "",
+    "headers": [
+      "Neurofibromatosis 1",
+      "Neurofibromatosis 2"
+    ],
+    "rows": [
+      [
+        "At least two of the following:",
+        "Either A or B:"
+      ],
+      [
+        "At least six café au lait spots\n5-mm greatest diameter prepubertal or\n15-mm postpubertal\n\n\nNeurofibromas\nOne plexiform neurofibroma or\nAt least two of any other type\n\n\nAxillary/groin freckling\nVisual pathway glioma\nAt least two Lisch nodules\nDistinctive osseous dysplasia (sphenoid wing or tibial)\nAffected first-degree relative",
+        "Bilateral acoustic neuromas (by computed tomography or magnetic resonance imaging) or\nAffected first-degree relative and\nUnilateral acoustic neuroma or\nAt least two of the following:\nNeurofibroma\nMeningioma\nGlioma\nSchwannoma\nJuvenile posterior subcapsular cataract"
+      ]
+    ],
+    "num_rows": 2,
+    "num_columns": 2
+  },
+  {
+    "table_id": "ch14_table_0",
+    "chapter_number": 14,
+    "chapter_title": "Imaging Modalities in Ophthalmology",
+    "section": "Description",
+    "caption": "",
+    "headers": [
+      "",
+      "T1",
+      "Fat Suppression",
+      "Gadolinium",
+      "T2"
+    ],
+    "rows": [
+      [
+        "Properties",
+        "Useful for intraorbital structures such as optic nerve, extraocular muscles, and orbital vessels. The strong fat signal within the orbit gives poor resolution of lacrimal gland and may also mask intraocular structures.",
+        "T1-weighted images with bright intraconal fat signal suppressed in the orbit, allowing for better anatomic detail. Essential for all orbital MRIs. Used with contrast (gadolinium).",
+        "A paramagnetic agent that distributes in the extracellular space and does not cross the intact blood–brain barrier. Gadolinium is best for T1, fat-suppressed images. The lacrimal gland, extraocular muscles, and most orbital pathology enhance with gadolinium. Essential for all orbital MRIs. Always order with fat suppression in orbital studies.",
+        "Suboptimal intraocular contrast. Demyelinating lesions (e.g., multiple sclerosis) are bright. The cerebrospinal fluid (CSF) signal may be useful in interpretation of optic nerve lesions/processes."
+      ],
+      [
+        "Interpretation",
+        "Fat is bright (high signal intensity). Vitreous and intracranial ventricles are dark.",
+        "Vitreous and fat are dark. Extraocular muscles are bright.",
+        "Most orbital masses are dark on T1 and become bright with gadolinium enhancement. Notable exceptions are listed in Table 14.3.2.",
+        "Fluid-containing structures such as vitreous and CSF are bright. Melanin is dark.The fluid-attenuated inversion recovery sequence on T2 suppresses the bright signal from CSF and is especially helpful in identifying the periventricular lesions of demyelinating disease."
+      ]
+    ],
+    "num_rows": 2,
+    "num_columns": 5
+  },
+  {
+    "table_id": "ch14_table_1",
+    "chapter_number": 14,
+    "chapter_title": "Imaging Modalities in Ophthalmology",
+    "section": "Uses in Ophthalmology",
+    "caption": "",
+    "headers": [
+      "Tissues/Lesions",
+      "Examples"
+    ],
+    "rows": [
+      [
+        "Fat",
+        "Lipoma, liposarcoma"
+      ],
+      [
+        "Mucus/proteinaceous material",
+        "Dermoid cyst, mucocele, dacryocystocele, craniopharyngioma"
+      ],
+      [
+        "Melanin",
+        "Melanoma"
+      ],
+      [
+        "Subacute blood (3 to 14 days old)",
+        "Lymphangioma with blood cyst, hemorrhagic choroidal detachment, subperiosteal orbital hematoma"
+      ],
+      [
+        "Certain fungal infections (iron scavengers)",
+        "Aspergillus"
+      ]
+    ],
+    "num_rows": 5,
+    "num_columns": 2
+  }
+]

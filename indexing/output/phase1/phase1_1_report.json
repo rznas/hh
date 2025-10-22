@@ -1,0 +1,38 @@
+{
+  "phase": "1.1 - Chapter Content Extraction",
+  "chapters_processed": 5,
+  "total_top_level_sections": 5,
+  "total_text_blocks": 609,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Differential Diagnosis of Ocular Symptoms",
+      "sections": 1,
+      "blocks": 20
+    },
+    {
+      "number": 2,
+      "title": "Differential Diagnosis of Ocular Signs",
+      "sections": 1,
+      "blocks": 44
+    },
+    {
+      "number": 3,
+      "title": "Trauma",
+      "sections": 1,
+      "blocks": 148
+    },
+    {
+      "number": 4,
+      "title": "Cornea",
+      "sections": 1,
+      "blocks": 265
+    },
+    {
+      "number": 5,
+      "title": "Conjunctiva/Sclera/Iris/External Disease",
+      "sections": 1,
+      "blocks": 132
+    }
+  ]
+}

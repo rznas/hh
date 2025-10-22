@@ -1,0 +1,62 @@
+[
+  {
+    "entity_id": "symptom_001",
+    "name": "Double Vision (Diplopia)",
+    "name_normalized": "double vision (diplopia)",
+    "type": "symptom",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 1,
+    "section": "Double Vision (Diplopia)",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "symptom_002",
+    "name": "Pain",
+    "name_normalized": "pain",
+    "type": "symptom",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 1,
+    "section": "Pain",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "symptom_003",
+    "name": "Red Eye",
+    "name_normalized": "red eye",
+    "type": "symptom",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 1,
+    "section": "Red Eye",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "symptom_004",
+    "name": "“Spots” in Front of the Eyes",
+    "name_normalized": "“spots” in front of the eyes",
+    "type": "symptom",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 1,
+    "section": "“Spots” in Front of the Eyes",
+    "associated_conditions": [],
+    "variations": []
+  },
+  {
+    "entity_id": "symptom_005",
+    "name": "Tearing",
+    "name_normalized": "tearing",
+    "type": "symptom",
+    "category": "ocular",
+    "red_flag": false,
+    "chapter": 1,
+    "section": "Tearing",
+    "associated_conditions": [],
+    "variations": []
+  }
+]

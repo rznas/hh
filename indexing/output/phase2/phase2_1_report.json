@@ -1,0 +1,52 @@
+{
+  "phase": "2.1 - Disease Entity Extraction",
+  "total_entities": 395,
+  "severity_distribution": {
+    "urgent": 286,
+    "emergent": 109
+  },
+  "red_flag_count": 109,
+  "from_differential_diagnosis": 362,
+  "top_diseases_by_mentions": [
+    {
+      "name": "Keratitis",
+      "mentions": 85
+    },
+    {
+      "name": "Conjunctivitis",
+      "mentions": 68
+    },
+    {
+      "name": "Keratopathy",
+      "mentions": 62
+    },
+    {
+      "name": "Hemorrhage",
+      "mentions": 52
+    },
+    {
+      "name": "Glaucoma",
+      "mentions": 46
+    },
+    {
+      "name": "Corneal Abrasion",
+      "mentions": 33
+    },
+    {
+      "name": "Scleritis",
+      "mentions": 30
+    },
+    {
+      "name": "Blepharitis",
+      "mentions": 29
+    },
+    {
+      "name": "Dystrophy",
+      "mentions": 29
+    },
+    {
+      "name": "Uveitis",
+      "mentions": 28
+    }
+  ]
+}
