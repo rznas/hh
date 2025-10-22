@@ -1,6 +1,6 @@
 # Knowledge Graph Indexing
 
-This module handles the extraction, transformation, and indexing of the Wills Eye Manual into a Zep Graphiti knowledge graph for medical triage.
+This module handles the extraction, transformation, and indexing of the Wills Eye Manual into a Microsoft GraphRAG knowledge graph for medical triage.
 
 ## Quick Start
 
@@ -11,21 +11,21 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Set environment variables
-export ZEP_API_KEY="your_zep_api_key"
-export ZEP_GRAPH_NAME="wills_eye_medical_kg"
+# Set environment variables (see .env.example)
+export NEO4J_PASSWORD="your_neo4j_password"
+export ANTHROPIC_API_KEY="your_anthropic_api_key"  # or OPENAI_API_KEY
 
 # Dry run (preview what will be indexed)
-python index_knowledge_graph.py --data ../data/wills_eye_structured.json --dry-run
+python graphrag_indexer.py --data ../data/wills_eye_structured.json --dry-run
 
 # Index a single chapter (recommended for testing)
-python index_knowledge_graph.py --data ../data/wills_eye_structured.json --chapter "Trauma"
+python graphrag_indexer.py --data ../data/wills_eye_structured.json --chapter "Trauma"
 
 # Full indexing (all chapters)
-python index_knowledge_graph.py --data ../data/wills_eye_structured.json
+python graphrag_indexer.py --data ../data/wills_eye_structured.json
 
 # With verbose logging
-python index_knowledge_graph.py --data ../data/wills_eye_structured.json --verbose
+python graphrag_indexer.py --data ../data/wills_eye_structured.json --verbose
 ```
 
 ## Architecture
@@ -34,31 +34,34 @@ python index_knowledge_graph.py --data ../data/wills_eye_structured.json --verbo
 ```
 wills_eye_structured.json
         ↓
-    Parser (entity extraction)
+    Entity Extraction (LLM-based)
         ↓
-    Schema Mapper (nodes + edges)
+    Relationship Extraction (LLM-based)
         ↓
     Embedding Service (vector representations)
         ↓
-    Zep Graphiti (knowledge graph storage)
+    Community Detection (Leiden algorithm)
+        ↓
+    Neo4j Storage (Microsoft GraphRAG)
 ```
 
 ### Module Structure
 ```
 indexing/
-├── parsers/
-│   ├── wills_eye_parser.py      # Main JSON parser
-│   ├── entity_extractor.py      # Extract medical entities
-│   ├── urgency_classifier.py    # Classify urgency levels
-│   └── reference_resolver.py    # Handle cross-references
-│
-├── graph_builder.py              # Build Zep Graphiti nodes/edges
-├── embedding_service.py          # Generate embeddings (BioBERT)
-├── index_knowledge_graph.py      # Main indexing script
-├── config.py                     # Configuration & constants
+├── entity_extractor.py           # Extract medical entities (LLM-based)
+├── relationship_extractor.py     # Extract relationships (LLM-based)
+├── graphrag_embeddings.py        # Generate embeddings (OpenAI/BioBERT)
+├── community_detector.py         # Community detection (Leiden algorithm)
+├── community_summarizer.py       # Multi-level summarization
+├── graphrag_storage.py           # Neo4j storage layer
+├── local_search.py               # Entity-based specific queries
+├── global_search.py              # Community-based broad queries
+├── graphrag_indexer.py           # Main indexing pipeline
+├── graphrag_config.py            # GraphRAG configuration
+├── config.py                     # Legacy configuration
 ├── requirements.txt              # Python dependencies
 └── tests/
-    └── test_indexing.py          # Unit tests
+    └── test_*.py                 # Unit tests
 ```
 
 ## Key Features
@@ -90,12 +93,18 @@ Every disease node includes:
 ### Environment Variables
 ```bash
 # Required
-ZEP_API_KEY=sk-xxx                    # Zep Graphiti API key
-ZEP_GRAPH_NAME=wills_eye_medical_kg   # Graph database name
+NEO4J_URI=bolt://localhost:7687        # Neo4j connection URI
+NEO4J_USER=neo4j                       # Neo4j username
+NEO4J_PASSWORD=your_password           # Neo4j password
+ANTHROPIC_API_KEY=sk-ant-xxx           # Anthropic API key (for Claude)
+# OR
+OPENAI_API_KEY=sk-xxx                  # OpenAI API key (alternative)
 
 # Optional
-EMBEDDING_MODEL=pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb
-BATCH_SIZE=100                         # Nodes per batch
+LLM_PROVIDER=anthropic                 # anthropic or openai
+EMBEDDING_PROVIDER=openai              # openai or sentence_transformers
+EMBEDDING_MODEL=text-embedding-3-small # OpenAI embedding model
+BATCH_SIZE=10                          # Conditions per batch
 LOG_LEVEL=INFO                         # DEBUG | INFO | WARNING | ERROR
 ```
 
@@ -111,23 +120,27 @@ Edit `config.py` to adjust:
 ### Index Specific Chapters
 ```bash
 # Only index trauma and cornea chapters
-python index_knowledge_graph.py \
+python graphrag_indexer.py \
     --data ../data/wills_eye_structured.json \
     --chapter "Trauma" --chapter "Cornea"
 ```
 
-### Resume Interrupted Indexing
+### Test Individual Components
 ```bash
-# Continues from last successful batch
-python index_knowledge_graph.py \
-    --data ../data/wills_eye_structured.json \
-    --resume
+# Test entity extraction
+python entity_extractor.py
+
+# Test relationship extraction
+python relationship_extractor.py
+
+# Test embedding service
+python graphrag_embeddings.py
 ```
 
 ### Validate Existing Graph
 ```bash
 # Check graph integrity and medical accuracy
-python index_knowledge_graph.py --validate
+python graphrag_indexer.py --validate
 ```
 
 ## Output & Logging
@@ -165,23 +178,29 @@ pytest tests/test_indexing.py::test_urgency_classification -v
 
 ### Manual Verification
 ```python
-from indexing.graph_builder import GraphClient
+from graphrag_client import GraphRAGClient
 
-client = GraphClient()
+client = GraphRAGClient()
 
-# Check a specific condition
-condition = client.get_node(type="DISEASE", name="3.1 Chemical Burn")
-print(f"Urgency: {condition.urgency_level}")
-print(f"Red Flags: {condition.red_flags}")
+# Search for specific entities
+results = await client.local_search("chemical burn")
+print(f"Found {len(results)} related entities")
 
-# Query differential diagnosis
-ddx = client.query("""
-    MATCH (s:SYMPTOM {name: "eye pain"})<-[:PRESENTS_WITH]-(d:DISEASE)
-    RETURN d.name, d.urgency_level
-    ORDER BY d.urgency_level DESC
+# Broad thematic search
+results = await client.global_search("What are the emergent eye conditions?")
+print(results)
+
+# Direct Neo4j queries
+from graphrag_storage import Neo4jStorage
+storage = Neo4jStorage()
+conditions = storage.query_cypher("""
+    MATCH (e:Entity {type: 'DISEASE'})-[:PRESENTS_WITH]->(s:Entity {type: 'SYMPTOM'})
+    WHERE s.name CONTAINS 'vision loss'
+    RETURN e.name, e.urgency_level
+    ORDER BY e.urgency_level DESC
     LIMIT 5
 """)
-print(ddx)
+print(conditions)
 ```
 
 ## Performance
@@ -255,7 +274,9 @@ Before deploying to production:
 
 ## References
 
+- [GraphRAG Architecture](../docs/GRAPHRAG_ARCHITECTURE.md)
 - [GraphRAG Strategy](../docs/technical/graphrag-strategy.md)
+- [GraphRAG Quick Start](QUICKSTART_GRAPHRAG.md)
 - [Medical Framework](../docs/medical/framework.md)
-- [Zep Graphiti Docs](https://docs.getzep.com/graphiti/)
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag)
 - [Wills Eye Manual](../data/wills_eye_structured.json)
