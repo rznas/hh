@@ -77,9 +77,12 @@ Patient Input → Red Flag Check → Systematic Questions → Risk Stratificatio
 ```
 
 ### Urgency Levels
+**Extracted from Wills Eye Manual (7th Edition)** via GraphRAG pipeline Phase 4.2, NOT hardcoded.
 - **Emergent**: ER immediately (e.g., sudden vision loss)
 - **Urgent**: Doctor within 24-48 hours (e.g., keratitis)
 - **Non-Urgent**: Schedule appointment (e.g., mild allergic conjunctivitis)
+
+See: `indexing/output/phase4/urgency_classification_criteria.json` (source of truth)
 
 ### Key Files in Codebase
 - Triage Agent: `backend/apps/triage/services/triage_agent.py`

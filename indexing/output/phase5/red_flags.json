@@ -1,0 +1,808 @@
+[
+  {
+    "red_flag_id": "rf_severe_trauma",
+    "condition": "Severe Trauma",
+    "keywords": [
+      "Blunt trauma",
+      "Eye Syndrome) to assess basic tear production. Check for signs of uveitis.; Otolaryngologic examination: Examine ear and oropharynx for vesicles, masses, or other lesions. Palpate parotid for mass or lymphadenopathy. Check hearing.; CT scan if history of trauma",
+      "Eye rubbing, trauma, heavy lifting, or Valsalva? Recurrent subconjunctival hemorrhage? Acute or chronic cough?; Check blood pressure.; Ocular examination: If recurrent, rule out a conjunctival lesion when resolved. If severe, check extraocular motility, resistance to retropulsion, and IOP. In traumatic cases, rule out other ocular injuries (e.g., a ruptured globe [signs may include reduced visual acuity, abnormally deep or shallow anterior chamber, severe bullous subconjunctival hemorrhage, hyphema, vitreous hemorrhage, or uveal prolapse], retrobulbar hemorrhage [associated with proptosis and increased IOP], or orbital fracture). See 3.14, Ruptured Globe and Penetrating Ocular Injury, 3.10, Traumatic Retrobulbar Hemorrhage, and 3.9, Orbital Blowout Fracture.; If the patient has recurrent subconjunctival hemorrhages or a history of bleeding problems, prothrombin time, activated partial thromboplastin time, complete blood count with differential and peripheral blood smear (to evaluate for thrombocytopenia or leukemia), liver function tests, and protein C and S should be obtained.; If orbital signs are present (proptosis, decreased extraocular motility, elevated IOP) in atraumatic cases, perform axial, coronal, and parasagittal imaging (computed tomography [CT], or magnetic resonance imaging [MRI]) of the orbits with and without contrast to evaluate for an orbital mass (e.g., neuroblastoma in children or lymphangioma in adults). In traumatic cases, image as appropriate based on clinical findings, mechanism of injury, etc. (see Chapter 3, Trauma",
+      "Eyelid and periorbital erythema, edema, and warmth. See 6.10, Preseptal Cellulitis.; Forniceal foreign body: eyelid swelling, particularly in soft contact lens wearers or those with a history of trauma. See 3.3, Corneal and Conjunctival Foreign Bodies.; Sebaceous carcinoma: Suspect in older patients with recurrent chalazia, eyelid thickening, madarosis, or chronic unilateral blepharitis. See 6.11, Malignant Tumors of the Eyelid.; Pyogenic granuloma: Benign, deep-red, pedunculated conjunctival lesion often associated with chalazia, hordeola, trauma",
+      "Eyelid deformity (e.g., ectropion or eyelid scarring from trauma",
+      "Eyelid swelling and chemosis are atypical. Conjunctival injection is often absent. Usually resolves with topical steroid therapy.; TASS: An acute, sterile inflammation following uneventful surgery that develops rapidly within 6 to 24 hours. Characterized by anterior chamber cell and flare, possibly with fibrin or hypopyon, and severe corneal edema in excess of what would be expected following surgery. IOP may be increased. May be caused by any material placed in the eye during surgery including irrigating or injected solutions (e.g., due to the presence of a preservative or incorrect pH or concentration of a solution) or improperly cleaned instruments.; Acute iridocyclitis flare: HLA-B27-associated and herpetic uveitis flares can be triggered by surgical trauma",
+      "Hyphema",
+      "Orbital Disease.; Without exophthalmos or resistance to retropulsion: Isolated third, fourth, or sixth cranial nerve palsy; multiple ocular motor nerve palsies (see 10.10, Cavernous Sinus and Associated Syndromes [Multiple Ocular Motor Nerve Palsies]), myasthenia gravis, chronic progressive external ophthalmoplegia and associated syndromes, orbital blow-­out fracture",
+      "Orbital cellulitis: Fever, proptosis, chemosis, limitation, or pain with eye movement; also may follow trauma, but usually not as acutely. A rapidly expanding orbital abscess may result in OCS, and in such cases, the acute management is the same as that for orbital hemorrhage. See 7.3.1, Orbital Cellulitis.; Severe orbital emphysema (“tension pneumo-orbit”): Tight orbit, tight eyelids, crepitus, and decreased extraocular motility; may follow orbital fracture with or without nose blowing. See 3.9, Orbital Blowout Fracture.; Orbital fracture: Limited extraocular motility, enophthalmos, or proptosis may be present. See 3.9, Orbital Blowout Fracture",
+      "Orbital edema and hemorrhage with or without a blowout fracture",
+      "Traumatic Choroidal Rupture.; Optic nerve avulsion: Decreased vision with RAPD on examination and hemorrhagic depression or excavation of the optic disc if partial, or retraction of entire nerve if complete. Often associated with VH. No treatment is available, and visual prognosis depends on extent of injury",
+      "Traumatic Retrobulbar Hemorrhage.); Compressive optic neuropathy from orbital foreign body: A subcategory of direct TON. (See 3.12, Intraorbital Foreign Body.); Bony impingement: A posterior direct TON that results from impingement of the apical or intracanalicular optic nerve from a fracture at the orbital apex and/or optic canal. Mechanisms vary widely. Direct bony impingement on the optic canal may result from a skull base fracture that also involves adjacent structures, including the cavernous sinus, with resultant cranial neuropathy (see Figure 3.11.1).; Optic nerve sheath hematoma: An extremely rare and difficult to diagnose direct or indirect TON. Imaging may show perineural blood in the optic nerve sheath. Often a presumptive diagnosis requiring an abnormal fundus appearance, typically a combination of retinal venous and arterial occlusions (e.g., central retinal artery occlusion, central retinal vein occlusion). Progressive visual loss may occur as the hematoma expands. In most cases, optic nerve sheath hematoma is seen in conjunction with retinal hemorrhages and a subarachnoid intracranial bleed (Terson syndrome).; Deceleration injury",
+      "Traumatic Retrobulbar Hemorrhage.; Compressive optic neuropathy from orbital foreign body: See 3.12, Intraorbital Foreign Body.; Optic nerve sheath hematoma: Optic nerve sheath fenestration may be helpful in the acute stage if optic neuropathy is progressing and no other cause is evident.; Optic nerve laceration: No effective treatment.; Optic nerve head avulsion: No effective treatment. If external ophthalmoplegia is present, surgical exploration for avulsed EOM may be necessary.; Deceleration injury: Effective treatment of posterior indirect TON is, at best, extremely limited. Given the results of the Corticosteroid Randomization After Significant Head Injury (CRASH) study, high-dose corticosteroids should never be offered by ophthalmologists to patients with concomitant TBI or if the TON is older than 8 hours. In the vast majority of cases, we recommend observation alone. If corticosteroids are considered (no evidence of TBI, injury",
+      "Traumatic brain injury",
+      "blunt head impact. External signs of trauma",
+      "blunt or penetrating trauma",
+      "blunt trauma",
+      "blunt trauma to rule out fracture, retained foreign body, ruptured globe, or intracranial injury. If there is any suspicion of deeper injury, obtain imaging before eyelid laceration repair. Loss of consciousness mandates a CT of the brain. Depending on the mechanism of injury, the cervical spine may need to be cleared.; If laceration is nasal to the punctum, even if not obviously through the canalicular system, punctal dilation and probing with irrigation of the canalicular system should be considered to exclude canalicular involvement (see Figures 3.8.2 and 3.8.3; Appendix 7, Technique for Diagnostic Probing and Irrigation of the Lacrimal System). High suspicion should be maintained for unnoticed canalicular lacerations in the pediatric population, particularly with dog bite injuries.; Be suspicious in glancing blunt trauma",
+      "eye (CLARE): Red eye, corneal edema, epithelial defects, iritis with or without hypopyon, hypoxic subepithelial or stromal infiltrates (often multiple) may be present.; Infectious keratouveitis: Corneal infiltrate is present. See 4.11, Bacterial Keratitis.; Infectious endophthalmitis: History of recent ocular surgery (including intravitreal injections), penetrating trauma",
+      "eye (nanophthalmos), or zonular loss/weakness (e.g., trauma",
+      "eye abnormalities including cataract, anterior lenticonus, and keratoconus. Most commonly X-linked or autosomal recessive.; Lowe syndrome (oculocerebrorenal syndrome): Opaque lens, congenital glaucoma, renal disease, and mental retardation. X-linked recessive. Patients’ mothers may have small cataracts.; Alport syndrome: Glomerulonephritis, hearing loss, eye abnormalities including cataract, anterior lenticonus, and keratoconus. Most commonly X-linked or autosomal recessive.; Others: Intrauterine infection, chromosomal disorders, aniridia, systemic syndromes, metabolic abnormalities, craniofacial syndromes, musculoskeletal disorders, and anterior segment dysgenesis.; Acquired: Trauma",
+      "eye can often be elicited. Glaucoma due to angle recession (not from the inciting trauma",
+      "eye disease, carotid cavernous sinus fistula); cavernous sinus syndrome; status-post ocular surgery (e.g., residual anesthesia, displaced muscle, muscle surgery, restriction from scleral buckle, severe aniseikonia after refractive surgery); status-post trauma",
+      "eye disease. See 7.2.1, Thyroid Eye Disease.; Loss of consciousness or unwitnessed head trauma",
+      "eye disease: May have proptosis, eyelid lag, eyelid retraction, injection over the involved rectus muscles, and positive forced duction testing. See 7.2.1, Thyroid Eye Disease.; Myasthenia gravis: Variable symptoms with fatigability. Ptosis common. Positive ice test, rest test, or less commonly edrophonium chloride test.; Idiopathic orbital inflammatory syndrome: Pain and proptosis are common. See 7.2.2, Idiopathic Orbital Inflammatory Syndrome.; Orbital trauma: Fracture causing medial rectus entrapment, positive forced duction testing. See 3.9, Orbital Blowout Fracture.; Duane syndrome, type 1: Congenital; narrowing of the palpebral fissure and retraction of the globe on adduction (usually no diplopia). See 8.6, Strabismus Syndromes.; Möbius syndrome: Congenital; bilateral facial paralysis present. See 8.6, Strabismus Syndromes.; Convergence spasm: Intermittent, variable episodes of convergence and miosis. May appear to have abduction deficit when assessing versions; however, ductions are full. Miotic pupils help to differentiate since pupils are not affected in an isolated sixth cranial nerve palsy.; Primary divergence insufficiency: Usually acquired and benign; esotropia and diplopia only at distance and single binocular vision at near. Symptoms may improve spontaneously without treatment or may be corrected with base-out prisms or surgery. If the history reveals sudden onset, trauma",
+      "eye disease: May have proptosis, eyelid lag, eyelid retraction, or injection over the involved rectus muscles. Positive forced duction test. See 7.2.1, Thyroid Eye Disease and Appendix 6, Forced Duction Test and Active Force Generation Test.; Idiopathic orbital inflammatory syndrome: Pain and proptosis are common. See 7.2.2, Idiopathic Orbital Inflammatory Syndrome.; Orbital fracture: History of trauma. Positive forced duction test. See 3.9, Orbital Blowout Fracture.; Skew deviation: The three-step test does not isolate a particular muscle. Rule out a posterior fossa or brainstem lesion with neuroimaging. See 10.13, Internuclear Ophthalmoplegia.; Incomplete third cranial nerve palsy: Inability to look down and in, usually with adduction weakness. Intorsion on attempted downgaze. Three-step test does not isolate the superior oblique. See 10.5, Isolated Third Cranial Nerve Palsy.; Brown syndrome: Limitation of elevation in adduction due to restriction of superior oblique tendon. May be congenital or acquired (e.g., trauma",
+      "eye drops (including anesthetic drops) for accurate results.; Determine the duration of the Horner syndrome from the patient’s history and an examination of old photographs. New-onset Horner syndrome requires a more urgent diagnostic workup to exclude life-threatening etiologies (e.g., internal carotid artery dissection, which can present with transient visual loss, head/neck/face pain, pulsatile tinnitus, or dysgeusia [foul taste in the mouth]). An old Horner syndrome is more likely to be benign.; History: Headaches? Arm pain? Previous stroke? Previous surgery that may have damaged the sympathetic chain, including cardiac, thoracic, thyroid, or neck surgery? History of head or neck trauma",
+      "eye is normal in size. May be bilateral, unilateral, or multifocal. Diagnosis is usually made in patients under 5 years of age, with a mean age of 18 months. A family history may be elicited in about 10%.; Toxocariasis: A nematode infection that may appear as a localized, white, elevated granuloma in the retina or as a diffuse endophthalmitis. Associated with localized inflammation of ocular structures, vitreous traction bands and related macular dragging, traction retinal detachment, and cataract. It is rarely bilateral and is usually diagnosed between 6 months and 10 years of age but may present in adults as well. Paracentesis of the anterior chamber may reveal eosinophils; serum enzyme-linked immunosorbent assay (ELISA) test for Toxocara organisms is positive. The patient may have a history of contact with puppies or of eating dirt. Toxocariasis may also be acquired prenatally and present as a congenital infection.; Coats disease (see Figure 8.1.2): A retinal vascular abnormality resulting in microaneurysms and macroaneurysms of the retinal vessels, usually in the inferotemporal periphery. Xanthocoria may develop secondary to an exudative, often bullous retinal detachment associated with yellow-colored, lipid-rich subretinal fluid or to extensive, yellow intraretinal and subretinal exudate. Usually develops in boys during the first decade of life; more severe cases occur in early childhood. Coats disease is rarely bilateral. No family history.; Persistent fetal vasculature (PFV) (previously known as persistent hyperplastic primary vitreous): A developmental ocular abnormality with failure of regression of the fetal hyaloid complex, often with a fibrovascular stalk from the optic nerve to lens and anterior segment. May only present with anterior or posterior findings. It is usually associated with a small eye. Typically there is a membrane behind the lens that places inward traction on elongated ciliary processes. A cataract is noted at birth or early in life. The membrane and lens may rotate anteriorly, shallowing the anterior chamber and resulting in secondary glaucoma. Traction retinal detachment can occur. Usually unilateral. No family history or other risk factors.; Pediatric cataract: Opacity of the lens present at birth or in first months of life; may be unilateral or bilateral. There may be a family history or an associated systemic disorder. See 8.8, Pediatric Cataract.; Retinal astrocytoma: A sessile to slightly elevated, yellow-white retinal mass that may be calcified and is often associated with tuberous sclerosis complex and rarely neurofibromatosis. May occur on the optic nerve head (giant drusen) in patients with tuberous sclerosis.; Retinopathy of prematurity (ROP): Predominantly occurs in premature children. Leukocoria is usually the result of a retinal detachment. See 8.2, Retinopathy of Prematurity.; Others: Retinal detachment, retinochoroidal coloboma, familial exudative vitreoretinopathy (FEVR), myelinated nerve fibers, uveitis, toxoplasmosis, trauma",
+      "eye is typically not injected although may be associated with inflammatory signs and symptoms secondary to epithelial breakdown and inflammatory or infectious infiltrates. A yellow line (lipid) may appear, with a fine pannus along the central edge of the thinning. The thinning may slowly spread circumferentially. Refractive changes, including irregular and against-the-rule astigmatism are often present. The epithelium usually remains intact, but perforation may occur with minor trauma",
+      "eye is uninvolved. See 9.12, Lens-Related Glaucoma.; Sarcoidosis: Often associated systemic symptoms involving the lungs or skin, elevated ACE level, or characteristic pulmonary changes on chest CT. May cause a bilateral granulomatous panuveitis. See 12.6, Sarcoidosis.; Syphilis: Positive treponemal and reflex nontreponemal testing. May cause bilateral granulomatous panuveitis. See 12.12, Syphilis.; Tuberculosis: Positive PPD or IGRA with possible characteristic findings on CXR or chest CT. May cause bilateral granulomatous panuveitis.; Multifocal choroiditis with panuveitis: Usually bilateral, with no history of trauma"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "History of significant blunt or penetrating trauma to eye or orbit",
+    "first_aid": "Shield eye if open globe suspected. Do NOT apply pressure. Immediate ER referral.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate to hours",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 14: Imaging Modalities in Ophthalmology"
+    ],
+    "source_sections": [
+      "Conjunctiva/Sclera/Iris/External Disease",
+      "Cornea",
+      "Differential Diagnosis of Ocular Signs",
+      "Differential Diagnosis of Ocular Symptoms",
+      "Eyelid",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Imaging Modalities in Ophthalmology",
+      "Neuro-ophthalmology",
+      "Orbit"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_002",
+        "name": "Traumatic Microhyphema Or Hyphema",
+        "urgency_level": "urgent"
+      },
+      {
+        "entity_id": "disease_003",
+        "name": "Traumatic Corneal Abrasion",
+        "urgency_level": "urgent"
+      },
+      {
+        "entity_id": "disease_009",
+        "name": "Herpetic Keratouveitis",
+        "urgency_level": "urgent"
+      },
+      {
+        "entity_id": "disease_011",
+        "name": "Orbital Edema And Hemorrhage With Or Without A Blowout Fracture",
+        "urgency_level": "urgent"
+      },
+      {
+        "entity_id": "disease_012",
+        "name": "Cranial Nerve Palsy",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 105,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_retinal_detachment",
+    "condition": "Retinal Detachment",
+    "keywords": [
+      "Retinal Detachment",
+      "Retinal Detachment and 11.25, Vitreomacular Adhesion (VMA)/Vitreomacular Traction (VMT)/Macular Hole.; Choroidal tumor, particularly choroidal hemangioma: See 11.36, Choroidal Nevus and Malignant Melanoma of the Choroid.; Hypertension: See 11.10, Hypertensive Retinopathy.; Pigment epithelial detachment",
+      "Retinal and optic disc examination if possible. Otherwise, B-scan US before cataract extraction to rule out intraocular tumor or retinal detachment",
+      "Retinal break: Commonly superior in cases of dense VH. This may be demonstrated by scleral depression and, if poor view, B-scan US. See 11.2, Retinal Break.; RD: May be diagnosed by B-scan US if the retina cannot be viewed on clinical examination. See 11.3, Retinal Detachment",
+      "Retinal detachment: Often produces a low-grade anterior chamber reaction. See 11.3, Retinal Detachment",
+      "Retinal detachment: Retina elevated associated with retinal break or dialysis. See 11.3, Retinal Detachment",
+      "Retinal diseases, including macular edema, macular atrophy, CSCR, AMD, CNV, CME, retinal detachment, PED, retinal tumors, drusen, and hard exudates.; Vitreoretinal interface abnormalities, including macular holes, cysts, epiretinal membranes, subhyaloid hemorrhage, and vitreoretinal strands or traction.; Suspected glaucoma, including quantification of the nerve fiber layer thickness, macular thickness, and optic nerve cup characteristics.; Suspected optic neuritis, other optic neuropathies, optic nerve drusen, disc edema, and multiple sclerosis.; Anterior segment pathology, such as Descemet detachment",
+      "curtain or shadow anywhere in the field of vision",
+      "curtain or shadow moving over the field of vision",
+      "curtain, shadow, or bubble anywhere in the field of vision",
+      "detached retina",
+      "retinal and/or choroidal pathology.; Diagnosis of scleral rupture posterior to the muscle insertions or when media opacities prevent direct visualization.; Identify intraocular foreign bodies especially if made of metal or glass (spherical objects have a specific echo shadow); wood or vegetable matter has variable echogenicity; can also give a more precise location if the foreign body is next to the scleral wall.; Evaluation of intraocular tumor/mass consistency and vascularity, retinal detachment, choroidal detachment",
+      "retinal artery or vein occlusion; less commonly, a lesion of the optic chiasm or tract; extensive retinal detachment or retinoschisis.; Mild (trace to 1+): Any of the preceding, amblyopia, dense vitreous hemorrhage, advanced macular degeneration, branch retinal vein or artery occlusion, less extensive retinal detachment",
+      "retinal barrier and accumulates subretinally, intraretinally, or preretinally. Hyperfluorescence increases in size and brightness as study progresses (e.g., choroidal or retinal neovascularization, central serous chorioretinopathy [CSCR], cystoid macular edema [CME]).; Staining: Mild fluorescence appears in the late phase while its borders remain fixed (e.g., scar).; Pooling: Accumulation of fluorescein in fluid-filled space in retina or choroid. The margins of the space trapping fluorescein are distinct (e.g., pigment epithelial detachment",
+      "retinal break or detachment in the fellow eye, family history of retinal break or detachment",
+      "retinal breaks or detachment",
+      "retinal degeneration and are thus predisposed to retinal detachment",
+      "retinal detachment",
+      "retinal detachment (exophytic), or as a diffusely spreading lesion simulating uveitis (diffuse infiltrating). Iris neovascularization is common with large tumors. Aqueous and vitreous seeding may occur. Cataract is uncommon, and the eye is normal in size. May be bilateral, unilateral, or multifocal. Diagnosis is usually made in patients under 5 years of age, with a mean age of 18 months. A family history may be elicited in about 10%.; Toxocariasis: A nematode infection that may appear as a localized, white, elevated granuloma in the retina or as a diffuse endophthalmitis. Associated with localized inflammation of ocular structures, vitreous traction bands and related macular dragging, traction retinal detachment, and cataract. It is rarely bilateral and is usually diagnosed between 6 months and 10 years of age but may present in adults as well. Paracentesis of the anterior chamber may reveal eosinophils; serum enzyme-linked immunosorbent assay (ELISA) test for Toxocara organisms is positive. The patient may have a history of contact with puppies or of eating dirt. Toxocariasis may also be acquired prenatally and present as a congenital infection.; Coats disease (see Figure 8.1.2): A retinal vascular abnormality resulting in microaneurysms and macroaneurysms of the retinal vessels, usually in the inferotemporal periphery. Xanthocoria may develop secondary to an exudative, often bullous retinal detachment associated with yellow-colored, lipid-rich subretinal fluid or to extensive, yellow intraretinal and subretinal exudate. Usually develops in boys during the first decade of life; more severe cases occur in early childhood. Coats disease is rarely bilateral. No family history.; Persistent fetal vasculature (PFV) (previously known as persistent hyperplastic primary vitreous): A developmental ocular abnormality with failure of regression of the fetal hyaloid complex, often with a fibrovascular stalk from the optic nerve to lens and anterior segment. May only present with anterior or posterior findings. It is usually associated with a small eye. Typically there is a membrane behind the lens that places inward traction on elongated ciliary processes. A cataract is noted at birth or early in life. The membrane and lens may rotate anteriorly, shallowing the anterior chamber and resulting in secondary glaucoma. Traction retinal detachment can occur. Usually unilateral. No family history or other risk factors.; Pediatric cataract: Opacity of the lens present at birth or in first months of life; may be unilateral or bilateral. There may be a family history or an associated systemic disorder. See 8.8, Pediatric Cataract.; Retinal astrocytoma: A sessile to slightly elevated, yellow-white retinal mass that may be calcified and is often associated with tuberous sclerosis complex and rarely neurofibromatosis. May occur on the optic nerve head (giant drusen) in patients with tuberous sclerosis.; Retinopathy of prematurity (ROP): Predominantly occurs in premature children. Leukocoria is usually the result of a retinal detachment. See 8.2, Retinopathy of Prematurity.; Others: Retinal detachment",
+      "retinal detachment is found, repair may resolve hypotony.; Resolve causes of hypotony (e.g., repair wound leak, treat uveitis or ciliochoroidal detachment). If retinal detachment",
+      "retinal detachment versus posterior vitreous detachment",
+      "retinal detachment, choroidal detachment, and ciliary body detachment",
+      "retinal detachment, disc swelling, retinal hemorrhage, choroidal folds, choroidal detachment",
+      "retinal detachment. Autosomal dominant with cardiomyopathy, aortic aneurysm, aortic dissection, tall stature with long extremities, and kyphoscoliosis.; Homocystinuria: Bilateral lens subluxation, classically inferonasally. Increased risk of retinal detachment",
+      "retinal detachment.; Stage 4B: Fovea-involving partial retinal detachment.; Stage 5: Total retinal detachment",
+      "retinal detachment.; When the fundus cannot be adequately visualized, B-scan US of the posterior segment is required to rule out an intraocular tumor, retinal, choroidal, or ciliary body detachment",
+      "retinal detachment: May produce an AC reaction or demonstrate pigment in the anterior vitreous. See 11.3, Retinal Detachment",
+      "retinal dialysis and detachment",
+      "retinal examination because of increased incidence of lattice degeneration and retinal detachment",
+      "retinal examination is essential in determining the etiology and for disc evaluation.; Fluorescein angiography as needed to identify an underlying retinal abnormality or in preparation for panretinal photocoagulation (PRP).; Carotid Doppler studies to rule out stenosis when no retinal etiology is identified.; B-scan US is indicated when the retina cannot be visualized to rule out an intraocular tumor or retinal detachment"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Patient reports new floaters, flashes of light, or curtain/shadow in vision",
+    "first_aid": "Position patient upright or with detachment dependent. Immediate ER/ophthalmology referral.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate to hours",
+    "source_chapters": [
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 14: Imaging Modalities in Ophthalmology",
+      "Chapter 1: Differential Diagnosis of Ocular Symptoms"
+    ],
+    "source_sections": [
+      "Conjunctiva/Sclera/Iris/External Disease",
+      "Cornea",
+      "Differential Diagnosis of Ocular Signs",
+      "Differential Diagnosis of Ocular Symptoms",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Imaging Modalities in Ophthalmology",
+      "Orbit",
+      "Pediatrics",
+      "Retina"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_004",
+        "name": "Traumatic Retinal Detachment",
+        "urgency_level": "urgent"
+      },
+      {
+        "entity_id": "disease_031",
+        "name": "Retinal Detachment",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_032",
+        "name": "Retinal Artery Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_041",
+        "name": "Central Retinal Vein Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_042",
+        "name": "Central Retinal Artery Occlusion",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 76,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_acute_angle_closure_glaucoma",
+    "condition": "Acute Angle Closure Glaucoma",
+    "keywords": [
+      "Acute Angle Closure",
+      "Acute Angle Closure Glaucoma",
+      "Acute Angle Closure Glaucoma.; A laser PI is performed within 1 to 3 days if the angle closure attack can be broken medically. If the attack cannot be controlled, a laser or surgical PI may need to be done as an emergency procedure. Consider a laser iridoplasty to break an acute attack not responsive to medical treatment and PI.; One week after the laser PI, gonioscopy should be repeated prior to dilating the eye with a weak mydriatic (e.g., tropicamide 0.5%). If the IOP increases or a spontaneous angle closure",
+      "Acute Angle Closure Glaucoma.; Suprachoroidal hemorrhage.; UGH syndrome. See 9.16.3, Uveitis, Glaucoma, Hyphema Syndrome.; Aqueous misdirection syndrome (malignant glaucoma): When cycloplegics are stopped. See 9.17, Aqueous Misdirection Syndrome/Malignant Glaucoma.; Steroid-induced glaucoma. See 9.9, Steroid-Response Glaucoma",
+      "Acute Angle Closure Glaucoma; or 9.14, Neovascular Glaucoma, depending on the etiology of the glaucoma",
+      "Acute Conjunctivitis.; Congenital anomalies of the upper lacrimal drainage system: Atresia of the lacrimal puncta or canaliculus.; Dacryocele: Bluish, cystic, firm mass located just below the medial canthal angle. Caused by both distal and proximal obstruction of the nasolacrimal apparatus. Most often presents within the first week of life.; Congenital glaucoma: Classic findings are tearing, blepharospasm, corneal clouding, and a large eye (buphthalmos). See 8.11, Congenital/Infantile Glaucoma",
+      "Acute Retinal Necrosis). Infectious disease and neurologic consultation to rule out central nervous system involvement should be considered. Patients with severe disease can develop a large vessel cranial arteritis resulting in a massive cerebrovascular accident.; Increased IOP: May be steroid response or secondary to inflammation. If uveitis is present, increase the frequency of the steroid administration for a few days and use topical aqueous suppressants (e.g., timolol 0.5% daily or b.i.d., brimonidine 0.2% t.i.d., or dorzolamide 2% t.i.d.; see 9.7, Inflammatory Open Angle Glaucoma, and 9.9, Steroid-Response Glaucoma",
+      "Acute angle closure glaucoma associated with pupillary block: The central anterior chamber depth is decreased, but more pronounced peripheral shallowing with iris bombé, giving the iris a convex appearance. See 9.4, Acute Angle Closure Glaucoma.; Aqueous misdirection syndrome: Marked diffuse shallowing of the anterior chamber both centrally and peripherally, often after cataract extraction or glaucoma surgery. See 9.17, Aqueous Misdirection Syndrome/Malignant Glaucoma.; For other disorders, see 9.4, Acute Angle Closure",
+      "Acute angle closure glaucoma associated with pupillary block: The central anterior chamber depth is decreased, but more pronounced peripheral shallowing with iris bombé, giving the iris a convex appearance. See 9.4, Acute Angle Closure Glaucoma.; Aqueous misdirection syndrome: Marked diffuse shallowing of the anterior chamber both centrally and peripherally, often after cataract extraction or glaucoma surgery. See 9.17, Aqueous Misdirection Syndrome/Malignant Glaucoma.; For other disorders, see 9.4, Acute Angle Closure Glaucoma",
+      "Acute angle closure glaucoma. See 9.4, Acute Angle Closure",
+      "Acute angle closure glaucoma. See 9.4, Acute Angle Closure Glaucoma.; Lens particle glaucoma. See 9.12.2, Lens Particle Glaucoma.; Endophthalmitis. See 12.13, Postoperative Endophthalmitis.; Glaucoma secondary to intraocular tumor: May have unilateral cataract.; Others: Traumatic glaucoma, ghost cell glaucoma, phacomorphic glaucoma, phacoantigenic (formerly phacoanaphylaxis) glaucoma, neovascular glaucoma",
+      "Acute angle closure glaucoma: Decreased vision, painful eye, fixed mid-dilated pupil, and high intraocular pressure. See 9.4, Acute Angle Closure",
+      "Acute angle closure glaucoma: Decreased vision, painful eye, fixed mid-dilated pupil, and high intraocular pressure. See 9.4, Acute Angle Closure Glaucoma",
+      "Acute angle closure glaucoma: May have glaukomflecken. See 9.4, Acute Angle Closure",
+      "Acute angle closure glaucoma: May have glaukomflecken. See 9.4, Acute Angle Closure Glaucoma",
+      "Acute angle closure glaucoma: See 9.4, Acute Angle Closure",
+      "Acute angle closure glaucoma: See 9.4, Acute Angle Closure Glaucoma",
+      "Acute angle-­closure",
+      "Acute angle-­closure glaucoma, inflammatory open angle glaucoma, malignant glaucoma",
+      "Acute disease: Every 3 to 7 days initially, and then every 2 to 4 weeks. The frequency of steroid administration is slowly reduced as the inflammation subsides over the course of months (may take years). IOP is monitored closely and reduced with medications based on the degree of IOP elevation and overall health of the optic nerve (see 9.7, Inflammatory Open Angle Glaucoma",
+      "Acute increase in IOP, often after exercise or pupillary dilation, with pigmented cells in the anterior chamber. See 9.10, Pigment Dispersion Syndrome/Pigmentary Glaucoma.; Neovascular glaucoma: Abnormal blood vessels along the pupillary margin, the TM, or both. See 9.14, Neovascular Glaucoma",
+      "Acute increase in IOP, often after exercise or pupillary dilation; pigmented cells in the anterior chamber; 3+ to 4+ trabecular pigmentation; often endopigment in the form of a Krukenberg spindle. Radial iris TIDs are common. See 9.10, Pigment Dispersion Syndrome/Pigmentary Glaucoma.; Neovascular glaucoma. Nonradial, misdirected blood vessels along the pupillary margin, the TM, or both. See 9.14, Neovascular Glaucoma.; Pseudoexfoliation syndrome: Open angle. Grayish-white flaky material deposited throughout anterior segment structures. Classically in patients of European descent, but not always. Occasionally exfoliative material on cornea can be mistaken for KP. Deposits are more angular, less round than inflammatory KP. See 9.11, Pseudoexfoliation Syndrome/Exfoliative Glaucoma",
+      "Acute iridocyclitis flare: HLA-B27-associated and herpetic uveitis flares can be triggered by surgical trauma.; Infectious endophthalmitis: Deteriorating vision, pain, fibrin, or hypopyon in the anterior chamber, vitritis. See 12.13, Postoperative Endophthalmitis.; Retained lens material: A severe granulomatous inflammation with mutton-fat KP, resulting from an hypersensitivity reaction to lens protein exposed during surgery and may result in elevated IOP. See 9.12, Lens-Related Glaucoma",
+      "Acute onset, but similar ocular involvement as ocular pemphigoid. Often precipitated by drugs (e.g., sulfa, penicillin, other antibiotics, phenytoin) or infections (e.g., herpes and mycoplasma). See 13.6, Stevens–Johnson Syndrome (Erythema Multiforme Major).; History of membranous conjunctivitis with scarring: Usually adenovirus or beta-hemolytic Streptococcus. See 5.1, Acute Conjunctivitis and 5.2, Chronic Conjunctivitis.; Severe chemical burns. See 3.1, Chemical Burn.; Chronic topical medicine: Examples include glaucoma",
+      "Angle Closure Glaucoma",
+      "Angle Closure Glaucoma.; Suprachoroidal hemorrhage.; UGH syndrome. See 9.16.3, Uveitis, Glaucoma, Hyphema Syndrome.; Aqueous misdirection syndrome (malignant glaucoma): When cycloplegics are stopped. See 9.17, Aqueous Misdirection Syndrome/Malignant Glaucoma.; Steroid-induced glaucoma. See 9.9, Steroid-Response Glaucoma",
+      "Angle Glaucoma and 9.4, Acute Angle Closure Glaucoma",
+      "Angle Glaucoma.; Glaucomatocyclitic crisis. See 9.8, Glaucomatocyclitic Crisis/Posner–Schlossman Syndrome.; Acute angle closure glaucoma. See 9.4, Acute Angle Closure Glaucoma.; Lens particle glaucoma. See 9.12.2, Lens Particle Glaucoma.; Endophthalmitis. See 12.13, Postoperative Endophthalmitis.; Glaucoma secondary to intraocular tumor: May have unilateral cataract.; Others: Traumatic glaucoma, ghost cell glaucoma, phacomorphic glaucoma, phacoantigenic (formerly phacoanaphylaxis) glaucoma, neovascular glaucoma",
+      "Angle Glaucoma.; Secondary open-angle glaucoma. See 9.1, Primary Open-Angle Glaucoma.; CACG: PAS are present on gonioscopy with glaucomatous optic nerve and visual field changes. See 9.5, Chronic Angle Closure Glaucoma",
+      "Angle Glaucoma.; Shock-related optic neuropathy from previous episode of systemic hypotension (e.g., acute blood loss, myocardial infarction, coronary artery bypass surgery, arrhythmia). Visual field loss should not progress.; Intermittent IOP elevation (e.g., angle closure glaucoma, glaucomatocyclitic crisis).; Previous glaucomatous insult with severe IOP elevation that has subsequently resolved. Nonprogressive (e.g., traumatic glaucoma, steroid-induced glaucoma).; Nonglaucomatous optic neuropathy and others. See Differential Diagnosis in 9.1, Primary Open-Angle Glaucoma"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Severe eye pain with nausea, vomiting, and halos around lights",
+    "first_aid": "No specific first aid. Immediate ER referral for pressure reduction.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 1: Differential Diagnosis of Ocular Symptoms",
+      "Chapter 2: Differential Diagnosis of Ocular Signs"
+    ],
+    "source_sections": [
+      "Conjunctiva/Sclera/Iris/External Disease",
+      "Cornea",
+      "Differential Diagnosis of Ocular Signs",
+      "Differential Diagnosis of Ocular Symptoms",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Neuro-ophthalmology",
+      "Pediatrics",
+      "Trauma",
+      "Uveitis"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_041",
+        "name": "Central Retinal Vein Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_054",
+        "name": "Dry Eye Syndrome",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_058",
+        "name": "Blepharitis",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_061",
+        "name": "Conjunctivitis",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_064",
+        "name": "Trauma",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 56,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_chemical_burn",
+    "condition": "Chemical Burn",
+    "keywords": [
+      "Chemical burn (see 3.1, Chemical Burn",
+      "Chemical burn.; If extensive facial or skull fractures exist, comanagement with neurosurgery, otolaryngology, or oromaxillofacial surgery may be needed. Delayed reconstructive procedures are often necessary.; Comanage with internal medicine or dermatology if periocular or facial burns exist. The patient may require care in a burn",
+      "Chemical exposure? Prior episodes? Use of protective eyewear?; Slit lamp examination: Use fluorescein stain. Evert the eyelids to search for a foreign body.; If chemical exposure",
+      "Chemical exposure? Prior episodes? Use of protective eyewear?; Slit lamp examination: Use fluorescein stain. Evert the eyelids to search for a foreign body.; If chemical exposure suspected, check pH of tear lake in upper and lower conjunctival fornices. If not neutral (6.8 to 7.5), treat as chemical burn. See 3.1, Chemical Burn",
+      "Chemical exposure? Smoking history? Topical medications?; Prior to anesthetic instillation, test corneal sensation bilaterally with a sterile cotton wisp.; Slit lamp examination with fluorescein staining of cornea and conjunctiva.; Check the skin for herpetic lesions or scars from a previous herpes zoster infection.; Look for signs of a corneal exposure",
+      "Chemical injury or exposure",
+      "Chemical or ultraviolet light exposure",
+      "alkali from fireworks). See 3.1, Chemical Burn.; Multiple or loose superficial foreign bodies can often be removed with saline irrigation.; A foreign body can be removed with a cotton-tipped applicator soaked in topical anesthetic or with fine forceps. For deeply embedded foreign bodies, consider pretreatment with a cotton-tipped applicator soaked in phenylephrine 2.5% to reduce conjunctival bleeding.; Small, relatively inaccessible, buried subconjunctival foreign bodies may sometimes be left in the eye without harm unless they are infectious or proinflammatory. Occasionally, they will surface with time, at which point they may be removed more easily. Conjunctival excision is sometimes indicated.; Check the pH if an associated chemical injury is suspected (e.g., alkali from fireworks). See 3.1, Chemical Burn",
+      "caustic",
+      "chemical (e.g., solvents, alcohol) or drug (e.g., neomycin, gentamicin, antiviral agents, anesthetic drops).; Thermal burn",
+      "chemical burn",
+      "chemical burn, or CN VII palsy?; External examination: Check orbicularis oculi function and assess horizontal eyelid laxity and punctal location. Look for an eyelid tumor, scarring, herniated orbital fat, and so on. If there is concomitant CN VII palsy and CN VIII deficit (hearing loss), consider CT or MRI brain to rule out acoustic neuroma.; Slit lamp examination: Evaluate for exposure",
+      "chemical burns. See 3.1, Chemical Burn",
+      "chemical injury is suspected (e.g., alkali from fireworks). See 3.1, Chemical Burn.; Multiple or loose superficial foreign bodies can often be removed with saline irrigation.; A foreign body can be removed with a cotton-tipped applicator soaked in topical anesthetic or with fine forceps. For deeply embedded foreign bodies, consider pretreatment with a cotton-tipped applicator soaked in phenylephrine 2.5% to reduce conjunctival bleeding.; Small, relatively inaccessible, buried subconjunctival foreign bodies may sometimes be left in the eye without harm unless they are infectious or proinflammatory. Occasionally, they will surface with time, at which point they may be removed more easily. Conjunctival excision is sometimes indicated.; Check the pH if an associated chemical injury is suspected (e.g., alkali from fireworks). See 3.1, Chemical Burn",
+      "chemical injury is suspected. See 3.1, Chemical Burn",
+      "chemical injury, ultraviolet burn), trauma, anterior uveitis, scleritis, endophthalmitis, acute angle-closure glaucoma.; Typically mild to moderate: Dry eye syndrome, blepharitis, infectious conjunctivitis, episcleritis, inflamed pinguecula or pterygium, foreign body (corneal or conjunctival), superficial punctate keratopathy, superior limbic keratoconjunctivitis, ocular medication toxicity, contact lens–related problem, postoperative, ocular ischemic syndrome, eye strain from uncorrected refractive error (asthenopia).; Typically moderate to severe: Corneal disorder (e.g., abrasion, erosion, infiltrate/ulcer, chemical injury, ultraviolet burn",
+      "chemical injury: See 3.1, Chemical Burn",
+      "chemical, allergic, atopic, vernal, medication toxicity), subconjunctival hemorrhage, inflamed pinguecula, superior limbic keratoconjunctivitis, giant papillary conjunctivitis, conjunctival foreign body, symblepharon and associated etiologies (e.g., mucous membrane pemphigoid, Stevens–Johnson syndrome, toxic epidermal necrolysis), conjunctival neoplasia.; Corneal causes: Infectious or inflammatory keratitis, contact lens–related problems (see 4.20, Contact Lens–Related Problems), corneal foreign body, recurrent corneal erosion, pterygium, neurotrophic keratopathy, medicamentosa, chemical or ultraviolet burn",
+      "chemical? Time from exposure"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Patient reports chemical substance contact with eye (acid, alkali, cleaners)",
+    "first_aid": "Immediate and copious irrigation with water or saline for 15-30 minutes. Begin BEFORE transport to ER.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate",
+    "source_chapters": [
+      "Chapter 1: Differential Diagnosis of Ocular Symptoms",
+      "Chapter 3: Trauma",
+      "Chapter 4: Cornea",
+      "Chapter 5: Conjunctiva/Sclera/Iris/External Disease",
+      "Chapter 6: Eyelid"
+    ],
+    "source_sections": [
+      "Conjunctiva/Sclera/Iris/External Disease",
+      "Cornea",
+      "Differential Diagnosis of Ocular Symptoms",
+      "Eyelid",
+      "Trauma"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_054",
+        "name": "Dry Eye Syndrome",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_055",
+        "name": "Neurotrophic Keratopathy",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_058",
+        "name": "Blepharitis",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_061",
+        "name": "Conjunctivitis",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_064",
+        "name": "Trauma",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 19,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_endophthalmitis",
+    "condition": "Endophthalmitis",
+    "keywords": [
+      "Endophthalmitis",
+      "Intraocular Foreign Body, for inert foreign bodies), they may be left and watched closely. If the patient is symptomatic or if signs of infection",
+      "endophthalmitis",
+      "intraocular foreign body in traumatic endophthalmitis is paramount in controlling the infection. See 3.15, Intraocular Foreign Body.; Intravitreal antibiotics (e.g., ceftazidime 2.2 mg in 0.1 mL and vancomycin 1 mg in 0.1 mL; clindamycin 1 mg in 0.1 mL or amikacin 0.4 mg in 0.1 mL may also be considered for anaerobic coverage, especially if high concern for Bacillus, intraocular foreign body, or when there is a penicillin allergy). Intravitreal aminoglycosides should be used with caution, given their potential risk of macular infarction. These medications may be repeated every 48 to 72 hours as needed. See Appendix 12, Intravitreal Antibiotics.; Systemic antibiotics (e.g., ciprofloxacin 400 mg i.v. q12h or moxifloxacin 400 mg p.o. or i.v. daily; and cefazolin 1 g i.v. q8h). Consider an infectious disease consult for guidance in specific cases. May need to adjust dose for renal insufficiency and for children.; The benefit of pars plana vitrectomy is unknown for traumatic endophthalmitis without IOFB. However, pars plana vitrectomy reduces the overall infectious and inflammatory burden and provides sufficient material for diagnostic culture and pathologic investigation.; Give tetanus toxoid 0.5 mL intramuscularly if immunization is not up-to-date. See Appendix 2, Tetanus Prophylaxis.; Steroids are typically not used until fungal organisms are ruled out, although recent reports have demonstrated that topical steroids may not be as deleterious as previously thought. Topical and oral steroids may be used at the discretion of the physician to control postinfection inflammation once the infection",
+      "intraocular infection",
+      "postoperative endophthalmitis, as described previously, but do not start steroids.; Immediate pars plana vitrectomy is beneficial if visual acuity on presentation is light perception within 6 weeks after cataract surgery. Prompt vitrectomy for endophthalmitis due to other procedures has not been studied in a large randomized trial.; If a fungal infection"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Severe eye pain and vision loss following eye surgery or penetrating injury",
+    "first_aid": "No specific first aid. Immediate ER/ophthalmology referral.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate to hours",
+    "source_chapters": [
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 1: Differential Diagnosis of Ocular Symptoms",
+      "Chapter 2: Differential Diagnosis of Ocular Signs"
+    ],
+    "source_sections": [
+      "Cornea",
+      "Differential Diagnosis of Ocular Signs",
+      "Differential Diagnosis of Ocular Symptoms",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Orbit",
+      "Pediatrics",
+      "Retina",
+      "Trauma",
+      "Uveitis"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_064",
+        "name": "Trauma",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_116",
+        "name": "Fungal",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_182",
+        "name": "Traumatic",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_191",
+        "name": "Infectious",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_276",
+        "name": "Inflammatory",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 42,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_orbital_cellulitis",
+    "condition": "Orbital Cellulitis",
+    "keywords": [
+      "Orbital Cellulitis",
+      "Orbital Cellulitis, for alternative treatment. In complicated cases or patients with multiple allergies, consider consultation with an infectious disease specialist for antibiotic management.; Warm compresses to the inflamed area t.i.d. p.r.n.; Polymyxin B/bacitracin ointment to the eye q.i.d. if secondary conjunctivitis is present.; Tetanus toxoid if needed. (See Appendix 2, Tetanus Prophylaxis).; Nasal decongestants if sinusitis is present.; Orbital exploration and debridement are warranted if a fluctuant mass or abscess is present, or if a retained foreign body is suspected. Obtain Gram stain and culture of any drainage to guide antibiotic coverage. Avoid the orbital septum if possible. A drain may need to be placed.; Consider an infectious disease consult for patients who have failed oral antibiotics and require i.v. treatment.; Consider systemic steroids. As with orbital cellulitis, preseptal cellulitis will improve with proper antibiotic treatment of bacteria and surgical treatment of any nidus. In some cases, the inflammatory cascade caused by the infection is significant and may be slow to resolve. This may improve more quickly with a short course of steroids during or after antibiotic treatment for the infection",
+      "Orbital Cellulitis.; The antibiotic regimen is adjusted according to the clinical response and culture/sensitivity test results. I.V. antibiotics can be changed to comparable p.o. antibiotics depending on the rate of improvement, but systemic antibiotic therapy should be continued for at least a full 10- to 14-day course.; Topical antibiotic drops (e.g., trimethoprim/polymyxin B q.i.d.) may be used in addition to systemic therapy. Topical therapy alone is not adequate.; Apply warm compresses and gentle massage to the inner canthal region for 5 to 10 minutes q.i.d.; Administer pain medication (e.g., acetaminophen with or without codeine) p.r.n.; Consider incision and drainage of a pointing abscess.; Once infection",
+      "Orbital cellulitis",
+      "Orbital cellulitis from adjacent ethmoiditis: Most common cause of proptosis in children. It is of paramount importance to quickly rule out this etiology. See 7.3.1, Orbital Cellulitis.; Dermoid and epidermoid cysts: Manifest clinically from birth to young adulthood and enlarge slowly. Preseptal dermoid cysts may become symptomatic in childhood and are most commonly found in the temporal upper eyelid or brow, and less often in the medial upper eyelid. The palpable, smooth mass may be mobile or fixed to the periosteum. Posterior dermoids typically become symptomatic in adulthood and may cause proptosis or globe displacement. Dermoid cyst rupture may mimic orbital cellulitis",
+      "Orbital cellulitis or preseptal cellulitis: See 7.3.1, Orbital Cellulitis and 6.10, Preseptal Cellulitis",
+      "Orbital cellulitis: Fever, proptosis, chemosis, limitation, or pain with eye movement; also may follow trauma, but usually not as acutely. A rapidly expanding orbital abscess may result in OCS, and in such cases, the acute management is the same as that for orbital hemorrhage. See 7.3.1, Orbital Cellulitis",
+      "Orbital cellulitis: Fever, proptosis, chemosis, limitation, or pain with eye movement; also may follow trauma, but usually not as acutely. A rapidly expanding orbital abscess may result in OCS, and in such cases, the acute management is the same as that for orbital hemorrhage. See 7.3.1, Orbital Cellulitis.; Severe orbital emphysema (“tension pneumo-orbit”): Tight orbit, tight eyelids, crepitus, and decreased extraocular motility; may follow orbital fracture with or without nose blowing. See 3.9, Orbital Blowout Fracture.; Orbital fracture: Limited extraocular motility, enophthalmos, or proptosis may be present. See 3.9, Orbital Blowout Fracture.; Ruptured globe: Subconjunctival edema and hemorrhage may mask a ruptured globe. See 3.14, Ruptured Globe and Penetrating Ocular Injury.; High-flow (direct) carotid–cavernous fistula: May follow trauma either acutely or subacutely; most are spontaneous and nontraumatic. Pulsatile exophthalmos, ocular/brow bruit, corkscrew arterialized conjunctival vessels, chemosis, and increased IOP may be seen. Usually unilateral, although bilateral signs from a unilateral fistula may be seen occasionally. See 10.10, Cavernous Sinus and Associated Syndromes (Multiple Ocular Motor Nerve Palsies).; Varix: Increased proptosis with Valsalva maneuver. Not usually seen acutely after trauma, and in the vast majority of orbital varices, there is no history of trauma or surgery.; Lymphangioma: Usually in younger patients. May have acute proptosis, ecchymosis, and external ophthalmoplegia after minimal trauma or upper respiratory tract infection",
+      "Orbital cellulitis: Proptosis and limitation of ocular motility often accompany eyelid erythema and swelling. See 7.3.1, Orbital Cellulitis",
+      "Orbital cellulitis: Proptosis, pain with eye movement, restricted motility, and possible visual compromise. See 7.3.1, Orbital Cellulitis.; Chalazion: Focal inflammatory eyelid nodule. See 6.2, Chalazion/Hordeolum.; Allergic: Sudden onset, nontender, itchy, and swollen eyelids. See 5.11, Contact Dermatitis.; Erysipelas: Rapidly advancing streptococcal cellulitis",
+      "Orbital cellulitis: Proptosis, pain with eye movement, restricted motility, and possible visual compromise. See 7.3.1, Orbital Cellulitis.; Chalazion: Focal inflammatory eyelid nodule. See 6.2, Chalazion/Hordeolum.; Allergic: Sudden onset, nontender, itchy, and swollen eyelids. See 5.11, Contact Dermatitis.; Erysipelas: Rapidly advancing streptococcal cellulitis, often with a clear demarcation line, high fever, and chills.; Necrotizing fasciitis: Severe bacterial infection",
+      "Orbital color doppler imaging is a dynamic evaluation, distinct from the static images of CT, MRI, and MRA. It is quick, painless, non-invasive and may be diagnostic when the other imaging studies are unrevealing. For some ateriovenous malformations (AVMs) and CCFs, cerebral angiography is required for diagnosis, and often for treatment.; LP to rule out carcinomatous meningitis in patients with a history of primary carcinoma. More than one LP might be required in some cases.; Nasopharyngeal examination with or without a biopsy to rule out nasopharyngeal carcinoma or infectious process.; Lymph node biopsy when lymphadenopathy is present.; CBC with differential, ESR, ANA, rheumatoid factor to rule out infection",
+      "Orbital trauma, surgery, and varicella zoster virus infection",
+      "Orbital: Trauma, sinusitis, orbital cellulitis",
+      "Proptosis, pain with eye movement, restricted motility, and possible visual compromise. See 7.3.1, Orbital Cellulitis.; Chalazion: Focal inflammatory eyelid nodule. See 6.2, Chalazion/Hordeolum.; Allergic: Sudden onset, nontender, itchy, and swollen eyelids. See 5.11, Contact Dermatitis.; Erysipelas: Rapidly advancing streptococcal cellulitis, often with a clear demarcation line, high fever",
+      "orbital cellulitis",
+      "orbital cellulitis (see 7.3.1, Orbital Cellulitis",
+      "orbital cellulitis, though may be magnified in scale. Suspect a subperiosteal abscess (SPA) if a patient with orbital cellulitis",
+      "orbital disease, including TED and IOIS. In the early stages, often misdiagnosed as conjunctivitis, asymmetric glaucoma, etc. CT scan reveals enlarged superior ophthalmic vein(s), sometimes accompanied by enlarged extraocular muscles. An orbital color Doppler US shows reversed, arterialized flow in the superior ophthalmic vein(s). MRA or CTA may reveal AVF but a definitive diagnosis usually requires cerebral arteriography. Evidence of posterior cortical venous outflow on arteriography increases the risk of hemorrhagic stroke. Of note, posterior cortical venous outflow is more common in patients with bilateral orbital signs, but is seen in 10% of patients with unilateral presentation. Also remember that arteriography must be performed on both cerebral hemispheres and include the internal carotid, external carotid, and basilar arteries (“six vessel angio”). The cavernous sinuses are connected by the circular sinus and, on occasion, a carotid–cavernous fistula manifests clinically in the contralateral orbit.; Septic cavernous sinus thrombosis: Orbital cellulitis signs, plus dilated and sluggish pupils as well as palsies of the third, fourth, fifth, and/or sixth cranial nerves out of proportion to the degree of orbital edema. Decreasing level of consciousness, nausea, vomiting, and fevers can occur. May be bilateral with rapid progression. See 7.3.1, Orbital Cellulitis",
+      "orbital exenteration), plus irrigation of the involved areas with amphotericin B, is often necessary to eradicate the infection",
+      "orbital inflammatory foci (myositis, dacryoadenitis, etc.) may be part of idiopathic orbital inflammatory syndrome (IOIS) commonly known as orbital pseudotumor.; Orbital cellulitis",
+      "orbital inflammatory syndrome (IOIS), sarcoidosis, granulomatosis with polyangiitis (GPA, formerly Wegener granulomatosis), reactive inflammation from paranasal sinusitis, IgG4-related disease, etc.; Infectious: Orbital cellulitis",
+      "orbital inflammatory syndrome: Pain and proptosis are common. See 7.2.2, Idiopathic Orbital Inflammatory Syndrome.; Orbital trauma: Fracture causing medial rectus entrapment, positive forced duction testing. See 3.9, Orbital Blowout Fracture.; Duane syndrome, type 1: Congenital; narrowing of the palpebral fissure and retraction of the globe on adduction (usually no diplopia). See 8.6, Strabismus Syndromes.; Möbius syndrome: Congenital; bilateral facial paralysis present. See 8.6, Strabismus Syndromes.; Convergence spasm: Intermittent, variable episodes of convergence and miosis. May appear to have abduction deficit when assessing versions; however, ductions are full. Miotic pupils help to differentiate since pupils are not affected in an isolated sixth cranial nerve palsy.; Primary divergence insufficiency: Usually acquired and benign; esotropia and diplopia only at distance and single binocular vision at near. Symptoms may improve spontaneously without treatment or may be corrected with base-out prisms or surgery. If the history reveals sudden onset, trauma, infection",
+      "orbital mass, a skin hemangioma, or a temporal fossa lesion. Measure any proptosis (Hertel exophthalmometer) or globe displacement. Refer to a pediatrician for abdominal examination to rule out mass or organomegaly.; Complete ocular examination, including visual acuity, pupillary assessment, color vision, IOP, refraction, and optic nerve evaluation. Check the conjunctival cul-de-sacs carefully.; Urgent imaging with either CT (axial, coronal, and parasagittal views) or MRI (with gadolinium-DTPA and fat suppression) of brain and orbits to rule out infection",
+      "orbital mass, a skin hemangioma, or a temporal fossa lesion. Measure any proptosis (Hertel exophthalmometer) or globe displacement. Refer to a pediatrician for abdominal examination to rule out mass or organomegaly.; Complete ocular examination, including visual acuity, pupillary assessment, color vision, IOP, refraction, and optic nerve evaluation. Check the conjunctival cul-de-sacs carefully.; Urgent imaging with either CT (axial, coronal, and parasagittal views) or MRI (with gadolinium-DTPA and fat suppression) of brain and orbits to rule out infection or neoplasia.; If paranasal sinus opacification is noted in the clinical setting of orbital inflammation, consider immediate systemic antibiotic therapy (see 7.3.1, Orbital Cellulitis",
+      "orbital mass, abscess on CT scan).; Any organic or wooden foreign body (because of the high risk for infection",
+      "orbital or intraocular foreign body, orbital cellulitis",
+      "orbital process should be assumed to have metastatic disease unless proven otherwise.; Trauma: Orbital fracture, retrobulbar hemorrhage, orbital foreign body with or without secondary infection",
+      "orbital signs: Assess pupillary response, extraocular motility, globe position for proptosis, and other evidence of potentially concurrent orbital cellulitis",
+      "orbital study if ocular or orbital pathology is suspected. Always include views of paranasal sinuses and cavernous sinuses.; Order both direct axial and direct coronal views if older scanners are used. Newer, multidetector CT scanners provide excellent views in coronal and parasagittal planes with very short scan times and no patient repositioning. Multidetector CT has supplanted older technology in the vast majority of hospitals and imaging centers.; When evaluating traumatic optic neuropathy, request 1-mm cuts of the orbital apex and optic canal to rule out bony impingement of the optic nerve. See 3.11, Traumatic Optic Neuropathy.; When attempting to localize ocular or orbital foreign bodies, order 1-mm cuts.; Intravenous contrast may be necessary for suspected infections or inflammatory conditions. Contrast is helpful in distinguishing orbital cellulitis"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Proptosis, fever, eye pain, and limited eye movement",
+    "first_aid": "No specific first aid. Immediate ER referral for IV antibiotics.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 14: Imaging Modalities in Ophthalmology",
+      "Chapter 1: Differential Diagnosis of Ocular Symptoms",
+      "Chapter 3: Trauma",
+      "Chapter 5: Conjunctiva/Sclera/Iris/External Disease"
+    ],
+    "source_sections": [
+      "Conjunctiva/Sclera/Iris/External Disease",
+      "Differential Diagnosis of Ocular Symptoms",
+      "Eyelid",
+      "Imaging Modalities in Ophthalmology",
+      "Neuro-ophthalmology",
+      "Orbit",
+      "Trauma"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_012",
+        "name": "Cranial Nerve Palsy",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_014",
+        "name": "Orbital Cellulitis",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_015",
+        "name": "Severe Orbital Emphysema (“Tension Pneumo-Orbit”)",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_016",
+        "name": "Orbital Fracture",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_017",
+        "name": "Ruptured Globe",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 32,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_temporal_arteritis",
+    "condition": "Temporal Arteritis",
+    "keywords": [
+      "GCA",
+      "Giant Cell Arteritis",
+      "Giant Cell Arteritis).; Other collagen vascular disease: Systemic lupus erythematosus, polyarteritis",
+      "Giant cell arteritis",
+      "Giant cell arteritis (GCA): Age ≥55 years. Symptoms include vision loss, scalp tenderness, jaw claudication, proximal muscle aches, etc. See 10.17, Arteritic Ischemic Optic Neuropathy (Giant Cell Arteritis",
+      "giant cell arteritis",
+      "giant cell arteritis (GCA) is a consideration, check erythrocyte sedimentation rate, C-reactive protein, and platelets (see 10.17, Arteritic Ischemic Optic Neuropathy [Giant Cell Arteritis",
+      "jaw claudication",
+      "temporal arteries for tenderness, swelling, and hardness. Ask specifically about fever, jaw claudication, scalp tenderness, temporal headaches, and unexpected weight loss. Immediate ESR, CRP, and platelet count when GCA is suspected (see 10.17, Arteritic Ischemic Optic Neuropathy [Giant Cell Arteritis"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Vision loss in patient >50 with headache, jaw claudication, or scalp tenderness",
+    "first_aid": "No specific first aid. Immediate ER referral for high-dose steroids.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate to hours",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 14: Imaging Modalities in Ophthalmology"
+    ],
+    "source_sections": [
+      "Differential Diagnosis of Ocular Symptoms",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Imaging Modalities in Ophthalmology",
+      "Neuro-ophthalmology",
+      "Retina",
+      "Uveitis"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_279",
+        "name": "Vascular",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_285",
+        "name": "Ted",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_346",
+        "name": "Rop",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_482",
+        "name": "Gca",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_529",
+        "name": "Ischemic Optic Neuropathy",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 40,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_penetrating_trauma",
+    "condition": "Penetrating Trauma",
+    "keywords": [
+      "IOFB",
+      "Intraocular Foreign Body",
+      "Penetrating Ocular Injury",
+      "Penetrating Ocular Injury, 3.10, Traumatic Retrobulbar Hemorrhage, and 3.9, Orbital Blowout Fracture.; If the patient has recurrent subconjunctival hemorrhages or a history of bleeding problems, prothrombin time, activated partial thromboplastin time, complete blood count with differential and peripheral blood smear (to evaluate for thrombocytopenia or leukemia), liver function tests, and protein C and S should be obtained.; If orbital signs are present (proptosis, decreased extraocular motility, elevated IOP) in atraumatic cases, perform axial, coronal, and parasagittal imaging (computed tomography [CT], or magnetic resonance imaging [MRI]) of the orbits with and without contrast to evaluate for an orbital mass (e.g., neuroblastoma in children or lymphangioma in adults). In traumatic cases, image as appropriate based on clinical findings, mechanism of injury",
+      "Penetrating Ocular Injury, 3.10, Traumatic Retrobulbar Hemorrhage, and 3.9, Orbital Blowout Fracture.; If the patient has recurrent subconjunctival hemorrhages or a history of bleeding problems, prothrombin time, activated partial thromboplastin time, complete blood count with differential and peripheral blood smear (to evaluate for thrombocytopenia or leukemia), liver function tests, and protein C and S should be obtained.; If orbital signs are present (proptosis, decreased extraocular motility, elevated IOP) in atraumatic cases, perform axial, coronal, and parasagittal imaging (computed tomography [CT], or magnetic resonance imaging [MRI]) of the orbits with and without contrast to evaluate for an orbital mass (e.g., neuroblastoma in children or lymphangioma in adults). In traumatic cases, image as appropriate based on clinical findings, mechanism of injury, etc. (see Chapter 3, Trauma",
+      "Penetrating Ocular Injury.; Choroidal rupture: White or yellow crescent-shaped subretinal streak usually concentric to the optic nerve. No retinal break is present. Initially, retinal hemorrhage in the posterior pole may obscure a choroidal rupture, which subsequently becomes apparent as the blood clears. See 3.18, Traumatic Choroidal Rupture.; Optic nerve avulsion: Decreased vision with RAPD on examination and hemorrhagic depression or excavation of the optic disc if partial, or retraction of entire nerve if complete. Often associated with VH. No treatment is available, and visual prognosis depends on extent of injury",
+      "Penetrating Ocular Injury.; High-flow (direct) carotid–cavernous fistula: May follow trauma either acutely or subacutely; most are spontaneous and nontraumatic. Pulsatile exophthalmos, ocular/brow bruit, corkscrew arterialized conjunctival vessels, chemosis, and increased IOP may be seen. Usually unilateral, although bilateral signs from a unilateral fistula may be seen occasionally. See 10.10, Cavernous Sinus and Associated Syndromes (Multiple Ocular Motor Nerve Palsies).; Varix: Increased proptosis with Valsalva maneuver. Not usually seen acutely after trauma, and in the vast majority of orbital varices, there is no history of trauma or surgery.; Lymphangioma: Usually in younger patients. May have acute proptosis, ecchymosis, and external ophthalmoplegia after minimal trauma",
+      "Ruptured Globe",
+      "Ruptured globe",
+      "Ruptured globe at RK incision site after trauma. See 3.14, Ruptured Globe",
+      "Ruptured globe at RK incision: Requires surgical repair. See 3.14, Ruptured Globe",
+      "Ruptured globe: Severe subconjunctival hemorrhage and chemosis, often with deep or shallow AC; low IOP; and peaked, irregular pupil. See 3.14, Ruptured Globe",
+      "Ruptured globe: Subconjunctival edema and hemorrhage may mask a ruptured globe. See 3.14, Ruptured Globe",
+      "globe (see 3.14, Ruptured Globe and Penetrating Ocular Injury). Evaluate for other traumatic injuries. Document the extent (e.g., measure hyphema height) and location of any clot and blood. Measure the IOP. Perform a dilated retinal evaluation without scleral depression. Consider gentle B-scan ultrasound if the fundus view is poor. Avoid gonioscopy unless intractable increased IOP develops, but if necessary, perform gently. If the view is poor, consider UBM to better evaluate the anterior segment and look for possible lens capsule rupture",
+      "globe displacement. Check pupils and color vision to rule out TON (see 3.11, Traumatic Optic Neuropathy). Compare sensation of the affected cheek with that on the contralateral side; palpate the eyelids for crepitus (subcutaneous emphysema); palpate the orbital rim for step-off deformities. Evaluate the globe carefully for an apparent or occult rupture",
+      "globe displacement. Dermoid cyst rupture",
+      "globe integrity. If there is an obvious perforation site, the remainder of the examination may be deferred until surgery. If there does not appear to be a risk of extrusion of intraocular contents, the globe is inspected gently to localize the perforation site and to detect the foreign body.; Slit lamp examination; search the AC and iris for a foreign body and look for an iris TID. Examine the lens for disruption, cataract, or embedded foreign body. Check IOP.; Consider careful gonioscopy of the AC angle if no wound leak can be detected and the globe appears intact.; Dilated retinal examination using indirect ophthalmoscopy.; Obtain a CT scan of the orbits and brain (coronal, axial, and parasagittal views with no larger than 1-mm sections through the orbits). MRI is contraindicated in the presence of a metallic foreign body. It may be difficult to visualize wood, glass, or plastic on a CT scan, especially acutely. Suspicion of a nonmetallic IOFB should specifically be mentioned to the reading radiologist.; Gentle B-scan of the globe and orbit. Intraocular air can mimic a foreign body. Consider UBM to inspect the AC if IOFB is not visible on clinical examination (e.g., foreign body in the AC angle or sulcus). These steps should be deferred in patients with a definitive or suspected anterior rupture",
+      "globe or temple. Reversed, arterialized flow in the superior ophthalmic vein is detectable with orbital color Doppler US. Orbital CT or MRI may show an enlarged superior ophthalmic vein. MRA or CTA may occasionally reveal the fistula, but definitive diagnosis usually requires arteriography. High-flow fistulas have an abrupt onset, often following trauma or rupture",
+      "globe rupture",
+      "globe. Resultant shock waves lead to chorioretinal rupture",
+      "globe: Severe subconjunctival hemorrhage and chemosis, often with deep or shallow AC; low IOP; and peaked, irregular pupil. See 3.14, Ruptured Globe and Penetrating Ocular Injury.; Choroidal rupture: White or yellow crescent-shaped subretinal streak usually concentric to the optic nerve. No retinal break is present. Initially, retinal hemorrhage in the posterior pole may obscure a choroidal rupture, which subsequently becomes apparent as the blood clears. See 3.18, Traumatic Choroidal Rupture",
+      "intraocular contents (see 3.15, Intraocular Foreign Body). Dilation should typically be deferred if there is a foreign body lodged in the iris. In cases of chemical injury, dilate with cycloplegics only and avoid alpha-agonist drops (e.g., phenylephrine), which may exacerbate limbal ischemia.; Consider gentle B-scan ultrasound, CT scan of the orbit (axial, coronal, and parasagittal views, 1-mm sections), or UBM to exclude an intraocular or intraorbital foreign body. Avoid MRI if history concerning for possible metallic foreign body",
+      "intraocular contents, the globe is inspected gently to localize the perforation site and to detect the foreign body.; Slit lamp examination; search the AC and iris for a foreign body and look for an iris TID. Examine the lens for disruption, cataract, or embedded foreign body. Check IOP.; Consider careful gonioscopy of the AC angle if no wound leak can be detected and the globe appears intact.; Dilated retinal examination using indirect ophthalmoscopy.; Obtain a CT scan of the orbits and brain (coronal, axial, and parasagittal views with no larger than 1-mm sections through the orbits). MRI is contraindicated in the presence of a metallic foreign body. It may be difficult to visualize wood, glass, or plastic on a CT scan, especially acutely. Suspicion of a nonmetallic IOFB should specifically be mentioned to the reading radiologist.; Gentle B-scan of the globe and orbit. Intraocular air can mimic a foreign body. Consider UBM to inspect the AC if IOFB is not visible on clinical examination (e.g., foreign body in the AC angle or sulcus). These steps should be deferred in patients with a definitive or suspected anterior rupture given the risk for extrusion of intraocular contents.; Culture the wound site if it appears infected.; Determine whether the foreign body is magnetic (e.g., examine material from which the foreign body",
+      "intraocular foreign bodies especially if made of metal or glass (spherical objects have a specific echo shadow); wood or vegetable matter has variable echogenicity; can also give a more precise location if the foreign body",
+      "intraocular foreign bodies. However, computed tomography (CT) is the study of choice to evaluate for foreign bodies, as CT has greater contrast sensitivity over conventional radiography. Plain films remain a valid screening modality before magnetic resonance imaging (MRI) if an occult metallic foreign body",
+      "intraocular foreign body",
+      "intraocular foreign body (IOFB).; Document visual acuity before any procedure is performed. One or two drops of topical anesthetic may be necessary to facilitate the examination.; Slit lamp examination: Locate and assess the depth of the foreign body",
+      "intraocular foreign body (IOFB): Persistent inflammation after a penetrating ocular injury. May have iris heterochromia. Diagnosed by indirect ophthalmoscopy, gonioscopy, B-scan ultrasonography (US), US biomicroscopy (UBM), or computed tomography (CT) scan of the globe. See 3.15, Intraocular Foreign Body",
+      "intraocular foreign body in traumatic endophthalmitis is paramount in controlling the infection. See 3.15, Intraocular Foreign Body.; Intravitreal antibiotics (e.g., ceftazidime 2.2 mg in 0.1 mL and vancomycin 1 mg in 0.1 mL; clindamycin 1 mg in 0.1 mL or amikacin 0.4 mg in 0.1 mL may also be considered for anaerobic coverage, especially if high concern for Bacillus, intraocular foreign body",
+      "intraocular or intraorbital foreign body may be present. Evaluate the mechanism for possible foreign body involvement, including size, shape, and velocity of object.; Complete ocular examination, including careful exploration of the sclera (after topical anesthesia, e.g., proparacaine or viscous lidocaine) in the region of the conjunctival laceration to rule out scleral laceration or subconjunctival foreign body. The entire area of sclera under the conjunctival laceration must be inspected. Since the conjunctiva is mobile, inspect a wide area of the sclera under the laceration. Use a proparacaine-soaked, sterile cotton-tipped applicator to manipulate the conjunctiva. Irrigation with saline may be helpful in removing scattered debris. A Seidel test may be helpful (see Appendix 5, Seidel Test to Detect a Wound Leak). Cellulose surgical spears may be helpful for detecting vitreous through a wound. Dilated fundus examination, especially evaluating the area underlying the conjunctival injury, must be carefully performed with indirect ophthalmoscopy.; Consider a CT scan of the orbit without contrast (axial, coronal, and parasagittal views, 1-mm sections) to exclude an intraocular or intraorbital foreign body"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Object penetrated or may have penetrated the eye globe",
+    "first_aid": "Shield eye (do NOT remove object if embedded). Do NOT apply pressure. Immediate ER referral.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 14: Imaging Modalities in Ophthalmology"
+    ],
+    "source_sections": [
+      "Conjunctiva/Sclera/Iris/External Disease",
+      "Cornea",
+      "Differential Diagnosis of Ocular Signs",
+      "Eyelid",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Imaging Modalities in Ophthalmology",
+      "Neuro-ophthalmology",
+      "Orbit",
+      "Retina"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_012",
+        "name": "Cranial Nerve Palsy",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_016",
+        "name": "Orbital Fracture",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_017",
+        "name": "Ruptured Globe",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_018",
+        "name": "High-Flow (Direct) Carotid–Cavernous Fistula",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_019",
+        "name": "Varix",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 64,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_central_retinal_artery_occlusion",
+    "condition": "Central Retinal Artery Occlusion",
+    "keywords": [
+      "CRAO",
+      "Central Retinal Artery Occlusion",
+      "Central Retinal Artery Occlusion and 11.7, Branch Retinal Artery Occlusion",
+      "Central retinal vein occlusion, particularly the ischemic type. See 11.8, Central Retinal Vein Occlusion.; Central retinal artery occlusion. See 11.6, Central Retinal Artery Occlusion.; Ocular ischemic syndrome (carotid occlusive disease). See 11.11, Ocular Ischemic Syndrome/Carotid Occlusive Disease.; Others: Branch retinal vein occlusion, branch retinal artery occlusion",
+      "Central retinal vein occlusion: Severe visual loss may be accompanied by an afferent pupillary defect and disc swelling, but the retina shows diffuse retinal hemorrhages extending out to the periphery. See 11.8, Central Retinal Vein Occlusion.; Central retinal artery occlusion: Sudden, painless, severe visual loss with an afferent pupillary defect. No disc swelling. Retinal edema with a cherry-red spot frequently observed. See 11.6, Central Retinal Artery Occlusion",
+      "Central retinal vein occlusion: Unilateral, multiple hemorrhages and cotton wool spots diffusely throughout the retina. See 11.8, Central Retinal Vein Occlusion.; Central retinal artery occlusion: Unilateral retinal whitening with a cherry-red spot; see 11.6, Central Retinal Artery Occlusion",
+      "Retinal Artery Occlusion",
+      "Retinal detachment: Retina elevated associated with retinal break or dialysis. See 11.3, Retinal Detachment.; Retinal artery occlusion: Retinal whitening along the distribution of an artery. See 11.6, Central Retinal Artery Occlusion and 11.7, Branch Retinal Artery Occlusion",
+      "central or branch retinal vein or artery occlusion",
+      "central retinal artery (often precedes artery occlusion",
+      "central retinal artery occlusion",
+      "central retinal artery occlusion (CRAO), branch retinal artery occlusion (BRAO), ophthalmic artery occlusion",
+      "central retinal artery occlusion, central retinal vein occlusion",
+      "central retinal artery occlusion. See 10.17, Arteritic Ischemic Optic Neuropathy (Giant Cell Arteritis).; Impending central retinal vein occlusion: Dilated, tortuous retinal veins are observed, though the fundus may be normal. See 11.8, Central Retinal Vein Occlusion",
+      "central retinal artery or vein occlusion; less commonly, a lesion of the optic chiasm or tract; extensive retinal detachment or retinoschisis.; Mild (trace to 1+): Any of the preceding, amblyopia, dense vitreous hemorrhage, advanced macular degeneration, branch retinal vein or artery occlusion",
+      "central retinal vein or artery occlusion",
+      "central retinal vein or artery occlusion.; Peripheral: Sickle cell retinopathy, prior branch retinal vein occlusion",
+      "retinal artery (often precedes artery occlusion",
+      "retinal artery occlusion",
+      "retinal artery occlusion, central retinal vein occlusion",
+      "retinal artery occlusion. See 10.17, Arteritic Ischemic Optic Neuropathy (Giant Cell Arteritis).; Impending central retinal vein occlusion: Dilated, tortuous retinal veins are observed, though the fundus may be normal. See 11.8, Central Retinal Vein Occlusion",
+      "retinal artery or vein occlusion; less commonly, a lesion of the optic chiasm or tract; extensive retinal detachment or retinoschisis.; Mild (trace to 1+): Any of the preceding, amblyopia, dense vitreous hemorrhage, advanced macular degeneration, branch retinal vein or artery occlusion",
+      "retinal disorders (e.g., gyrate atrophy), chronic papilledema, sequela of panretinal photocoagulation or cryotherapy, central retinal artery occlusion",
+      "retinal ischemia. See 11.12, Diabetic Retinopathy.; Central retinal vein occlusion, particularly the ischemic type. See 11.8, Central Retinal Vein Occlusion.; Central retinal artery occlusion. See 11.6, Central Retinal Artery Occlusion.; Ocular ischemic syndrome (carotid occlusive disease). See 11.11, Ocular Ischemic Syndrome/Carotid Occlusive Disease.; Others: Branch retinal vein occlusion, branch retinal artery occlusion",
+      "retinal or choroidal detachment, etc.; Posttraumatic: Same causes as postsurgical.; Rhegmatogenous retinal detachment.; Pharmacologic: Usually from an oral carbonic anhydrase inhibitor in combination with a topical beta-blocker. Also associated with cidofovir.; Systemic (bilateral hypotony): Conditions that cause blood hypertonicity (e.g., dehydration, uremia, hyperglycemia), myotonic dystrophy, pregnancy, etc. Rare.; Vascular occlusive disease (e.g., ocular ischemic syndrome, giant cell arteritis, central retinal vein or artery occlusion",
+      "retinal vasculitis, rarely retinal artery or vein occlusion in the area of the inflammation. Kyrieleis arteritis is periarterial exudate accumulation, which may occur near the retinitis or elsewhere in the retina; IVFA does not show vascular occlusion",
+      "retinal vein occlusion: Severe visual loss may be accompanied by an afferent pupillary defect and disc swelling, but the retina shows diffuse retinal hemorrhages extending out to the periphery. See 11.8, Central Retinal Vein Occlusion.; Central retinal artery occlusion: Sudden, painless, severe visual loss with an afferent pupillary defect. No disc swelling. Retinal edema with a cherry-red spot frequently observed. See 11.6, Central Retinal Artery Occlusion",
+      "retinal vein occlusion: Unilateral, multiple hemorrhages and cotton wool spots diffusely throughout the retina. See 11.8, Central Retinal Vein Occlusion.; Central retinal artery occlusion: Unilateral retinal whitening with a cherry-red spot; see 11.6, Central Retinal Artery Occlusion",
+      "retinal vein or artery occlusion",
+      "retinal vein or artery occlusion.; Peripheral: Sickle cell retinopathy, prior branch retinal vein occlusion"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Sudden, painless, severe vision loss (curtain of darkness)",
+    "first_aid": "Ocular massage may be attempted. Immediate ER referral (time-critical: 90 minutes).",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate (90 minutes)",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 13: General Ophthalmic Problems",
+      "Chapter 14: Imaging Modalities in Ophthalmology"
+    ],
+    "source_sections": [
+      "Differential Diagnosis of Ocular Signs",
+      "General Ophthalmic Problems",
+      "Glaucoma",
+      "Imaging Modalities in Ophthalmology",
+      "Neuro-ophthalmology",
+      "Orbit",
+      "Retina",
+      "Trauma",
+      "Uveitis"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_031",
+        "name": "Retinal Detachment",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_032",
+        "name": "Retinal Artery Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_041",
+        "name": "Central Retinal Vein Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_042",
+        "name": "Central Retinal Artery Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_064",
+        "name": "Trauma",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 20,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  },
+  {
+    "red_flag_id": "rf_sudden_vision_loss",
+    "condition": "Sudden Vision Loss",
+    "keywords": [
+      "Acute iridocyclitis flare: HLA-B27-associated and herpetic uveitis flares can be triggered by surgical trauma.; Infectious endophthalmitis: Deteriorating vision, pain, fibrin, or hypopyon in the anterior chamber, vitritis. See 12.13, Postoperative Endophthalmitis.; Retained lens material: A severe granulomatous inflammation with mutton-fat KP, resulting from an hypersensitivity reaction to lens protein exposed during surgery and may result in elevated IOP. See 9.12, Lens-Related Glaucoma.; Aseptic (sterile) endophthalmitis: A severe noninfectious postoperative uveitis caused by intraoperative injections (e.g., triamcinolone acetonide) or excess tissue manipulation, especially of vitreous manipulation, during surgery. A hypopyon and a mild vitreous cellular reaction may develop. Usually not characterized by profound or progressive pain or visual loss",
+      "Acute papilledema: Bilateral disc edema, usually no decreased color vision, minimal to no decreased visual acuity, no pain with ocular motility, and no vitreous cells. See 10.15, Papilledema.; Severe systemic hypertension: Bilateral disc edema, increased blood pressure, flame-shaped retinal hemorrhages, and cotton–wool spots. See 11.10, Hypertensive Retinopathy.; Orbital tumor compressing the optic nerve: Unilateral and usually associated with proptosis, resistance to retropulsion, and/or restriction of extraocular motility. See 7.4, Orbital Tumors.; Intracranial mass compressing the afferent visual pathway: Normal or pale disc, afferent pupillary defect, decreased color vision, and mass evident on CT scan or MRI of the brain.; Leber hereditary optic neuropathy: Usually occurs in males in the second or third decade of life. Patients may have a family history and present with rapid visual loss of one and then the other eye within days to months. Early examination of the disc may reveal peripapillary telangiectasias followed by optic atrophy.; Toxic or metabolic optic neuropathy: Progressive painless bilateral visual loss",
+      "Acute posterior multifocal placoid pigment epitheliopathy (APMPPE): Acute visual loss in young adults, often after a viral illness. Multiple, creamy yellow–white or gray, plaque-like subretinal lesions in both eyes (see Figure 12.3.1A and B). Lesions block early and stain late on IVFA. Usually spontaneously improves over weeks to months without treatment. May be associated with a cerebral vasculitis (consider MRA if the patient has a headache or other neurologic symptoms), in which case, systemic steroids are indicated.; Multiple evanescent white dot syndrome (MEWDS): Photopsias and acute unilateral visual loss, often after a viral illness and usually in young women. May have a shimmering scotoma. Uncommonly bilateral, sequential, or recurrent. Characterized by multiple, small white lesions deep in the retina or at the level of the retinal pigment epithelium with foveal granularity and occasionally vitreous cells. Fluorescein angiography may show a classic perifoveal “wreath-like” pattern. There is often an enlarged blind spot on formal visual field testing. Vision typically returns to normal within 6 to 8 weeks without treatment.; Birdshot retinochoroidopathy: Usually middle-aged patients with multiple bilateral, oval, creamy-yellow spots deep to the retina, approximately 1 mm in diameter, scattered throughout the fundus but most prominent in inferior quadrants. A mild to moderate vitritis is present. Retinal vasculitis, CME, and optic nerve edema may be present. ICG angiography shows characteristic hypofluorescent spots but fluorescein angiography often shows only retinal vasculitis, CME, and “quenching” of dye. Positive HLA-A29 in 95% to 100% of patients. Early systemic immunosuppression is often recommended.; Multifocal choroiditis with panuveitis: Visual loss",
+      "acute HTN: May see retinal arteriolar narrowing and flame hemorrhages in chronic HTN. Acute HTN may have hard exudates, optic nerve swelling, exudative RD. See 11.10, Hypertensive Retinopathy.; Retinal vein occlusion: Unilateral, multiple hemorrhages, venous dilation, and tortuosity. Multiple CWSs, usually ≥6, seen in ischemic varieties. See 11.8, Central Retinal Vein Occlusion and 11.9, Branch Retinal Vein Occlusion.; Retinal emboli: Often from carotid arteries or heart with resulting ischemia and subsequent CWS distal to arterial occlusion. Patients require carotid Doppler examination and echocardiography. See 10.22, Transient Visual Loss/Amaurosis Fugax.; Collagen vascular disease: Systemic lupus erythematosus (most common), granulomatosis with polyangiitis (formerly Wegener granulomatosis), polyarteritis nodosa, scleroderma, etc.; Giant cell arteritis (GCA): Age ≥55 years. Symptoms include vision loss, scalp tenderness, jaw claudication, proximal muscle aches, etc. See 10.17, Arteritic Ischemic Optic Neuropathy (Giant Cell Arteritis).; HIV retinopathy: Single or multiple CWSs in the posterior pole. See 12.10, Noninfectious Retinal Microvasculopathy/HIV Retinopathy.; Other infections: Toxoplasmosis, orbital zygomycosis, Lyme disease, leptospirosis, Rocky Mountain spotted fever, onchocerciasis, subacute bacterial endocarditis, others.; Hypercoagulable state: Polycythemia, multiple myeloma, cryoglobulinemia, Waldenström macroglobulinemia, antiphospholipid syndrome, factor V Leiden, activated protein C resistance, hyperhomocysteinemia, protein C and S deficiency, antithrombin III mutation, prothrombin mutation, etc.; Radiation retinopathy: Follows radiation therapy to the eye or periocular structures when the eye is irradiated inadvertently. May occur any time after radiation, but occurs most commonly within a few years. Maintain a high suspicion even in patients in whom the eye was reportedly shielded. Usually, 3,000 cGy is necessary, but it has been noted to occur with 1,500 cGy. Resembles diabetic retinopathy.; Interferon therapy.; Purtscher and pseudo-Purtscher retinopathy: Multiple CWSs and/or superficial hemorrhages in a peripapillary configuration. Typically bilateral but can be unilateral and asymmetric. See 3.20, Purtscher Retinopathy.; Cancer: Metastatic carcinoma, leukemia, lymphoma, others.; Others: Migraine, hypotension, intravenous drug use, papilledema, papillitis, severe anemia, sickle cell, acute blood loss",
+      "acute inflammatory phase, prednisone 1 mg/kg p.o. daily, tapered over 4 to 6 weeks, is a reasonable temporizing measure to improve proptosis and diplopia in preparation for orbital decompression surgery. There is evidence that the use of a 12-week course of pulsed intravenous corticosteroids (methylprednisolone 500 mg i.v. weekly for 6 weeks, followed by 250 mg i.v. weekly for 6 weeks) followed by a course of oral corticosteroids may result in better long-term control of TED with fewer systemic side effects than oral corticosteroids and is a reasonable option to offer patients in the acute phase of TED. Other experts question the long-term efficacy of this regimen. Periorbital corticosteroid injections are also used by some experts, but may be suboptimal to oral corticosteroids. Chronic systemic corticosteroids for long-term management should be avoided because of the systemic side effects. If systemic corticosteroids are used, a detailed discussion of the potential short- and long-term risks should be documented. The patient should undergo a baseline dual-energy X-ray absorptiometry bone density scan and be started on vitamin D/calcium supplements and gastric prophylaxis with a proton pump inhibitor. Close follow up with a primary care provider is also important for the management of blood sugar elevations and other side effects.; Orbital radiation: The use and efficacy of low-dose orbital radiation in the management of TED remain controversial. It may be used as a modality in the acute inflammatory phase of TED or as a means to limit progression and provide long-term control. Radiation therapy appears to decrease the severity and progression of restrictive strabismus in patients with active TED; efficacy in managing other aspects of TED (including optic neuropathy) has not been proved definitively, but is advocated by some experts. Radiation therapy should be used with caution in patients with diabetes, as it may worsen diabetic retinopathy, and in vasculopaths, as it may increase the risk of radiation retinopathy or optic neuropathy, although neither of these risks have been proven definitively. All patients offered radiation therapy should be informed of the potential risks. If used, radiation is best performed according to strict protocols with carefully controlled dosage and shielding under the supervision of a radiation oncologist familiar with the technique. Typically, a total dose of 20 Gy is administered in 10 to 14 fractions over 2 weeks. Treatment may transiently exacerbate inflammatory changes and an oral prednisone taper may mitigate these symptoms. Improvement is often seen within a few weeks of treatment, but may take several months to attain the maximal effect.; Selenium supplementation: Data from Europe confirm that the use of selenium supplementation (an antioxidant) reduces the severity and progression of mild-to-moderate TED. It remains unclear whether this finding is applicable in the United States, where no dietary selenium deficiency (as is present in certain European countries) exists. It is reasonable to offer this therapy to women with mild-to-moderate, active TED at a dose of 100 μg p.o. b.i.d for 6 months. Caution should be used in the use of selenium supplementation in men, especially with a family history of prostate cancer; some studies have suggested an increased risk of prostate cancer in males with high selenium levels, although this issue does not appear to have been settled conclusively.; Vitamin D supplementation: Recent evidence suggests that vitamin D deficiency may be a risk factor for TED. Vitamin D supplementation has been recommended with the hope of decreasing the risk of TED progression.; Biologics: Limited data are available on the use of biologic agents (e.g., rituximab, infliximab, adalimumab, etc.), with some studies showing efficacy and others finding none. Their use as primary therapy in lieu of more conventional modalities is, at present, off-label and controversial. Furthermore, there appears to be little consensus as to the most effective, specific biologic target in TED. Recently, the use of teprotumumab, a monoclonal antibody inhibitor of the insulin-like growth factor I receptor (IGF-IR) has shown promise in the management of TED. It was approved by the Food and Drug Administration (FDA) for use in TED patients in January 2020. For patients with moderate to severe TED, the drug is effective in decreasing exophthalmos and diplopia.; Visual loss from optic neuropathy: Treat immediately with prednisone 1 mg/kg/d with close monitoring. In cases of severe visual loss",
+      "acute loss of vision in most cases. See 11.8, Central Retinal Vein Occlusion.; Ischemic optic neuropathy: Disc swelling is pale but may be hyperemic; initially unilateral unless due to GCA, with sudden visual loss. See 10.17, Arteritic Ischemic Optic Neuropathy (Giant Cell Arteritis) and 10.18, Nonarteritic Ischemic Optic Neuropathy.; Infiltration of the optic disc (e.g., sarcoid or tuberculous granuloma, leukemia, metastasis, other inflammatory disease or tumor): Other ocular or systemic abnormalities may be present. Usually unilateral.; Leber hereditary optic neuropathy: Usually occurs in males in the second or third decade of life. Patients may have a family history and present with rapid visual loss of one and then the other eye within days to months. Early examination of the disc may reveal peripapillary telangiectasias followed by optic atrophy.; Orbital optic nerve tumors: Unilateral disc swelling, may have proptosis.; Diabetic papillopathy: Benign disc edema in one or both eyes of a diabetic patient, most commonly with mild visual loss. No correlation with diabetic retinopathy. In addition to disc edema, disc hyperemia due to telangiectasias of the disc vessels may occur, simulating neovascularization. More common in patients with juvenile-onset diabetes. No treatment is indicated. Spontaneous resolution usually occurs after 3 to 4 months but may take even longer.; Thyroid-related optic neuropathy: May have eyelid lag or retraction, ocular misalignment, resistance to retropulsion. See 7.2.1, Thyroid Eye Disease.; Uveitis (e.g., syphilis or sarcoidosis): Pain or photophobia, anterior chamber/vitreous cells. See 12.3, Posterior Uveitis.; Amiodarone toxicity: May present with subacute visual loss",
+      "acute vision loss",
+      "acute vision loss (counting fingers to light perception in 94% of eyes) occurring over seconds; may have a history of transient visual loss",
+      "painless, abrupt change in vision, usually partial visual field loss; may have a history of transient visual loss",
+      "painless, acute vision loss (counting fingers to light perception in 94% of eyes) occurring over seconds; may have a history of transient visual loss",
+      "sudden but in up to 35% of patients may progress over 4 weeks. Typically, no pain with ocular motility, though pain may be present in 10% of cases (compared to 92% of patients with optic neuritis). Optic nerve swelling due to nonarteritic ischemic optic neuropathy (NAION) is initially hyperemic and then becomes pale. Optic nerve swelling in GCA is diffuse and chalk white. Patients tend to be older (40 to 60 for NAION and ≥55 in arteritic ischemic optic neuropathy). See 10.17, Arteritic Ischemic Optic Neuropathy (Giant Cell Arteritis) and 10.18, Nonarteritic Ischemic Optic Neuropathy.; Acute papilledema: Bilateral disc edema, usually no decreased color vision, minimal to no decreased visual acuity, no pain with ocular motility, and no vitreous cells. See 10.15, Papilledema.; Severe systemic hypertension: Bilateral disc edema, increased blood pressure, flame-shaped retinal hemorrhages, and cotton–wool spots. See 11.10, Hypertensive Retinopathy.; Orbital tumor compressing the optic nerve: Unilateral and usually associated with proptosis, resistance to retropulsion, and/or restriction of extraocular motility. See 7.4, Orbital Tumors.; Intracranial mass compressing the afferent visual pathway: Normal or pale disc, afferent pupillary defect, decreased color vision, and mass evident on CT scan or MRI of the brain.; Leber hereditary optic neuropathy: Usually occurs in males in the second or third decade of life. Patients may have a family history and present with rapid visual loss of one and then the other eye within days to months. Early examination of the disc may reveal peripapillary telangiectasias followed by optic atrophy.; Toxic or metabolic optic neuropathy: Progressive painless bilateral visual loss"
+    ],
+    "urgency": "emergent",
+    "clinical_presentation": "Patient reports sudden, painless or painful decrease in vision",
+    "first_aid": "No specific first aid. Immediate ER referral.",
+    "referral": "Emergency Department immediately",
+    "time_to_treatment": "immediate",
+    "source_chapters": [
+      "Chapter 10: Neuro-ophthalmology",
+      "Chapter 11: Retina",
+      "Chapter 12: Uveitis",
+      "Chapter 7: Orbit"
+    ],
+    "source_sections": [
+      "Neuro-ophthalmology",
+      "Orbit",
+      "Retina",
+      "Uveitis"
+    ],
+    "related_diseases": [
+      {
+        "entity_id": "disease_041",
+        "name": "Central Retinal Vein Occlusion",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_064",
+        "name": "Trauma",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_171",
+        "name": "Uveitis",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_191",
+        "name": "Infectious",
+        "urgency_level": "emergent"
+      },
+      {
+        "entity_id": "disease_208",
+        "name": "Orbital Tumor",
+        "urgency_level": "emergent"
+      }
+    ],
+    "context_count": 9,
+    "extraction_method": "rule_based",
+    "confidence": "medium"
+  }
+]

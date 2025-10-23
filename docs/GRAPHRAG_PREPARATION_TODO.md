@@ -167,53 +167,83 @@ The Wills Eye Manual (7th Edition) EPUB has been analyzed and contains substanti
 
 ## PHASE 3: ENTITY RELATIONSHIP EXTRACTION
 
-### 3.1 Extract Disease-Symptom Relationships
-- [ ] **Create "presents_with" relationships**
-  - Map: Disease → Symptoms (what symptoms does this disease present with?)
-  - Parse symptom lists under disease sections
-  - Use relationship_extractor.py
+**Two Approaches Available:**
+
+#### Approach A: Rule-Based Co-occurrence (Fast, Cheap)
+- Uses `phase3_extract_relationships.py`
+- ✅ Fast (~2 minutes), ✅ Zero cost
+- ❌ Lower accuracy, misses implicit relationships
+- Best for: Initial prototyping, cost-sensitive projects
+
+#### Approach B: LLM-Enhanced Extraction (Accurate, Recommended) ⭐
+- Uses `phase3_llm_relationship_extraction.py`
+- ✅ High accuracy (~90%+), ✅ Provides evidence, ✅ Extracts implicit relationships
+- ❌ Slower (~30 min), ❌ Cost (~$10-15 for full corpus)
+- Best for: Production knowledge graph, medical applications
+- **See**: `indexing/output/phase3/PHASE3_LLM_EXTRACTION_GUIDE.md` for full guide
+
+### 3.1 Extract All Relationship Types with LLM ⭐ RECOMMENDED
+
+- [ ] **Set up LLM extraction environment**
+  - Set ANTHROPIC_API_KEY environment variable
+  - Install dependencies: `pip install anthropic tqdm`
+  - Test with dry run: `.venv/Scripts/python phase3_llm_relationship_extraction.py --dry-run`
+  - Priority: **CRITICAL**
+
+- [ ] **Run LLM relationship extraction**
+  - Command: `.venv/Scripts/python phase3_llm_relationship_extraction.py`
+  - Extracts ALL relationship types in single pass:
+    - **presents_with**: Disease → Symptom
+    - **associated_with**: Disease → Sign
+    - **treated_with**: Disease → Treatment
+    - **diagnosed_with**: Disease → Diagnostic Test
+    - **contraindicated_with**: Treatment → Contraindication
+    - **can_cause**: Disease → Complication
+  - Output: `graphrag_edges_llm.json` (~15K+ relationships)
+  - Report: `phase3_llm_report.json` (costs, stats, confidence breakdown)
+  - Priority: **CRITICAL**
+
+- [ ] **Validate extracted relationships**
+  - Sample 100 random relationships for manual review
+  - Verify red flag disease relationships (for Phase 5)
+  - Check contraindication relationships (patient safety critical)
+  - Filter by confidence threshold (≥0.7 recommended)
+  - Priority: **CRITICAL**
+
+### 3.2 Alternative: Rule-Based Extraction (Budget Option)
+
+- [ ] **Extract Disease-Symptom Relationships (Rule-Based)**
+  - Map: Disease → Symptoms via co-occurrence
+  - Use: `phase3_extract_relationships.py`
   - Output: relationships with type "presents_with"
-  - Priority: **CRITICAL**
+  - Priority: **HIGH** (if not using LLM)
 
-- [ ] **Create "associated_with" relationships**
-  - Map: Disease → Signs (what signs are observed?)
-  - Output: relationships with type "associated_with"
-  - Priority: **HIGH**
-
-### 3.2 Extract Disease-Treatment Relationships
-- [ ] **Create "treated_with" relationships**
-  - Map: Disease → Treatment/Procedure
-  - Extract from management/treatment sections
+- [ ] **Extract Disease-Treatment Relationships (Rule-Based)**
+  - Map: Disease → Treatment from treatment sections
   - Output: relationships with type "treated_with"
-  - Priority: **CRITICAL**
+  - Priority: **HIGH** (if not using LLM)
 
-### 3.3 Extract Differential Diagnosis Relationships
-- [ ] **Create "differential_diagnosis" relationships**
-  - Map: Symptom/Sign → Differential Diseases
-  - Include likelihood/probability if available
+- [ ] **Extract Differential Diagnosis Relationships**
+  - Map: Symptom/Sign → Differential Diseases from structured DDx lists
   - Output: relationships with type "differential_diagnosis"
   - Priority: **CRITICAL**
 
-### 3.4 Extract Complication Relationships
-- [ ] **Create "can_cause" relationships**
-  - Map: Disease → Complications
-  - Map: Procedure → Potential Complications
-  - Output: relationships with type "can_cause"
-  - Priority: **MEDIUM**
+### 3.3 Post-Processing (Both Approaches)
 
-### 3.5 Extract Contraindication Relationships
-- [ ] **Create "contraindicated_with" relationships**
-  - Map: Treatment → Contraindications
-  - Extract from safety/warning sections
-  - Output: relationships with type "contraindicated_with"
+- [ ] **Deduplicate relationships**
+  - Remove duplicate (source, target, type) triples
+  - Keep highest confidence/weight version
   - Priority: **HIGH**
 
-### 3.6 Extract Cross-Reference Relationships
-- [ ] **Create "see_also" relationships**
-  - Extract cross-references between sections
-  - Link related conditions
-  - Output: relationships with type "see_also"
-  - Priority: **LOW**
+- [ ] **Normalize relationship weights**
+  - Ensure all weights in range [0.0, 1.0]
+  - LLM confidence scores map to weights
+  - Priority: **MEDIUM**
+
+- [ ] **Add source citations**
+  - Link each relationship to source chapter/section
+  - Required for medical audit trail
+  - Priority: **HIGH**
 
 ---
 
@@ -234,13 +264,43 @@ The Wills Eye Manual (7th Edition) EPUB has been analyzed and contains substanti
   - Priority: **MEDIUM**
 
 ### 4.2 Create Urgency/Severity Classifications
-- [ ] **Map diseases to urgency levels**
-  - Emergent (ER immediately)
-  - Urgent (within 24-48 hours)
-  - Non-urgent (routine appointment)
-  - Use medical domain framework: `docs/medical/framework.md`
-  - Output: urgency classifications in disease entities
+
+- [ ] **Extract urgency level definitions and criteria from Wills Eye Manual**
+  - Scan textbook for urgency-related language (e.g., "emergency", "urgent evaluation", "routine follow-up")
+  - Extract timeframes for medical evaluation from each condition's section
+  - Identify patterns in how urgency is indicated throughout the textbook
+  - Create taxonomy: Emergent (ER immediately), Urgent (24-48 hours), Non-Urgent (routine)
+  - **NOTE**: Do NOT use hardcoded urgency levels from external sources
+  - Output: `indexing/output/phase4/urgency_classification_criteria.json` with schema:
+    ```json
+    {
+      "urgency_level": "emergent|urgent|non-urgent",
+      "definition": "extracted from textbook",
+      "timeframe": "minutes to hours|24-48 hours|days to weeks",
+      "disposition": "Emergency Department|Urgent care|Routine appointment",
+      "typical_keywords": ["extracted keywords from textbook"],
+      "source_sections": ["Chapter 3: Trauma", "..."]
+    }
+    ```
+  - Priority: **CRITICAL** (Required before disease-urgency mapping)
+
+- [ ] **Map diseases to extracted urgency levels**
+  - Use urgency criteria extracted in previous step
+  - For each disease entity, determine urgency based on textbook description
+  - Extract time-to-treatment information from Wills Eye Manual
+  - Look for explicit urgency indicators in disease sections
+  - Cross-reference with red flags from Phase 5.1 (all red flags should be emergent)
+  - Add urgency_level property to disease entities with source citation
+  - Output: Updated disease entities in `indexing/output/phase2/diseases.json` with urgency_level field
   - Priority: **CRITICAL** (Required for triage system)
+
+- [ ] **Validate urgency classifications against medical framework**
+  - Compare extracted urgency levels to `docs/medical/framework.md` triage logic
+  - Ensure all emergent conditions trigger immediate ER referral
+  - Verify urgent conditions map to 24-48 hour timeframe
+  - Validate non-urgent conditions are safe for delayed care
+  - Report: `indexing/output/phase4/urgency_validation_report.json`
+  - Priority: **CRITICAL**
 
 - [ ] **Map symptoms to red flags (AFTER Phase 5.1 completion)**
   - Identify which symptoms indicate emergent conditions
@@ -503,8 +563,8 @@ Phase 8 (Final Deliverables) [Must run after Phase 7]
 2. Phase 2.1: Extract disease entities
 3. Phase 2.2: Extract symptom entities
 4. Phase 3.1: Disease-symptom relationships
-5. Phase 4.2: Urgency classifications
-6. Phase 5.1: Red flag extraction
+5. Phase 4.2: Extract urgency classification criteria from textbook, then map diseases to urgency levels
+6. Phase 5.1: Red flag extraction from textbook
 7. Phase 6.1: Create node-link format
 8. Phase 7.2: Medical accuracy validation
 

@@ -132,9 +132,14 @@ Patient Input → Red Flag Check → Systematic Questions → Risk Stratificatio
 ## Medical Domain Rules
 
 ### Urgency Classification
+**Urgency levels are extracted from The Wills Eye Manual (7th Edition)** via GraphRAG pipeline (Phase 4.2), NOT hardcoded.
+
 - **Emergent**: ER immediately (e.g., sudden vision loss, chemical burn, penetrating trauma)
 - **Urgent**: Doctor within 24-48 hours (e.g., keratitis, acute glaucoma)
 - **Non-Urgent**: Schedule appointment 1-2 weeks (e.g., mild allergic conjunctivitis)
+
+**Source**: `indexing/output/phase4/urgency_classification_criteria.json` (extracted from textbook)
+**Reference**: `docs/medical/urgency-levels.md` (examples only - see note at top of file)
 
 ### Red Flags
 **Red flags are extracted from Wills Eye Manual textbook** (not hardcoded).
@@ -219,8 +224,9 @@ Always check these before making changes:
 - **GraphRAG Preparation TODO**: docs/GRAPHRAG_PREPARATION_TODO.md (data extraction pipeline)
 - **GraphRAG Status**: GRAPHRAG_IMPLEMENTATION_STATUS.md (current progress)
 - **Medical Framework**: docs/medical/framework.md (authoritative triage logic)
-- **Red Flags**: indexing/output/phase5/red_flags.json (extracted emergent conditions)
-- **Urgency Levels**: docs/medical/urgency-levels.md
+- **Red Flags**: indexing/output/phase5/red_flags.json (extracted emergent conditions from textbook)
+- **Urgency Levels**: indexing/output/phase4/urgency_classification_criteria.json (extracted from textbook)
+  - See also: docs/medical/urgency-levels.md (reference examples only)
 - **Triage Algorithm**: docs/technical/triage-algorithm.md
 - **API Specs**: docs/technical/api-specifications.md
 

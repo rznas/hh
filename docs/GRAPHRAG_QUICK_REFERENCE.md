@@ -40,8 +40,10 @@ Connect entities with medical relationships:
 Add medical codes and classifications:
 - ICD-10 codes for diseases
 - SNOMED CT codes for procedures
-- Urgency levels (Emergent/Urgent/Non-urgent)
-- Red flag identification
+- **Extract urgency levels from Wills Eye Manual** (NOT hardcoded)
+  - Extract urgency classification criteria from textbook
+  - Map diseases to extracted urgency levels (Emergent/Urgent/Non-urgent)
+- Red flag identification preparation (links to Phase 5)
 
 ### Phase 5: Extract Red Flags (12-16 hours) 🚨 CRITICAL
 Extract emergent conditions for triage:
@@ -57,8 +59,8 @@ Convert to knowledge graph format:
 
 ### Phase 7: Validate (16-20 hours) 🔍 CRITICAL
 Verify medical accuracy:
-- Check all red flags are correct
-- Verify urgency classifications
+- Check all red flags extracted from textbook are correct
+- Verify urgency classifications match Wills Eye Manual source
 - Validate entity relationships
 - Test triage recommendations
 
@@ -106,22 +108,36 @@ Use: indexing/entity_extractor.py (enhanced)
 Output: diseases.json, symptoms.json, treatments.json
 ```
 
-### Step 3: Phase 3 (Relationship Extraction)
+### Step 3: Phase 3 (Relationship Extraction) ⭐ USE LLM APPROACH
+
+**Option A: LLM-Enhanced (RECOMMENDED for production)**
+```bash
+cd indexing
+export ANTHROPIC_API_KEY=your_key_here  # Set API key
+.venv/Scripts/python phase3_llm_relationship_extraction.py --dry-run  # Test first
+.venv/Scripts/python phase3_llm_relationship_extraction.py  # Full extraction
 ```
-Use: indexing/relationship_extractor.py (enhanced)
-- Create disease-symptom relationships
-- Create treatment relationships
-- Create differential diagnosis mappings
-Output: graphrag_edges.json
+- ✅ High accuracy (~90%+), provides evidence, extracts implicit relationships
+- ❌ Cost: ~$10-15 for full corpus, ~30 min processing time
+- Output: `graphrag_edges_llm.json` (~15K+ relationships)
+- Guide: `indexing/output/phase3/PHASE3_LLM_EXTRACTION_GUIDE.md`
+
+**Option B: Rule-Based (Budget option)**
+```bash
+.venv/Scripts/python phase3_extract_relationships.py
 ```
+- ✅ Fast (~2 min), zero cost
+- ❌ Lower accuracy, misses implicit relationships
+- Output: `graphrag_edges.json` (~28K relationships, more false positives)
 
 ### Step 4: Phase 4 & 5 (Domain Standardization + Red Flags)
 ```
 Create: scripts/medical_standardization.py
 - Assign ICD-10/SNOMED codes
-- Classify urgency levels
-- Extract red flags
-Output: entity_medical_codes.json, red_flags.json
+- Extract urgency classification criteria from textbook (Phase 4.2)
+- Map diseases to extracted urgency levels
+- Prepare for red flag extraction (Phase 5)
+Output: entity_medical_codes.json, urgency_classification_criteria.json
 ```
 
 ### Step 5: Phase 6 (Graph Preparation)
@@ -199,8 +215,8 @@ Document final schema
 ✅ **Phase 1**: All chapters parsed into structured JSON
 ✅ **Phase 2**: 100+ diseases, 50+ symptoms, 30+ signs extracted
 ✅ **Phase 3**: All relationships created with proper types
-✅ **Phase 4**: All entities have ICD-10/SNOMED codes and urgency levels
-✅ **Phase 5**: All red flags identified (100% recall requirement)
+✅ **Phase 4**: All entities have ICD-10/SNOMED codes and urgency levels extracted from textbook
+✅ **Phase 5**: All red flags extracted from textbook (100% recall requirement)
 ✅ **Phase 6**: Nodes and edges in Neo4j compatible format
 ✅ **Phase 7**: All validation tests pass
 ✅ **Phase 8**: Neo4j populated and queryable
@@ -239,9 +255,9 @@ Document final schema
 ## Important Notes
 
 ⚠️ **Medical Safety Critical**
-- Red flag detection must have 100% recall (no false negatives)
-- Urgency classifications must match medical standards
-- Every extracted entity should be validated
+- Red flag detection must have 100% recall (no false negatives) - extract from textbook
+- Urgency classifications must be extracted from Wills Eye Manual (NOT hardcoded)
+- Every extracted entity should be validated against textbook source
 
 🔧 **Technical Requirements**
 - BeautifulSoup4 for HTML/XHTML parsing ✓

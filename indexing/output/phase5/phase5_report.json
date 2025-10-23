@@ -1,0 +1,53 @@
+{
+  "phase": "5: Red Flag & Safety Extraction",
+  "timestamp": "2025-10-23",
+  "extraction_method": "rule_based",
+  "extraction_approach": "keyword_pattern_matching",
+  "confidence_level": "medium",
+  "note": "For production use, consider LLM-based extraction for higher accuracy and detail (90-95% vs 75-85%)",
+  "llm_enhancement_guide": "See PHASE5_LLM_ENHANCEMENT_GUIDE.md",
+  "red_flags_extracted": 10,
+  "total_contexts_found": 463,
+  "validation": {
+    "total_red_flags": 10,
+    "validation_passed": true,
+    "issues": [],
+    "completeness_score": 1.0
+  },
+  "red_flag_types": [
+    "Severe Trauma",
+    "Retinal Detachment",
+    "Acute Angle Closure Glaucoma",
+    "Chemical Burn",
+    "Endophthalmitis",
+    "Orbital Cellulitis",
+    "Temporal Arteritis",
+    "Penetrating Trauma",
+    "Central Retinal Artery Occlusion",
+    "Sudden Vision Loss"
+  ],
+  "keyword_coverage": {
+    "Severe Trauma": 30,
+    "Retinal Detachment": 30,
+    "Acute Angle Closure Glaucoma": 30,
+    "Chemical Burn": 19,
+    "Endophthalmitis": 6,
+    "Orbital Cellulitis": 30,
+    "Temporal Arteritis": 9,
+    "Penetrating Trauma": 30,
+    "Central Retinal Artery Occlusion": 30,
+    "Sudden Vision Loss": 11
+  },
+  "source_coverage": {
+    "Severe Trauma": 5,
+    "Retinal Detachment": 5,
+    "Acute Angle Closure Glaucoma": 5,
+    "Chemical Burn": 5,
+    "Endophthalmitis": 5,
+    "Orbital Cellulitis": 5,
+    "Temporal Arteritis": 5,
+    "Penetrating Trauma": 5,
+    "Central Retinal Artery Occlusion": 5,
+    "Sudden Vision Loss": 4
+  }
+}

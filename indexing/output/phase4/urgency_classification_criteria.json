@@ -1,0 +1,83 @@
+{
+  "_metadata": {
+    "extraction_method": "rule_based",
+    "extraction_approach": "keyword_matching",
+    "note": "For production use, consider LLM-based extraction for higher accuracy (90-95% vs 75-85%)",
+    "llm_guide": "See PHASE4_LLM_ENHANCEMENT_GUIDE.md for LLM-based rerun instructions"
+  },
+  "emergent": {
+    "urgency_level": "emergent",
+    "definition": "Conditions requiring immediate emergency department evaluation",
+    "timeframe": "Immediate (minutes to hours)",
+    "disposition": "Emergency Department",
+    "examples": [],
+    "keywords": [
+      "acute fulminant onset with severe",
+      "acute onset of severe",
+      "acute onset of the critical signs listed previously; often bilateral with severe",
+      "acute or gradual stepwise visual loss that is commonly severe",
+      "acute, severe",
+      "acutely ill, moderate-to-severe",
+      "emergency",
+      "emergency department",
+      "emergency room",
+      "emergent",
+      "er",
+      "immediate",
+      "immediately",
+      "sight-threatening",
+      "sudden visual loss",
+      "sudden, painless loss",
+      "sudden, painless visual loss",
+      "sudden, painless, severe visual loss",
+      "vision-threatening",
+      "within 10 to 15 minutes"
+    ],
+    "source_sections": [
+      "Unknown: Unknown"
+    ]
+  },
+  "urgent": {
+    "urgency_level": "urgent",
+    "definition": "Conditions requiring prompt ophthalmologic evaluation",
+    "timeframe": "Within 24-48 hours",
+    "disposition": "Urgent ophthalmology appointment",
+    "examples": [],
+    "keywords": [
+      "as soon as possible",
+      "early",
+      "prompt",
+      "soon",
+      "urgent",
+      "within 24 hours",
+      "within 24 to 36 hours",
+      "within 24 to 48 hours",
+      "within 48 to 72 hours",
+      "within 6 to 24 hours"
+    ],
+    "source_sections": [
+      "Unknown: Unknown"
+    ]
+  },
+  "non_urgent": {
+    "urgency_level": "non_urgent",
+    "definition": "Conditions that can be managed with routine care",
+    "timeframe": "Days to weeks",
+    "disposition": "Routine ophthalmology appointment",
+    "examples": [],
+    "keywords": [
+      "elective",
+      "follow up",
+      "follow-up",
+      "month",
+      "months",
+      "routine",
+      "scheduled",
+      "week",
+      "weeks"
+    ],
+    "source_sections": [
+      "Unknown: Unknown"
+    ]
+  }
+}

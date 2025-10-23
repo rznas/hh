@@ -245,7 +245,7 @@ python graphrag_indexer.py \
 
 ⚠️ **CRITICAL SAFETY REQUIREMENTS:**
 1. All EMERGENT conditions must be tagged with `red_flag_keywords`
-2. Urgency levels must match Wills Eye Manual source
+2. Urgency levels must be extracted from Wills Eye Manual (Phase 4.2), NOT hardcoded
 3. No false negatives allowed for emergent conditions
 4. All treatment recommendations must include "consult doctor" context
 
@@ -253,7 +253,8 @@ python graphrag_indexer.py \
 Before deploying to production:
 - [ ] All red flags extracted from Wills Eye Manual (Phase 5.1) are indexed in Neo4j
 - [ ] Red flags output file (`indexing/output/phase5/red_flags.json`) is complete
-- [ ] Urgency levels validated against `docs/medical/urgency-levels.md`
+- [ ] Urgency levels extracted from textbook (Phase 4.2) and validated
+- [ ] Urgency classification criteria file (`indexing/output/phase4/urgency_classification_criteria.json`) is complete
 - [ ] 100% of emergent conditions correctly classified
 - [ ] Cross-references properly resolved
 - [ ] Treatment contraindications captured

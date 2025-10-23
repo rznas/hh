@@ -96,7 +96,7 @@ Final Response
 - **SIGN**: Clinical findings (e.g., "corneal edema")
 - **TREATMENT**: Interventions (e.g., "topical antibiotics")
 - **ANATOMY**: Eye structures (e.g., "cornea", "retina")
-- **URGENCY**: Classification (EMERGENT, URGENT, NON_URGENT)
+- **URGENCY**: Classification (EMERGENT, URGENT, NON_URGENT) - **extracted from Wills Eye Manual, not hardcoded**
 
 ### Relationship Types
 - PRESENTS_WITH: Disease → Symptom
@@ -147,8 +147,9 @@ Communities will naturally group:
 - `type`: Entity type or community level
 - `embedding`: Vector embedding (for search)
 - `summary`: Community summary (for communities)
-- `urgency_level`: For disease entities
-- `red_flag_keywords`: For emergent conditions
+- `urgency_level`: For disease entities (extracted from textbook via Phase 4.2)
+- `urgency_source`: Citation for urgency classification from Wills Eye Manual
+- `red_flag_keywords`: For emergent conditions (extracted via Phase 5.1)
 - `source_section`: Wills Eye Manual reference
 
 ## Configuration

@@ -1,0 +1,37 @@
+{
+  "phase": "4: Medical Domain Standardization (Urgency Classification)",
+  "timestamp": "2025-10-23",
+  "extraction_method": "rule_based",
+  "extraction_approach": "keyword_matching",
+  "confidence_level": "medium",
+  "note": "For production use, consider LLM-based extraction for higher accuracy (90-95% vs 75-85%)",
+  "llm_enhancement_guide": "See PHASE4_LLM_ENHANCEMENT_GUIDE.md",
+  "urgency_criteria_extracted": true,
+  "criteria_count": 3,
+  "diseases_mapped": 990,
+  "urgency_distribution": {
+    "urgent": 147,
+    "emergent": 380,
+    "non_urgent": 463
+  },
+  "criteria_summary": {
+    "emergent": {
+      "timeframe": "Immediate (minutes to hours)",
+      "disposition": "Emergency Department",
+      "keyword_count": 20,
+      "source_section_count": 1
+    },
+    "urgent": {
+      "timeframe": "Within 24-48 hours",
+      "disposition": "Urgent ophthalmology appointment",
+      "keyword_count": 10,
+      "source_section_count": 1
+    },
+    "non_urgent": {
+      "timeframe": "Days to weeks",
+      "disposition": "Routine ophthalmology appointment",
+      "keyword_count": 9,
+      "source_section_count": 1
+    }
+  }
+}
