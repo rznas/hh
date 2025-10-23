@@ -1,0 +1,17 @@
+{
+  "phase": "6.3",
+  "title": "Embedding Generation",
+  "model": "NeuML/pubmedbert-base-embeddings",
+  "device": "cuda",
+  "generated_at": "2025-10-23T21:08:32.331224",
+  "statistics": {
+    "total_entities": 2002,
+    "embeddings_generated": 2002,
+    "failed": 0,
+    "avg_text_length": 117.56093906093906
+  },
+  "validation": {
+    "embeddings_generated": true,
+    "success_rate": 1.0
+  }
+}
