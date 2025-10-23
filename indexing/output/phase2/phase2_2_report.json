@@ -1,21 +1,95 @@
 {
-  "phase": "2.2 - Symptom & Sign Entity Extraction",
-  "total_symptoms": 5,
-  "total_signs": 9,
-  "red_flag_symptoms": 0,
-  "red_flag_signs": 0,
-  "sample_symptoms": [
-    "Double Vision (Diplopia)",
-    "Pain",
-    "Red Eye",
-    "\u201cSpots\u201d in Front of the Eyes",
-    "Tearing"
-  ],
-  "sample_signs": [
-    "Corneal Edema",
-    "Embolus",
-    "Retinal Neovascularization",
-    "Iris Heterochromia (Irides of Different Colors)",
-    "Iris Lesion"
-  ]
+  "phase": "2.2 - Symptom & Sign Entity Extraction (v2)",
+  "symptoms": {
+    "total": 38,
+    "red_flag_count": 0,
+    "top_by_mentions": [
+      {
+        "name": "Pain",
+        "mentions": 193
+      },
+      {
+        "name": "Decreased Vision",
+        "mentions": 68
+      },
+      {
+        "name": "Ache",
+        "mentions": 63
+      },
+      {
+        "name": "Photophobia",
+        "mentions": 55
+      },
+      {
+        "name": "Discharge",
+        "mentions": 54
+      },
+      {
+        "name": "Headache",
+        "mentions": 50
+      },
+      {
+        "name": "Tearing",
+        "mentions": 45
+      },
+      {
+        "name": "Diplopia",
+        "mentions": 43
+      },
+      {
+        "name": "Foreign Body Sensation",
+        "mentions": 28
+      },
+      {
+        "name": "Irritation",
+        "mentions": 26
+      }
+    ]
+  },
+  "signs": {
+    "total": 74,
+    "red_flag_count": 0,
+    "top_by_mentions": [
+      {
+        "name": "Blood",
+        "mentions": 144
+      },
+      {
+        "name": "Edema",
+        "mentions": 119
+      },
+      {
+        "name": "Hemorrhage",
+        "mentions": 112
+      },
+      {
+        "name": "Injection",
+        "mentions": 79
+      },
+      {
+        "name": "Ptosis",
+        "mentions": 73
+      },
+      {
+        "name": "Retinal Detachment",
+        "mentions": 63
+      },
+      {
+        "name": "Neovascularization",
+        "mentions": 58
+      },
+      {
+        "name": "Epithelial Defect",
+        "mentions": 58
+      },
+      {
+        "name": "Proptosis",
+        "mentions": 48
+      },
+      {
+        "name": "Swelling",
+        "mentions": 45
+      }
+    ]
+  }
 }

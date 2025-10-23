@@ -1,20 +1,110 @@
 {
-  "phase": "2.3 - Treatment & Procedure Entity Extraction",
-  "total_entities": 66,
-  "medications": 48,
-  "procedures": 18,
-  "sample_medications": [
-    "Acetate",
-    "Acetazolamide",
-    "Acetylcysteine",
-    "Acyclovir",
-    "Adhesive"
-  ],
-  "sample_procedures": [
-    "Biopsy",
-    "Cryotherapy",
-    "Culture",
-    "Debridement",
-    "Drainage"
+  "phase": "2.3 - Treatment/Procedure Entity Extraction (v2)",
+  "total_entities": 845,
+  "type_distribution": {
+    "medication": 602,
+    "procedure": 243
+  },
+  "top_by_mentions": [
+    {
+      "name": "Fa",
+      "type": "procedure",
+      "mentions": 362
+    },
+    {
+      "name": "Alt",
+      "type": "procedure",
+      "mentions": 106
+    },
+    {
+      "name": "Culture",
+      "type": "procedure",
+      "mentions": 74
+    },
+    {
+      "name": "Prednisolone",
+      "type": "medication",
+      "mentions": 58
+    },
+    {
+      "name": "Imaging",
+      "type": "procedure",
+      "mentions": 54
+    },
+    {
+      "name": "Cyclopentolate",
+      "type": "medication",
+      "mentions": 49
+    },
+    {
+      "name": "Erythromycin",
+      "type": "medication",
+      "mentions": 48
+    },
+    {
+      "name": "Fluorescein",
+      "type": "medication",
+      "mentions": 46
+    },
+    {
+      "name": "Atropine",
+      "type": "medication",
+      "mentions": 45
+    },
+    {
+      "name": "Trimethoprim",
+      "type": "medication",
+      "mentions": 45
+    },
+    {
+      "name": "Prednisone",
+      "type": "medication",
+      "mentions": 41
+    },
+    {
+      "name": "Bacitracin",
+      "type": "medication",
+      "mentions": 37
+    },
+    {
+      "name": "Artificial Tears",
+      "type": "medication",
+      "mentions": 36
+    },
+    {
+      "name": "B-Scan",
+      "type": "procedure",
+      "mentions": 36
+    },
+    {
+      "name": "Biopsy",
+      "type": "procedure",
+      "mentions": 34
+    },
+    {
+      "name": "Repair",
+      "type": "procedure",
+      "mentions": 31
+    },
+    {
+      "name": "Acetazolamide",
+      "type": "medication",
+      "mentions": 30
+    },
+    {
+      "name": "Polymyxin",
+      "type": "medication",
+      "mentions": 30
+    },
+    {
+      "name": "Oct",
+      "type": "procedure",
+      "mentions": 30
+    },
+    {
+      "name": "Vitrectomy",
+      "type": "procedure",
+      "mentions": 30
+    }
   ]
 }

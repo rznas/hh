@@ -1,8 +1,8 @@
 {
   "phase": "1.1 - Chapter Content Extraction",
-  "chapters_processed": 5,
-  "total_top_level_sections": 5,
-  "total_text_blocks": 609,
+  "chapters_processed": 14,
+  "total_top_level_sections": 14,
+  "total_text_blocks": 1726,
   "chapters": [
     {
       "number": 1,
@@ -33,6 +33,60 @@
       "title": "Conjunctiva/Sclera/Iris/External Disease",
       "sections": 1,
       "blocks": 132
+    },
+    {
+      "number": 6,
+      "title": "Eyelid",
+      "sections": 1,
+      "blocks": 66
+    },
+    {
+      "number": 7,
+      "title": "Orbit",
+      "sections": 1,
+      "blocks": 93
+    },
+    {
+      "number": 8,
+      "title": "Pediatrics",
+      "sections": 1,
+      "blocks": 94
+    },
+    {
+      "number": 9,
+      "title": "Glaucoma",
+      "sections": 1,
+      "blocks": 161
+    },
+    {
+      "number": 10,
+      "title": "Neuro-ophthalmology",
+      "sections": 1,
+      "blocks": 238
+    },
+    {
+      "number": 11,
+      "title": "Retina",
+      "sections": 1,
+      "blocks": 141
+    },
+    {
+      "number": 12,
+      "title": "Uveitis",
+      "sections": 1,
+      "blocks": 142
+    },
+    {
+      "number": 13,
+      "title": "General Ophthalmic Problems",
+      "sections": 1,
+      "blocks": 127
+    },
+    {
+      "number": 14,
+      "title": "Imaging Modalities in Ophthalmology",
+      "sections": 1,
+      "blocks": 55
     }
   ]
 }

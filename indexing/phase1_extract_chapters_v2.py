@@ -7,10 +7,15 @@ follows headings in subsequent div elements.
 """
 
 import json
+import sys
 import zipfile
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from xml.etree import ElementTree as ET
+
+# Fix console encoding for Windows
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
 
 # Namespace map for XHTML
 NS = {'xhtml': 'http://www.w3.org/1999/xhtml'}
@@ -240,9 +245,9 @@ def main():
                 epub_content[item] = epub.read(item).decode('utf-8')
     print(f"Found {len(epub_content)} XHTML files")
 
-    # Process chapters (first 5 for now)
+    # Process all chapters
     chapters = []
-    for meta in metadata[:5]:
+    for meta in metadata:
         chapter_file = f"OEBPS/XHTML/{meta['file']}"
 
         if chapter_file not in epub_content:
@@ -268,7 +273,7 @@ def main():
 
     # Save structured chapters
     output_file = output_dir / "wills_eye_chapters_structured.json"
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(chapters, f, indent=2, ensure_ascii=False)
     print(f"\n✓ Saved: {output_file.name}")
 
@@ -278,7 +283,7 @@ def main():
     blocks = extract_text_blocks(chapters)
 
     output_file = output_dir / "wills_eye_text_blocks.json"
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(blocks, f, indent=2, ensure_ascii=False)
     print(f"✓ Saved: {output_file.name}")
     print(f"  Total blocks: {len(blocks)}")
@@ -301,7 +306,7 @@ def main():
     }
 
     report_file = output_dir / "phase1_1_report.json"
-    with open(report_file, 'w') as f:
+    with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2)
 
     print(f"\n✓ Report: {report_file.name}")

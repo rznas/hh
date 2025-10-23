@@ -1,0 +1,947 @@
+[
+  {
+    "entity_id": "test_001",
+    "name": "Ace Level",
+    "name_normalized": "ace level",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      7,
+      10,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "test_002",
+    "name": "Amsler Grid",
+    "name_normalized": "amsler grid",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      11
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_003",
+    "name": "Ana",
+    "name_normalized": "ana",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 194
+  },
+  {
+    "entity_id": "test_004",
+    "name": "Anca",
+    "name_normalized": "anca",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      5,
+      7,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 8
+  },
+  {
+    "entity_id": "test_005",
+    "name": "Antinuclear Antibody",
+    "name_normalized": "antinuclear antibody",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "test_006",
+    "name": "B-Scan",
+    "name_normalized": "b-scan",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 44
+  },
+  {
+    "entity_id": "test_007",
+    "name": "Biomicroscopy",
+    "name_normalized": "biomicroscopy",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 8
+  },
+  {
+    "entity_id": "test_008",
+    "name": "Cbc",
+    "name_normalized": "cbc",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 29
+  },
+  {
+    "entity_id": "test_009",
+    "name": "Computed Tomography",
+    "name_normalized": "computed tomography",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 13
+  },
+  {
+    "entity_id": "test_010",
+    "name": "Corneal Topography",
+    "name_normalized": "corneal topography",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "test_011",
+    "name": "Erg",
+    "name_normalized": "erg",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from examination lists",
+    "mention_count": 141
+  },
+  {
+    "entity_id": "test_012",
+    "name": "Erythrocyte Sedimentation Rate",
+    "name_normalized": "erythrocyte sedimentation rate",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 7
+  },
+  {
+    "entity_id": "test_013",
+    "name": "Esr",
+    "name_normalized": "esr",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      5,
+      7,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 25
+  },
+  {
+    "entity_id": "test_014",
+    "name": "Fa",
+    "name_normalized": "fa",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from examination lists",
+    "mention_count": 457
+  },
+  {
+    "entity_id": "test_015",
+    "name": "Fta-Abs",
+    "name_normalized": "fta-abs",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5,
+      10,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 21
+  },
+  {
+    "entity_id": "test_016",
+    "name": "Gonioscopy",
+    "name_normalized": "gonioscopy",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      8,
+      9,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 49
+  },
+  {
+    "entity_id": "test_017",
+    "name": "Hla-B27",
+    "name_normalized": "hla-b27",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 12
+  },
+  {
+    "entity_id": "test_018",
+    "name": "Icg",
+    "name_normalized": "icg",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      11,
+      12,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "test_019",
+    "name": "Iop Measurement",
+    "name_normalized": "iop measurement",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      8,
+      9,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 22
+  },
+  {
+    "entity_id": "test_020",
+    "name": "Keratometry",
+    "name_normalized": "keratometry",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_021",
+    "name": "Ophthalmoscopy",
+    "name_normalized": "ophthalmoscopy",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 23
+  },
+  {
+    "entity_id": "test_022",
+    "name": "Optical Coherence Tomography",
+    "name_normalized": "optical coherence tomography",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 9
+  },
+  {
+    "entity_id": "test_023",
+    "name": "Pachymetry",
+    "name_normalized": "pachymetry",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      8,
+      9,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_024",
+    "name": "Rapid Plasma Reagin",
+    "name_normalized": "rapid plasma reagin",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5,
+      9,
+      10,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_025",
+    "name": "Rpr",
+    "name_normalized": "rpr",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      2,
+      4,
+      5,
+      10,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 27
+  },
+  {
+    "entity_id": "test_026",
+    "name": "Schirmer Test",
+    "name_normalized": "schirmer test",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      10
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_027",
+    "name": "Slit Lamp Examination",
+    "name_normalized": "slit lamp examination",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 72
+  },
+  {
+    "entity_id": "test_028",
+    "name": "Tono-Pen",
+    "name_normalized": "tono-pen",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "test_029",
+    "name": "Topography",
+    "name_normalized": "topography",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 11
+  },
+  {
+    "entity_id": "test_030",
+    "name": "Ubm",
+    "name_normalized": "ubm",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 17
+  },
+  {
+    "entity_id": "test_031",
+    "name": "Ultrasonography",
+    "name_normalized": "ultrasonography",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "test_032",
+    "name": "Vdrl",
+    "name_normalized": "vdrl",
+    "type": "examination",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5,
+      10,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 21
+  },
+  {
+    "entity_id": "test_033",
+    "name": "Eog",
+    "name_normalized": "eog",
+    "type": "functional",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      7,
+      8,
+      11,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 11
+  },
+  {
+    "entity_id": "test_034",
+    "name": "Visual Field",
+    "name_normalized": "visual field",
+    "type": "functional",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 47
+  },
+  {
+    "entity_id": "test_035",
+    "name": "Visual Field Testing",
+    "name_normalized": "visual field testing",
+    "type": "functional",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 8
+  },
+  {
+    "entity_id": "test_036",
+    "name": "B-Scan Ultrasound",
+    "name_normalized": "b-scan ultrasound",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 6
+  },
+  {
+    "entity_id": "test_037",
+    "name": "Ct Scan",
+    "name_normalized": "ct scan",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 38
+  },
+  {
+    "entity_id": "test_038",
+    "name": "Direct Ophthalmoscopy",
+    "name_normalized": "direct ophthalmoscopy",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 19
+  },
+  {
+    "entity_id": "test_039",
+    "name": "Electroretinogram",
+    "name_normalized": "electroretinogram",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      8,
+      10,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_040",
+    "name": "Fluorescein Angiography",
+    "name_normalized": "fluorescein angiography",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "test_041",
+    "name": "I",
+    "name_normalized": "i",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapter": 14,
+    "description": "Images of radiopaque tissues obtained",
+    "mention_count": 1
+  },
+  {
+    "entity_id": "test_042",
+    "name": "Indirect Ophthalmoscopy",
+    "name_normalized": "indirect ophthalmoscopy",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      5,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 19
+  },
+  {
+    "entity_id": "test_043",
+    "name": "Magnetic Resonance Imaging",
+    "name_normalized": "magnetic resonance imaging",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "test_044",
+    "name": "Mri",
+    "name_normalized": "mri",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 93
+  },
+  {
+    "entity_id": "test_045",
+    "name": "Oct",
+    "name_normalized": "oct",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 40
+  },
+  {
+    "entity_id": "test_046",
+    "name": "Orbital Ct",
+    "name_normalized": "orbital ct",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      6,
+      7,
+      10,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 5
+  },
+  {
+    "entity_id": "test_047",
+    "name": "Ultrasound",
+    "name_normalized": "ultrasound",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      8,
+      10,
+      12,
+      13,
+      14
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "test_048",
+    "name": "X-Ray",
+    "name_normalized": "x-ray",
+    "type": "imaging",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      7,
+      10,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 10
+  },
+  {
+    "entity_id": "test_049",
+    "name": "Blood Test",
+    "name_normalized": "blood test",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      7,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 9
+  },
+  {
+    "entity_id": "test_050",
+    "name": "Complete Blood Count",
+    "name_normalized": "complete blood count",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 14
+  },
+  {
+    "entity_id": "test_051",
+    "name": "Culture",
+    "name_normalized": "culture",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 67
+  },
+  {
+    "entity_id": "test_052",
+    "name": "Fluorescein Staining",
+    "name_normalized": "fluorescein staining",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 16
+  },
+  {
+    "entity_id": "test_053",
+    "name": "Giemsa Stain",
+    "name_normalized": "giemsa stain",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      5,
+      6,
+      8,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 8
+  },
+  {
+    "entity_id": "test_054",
+    "name": "Gram Stain",
+    "name_normalized": "gram stain",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      5,
+      6,
+      7,
+      8,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 15
+  },
+  {
+    "entity_id": "test_055",
+    "name": "Pcr",
+    "name_normalized": "pcr",
+    "type": "laboratory",
+    "category": "diagnostic",
+    "chapters": [
+      4,
+      8,
+      12
+    ],
+    "description": "Diagnostic test extracted from text analysis",
+    "mention_count": 8
+  }
+]

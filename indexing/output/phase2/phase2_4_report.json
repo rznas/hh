@@ -1,0 +1,87 @@
+{
+  "phase": "2.4 - Diagnostic Test/Imaging Entity Extraction",
+  "total_entities": 55,
+  "type_distribution": {
+    "examination": 32,
+    "functional": 3,
+    "imaging": 13,
+    "laboratory": 7
+  },
+  "top_by_mentions": [
+    {
+      "name": "Fa",
+      "type": "examination",
+      "mentions": 457
+    },
+    {
+      "name": "Ana",
+      "type": "examination",
+      "mentions": 194
+    },
+    {
+      "name": "Erg",
+      "type": "examination",
+      "mentions": 141
+    },
+    {
+      "name": "Mri",
+      "type": "imaging",
+      "mentions": 93
+    },
+    {
+      "name": "Slit Lamp Examination",
+      "type": "examination",
+      "mentions": 72
+    },
+    {
+      "name": "Culture",
+      "type": "laboratory",
+      "mentions": 67
+    },
+    {
+      "name": "Gonioscopy",
+      "type": "examination",
+      "mentions": 49
+    },
+    {
+      "name": "Visual Field",
+      "type": "functional",
+      "mentions": 47
+    },
+    {
+      "name": "B-Scan",
+      "type": "examination",
+      "mentions": 44
+    },
+    {
+      "name": "Oct",
+      "type": "imaging",
+      "mentions": 40
+    },
+    {
+      "name": "Ct Scan",
+      "type": "imaging",
+      "mentions": 38
+    },
+    {
+      "name": "Cbc",
+      "type": "examination",
+      "mentions": 29
+    },
+    {
+      "name": "Rpr",
+      "type": "examination",
+      "mentions": 27
+    },
+    {
+      "name": "Esr",
+      "type": "examination",
+      "mentions": 25
+    },
+    {
+      "name": "Ophthalmoscopy",
+      "type": "examination",
+      "mentions": 23
+    }
+  ]
+}

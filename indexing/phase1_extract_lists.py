@@ -7,10 +7,15 @@ and creates structured JSON with medical concept mapping.
 """
 
 import json
+import sys
 import zipfile
 from pathlib import Path
 from typing import Dict, List, Any
 from xml.etree import ElementTree as ET
+
+# Fix console encoding for Windows
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
 
 NS = {'xhtml': 'http://www.w3.org/1999/xhtml'}
 
@@ -148,9 +153,9 @@ def main():
             if item.endswith('.xhtml'):
                 epub_content[item] = epub.read(item).decode('utf-8')
 
-    # Extract lists - first 5 chapters for compact output
+    # Extract lists from all chapters
     all_lists = []
-    for meta in metadata[:5]:
+    for meta in metadata:
         chapter_file = f"OEBPS/XHTML/{meta['file']}"
         if chapter_file not in epub_content:
             continue
@@ -176,7 +181,7 @@ def main():
 
     # Save lists
     output_file = output_dir / "wills_eye_lists.json"
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(all_lists, f, indent=2, ensure_ascii=False)
 
     print(f"\n✓ Saved: {output_file.name}")
@@ -190,13 +195,13 @@ def main():
     report = {
         'phase': '1.3 - List Extraction',
         'total_lists': len(all_lists),
-        'chapters_processed': 5,
+        'chapters_processed': len(metadata),
         'type_distribution': type_distribution,
         'avg_items_per_list': sum(lst['item_count'] for lst in all_lists) / len(all_lists) if all_lists else 0
     }
 
     report_file = output_dir / "phase1_3_report.json"
-    with open(report_file, 'w') as f:
+    with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2)
 
     print(f"✓ Report: {report_file.name}")
