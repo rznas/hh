@@ -21,7 +21,7 @@
     "mention_count": 1
   },
   {
-    "entity_id": "sign_001",
+    "entity_id": "sign_069",
     "name": "Edema",
     "name_normalized": "edema",
     "type": "sign",
@@ -68,7 +68,7 @@
     "mention_count": 1
   },
   {
-    "entity_id": "sign_002",
+    "entity_id": "sign_070",
     "name": "Blepharospasm",
     "name_normalized": "blepharospasm",
     "type": "sign",
@@ -105,7 +105,7 @@
     "mention_count": 1
   },
   {
-    "entity_id": "sign_003",
+    "entity_id": "sign_071",
     "name": "Ptosis",
     "name_normalized": "ptosis",
     "type": "sign",
@@ -150,7 +150,7 @@
     "mention_count": 1
   },
   {
-    "entity_id": "sign_004",
+    "entity_id": "sign_072",
     "name": "Proptosis",
     "name_normalized": "proptosis",
     "type": "sign",
@@ -199,7 +199,7 @@
     "mention_count": 1
   },
   {
-    "entity_id": "sign_005",
+    "entity_id": "sign_073",
     "name": "Ectropion",
     "name_normalized": "ectropion",
     "type": "sign",
@@ -236,7 +236,7 @@
     "mention_count": 1
   },
   {
-    "entity_id": "sign_006",
+    "entity_id": "sign_074",
     "name": "Injection",
     "name_normalized": "injection",
     "type": "sign",

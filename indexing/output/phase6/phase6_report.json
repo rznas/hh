@@ -1,0 +1,36 @@
+{
+  "phase": 6,
+  "title": "Graph Preparation for Neo4j",
+  "generated_at": "2025-10-23T22:10:39.491451",
+  "statistics": {
+    "nodes_created": 2002,
+    "edges_created": 28941,
+    "node_types": {
+      "Disease": 990,
+      "Symptom": 38,
+      "Sign": 74,
+      "Treatment": 845,
+      "DiagnosticTest": 55
+    },
+    "edge_types": {
+      "presents_with": 3213,
+      "associated_with": 8367,
+      "treated_with": 14738,
+      "differential_diagnosis": 105,
+      "diagnosed_with": 2518
+    },
+    "red_flags": 103
+  },
+  "outputs": {
+    "nodes_json": "indexing\\output\\phase6\\graphrag_nodes.json",
+    "edges_json": "indexing\\output\\phase6\\graphrag_edges.json",
+    "cypher_script": "indexing\\output\\phase6\\neo4j_import.cypher",
+    "nodes_csv": "indexing\\output\\phase6\\nodes.csv",
+    "edges_csv": "indexing\\output\\phase6\\relationships.csv"
+  },
+  "validation": {
+    "nodes_created": true,
+    "edges_created": true,
+    "red_flags_present": true
+  }
+}
