@@ -113,7 +113,8 @@ Patient Input → Red Flag Check → Systematic Questions → Risk Stratificatio
 **Red Flag Detector** (`backend/apps/triage/services/red_flag_detector.py`)
 - Keyword matching + semantic analysis
 - Must have zero false negatives
-- See docs/medical/red-flags.md for complete list
+- Red flags extracted from Wills Eye Manual via GraphRAG pipeline (Phase 5.1)
+- See `indexing/output/phase5/red_flags.json` for extracted conditions
 
 **Knowledge Graph** (`indexing/`)
 - Microsoft GraphRAG implementation with Neo4j
@@ -135,8 +136,15 @@ Patient Input → Red Flag Check → Systematic Questions → Risk Stratificatio
 - **Urgent**: Doctor within 24-48 hours (e.g., keratitis, acute glaucoma)
 - **Non-Urgent**: Schedule appointment 1-2 weeks (e.g., mild allergic conjunctivitis)
 
-### Red Flags (See docs/medical/red-flags.md)
-Examples include:
+### Red Flags
+**Red flags are extracted from Wills Eye Manual textbook** (not hardcoded).
+
+Extraction process:
+- Phase 5.1 of GraphRAG preparation pipeline
+- Output: `indexing/output/phase5/red_flags.json`
+- Source: Primarily Chapter 3 (Trauma) and emergency sections throughout book
+
+Examples of emergent conditions include:
 - Sudden vision loss (painless or painful)
 - Chemical exposure to eye
 - Penetrating trauma
@@ -145,9 +153,10 @@ Examples include:
 
 **Testing Red Flag Detection:**
 Every red flag must have:
-1. Keyword list
+1. Keyword list extracted from textbook
 2. Test cases in `apps/triage/tests/test_red_flags.py`
 3. False positive/negative analysis
+4. Source reference to Wills Eye Manual chapter/section
 
 ### Safety Protocols
 1. Never provide diagnosis (only triage)
@@ -207,9 +216,10 @@ def detect_red_flags(text: str) -> tuple[bool, str | None]:
 Always check these before making changes:
 - **GraphRAG Architecture**: docs/GRAPHRAG_ARCHITECTURE.md (knowledge graph design)
 - **GraphRAG Quick Start**: indexing/QUICKSTART_GRAPHRAG.md (implementation guide)
+- **GraphRAG Preparation TODO**: docs/GRAPHRAG_PREPARATION_TODO.md (data extraction pipeline)
 - **GraphRAG Status**: GRAPHRAG_IMPLEMENTATION_STATUS.md (current progress)
 - **Medical Framework**: docs/medical/framework.md (authoritative triage logic)
-- **Red Flags**: docs/medical/red-flags.md (complete emergent conditions list)
+- **Red Flags**: indexing/output/phase5/red_flags.json (extracted emergent conditions)
 - **Urgency Levels**: docs/medical/urgency-levels.md
 - **Triage Algorithm**: docs/technical/triage-algorithm.md
 - **API Specs**: docs/technical/api-specifications.md

@@ -242,11 +242,13 @@ The Wills Eye Manual (7th Edition) EPUB has been analyzed and contains substanti
   - Output: urgency classifications in disease entities
   - Priority: **CRITICAL** (Required for triage system)
 
-- [ ] **Map symptoms to red flags**
+- [ ] **Map symptoms to red flags (AFTER Phase 5.1 completion)**
   - Identify which symptoms indicate emergent conditions
-  - Use red flags reference: `docs/medical/red-flags.md`
-  - Output: flag "red_flag: true" in symptom entities
+  - Extract red flag associations from textbook (not from hardcoded list)
+  - Link symptoms to red flag conditions extracted in Phase 5.1
+  - Output: flag "red_flag: true" in symptom entities with reference to red_flag_id
   - Priority: **CRITICAL**
+  - **DEPENDENCY**: Requires Phase 5.1 (Extract Red Flag Conditions) to be completed first
 
 ### 4.3 Create Hierarchical Disease Classifications
 - [ ] **Organize diseases by system**
@@ -267,23 +269,34 @@ The Wills Eye Manual (7th Edition) EPUB has been analyzed and contains substanti
 ## PHASE 5: RED FLAG & SAFETY EXTRACTION
 
 ### 5.1 Extract Red Flag Conditions
-- [ ] **Identify and extract emergent conditions**
-  - Scan all chapters for red flag conditions
-  - Extract keywords and identifying features
-  - Extract from Chapter 3 (Trauma) especially
-  - Output: `red_flags.json` with schema:
+- [ ] **Identify and extract emergent conditions from Wills Eye Manual**
+  - Scan all chapters for red flag conditions (especially Chapter 3: Trauma)
+  - Extract keywords and identifying features directly from textbook
+  - Create comprehensive list of emergent conditions requiring immediate ER referral
+  - **NOTE**: Red flags must be extracted from the textbook, NOT hardcoded from external sources
+  - Extract for each red flag:
+    - Condition name
+    - Keywords/phrases used in medical literature
+    - Clinical presentation details
+    - First aid instructions (if any)
+    - Urgency level (all should be "emergent")
+    - Source section/chapter reference
+  - Output: `indexing/output/phase5/red_flags.json` with schema:
     ```json
     {
       "red_flag_id": "rf_001",
       "condition": "Chemical Burn",
-      "keywords": ["chemical", "acid", "alkali"],
+      "keywords": ["chemical", "acid", "alkali", "chemical exposure", "splash"],
       "urgency": "emergent",
-      "first_aid": "...",
-      "referral": "ER immediately",
-      "section": "Chapter 3.1"
+      "clinical_presentation": "Patient reports chemical substance contact with eye",
+      "first_aid": "Immediate and copious irrigation with saline or water",
+      "referral": "ER immediately - irrigation should begin before transport",
+      "time_to_treatment": "immediate",
+      "source_chapter": "Chapter 3: Trauma",
+      "source_section": "3.2 Chemical Burn"
     }
     ```
-  - Priority: **CRITICAL**
+  - Priority: **CRITICAL** (This is a safety-critical feature - 100% recall required)
 
 ### 5.2 Extract Safety Warnings
 - [ ] **Extract contraindications and warnings**
@@ -536,19 +549,19 @@ Phase 8 (Final Deliverables) [Must run after Phase 7]
 # OUTPUT FILES SUMMARY
 
 ## Required Output Files
-- `wills_eye_chapters_structured.json` - Structured chapter content
-- `wills_eye_tables.json` - Extracted and structured tables
-- `wills_eye_lists.json` - Extracted lists and differential diagnoses
-- `diseases.json` - Disease entities
-- `symptoms.json` - Symptom entities
-- `signs.json` - Sign entities
-- `treatments.json` - Treatment entities
-- `graphrag_nodes.json` - GraphRAG compatible nodes
-- `graphrag_edges.json` - GraphRAG compatible edges
-- `neo4j_import.cypher` - Neo4j import script
-- `red_flags.json` - Red flag conditions with keywords
-- `validation_reports/` - All validation reports
-- `GRAPHRAG_PREPARATION_SUMMARY.md` - Final summary
+- `indexing/output/phase1/wills_eye_chapters_structured.json` - Structured chapter content
+- `indexing/output/phase1/wills_eye_tables.json` - Extracted and structured tables
+- `indexing/output/phase1/wills_eye_lists.json` - Extracted lists and differential diagnoses
+- `indexing/output/phase2/diseases.json` - Disease entities
+- `indexing/output/phase2/symptoms.json` - Symptom entities
+- `indexing/output/phase2/signs.json` - Sign entities
+- `indexing/output/phase2/treatments.json` - Treatment entities
+- `indexing/output/phase3/graphrag_nodes.json` - GraphRAG compatible nodes
+- `indexing/output/phase3/graphrag_edges.json` - GraphRAG compatible edges
+- `indexing/output/phase3/neo4j_import.cypher` - Neo4j import script
+- `indexing/output/phase5/red_flags.json` - **Red flag conditions extracted from textbook** (NOT hardcoded)
+- `indexing/output/validation_reports/` - All validation reports
+- `indexing/output/GRAPHRAG_PREPARATION_SUMMARY.md` - Final summary
 
 ---
 

@@ -20,9 +20,9 @@ Start here for all project documentation.
 
 ### For Medical Domain Experts
 - [medical/framework.md](./medical/framework.md) - Triage framework
-- [medical/red-flags.md](./medical/red-flags.md) - Emergency conditions
 - [medical/urgency-levels.md](./medical/urgency-levels.md) - Classification system
 - [medical/safety-protocols.md](./medical/safety-protocols.md) - Safety requirements
+- **Red Flags**: Extracted from Wills Eye Manual via `indexing/output/phase5/red_flags.json` (see [GRAPHRAG_PREPARATION_TODO.md](./GRAPHRAG_PREPARATION_TODO.md) Phase 5.1)
 
 ### For AI/ML Engineers
 - [GRAPHRAG_ARCHITECTURE.md](./GRAPHRAG_ARCHITECTURE.md) - Microsoft GraphRAG architecture
@@ -41,9 +41,9 @@ Start here for all project documentation.
 
 ### Medical Domain
 - [framework.md](./medical/framework.md) - Complete triage framework
-- [red-flags.md](./medical/red-flags.md) - Emergency red flags
 - [urgency-levels.md](./medical/urgency-levels.md) - Emergent/Urgent/Non-urgent
 - [safety-protocols.md](./medical/safety-protocols.md) - Safety requirements
+- **Red Flags**: Extracted via GraphRAG pipeline (see [GRAPHRAG_PREPARATION_TODO.md](./GRAPHRAG_PREPARATION_TODO.md) Phase 5.1)
 
 ### Technical Implementation
 - [GRAPHRAG_ARCHITECTURE.md](./GRAPHRAG_ARCHITECTURE.md) - Microsoft GraphRAG architecture

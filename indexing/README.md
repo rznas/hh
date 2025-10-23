@@ -251,7 +251,8 @@ python graphrag_indexer.py \
 
 ### Validation Checklist
 Before deploying to production:
-- [ ] All red flags from `docs/medical/red-flags.md` are indexed
+- [ ] All red flags extracted from Wills Eye Manual (Phase 5.1) are indexed in Neo4j
+- [ ] Red flags output file (`indexing/output/phase5/red_flags.json`) is complete
 - [ ] Urgency levels validated against `docs/medical/urgency-levels.md`
 - [ ] 100% of emergent conditions correctly classified
 - [ ] Cross-references properly resolved

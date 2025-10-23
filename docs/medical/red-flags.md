@@ -1,6 +1,18 @@
 # Red Flag Conditions - Immediate Referral Required
 
-> **CRITICAL**: These conditions require immediate detection and referral to ER
+> **⚠️ DEPRECATED - FOR REFERENCE ONLY**
+>
+> **This file contains hardcoded red flags and should NOT be used as the authoritative source.**
+>
+> **Correct approach**: Red flags must be extracted from the Wills Eye Manual textbook via the GraphRAG preparation pipeline (Phase 5.1).
+>
+> **See**: `docs/GRAPHRAG_PREPARATION_TODO.md` Phase 5.1 for extraction process
+>
+> **Output file**: `indexing/output/phase5/red_flags.json`
+>
+> This file remains for reference purposes only and to illustrate the expected structure of red flag data.
+
+---
 
 ## Immediate Emergency Department Referral
 
