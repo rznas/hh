@@ -6,6 +6,8 @@ This script improves upon the co-occurrence approach by using Claude to:
 - Extract relationship context and evidence
 - Classify relationship types with higher accuracy
 - Handle implicit relationships (e.g., contraindications)
+- PARALLEL PROCESSING: Uses ThreadPoolExecutor for concurrent API calls (default: 5 workers)
+- CHECKPOINT SUPPORT: Saves progress every 10 blocks and can resume from interruptions
 
 Input:
 - Phase 2 outputs: diseases.json, symptoms.json, signs.json, treatments.json, diagnostic_tests.json
@@ -14,9 +16,23 @@ Input:
 Output:
 - graphrag_edges_llm.json (LLM-extracted relationships)
 - phase3_llm_report.json (extraction statistics and costs)
+- phase3_checkpoint.json (progress checkpoint for resuming)
 
 Usage:
-    .venv/Scripts/python indexing/phase3_llm_relationship_extraction.py --batch-size 10 --max-blocks 100
+    # Full extraction with parallel processing (will resume from checkpoint if interrupted)
+    .venv/Scripts/python indexing/phase3_llm_relationship_extraction.py
+
+    # With custom number of workers
+    .venv/Scripts/python indexing/phase3_llm_relationship_extraction.py --num-workers 10
+
+    # Start fresh (ignore checkpoint)
+    .venv/Scripts/python indexing/phase3_llm_relationship_extraction.py --no-checkpoint
+
+    # Test with limited blocks (useful for development)
+    .venv/Scripts/python indexing/phase3_llm_relationship_extraction.py --max-blocks 100 --num-workers 2
+
+    # Dry run (preview prompt without API calls)
+    .venv/Scripts/python indexing/phase3_llm_relationship_extraction.py --dry-run
 """
 
 import json
@@ -25,8 +41,10 @@ import argparse
 from pathlib import Path
 from typing import List, Dict, Tuple
 from dataclasses import dataclass
-import anthropic
+from openai import OpenAI
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # Paths
 PHASE1_DIR = Path(__file__).parent / "output" / "phase1"
@@ -36,8 +54,23 @@ PHASE3_DIR = Path(__file__).parent / "output" / "phase3"
 # Create output directory
 PHASE3_DIR.mkdir(parents=True, exist_ok=True)
 
-# Anthropic client
-client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+# OpenAI client with custom base URL
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI2OTAyNTk3MWYwN2ViNTczMjgzZmIxMjkiLCJ0eXBlIjoiYWlfa2V5IiwiaWF0IjoxNzYxNzYxNjQ5fQ.Wllnd6Fn-fghYv1uk18ZoXNXHDRw30vDiEwNBQXUqR8")
+OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://ai.liara.ir/api/68721419652cec5504661aec/v1")
+OPENAI_MODEL_NAME = os.environ.get("OPENAI_MODEL_NAME", "openai/gpt-4o-mini")
+
+# Disable environment-based proxy settings to avoid SOCKS proxy issues
+os.environ.pop("HTTP_PROXY", None)
+os.environ.pop("HTTPS_PROXY", None)
+os.environ.pop("http_proxy", None)
+os.environ.pop("https_proxy", None)
+os.environ.pop("ALL_PROXY", None)
+os.environ.pop("all_proxy", None)
+
+client = OpenAI(api_key=OPENAI_API_KEY, base_url=OPENAI_BASE_URL, http_client=None)
+
+# Thread-safe lock for stats updates
+stats_lock = threading.Lock()
 
 
 @dataclass
@@ -74,7 +107,7 @@ RELATIONSHIP_EXTRACTION_PROMPT = """You are a medical knowledge graph expert ext
 Return a JSON array of relationships. Each relationship must have:
 ```json
 [
-  {
+  {{
     "source_entity": "entity name",
     "source_type": "DISEASE|SYMPTOM|SIGN|TREATMENT|DIAGNOSTIC_TEST",
     "target_entity": "entity name",
@@ -82,7 +115,7 @@ Return a JSON array of relationships. Each relationship must have:
     "relationship_type": "presents_with|associated_with|treated_with|diagnosed_with|contraindicated_with|can_cause",
     "evidence": "exact quote from text supporting this relationship",
     "confidence": 0.0-1.0
-  }
+  }}
 ]
 ```
 
@@ -200,9 +233,9 @@ def extract_relationships_with_llm(
     )
 
     try:
-        # Call Claude
-        response = client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+        # Call OpenAI
+        response = client.chat.completions.create(
+            model=OPENAI_MODEL_NAME,
             max_tokens=2000,
             temperature=0.0,  # Deterministic for consistency
             messages=[{
@@ -213,15 +246,15 @@ def extract_relationships_with_llm(
 
         # Update stats
         stats.llm_calls += 1
-        stats.total_tokens += response.usage.input_tokens + response.usage.output_tokens
+        stats.total_tokens += response.usage.prompt_tokens + response.usage.completion_tokens
 
-        # Cost calculation (Claude 3.5 Sonnet pricing)
-        input_cost = response.usage.input_tokens * 0.003 / 1000
-        output_cost = response.usage.output_tokens * 0.015 / 1000
+        # Cost calculation (GPT-4o pricing: $5/1M input, $15/1M output)
+        input_cost = response.usage.prompt_tokens * 5 / 1000000
+        output_cost = response.usage.completion_tokens * 15 / 1000000
         stats.total_cost += input_cost + output_cost
 
         # Parse response
-        response_text = response.content[0].text.strip()
+        response_text = response.choices[0].message.content.strip()
 
         # Extract JSON from response (handle markdown code blocks)
         if "```json" in response_text:
@@ -240,7 +273,7 @@ def extract_relationships_with_llm(
                 "chapter": chapter,
                 "section": section,
                 "extraction_method": "llm",
-                "model": "claude-3-5-sonnet"
+                "model": OPENAI_MODEL_NAME
             }
 
         stats.relationships_extracted += len(relationships)
@@ -255,6 +288,25 @@ def extract_relationships_with_llm(
     except Exception as e:
         print(f"  ⚠ Error extracting relationships: {e}")
         return []
+
+
+def process_block_parallel(
+    block: Dict,
+    entities_found: Dict[str, List[str]],
+    stats: ExtractionStats,
+    diseases: List[Dict],
+    symptoms: List[Dict],
+    signs: List[Dict],
+    treatments: List[Dict],
+    tests: List[Dict]
+) -> Tuple[List[Dict], int]:
+    """Process a single block and return mapped relationships with block index."""
+    relationships = extract_relationships_with_llm(block, entities_found, stats)
+
+    # Map to entity IDs
+    mapped = map_to_entity_ids(relationships, diseases, symptoms, signs, treatments, tests)
+
+    return mapped, len(mapped)
 
 
 def map_to_entity_ids(
@@ -320,16 +372,70 @@ def deduplicate_relationships(relationships: List[Dict]) -> List[Dict]:
     return list(seen.values())
 
 
+def load_checkpoint() -> Tuple[List[Dict], ExtractionStats, int]:
+    """Load checkpoint if it exists, returns (relationships, stats, start_index)."""
+    checkpoint_file = PHASE3_DIR / "phase3_checkpoint.json"
+
+    if checkpoint_file.exists():
+        with open(checkpoint_file, "r", encoding="utf-8") as f:
+            checkpoint = json.load(f)
+
+        print(f"  ✓ Loaded checkpoint from previous run")
+        print(f"    • Blocks processed: {checkpoint['stats']['blocks_processed']}")
+        print(f"    • Relationships extracted: {checkpoint['stats']['relationships_extracted']}")
+        print(f"    • Total cost so far: ${checkpoint['stats']['total_cost']:.2f}")
+        print(f"    • Resuming from block {checkpoint['start_index']}")
+
+        stats = ExtractionStats(
+            total_blocks=checkpoint['stats']['total_blocks'],
+            blocks_processed=checkpoint['stats']['blocks_processed'],
+            relationships_extracted=checkpoint['stats']['relationships_extracted'],
+            llm_calls=checkpoint['stats']['llm_calls'],
+            total_tokens=checkpoint['stats']['total_tokens'],
+            total_cost=checkpoint['stats']['total_cost']
+        )
+
+        return checkpoint['relationships'], stats, checkpoint['start_index']
+
+    return [], ExtractionStats(), 0
+
+
+def save_checkpoint(relationships: List[Dict], stats: ExtractionStats, start_index: int):
+    """Save checkpoint to disk for resuming."""
+    checkpoint_file = PHASE3_DIR / "phase3_checkpoint.json"
+
+    checkpoint = {
+        "relationships": relationships,
+        "stats": {
+            "total_blocks": stats.total_blocks,
+            "blocks_processed": stats.blocks_processed,
+            "relationships_extracted": stats.relationships_extracted,
+            "llm_calls": stats.llm_calls,
+            "total_tokens": stats.total_tokens,
+            "total_cost": stats.total_cost
+        },
+        "start_index": start_index
+    }
+
+    with open(checkpoint_file, "w", encoding="utf-8") as f:
+        json.dump(checkpoint, f)
+
+
 def main():
     """Main execution function."""
     parser = argparse.ArgumentParser(description="Extract relationships using LLM")
-    parser.add_argument("--batch-size", type=int, default=10, help="Number of text blocks to process in parallel")
+    parser.add_argument("--batch-size", type=int, default=10, help="Number of text blocks to process in parallel (DEPRECATED - use --num-workers)")
+    parser.add_argument("--num-workers", type=int, default=5, help="Number of parallel workers for processing (default: 5)")
     parser.add_argument("--max-blocks", type=int, default=None, help="Maximum number of text blocks to process (for testing)")
     parser.add_argument("--dry-run", action="store_true", help="Print first prompt without executing")
+    parser.add_argument("--no-checkpoint", action="store_true", help="Ignore checkpoint and start fresh")
     args = parser.parse_args()
 
     print("=" * 80)
-    print("Phase 3 LLM-Enhanced: Relationship Extraction with Claude")
+    print("Phase 3 LLM-Enhanced: Relationship Extraction with OpenAI")
+    print("=" * 80)
+    print(f"Model: {OPENAI_MODEL_NAME}")
+    print(f"Base URL: {OPENAI_BASE_URL}")
     print("=" * 80)
 
     # Load entities
@@ -386,19 +492,85 @@ def main():
         print("\n✓ Dry run complete. Use without --dry-run to execute.")
         return
 
-    # Extract relationships
+    # Extract relationships with checkpoint support
     print("\n[4/5] Extracting relationships with LLM...")
-    stats = ExtractionStats(total_blocks=len(blocks_with_entities))
-    all_relationships = []
 
-    for block, entities_found in tqdm(blocks_with_entities, desc="  Processing"):
-        relationships = extract_relationships_with_llm(block, entities_found, stats)
+    # Load checkpoint if it exists (unless --no-checkpoint flag)
+    if args.no_checkpoint:
+        print("  ⚠ Checkpoint ignored (--no-checkpoint flag)")
+        all_relationships, stats, start_index = [], ExtractionStats(), 0
+    else:
+        all_relationships, stats, start_index = load_checkpoint()
 
-        # Map to entity IDs
-        mapped = map_to_entity_ids(relationships, diseases, symptoms, signs, treatments, tests)
-        all_relationships.extend(mapped)
+    if start_index == 0:
+        stats.total_blocks = len(blocks_with_entities)
+        print(f"  Starting fresh extraction")
+    else:
+        print(f"  Resuming from checkpoint")
 
-        stats.blocks_processed += 1
+    print(f"  Total blocks to process: {stats.total_blocks}")
+    print(f"  Using parallel processing with {args.num_workers} workers")
+
+    # Process remaining blocks in parallel with progress bar
+    remaining_blocks = blocks_with_entities[start_index:]
+    pbar = tqdm(total=len(remaining_blocks), initial=0, desc="  Processing", unit="block")
+
+    # Collect results from parallel processing
+    all_relationships = all_relationships or []
+    processed_count = 0
+    checkpoint_batch = []
+
+    with ThreadPoolExecutor(max_workers=args.num_workers) as executor:
+        # Submit all tasks
+        futures = {
+            executor.submit(
+                process_block_parallel,
+                block,
+                entities_found,
+                stats,
+                diseases,
+                symptoms,
+                signs,
+                treatments,
+                tests
+            ): idx
+            for idx, (block, entities_found) in enumerate(remaining_blocks, start=start_index)
+        }
+
+        # Process completed futures as they finish
+        for future in as_completed(futures):
+            try:
+                mapped_rels, _ = future.result()
+                all_relationships.extend(mapped_rels)
+                checkpoint_batch.extend(mapped_rels)
+
+                with stats_lock:
+                    stats.blocks_processed += 1
+
+                processed_count += 1
+                pbar.update(1)
+
+                # Update progress bar with stats
+                pbar.set_postfix({
+                    "rels": len(all_relationships),
+                    "cost": f"${stats.total_cost:.2f}",
+                    "calls": stats.llm_calls
+                })
+
+                # Save checkpoint every 10 blocks
+                if processed_count % 10 == 0:
+                    save_checkpoint(all_relationships, stats, start_index + processed_count)
+
+            except Exception as e:
+                print(f"\n  ⚠ Error processing block: {e}")
+                pbar.update(1)
+
+    pbar.close()
+
+    # Save final checkpoint after completion
+    save_checkpoint(all_relationships, stats, len(blocks_with_entities))
+    print(f"  ✓ Checkpoint saved (completion)")
+    print(f"  💾 Total relationships extracted: {len(all_relationships)}")
 
     # Deduplicate
     print("\n[5/5] Deduplicating relationships...")
@@ -415,7 +587,7 @@ def main():
     # Generate report
     report = {
         "extraction_method": "llm_enhanced",
-        "model": "claude-3-5-sonnet-20241022",
+        "model": OPENAI_MODEL_NAME,
         "total_relationships": len(unique_relationships),
         "by_type": {},
         "statistics": {

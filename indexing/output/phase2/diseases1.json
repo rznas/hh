@@ -1,0 +1,4437 @@
+[
+  {
+    "name": "Abrasion",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A superficial injury to the cornea or conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_045",
+    "name_normalized": "abrasion"
+  },
+  {
+    "name": "Acanthamoeba Keratitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Acanthamoeba infection"
+    ],
+    "description": "A serious eye infection caused by Acanthamoeba, often associated with contact lens wear.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_168",
+    "name_normalized": "acanthamoeba keratitis"
+  },
+  {
+    "name": "acute angle-closure glaucoma",
+    "type": "DISEASE",
+    "synonyms": [
+      "angle-closure glaucoma"
+    ],
+    "description": "A type of glaucoma that occurs when the drainage angle of the eye becomes blocked.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_070",
+    "name_normalized": "acute angle-closure glaucoma"
+  },
+  {
+    "name": "Acute Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Bacterial Conjunctivitis",
+      "Viral Conjunctivitis"
+    ],
+    "description": "An inflammation of the conjunctiva characterized by redness and discharge.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_176",
+    "name_normalized": "acute conjunctivitis"
+  },
+  {
+    "name": "Addison disease",
+    "type": "DISEASE",
+    "synonyms": [
+      "adrenal insufficiency"
+    ],
+    "description": "A disorder that occurs when the adrenal glands do not produce enough hormones.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_187",
+    "name_normalized": "addison disease"
+  },
+  {
+    "name": "Adenocarcinoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A malignant tumor of glandular origin, can occur in the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_256",
+    "name_normalized": "adenocarcinoma"
+  },
+  {
+    "name": "Adenoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor of glandular origin, can occur in the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_255",
+    "name_normalized": "adenoma"
+  },
+  {
+    "name": "adult-onset foveomacular vitelliform dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A retinal condition characterized by the accumulation of lipofuscin in the fovea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_196",
+    "name_normalized": "adult-onset foveomacular vitelliform dystrophy"
+  },
+  {
+    "name": "Age-related macular degeneration",
+    "type": "DISEASE",
+    "synonyms": [
+      "AMD"
+    ],
+    "description": "A common eye condition that causes vision loss in older adults.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_191",
+    "name_normalized": "age-related macular degeneration"
+  },
+  {
+    "name": "albinism",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic condition characterized by a lack of melanin pigment in the skin, hair, and eyes.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_016",
+    "name_normalized": "albinism"
+  },
+  {
+    "name": "Allergic Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "allergic eye disease"
+    ],
+    "description": "A type of conjunctivitis caused by allergens.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_064",
+    "name_normalized": "allergic conjunctivitis"
+  },
+  {
+    "name": "Allergy",
+    "type": "DISEASE",
+    "synonyms": [
+      "allergic reaction"
+    ],
+    "description": "An immune response to a substance that is usually not harmful.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_122",
+    "name_normalized": "allergy"
+  },
+  {
+    "name": "Alopecia areata",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An autoimmune condition causing hair loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_008",
+    "name_normalized": "alopecia areata"
+  },
+  {
+    "name": "amblyopia",
+    "type": "DISEASE",
+    "synonyms": [
+      "lazy eye"
+    ],
+    "description": "A vision development disorder where an eye fails to achieve normal visual acuity.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_221",
+    "name_normalized": "amblyopia"
+  },
+  {
+    "name": "Amelanotic melanoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of melanoma that lacks pigment.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_260",
+    "name_normalized": "amelanotic melanoma"
+  },
+  {
+    "name": "Anemia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by a deficiency of red blood cells or hemoglobin.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_244",
+    "name_normalized": "anemia"
+  },
+  {
+    "name": "Angioma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor made up of blood vessels.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_101",
+    "name_normalized": "angioma"
+  },
+  {
+    "name": "angioneurotic edema",
+    "type": "DISEASE",
+    "synonyms": [
+      "angioedema"
+    ],
+    "description": "Swelling of the deeper layers of the skin, often around the eyes and lips.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_126",
+    "name_normalized": "angioneurotic edema"
+  },
+  {
+    "name": "angle-closure glaucoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of glaucoma caused by blockage of the drainage canals in the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_142",
+    "name_normalized": "angle-closure glaucoma"
+  },
+  {
+    "name": "Aniridia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic condition characterized by the absence of the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_161",
+    "name_normalized": "aniridia"
+  },
+  {
+    "name": "Anterior segment dysgenesis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Peters anomaly",
+      "sclerocornea"
+    ],
+    "description": "A group of congenital disorders affecting the anterior segment of the eye.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_130",
+    "name_normalized": "anterior segment dysgenesis"
+  },
+  {
+    "name": "anterior uveitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Severe anterior uveitis"
+    ],
+    "description": "Inflammation of the anterior segment of the uvea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_078",
+    "name_normalized": "anterior uveitis"
+  },
+  {
+    "name": "aphakic bullous keratopathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by corneal swelling and blistering after cataract surgery without lens implantation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_072",
+    "name_normalized": "aphakic bullous keratopathy"
+  },
+  {
+    "name": "arteriovenous fistula",
+    "type": "DISEASE",
+    "synonyms": [
+      "AV fistula",
+      "c-c fistula"
+    ],
+    "description": "An abnormal connection between an artery and a vein.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_111",
+    "name_normalized": "arteriovenous fistula"
+  },
+  {
+    "name": "Atopic Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "atopic eye disease"
+    ],
+    "description": "A chronic allergic condition affecting the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_065",
+    "name_normalized": "atopic conjunctivitis"
+  },
+  {
+    "name": "Behçet disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A rare autoimmune disorder causing inflammation in blood vessels.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_104",
+    "name_normalized": "behçet disease"
+  },
+  {
+    "name": "Birth trauma",
+    "type": "DISEASE",
+    "synonyms": [
+      "forceps injury"
+    ],
+    "description": "Injury to a newborn during the process of birth.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_128",
+    "name_normalized": "birth trauma"
+  },
+  {
+    "name": "Blepharitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "eyelid inflammation"
+    ],
+    "description": "Inflammation of the eyelid margins.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_040",
+    "name_normalized": "blepharitis"
+  },
+  {
+    "name": "blepharospasm",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Involuntary tight closure of the eyelids, often bilateral.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_012",
+    "name_normalized": "blepharospasm"
+  },
+  {
+    "name": "Blood Dyscrasia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Abnormalities in blood components.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_092",
+    "name_normalized": "blood dyscrasia"
+  },
+  {
+    "name": "Branch Retinal Vein Occlusion",
+    "type": "DISEASE",
+    "synonyms": [
+      "BRVO"
+    ],
+    "description": "A blockage of one of the branches of the central retinal vein.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_235",
+    "name_normalized": "branch retinal vein occlusion"
+  },
+  {
+    "name": "Burn",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Injury to the eye caused by heat or chemicals.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_002",
+    "name_normalized": "burn"
+  },
+  {
+    "name": "canaliculitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inflammation of the canaliculi.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_083",
+    "name_normalized": "canaliculitis"
+  },
+  {
+    "name": "cancer-associated retinopathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "CAR"
+    ],
+    "description": "A paraneoplastic syndrome that leads to retinal degeneration associated with cancer.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_224",
+    "name_normalized": "cancer-associated retinopathy"
+  },
+  {
+    "name": "Cardiac disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A general term for diseases affecting the heart.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_206",
+    "name_normalized": "cardiac disease"
+  },
+  {
+    "name": "Cardiac myxoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor of the heart, common in young patients.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_207",
+    "name_normalized": "cardiac myxoma"
+  },
+  {
+    "name": "carotid cavernous sinus fistula",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An abnormal connection between the carotid artery and the cavernous sinus, leading to various ocular symptoms.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_026",
+    "name_normalized": "carotid cavernous sinus fistula"
+  },
+  {
+    "name": "Carotid disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition related to the carotid arteries, often associated with emboli.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_205",
+    "name_normalized": "carotid disease"
+  },
+  {
+    "name": "carotid–cavernous sinus fistula",
+    "type": "DISEASE",
+    "synonyms": [
+      "c-c fistula"
+    ],
+    "description": "A specific type of arteriovenous fistula involving the carotid artery and the cavernous sinus.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_112",
+    "name_normalized": "carotid–cavernous sinus fistula"
+  },
+  {
+    "name": "Cataract",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A clouding of the lens in the eye leading to decreased vision.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_035",
+    "name_normalized": "cataract"
+  },
+  {
+    "name": "cavernous sinus syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition resulting from various pathologies affecting the cavernous sinus, leading to ocular signs and symptoms.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_027",
+    "name_normalized": "cavernous sinus syndrome"
+  },
+  {
+    "name": "central areolar choroidal dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A retinal dystrophy characterized by atrophy of the retinal pigment epithelium.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_198",
+    "name_normalized": "central areolar choroidal dystrophy"
+  },
+  {
+    "name": "Central Retinal Artery Occlusion",
+    "type": "DISEASE",
+    "synonyms": [
+      "CRAO"
+    ],
+    "description": "A blockage of the central retinal artery, resulting in sudden vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_233",
+    "name_normalized": "central retinal artery occlusion"
+  },
+  {
+    "name": "central retinal vein occlusion",
+    "type": "DISEASE",
+    "synonyms": [
+      "CRVO"
+    ],
+    "description": "A blockage of the central retinal vein, leading to vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_212",
+    "name_normalized": "central retinal vein occlusion"
+  },
+  {
+    "name": "Charles Bonnet syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where visually impaired individuals experience visual hallucinations.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_061",
+    "name_normalized": "charles bonnet syndrome"
+  },
+  {
+    "name": "chemical injury",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Injury to the eye caused by chemical exposure.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_141",
+    "name_normalized": "chemical injury"
+  },
+  {
+    "name": "chlamydia",
+    "type": "DISEASE",
+    "synonyms": [
+      "Chlamydia trachomatis",
+      "Inclusion conjunctivitis",
+      "Trachoma"
+    ],
+    "description": "Bacteria that can cause conjunctivitis, especially in newborns.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_154",
+    "name_normalized": "chlamydia"
+  },
+  {
+    "name": "chloroquine retinopathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "hydroxychloroquine retinopathy"
+    ],
+    "description": "Retinal damage caused by the use of chloroquine or hydroxychloroquine.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_195",
+    "name_normalized": "chloroquine retinopathy"
+  },
+  {
+    "name": "choroidal detachment",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Separation of the choroid from the sclera.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_059",
+    "name_normalized": "choroidal detachment"
+  },
+  {
+    "name": "Choroidal tumor",
+    "type": "DISEASE",
+    "synonyms": [
+      "choroidal neoplasm"
+    ],
+    "description": "A tumor located in the choroid layer of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_200",
+    "name_normalized": "choroidal tumor"
+  },
+  {
+    "name": "Chronic Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Allergic Conjunctivitis",
+      "Irritative Conjunctivitis"
+    ],
+    "description": "A long-lasting inflammation of the conjunctiva often due to allergens or irritants.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_177",
+    "name_normalized": "chronic conjunctivitis"
+  },
+  {
+    "name": "chronic dacryoadenitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Chronic inflammation of the lacrimal gland.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_121",
+    "name_normalized": "chronic dacryoadenitis"
+  },
+  {
+    "name": "chronic open angle glaucoma",
+    "type": "DISEASE",
+    "synonyms": [
+      "open-angle glaucoma"
+    ],
+    "description": "A common form of glaucoma characterized by gradual loss of vision due to increased intraocular pressure.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_215",
+    "name_normalized": "chronic open angle glaucoma"
+  },
+  {
+    "name": "chronic papilledema",
+    "type": "DISEASE",
+    "synonyms": [
+      "pseudotumor cerebri"
+    ],
+    "description": "Swelling of the optic disc due to increased intracranial pressure.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_213",
+    "name_normalized": "chronic papilledema"
+  },
+  {
+    "name": "chronic retinal detachment",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where the retina is separated from the underlying tissue over a long period.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_253",
+    "name_normalized": "chronic retinal detachment"
+  },
+  {
+    "name": "Chronic skin disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Long-term skin conditions affecting the eyelid area.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_007",
+    "name_normalized": "chronic skin disease"
+  },
+  {
+    "name": "Chronic Uveitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Long-term inflammation of the uvea, which can affect vision.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_243",
+    "name_normalized": "chronic uveitis"
+  },
+  {
+    "name": "Clotting Disorder",
+    "type": "DISEASE",
+    "synonyms": [
+      "Coagulation Disorder"
+    ],
+    "description": "Conditions that affect the blood's ability to clot.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_093",
+    "name_normalized": "clotting disorder"
+  },
+  {
+    "name": "CNS causes",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Conditions originating from the central nervous system.",
+    "confidence": 0.8,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_063",
+    "name_normalized": "cns causes"
+  },
+  {
+    "name": "CNS lesions",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Abnormalities in the central nervous system that can affect ocular function.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_033",
+    "name_normalized": "cns lesions"
+  },
+  {
+    "name": "Coats Disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A rare eye disorder characterized by abnormal blood vessel development in the retina.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_240",
+    "name_normalized": "coats disease"
+  },
+  {
+    "name": "Complexion-associated melanosis",
+    "type": "DISEASE",
+    "synonyms": [
+      "perilimbal melanosis"
+    ],
+    "description": "A condition characterized by increased pigmentation around the limbus of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_182",
+    "name_normalized": "complexion-associated melanosis"
+  },
+  {
+    "name": "cone degeneration",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Degeneration of cone photoreceptors in the retina, affecting color vision.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_222",
+    "name_normalized": "cone degeneration"
+  },
+  {
+    "name": "cone dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A group of inherited retinal disorders that affect cone photoreceptors.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_193",
+    "name_normalized": "cone dystrophy"
+  },
+  {
+    "name": "congenital",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Ocular conditions present at birth.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_180",
+    "name_normalized": "congenital"
+  },
+  {
+    "name": "congenital glaucoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A form of glaucoma that occurs in infants and young children due to abnormal eye development.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_017",
+    "name_normalized": "congenital glaucoma"
+  },
+  {
+    "name": "congenital hereditary endothelial dystrophy",
+    "type": "DISEASE",
+    "synonyms": [
+      "CHED"
+    ],
+    "description": "A genetic disorder affecting the corneal endothelium.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_139",
+    "name_normalized": "congenital hereditary endothelial dystrophy"
+  },
+  {
+    "name": "Congenital hereditary endothelial or stromal dystrophy",
+    "type": "DISEASE",
+    "synonyms": [
+      "bilateral"
+    ],
+    "description": "A genetic condition affecting the corneal endothelium or stroma.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_131",
+    "name_normalized": "congenital hereditary endothelial or stromal dystrophy"
+  },
+  {
+    "name": "Congenital Horner syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by ptosis, miosis, and anhidrosis due to disruption of sympathetic nerve pathways.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_269",
+    "name_normalized": "congenital horner syndrome"
+  },
+  {
+    "name": "Conjunctival abnormality",
+    "type": "DISEASE",
+    "synonyms": [
+      "Conjunctival disorder"
+    ],
+    "description": "Any abnormal condition affecting the conjunctiva.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_044",
+    "name_normalized": "conjunctival abnormality"
+  },
+  {
+    "name": "Conjunctival cyst",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A fluid-filled sac on the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_050",
+    "name_normalized": "conjunctival cyst"
+  },
+  {
+    "name": "conjunctival foreign body",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A foreign object located in the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_080",
+    "name_normalized": "conjunctival foreign body"
+  },
+  {
+    "name": "Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "allergic conjunctivitis",
+      "pink eye",
+      "toxic conjunctivitis"
+    ],
+    "description": "Inflammation of the conjunctiva, often due to infection or allergy.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_041",
+    "name_normalized": "conjunctivitis"
+  },
+  {
+    "name": "Contact Dermatitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "allergic contact dermatitis"
+    ],
+    "description": "Skin inflammation caused by contact with allergens or irritants.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_067",
+    "name_normalized": "contact dermatitis"
+  },
+  {
+    "name": "contact lens overwear",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Complications arising from wearing contact lenses for too long.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_074",
+    "name_normalized": "contact lens overwear"
+  },
+  {
+    "name": "Contact lens–related problem",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Any issue arising from the use of contact lenses.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_053",
+    "name_normalized": "contact lens–related problem"
+  },
+  {
+    "name": "Contact Lens–Related Problems",
+    "type": "DISEASE",
+    "synonyms": [
+      "contact lens complications"
+    ],
+    "description": "Issues arising from the use of contact lenses.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_069",
+    "name_normalized": "contact lens–related problems"
+  },
+  {
+    "name": "convergence insufficiency",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where the eyes do not work together properly while focusing on a near object.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_029",
+    "name_normalized": "convergence insufficiency"
+  },
+  {
+    "name": "Corneal abnormality",
+    "type": "DISEASE",
+    "synonyms": [
+      "Corneal disorder",
+      "corneal abrasion",
+      "corneal erosion"
+    ],
+    "description": "Any abnormal condition affecting the cornea.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_043",
+    "name_normalized": "corneal abnormality"
+  },
+  {
+    "name": "Corneal dermoid",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor of the cornea that contains skin-like tissue.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_133",
+    "name_normalized": "corneal dermoid"
+  },
+  {
+    "name": "corneal dystrophies",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A group of genetic disorders that affect the cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_075",
+    "name_normalized": "corneal dystrophies"
+  },
+  {
+    "name": "corneal hydrops",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Swelling of the cornea due to fluid accumulation, often associated with keratoconus.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_143",
+    "name_normalized": "corneal hydrops"
+  },
+  {
+    "name": "corneal or conjunctival foreign body",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A foreign object located in the cornea or conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_088",
+    "name_normalized": "corneal or conjunctival foreign body"
+  },
+  {
+    "name": "crocodile tears",
+    "type": "DISEASE",
+    "synonyms": [
+      "congenital crocodile tears",
+      "seventh cranial nerve palsy"
+    ],
+    "description": "A condition where tears are produced while eating.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_087",
+    "name_normalized": "crocodile tears"
+  },
+  {
+    "name": "Cysts",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Fluid-filled sacs that can appear in the iris.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_257",
+    "name_normalized": "cysts"
+  },
+  {
+    "name": "dacryoadenitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inflammation of the lacrimal gland.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_082",
+    "name_normalized": "dacryoadenitis"
+  },
+  {
+    "name": "dacryocystitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Infection or inflammation of the lacrimal sac.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_081",
+    "name_normalized": "dacryocystitis"
+  },
+  {
+    "name": "Diabetes",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A metabolic disease characterized by high blood sugar levels.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_232",
+    "name_normalized": "diabetes"
+  },
+  {
+    "name": "Diabetic retinopathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A diabetes-related eye disease that affects the retina.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_251",
+    "name_normalized": "diabetic retinopathy"
+  },
+  {
+    "name": "diffuse iris nevus",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign pigmented lesion of the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_276",
+    "name_normalized": "diffuse iris nevus"
+  },
+  {
+    "name": "divergence insufficiency",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where the eyes do not diverge properly when looking at distant objects.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_030",
+    "name_normalized": "divergence insufficiency"
+  },
+  {
+    "name": "drugs",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Ocular conditions caused by adverse effects of medications.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_179",
+    "name_normalized": "drugs"
+  },
+  {
+    "name": "dry eye syndrome",
+    "type": "DISEASE",
+    "synonyms": [
+      "keratoconjunctivitis sicca"
+    ],
+    "description": "A condition characterized by insufficient tear production or excessive tear evaporation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_011",
+    "name_normalized": "dry eye syndrome"
+  },
+  {
+    "name": "Eales Disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by retinal vasculitis and hemorrhage.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_245",
+    "name_normalized": "eales disease"
+  },
+  {
+    "name": "ectropion",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Eyelid condition where the eyelid turns outward.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_018",
+    "name_normalized": "ectropion"
+  },
+  {
+    "name": "Endophthalmitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An inflammation of the interior of the eye, often due to infection.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_105",
+    "name_normalized": "endophthalmitis"
+  },
+  {
+    "name": "epidemic keratoconjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "EKC"
+    ],
+    "description": "Highly contagious viral infection of the eye causing conjunctivitis.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_178",
+    "name_normalized": "epidemic keratoconjunctivitis"
+  },
+  {
+    "name": "Episcleritis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inflammation of the episclera, often presenting with redness and discomfort.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_054",
+    "name_normalized": "episcleritis"
+  },
+  {
+    "name": "Erosion",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Loss of the outer layer of the cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_046",
+    "name_normalized": "erosion"
+  },
+  {
+    "name": "Exposed suture tail/tube/buckle/hardware",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Surgical materials that are improperly positioned or exposed, causing irritation.",
+    "confidence": 0.8,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_049",
+    "name_normalized": "exposed suture tail/tube/buckle/hardware"
+  },
+  {
+    "name": "extravascular blockage of ophthalmic or orbital venous outflow",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition that impedes the normal drainage of blood from the eye or orbit.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_138",
+    "name_normalized": "extravascular blockage of ophthalmic or orbital venous outflow"
+  },
+  {
+    "name": "eyelash or eyelid disorder",
+    "type": "DISEASE",
+    "synonyms": [
+      "trichiasis",
+      "entropion"
+    ],
+    "description": "Disorders affecting the eyelashes or eyelids.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_079",
+    "name_normalized": "eyelash or eyelid disorder"
+  },
+  {
+    "name": "Eyelid infection",
+    "type": "DISEASE",
+    "synonyms": [
+      "eyelid inflammation"
+    ],
+    "description": "Infection affecting the eyelid.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_004",
+    "name_normalized": "eyelid infection"
+  },
+  {
+    "name": "Fabry disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic disorder that results from the buildup of a particular type of fat in the body's cells.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_181",
+    "name_normalized": "fabry disease"
+  },
+  {
+    "name": "failed corneal graft",
+    "type": "DISEASE",
+    "synonyms": [
+      "Corneal transplant failure"
+    ],
+    "description": "Failure of a transplanted cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_149",
+    "name_normalized": "failed corneal graft"
+  },
+  {
+    "name": "familial",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Referring to diseases or conditions that are inherited within families.",
+    "confidence": 0.7,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_282",
+    "name_normalized": "familial"
+  },
+  {
+    "name": "Familial Exudative Vitreoretinopathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "FEVR"
+    ],
+    "description": "A genetic disorder affecting the retina and leading to vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_246",
+    "name_normalized": "familial exudative vitreoretinopathy"
+  },
+  {
+    "name": "Foreign bodies",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Objects that are not naturally part of the body and can appear in the iris.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_258",
+    "name_normalized": "foreign bodies"
+  },
+  {
+    "name": "Foreign body",
+    "type": "DISEASE",
+    "synonyms": [
+      "conjunctival foreign body",
+      "subconjunctival foreign body"
+    ],
+    "description": "An object that is not normally found in the eye, causing irritation or injury.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_047",
+    "name_normalized": "foreign body"
+  },
+  {
+    "name": "fourth cranial nerve palsy",
+    "type": "DISEASE",
+    "synonyms": [
+      "trochlear nerve palsy"
+    ],
+    "description": "A condition characterized by the inability to move the eye downward and inward due to dysfunction of the fourth cranial nerve.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_025",
+    "name_normalized": "fourth cranial nerve palsy"
+  },
+  {
+    "name": "Fuchs dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic condition that affects the cornea, leading to vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_071",
+    "name_normalized": "fuchs dystrophy"
+  },
+  {
+    "name": "Fuchs endothelial dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic condition affecting the corneal endothelium leading to vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_148",
+    "name_normalized": "fuchs endothelial dystrophy"
+  },
+  {
+    "name": "Fuchs Heterochromic Iridocyclitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of chronic uveitis characterized by heterochromia.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_097",
+    "name_normalized": "fuchs heterochromic iridocyclitis"
+  },
+  {
+    "name": "Giant Papillary Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "giant papillary conjunctivitis"
+    ],
+    "description": "A form of conjunctivitis associated with contact lens wear.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_068",
+    "name_normalized": "giant papillary conjunctivitis"
+  },
+  {
+    "name": "glaucomatocyclitic crisis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Posner–Schlossman syndrome"
+    ],
+    "description": "A condition characterized by episodes of elevated intraocular pressure and mild anterior uveitis.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_230",
+    "name_normalized": "glaucomatocyclitic crisis"
+  },
+  {
+    "name": "gonococci",
+    "type": "DISEASE",
+    "synonyms": [
+      "Neisseria gonorrhoeae"
+    ],
+    "description": "Bacteria that can cause conjunctivitis, particularly in newborns.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_152",
+    "name_normalized": "gonococci"
+  },
+  {
+    "name": "Granuloma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A small area of inflammation in tissue, can occur in the iris.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_262",
+    "name_normalized": "granuloma"
+  },
+  {
+    "name": "hemifacial spasm",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Involuntary muscle contractions on one side of the face.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_013",
+    "name_normalized": "hemifacial spasm"
+  },
+  {
+    "name": "Hemophilia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic disorder that impairs the body's ability to make blood clots.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_094",
+    "name_normalized": "hemophilia"
+  },
+  {
+    "name": "hemosiderosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition resulting from excess iron deposition in tissues, which can affect the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_272",
+    "name_normalized": "hemosiderosis"
+  },
+  {
+    "name": "Herpes Simplex Iridocyclitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Herpes Simplex Uveitis"
+    ],
+    "description": "Inflammation of the iris and ciliary body caused by herpes simplex virus.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_095",
+    "name_normalized": "herpes simplex iridocyclitis"
+  },
+  {
+    "name": "herpes simplex keratitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Herpes keratitis"
+    ],
+    "description": "An infection of the cornea caused by the herpes simplex virus.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_144",
+    "name_normalized": "herpes simplex keratitis"
+  },
+  {
+    "name": "Herpes Zoster Iridocyclitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Herpes Zoster Uveitis"
+    ],
+    "description": "Inflammation of the iris and ciliary body caused by the varicella-zoster virus.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_096",
+    "name_normalized": "herpes zoster iridocyclitis"
+  },
+  {
+    "name": "herpes zoster keratitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Zoster keratitis"
+    ],
+    "description": "An infection of the cornea caused by the varicella-zoster virus.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_145",
+    "name_normalized": "herpes zoster keratitis"
+  },
+  {
+    "name": "HLA-B27 associated",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition associated with certain autoimmune diseases.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_103",
+    "name_normalized": "hla-b27 associated"
+  },
+  {
+    "name": "hyphema",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "The presence of blood in the anterior chamber of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_229",
+    "name_normalized": "hyphema"
+  },
+  {
+    "name": "hypocalcemia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by low levels of calcium in the blood.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_279",
+    "name_normalized": "hypocalcemia"
+  },
+  {
+    "name": "hypothyroidism",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition in which the thyroid gland does not produce enough thyroid hormones.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_281",
+    "name_normalized": "hypothyroidism"
+  },
+  {
+    "name": "hypotony",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Abnormally low intraocular pressure.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_114",
+    "name_normalized": "hypotony"
+  },
+  {
+    "name": "Hypoxia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition resulting from insufficient oxygen supply, often related to contact lens wear.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_156",
+    "name_normalized": "hypoxia"
+  },
+  {
+    "name": "Iatrogenic",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Conditions resulting from medical treatment or intervention.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_090",
+    "name_normalized": "iatrogenic"
+  },
+  {
+    "name": "ICE syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by iris changes, corneal edema, and secondary glaucoma.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_278",
+    "name_normalized": "ice syndrome"
+  },
+  {
+    "name": "Ichthyosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A group of skin disorders characterized by dry, scaly skin.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_173",
+    "name_normalized": "ichthyosis"
+  },
+  {
+    "name": "Idiopathic",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A term used to describe a condition with no known cause.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_174",
+    "name_normalized": "idiopathic"
+  },
+  {
+    "name": "Idiopathic orbital inflammatory syndrome",
+    "type": "DISEASE",
+    "synonyms": [
+      "orbital inflammatory disease"
+    ],
+    "description": "A condition characterized by inflammation of the orbit without a known cause.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_202",
+    "name_normalized": "idiopathic orbital inflammatory syndrome"
+  },
+  {
+    "name": "infiltrative optic neuropathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Optic neuropathy caused by infiltration of the optic nerve.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_218",
+    "name_normalized": "infiltrative optic neuropathy"
+  },
+  {
+    "name": "Inflammation",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A response of body tissues to injury or irritation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_005",
+    "name_normalized": "inflammation"
+  },
+  {
+    "name": "Inflammatory nodule",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A localized area of inflammation that can occur in the iris.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_261",
+    "name_normalized": "inflammatory nodule"
+  },
+  {
+    "name": "inflammatory open angle glaucoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A form of open-angle glaucoma associated with inflammation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_227",
+    "name_normalized": "inflammatory open angle glaucoma"
+  },
+  {
+    "name": "internuclear ophthalmoplegia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by impaired horizontal eye movements due to a lesion in the brainstem.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_031",
+    "name_normalized": "internuclear ophthalmoplegia"
+  },
+  {
+    "name": "Intraocular Foreign Body",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Any foreign object located within the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_108",
+    "name_normalized": "intraocular foreign body"
+  },
+  {
+    "name": "Intraocular Tumor",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Tumors located within the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_098",
+    "name_normalized": "intraocular tumor"
+  },
+  {
+    "name": "Intraocular Tumor Necrosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Necrosis of a tumor located within the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_109",
+    "name_normalized": "intraocular tumor necrosis"
+  },
+  {
+    "name": "Intravenous drug use",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A behavior associated with the use of drugs through injection, leading to various health issues.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_208",
+    "name_normalized": "intravenous drug use"
+  },
+  {
+    "name": "iridocorneal endothelial syndrome",
+    "type": "DISEASE",
+    "synonyms": [
+      "ICE syndrome"
+    ],
+    "description": "A condition affecting the cornea and iris, leading to various complications.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_150",
+    "name_normalized": "iridocorneal endothelial syndrome"
+  },
+  {
+    "name": "Iridocyclitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Uveitis"
+    ],
+    "description": "Inflammation of the iris and ciliary body.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_249",
+    "name_normalized": "iridocyclitis"
+  },
+  {
+    "name": "Iris Neovascularization",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Abnormal growth of blood vessels in the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_091",
+    "name_normalized": "iris neovascularization"
+  },
+  {
+    "name": "jaundice",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by yellowing of the skin and eyes due to high bilirubin levels.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_189",
+    "name_normalized": "jaundice"
+  },
+  {
+    "name": "Juvenile Xanthogranuloma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor that typically occurs in children.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_099",
+    "name_normalized": "juvenile xanthogranuloma"
+  },
+  {
+    "name": "Keratitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Infectious keratitis",
+      "infectious keratitis"
+    ],
+    "description": "An inflammation of the cornea, often due to infection.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_102",
+    "name_normalized": "keratitis"
+  },
+  {
+    "name": "Keratoconus",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition in which the cornea thins and bulges into a cone shape.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_169",
+    "name_normalized": "keratoconus"
+  },
+  {
+    "name": "lacrimal sac mass",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A mass located in the lacrimal sac.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_086",
+    "name_normalized": "lacrimal sac mass"
+  },
+  {
+    "name": "lagophthalmos",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inability to close the eyelids completely.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_115",
+    "name_normalized": "lagophthalmos"
+  },
+  {
+    "name": "Leber hereditary optic neuropathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "Leber's optic neuropathy"
+    ],
+    "description": "A genetic condition that leads to vision loss due to optic nerve degeneration.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_220",
+    "name_normalized": "leber hereditary optic neuropathy"
+  },
+  {
+    "name": "Leiomyoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor of smooth muscle, can occur in the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_267",
+    "name_normalized": "leiomyoma"
+  },
+  {
+    "name": "Leprosy",
+    "type": "DISEASE",
+    "synonyms": [
+      "Hansen's disease"
+    ],
+    "description": "A chronic infectious disease caused by Mycobacterium leprae, which can affect the eyes.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_163",
+    "name_normalized": "leprosy"
+  },
+  {
+    "name": "leukemia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of cancer that affects blood and bone marrow.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_136",
+    "name_normalized": "leukemia"
+  },
+  {
+    "name": "Loose/broken suture",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A complication where sutures from previous surgery become loose or break.",
+    "confidence": 0.8,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_048",
+    "name_normalized": "loose/broken suture"
+  },
+  {
+    "name": "lymphoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of cancer that originates in the lymphatic system and can affect ocular tissues.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_277",
+    "name_normalized": "lymphoma"
+  },
+  {
+    "name": "malignant glaucoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A rare form of glaucoma that occurs postoperatively and is characterized by a shallow anterior chamber.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_228",
+    "name_normalized": "malignant glaucoma"
+  },
+  {
+    "name": "Marked hyperopia",
+    "type": "DISEASE",
+    "synonyms": [
+      "high hyperopia"
+    ],
+    "description": "A condition of significantly impaired near vision due to excessive refractive error.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_203",
+    "name_normalized": "marked hyperopia"
+  },
+  {
+    "name": "Medullary Thyroid Carcinoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of thyroid cancer that arises from the parafollicular C cells.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_165",
+    "name_normalized": "medullary thyroid carcinoma"
+  },
+  {
+    "name": "Medulloepithelioma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A rare malignant tumor of the eye that can occur in the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_266",
+    "name_normalized": "medulloepithelioma"
+  },
+  {
+    "name": "melanoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A malignant tumor of melanocytes, which can occur in the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_185",
+    "name_normalized": "melanoma"
+  },
+  {
+    "name": "melanoma-associated retinopathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "MAR"
+    ],
+    "description": "A paraneoplastic syndrome associated with melanoma that affects the retina.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_225",
+    "name_normalized": "melanoma-associated retinopathy"
+  },
+  {
+    "name": "membranous conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of conjunctivitis characterized by the presence of a membrane on the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_151",
+    "name_normalized": "membranous conjunctivitis"
+  },
+  {
+    "name": "meningioma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of tumor that forms on the membranes covering the brain and spinal cord.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_210",
+    "name_normalized": "meningioma"
+  },
+  {
+    "name": "Metabolic abnormalities",
+    "type": "DISEASE",
+    "synonyms": [
+      "mucopolysaccharidoses"
+    ],
+    "description": "A group of inherited disorders caused by the absence of specific enzymes.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_129",
+    "name_normalized": "metabolic abnormalities"
+  },
+  {
+    "name": "metastatic carcinoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Cancer that has spread from the original site to other parts of the body, including the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_270",
+    "name_normalized": "metastatic carcinoma"
+  },
+  {
+    "name": "Molluscum contagiosum",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A viral infection that can cause lesions on the skin and conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_162",
+    "name_normalized": "molluscum contagiosum"
+  },
+  {
+    "name": "mucous membrane pemphigoid",
+    "type": "DISEASE",
+    "synonyms": [
+      "cicatricial pemphigoid"
+    ],
+    "description": "A chronic autoimmune blistering disorder affecting mucous membranes.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_118",
+    "name_normalized": "mucous membrane pemphigoid"
+  },
+  {
+    "name": "Multiple Endocrine Neoplasia Type 2",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic condition associated with medullary thyroid carcinoma and pheochromocytoma.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_164",
+    "name_normalized": "multiple endocrine neoplasia type 2"
+  },
+  {
+    "name": "Multiple Myeloma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A cancer of plasma cells in the bone marrow.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_170",
+    "name_normalized": "multiple myeloma"
+  },
+  {
+    "name": "Myasthenia gravis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A chronic autoimmune neuromuscular disease leading to varying degrees of weakness of the skeletal muscles.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_021",
+    "name_normalized": "myasthenia gravis"
+  },
+  {
+    "name": "myotonic dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic disorder that affects muscle function and is characterized by progressive muscle wasting and weakness.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_280",
+    "name_normalized": "myotonic dystrophy"
+  },
+  {
+    "name": "myxedema",
+    "type": "DISEASE",
+    "synonyms": [
+      "severe hypothyroidism"
+    ],
+    "description": "A severe form of hypothyroidism characterized by swelling of the skin and underlying tissues.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_127",
+    "name_normalized": "myxedema"
+  },
+  {
+    "name": "nasolacrimal duct obstruction",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Blockage of the nasolacrimal duct.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_084",
+    "name_normalized": "nasolacrimal duct obstruction"
+  },
+  {
+    "name": "Neurofibroma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A benign tumor of nerve tissue, can occur in the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_264",
+    "name_normalized": "neurofibroma"
+  },
+  {
+    "name": "Neurofibromas",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Benign tumors that arise from nerve tissue, can appear in the iris.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_259",
+    "name_normalized": "neurofibromas"
+  },
+  {
+    "name": "Neurofibromatosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic disorder that causes tumors to grow on nerves.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_167",
+    "name_normalized": "neurofibromatosis"
+  },
+  {
+    "name": "nevus",
+    "type": "DISEASE",
+    "synonyms": [
+      "mole"
+    ],
+    "description": "A benign growth of melanocytes, often pigmented.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_184",
+    "name_normalized": "nevus"
+  },
+  {
+    "name": "nonphysiologic visual loss",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Vision loss that is not due to a physiological cause.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_226",
+    "name_normalized": "nonphysiologic visual loss"
+  },
+  {
+    "name": "Normal Variant",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A term used to describe a variation of normal anatomy or physiology.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_175",
+    "name_normalized": "normal variant"
+  },
+  {
+    "name": "ocular inflammation",
+    "type": "DISEASE",
+    "synonyms": [
+      "eye inflammation"
+    ],
+    "description": "Inflammation of the eye, which can affect various structures.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_123",
+    "name_normalized": "ocular inflammation"
+  },
+  {
+    "name": "Ocular ischemia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Insufficient blood flow to the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_250",
+    "name_normalized": "ocular ischemia"
+  },
+  {
+    "name": "Ocular Ischemic Syndrome",
+    "type": "DISEASE",
+    "synonyms": [
+      "Carotid Occlusive Disease"
+    ],
+    "description": "A condition caused by reduced blood flow to the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_238",
+    "name_normalized": "ocular ischemic syndrome"
+  },
+  {
+    "name": "ocular malignant melanoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of cancer that arises from melanocytes in the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_275",
+    "name_normalized": "ocular malignant melanoma"
+  },
+  {
+    "name": "ocular melanocytosis",
+    "type": "DISEASE",
+    "synonyms": [
+      "oculodermal melanocytosis"
+    ],
+    "description": "A condition characterized by the presence of melanocytes in the eye and surrounding tissues.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_186",
+    "name_normalized": "ocular melanocytosis"
+  },
+  {
+    "name": "Ocular rosacea",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A chronic inflammatory condition affecting the eyes, associated with facial rosacea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_159",
+    "name_normalized": "ocular rosacea"
+  },
+  {
+    "name": "ophthalmic vein thrombosis",
+    "type": "DISEASE",
+    "synonyms": [
+      "cavernous sinus thrombosis"
+    ],
+    "description": "A condition where a blood clot forms in the ophthalmic vein.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_137",
+    "name_normalized": "ophthalmic vein thrombosis"
+  },
+  {
+    "name": "optic nerve glioma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A tumor that affects the optic nerve, often associated with neurofibromatosis type 1.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_211",
+    "name_normalized": "optic nerve glioma"
+  },
+  {
+    "name": "optic neuropathies",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Diseases affecting the optic nerve.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_060",
+    "name_normalized": "optic neuropathies"
+  },
+  {
+    "name": "optic neuropathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "optic nerve disease"
+    ],
+    "description": "Damage to the optic nerve that can result in vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_217",
+    "name_normalized": "optic neuropathy"
+  },
+  {
+    "name": "Orbicularis myokymia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Involuntary muscle contractions of the eyelid, often related to fatigue or stress.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_010",
+    "name_normalized": "orbicularis myokymia"
+  },
+  {
+    "name": "Orbital tumor",
+    "type": "DISEASE",
+    "synonyms": [
+      "orbital neoplasm"
+    ],
+    "description": "A tumor located in the orbital cavity.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_199",
+    "name_normalized": "orbital tumor"
+  },
+  {
+    "name": "orbital wall fracture",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A fracture of the bones surrounding the eye, often resulting from trauma.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_028",
+    "name_normalized": "orbital wall fracture"
+  },
+  {
+    "name": "other irritative disorder",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Various other conditions causing irritation.",
+    "confidence": 0.8,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_089",
+    "name_normalized": "other irritative disorder"
+  },
+  {
+    "name": "Pars Planitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of intermediate uveitis affecting the pars plana region of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_239",
+    "name_normalized": "pars planitis"
+  },
+  {
+    "name": "Patchy hyperemia of syphilis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by redness in the iris due to syphilis.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_265",
+    "name_normalized": "patchy hyperemia of syphilis"
+  },
+  {
+    "name": "periocular inflammation",
+    "type": "DISEASE",
+    "synonyms": [
+      "inflammation around the eye"
+    ],
+    "description": "Inflammation occurring in the tissues surrounding the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_124",
+    "name_normalized": "periocular inflammation"
+  },
+  {
+    "name": "Pheochromocytoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A tumor of the adrenal gland that can cause high blood pressure.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_166",
+    "name_normalized": "pheochromocytoma"
+  },
+  {
+    "name": "Phlyctenule",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A small, elevated lesion on the conjunctiva or cornea, often associated with hypersensitivity.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_158",
+    "name_normalized": "phlyctenule"
+  },
+  {
+    "name": "phoria",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A latent deviation of the eyes that is only apparent when binocular vision is disrupted.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_022",
+    "name_normalized": "phoria"
+  },
+  {
+    "name": "Phthisis bulbi",
+    "type": "DISEASE",
+    "synonyms": [
+      "Phthisis"
+    ],
+    "description": "A shrunken, non-functional eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_248",
+    "name_normalized": "phthisis bulbi"
+  },
+  {
+    "name": "pigment dispersion syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where pigment granules from the iris are dispersed in the aqueous humor.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_076",
+    "name_normalized": "pigment dispersion syndrome"
+  },
+  {
+    "name": "Pinguecula",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A yellowish, raised growth on the conjunctiva, often due to UV exposure.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_056",
+    "name_normalized": "pinguecula"
+  },
+  {
+    "name": "polycythemia vera",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A blood disorder characterized by an increase in red blood cells.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_135",
+    "name_normalized": "polycythemia vera"
+  },
+  {
+    "name": "postcicatricial conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Conjunctivitis that occurs after scarring of the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_119",
+    "name_normalized": "postcicatricial conjunctivitis"
+  },
+  {
+    "name": "Posterior Capsular Opacity",
+    "type": "DISEASE",
+    "synonyms": [
+      "PCO",
+      "secondary cataract"
+    ],
+    "description": "A common complication after cataract surgery where the back of the lens capsule becomes cloudy.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_037",
+    "name_normalized": "posterior capsular opacity"
+  },
+  {
+    "name": "posterior polymorphous corneal dystrophy",
+    "type": "DISEASE",
+    "synonyms": [
+      "PPCD"
+    ],
+    "description": "A condition affecting the corneal endothelium leading to vision problems.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_140",
+    "name_normalized": "posterior polymorphous corneal dystrophy"
+  },
+  {
+    "name": "Posterior scleritis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inflammation of the sclera at the posterior segment of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_201",
+    "name_normalized": "posterior scleritis"
+  },
+  {
+    "name": "Posterior Vitreous Detachment",
+    "type": "DISEASE",
+    "synonyms": [
+      "PVD"
+    ],
+    "description": "A condition where the vitreous gel separates from the retina, which can lead to vision changes.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_039",
+    "name_normalized": "posterior vitreous detachment"
+  },
+  {
+    "name": "postoperative",
+    "type": "DISEASE",
+    "synonyms": [
+      "post-surgery"
+    ],
+    "description": "Referring to the period following a surgical procedure.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_057",
+    "name_normalized": "postoperative"
+  },
+  {
+    "name": "postoperative complications",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Complications that arise following surgical procedures, potentially affecting the eye.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_231",
+    "name_normalized": "postoperative complications"
+  },
+  {
+    "name": "postoperative edema",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Swelling of the eye following surgery.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_147",
+    "name_normalized": "postoperative edema"
+  },
+  {
+    "name": "PPCD",
+    "type": "DISEASE",
+    "synonyms": [
+      "Posterior Polymorphous Corneal Dystrophy"
+    ],
+    "description": "Posterior polymorphous corneal dystrophy, a genetic disorder affecting the cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_132",
+    "name_normalized": "ppcd"
+  },
+  {
+    "name": "pregnancy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "The condition of carrying a developing fetus within the female body.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_188",
+    "name_normalized": "pregnancy"
+  },
+  {
+    "name": "primary acquired melanosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition involving the development of pigmented lesions on the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_183",
+    "name_normalized": "primary acquired melanosis"
+  },
+  {
+    "name": "Pseudophakia",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where an artificial lens is implanted in the eye after cataract surgery.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_036",
+    "name_normalized": "pseudophakia"
+  },
+  {
+    "name": "pseudophakic bullous keratopathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Corneal swelling and blistering that occurs after cataract surgery with lens implantation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_073",
+    "name_normalized": "pseudophakic bullous keratopathy"
+  },
+  {
+    "name": "pseudotumor cerebri",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by increased intracranial pressure without a detectable cause.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_214",
+    "name_normalized": "pseudotumor cerebri"
+  },
+  {
+    "name": "psychosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A mental disorder characterized by a disconnection from reality.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_062",
+    "name_normalized": "psychosis"
+  },
+  {
+    "name": "Pterygium",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A growth of tissue on the conjunctiva that can extend onto the cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_055",
+    "name_normalized": "pterygium"
+  },
+  {
+    "name": "punctal occlusion",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Blockage of the tear drainage puncta.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_085",
+    "name_normalized": "punctal occlusion"
+  },
+  {
+    "name": "Purtscher retinopathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition characterized by retinal damage due to trauma.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_209",
+    "name_normalized": "purtscher retinopathy"
+  },
+  {
+    "name": "Radiation",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Damage to the eye from exposure to radiation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_006",
+    "name_normalized": "radiation"
+  },
+  {
+    "name": "Recurrent corneal erosion",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where the corneal epithelium repeatedly breaks down.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_051",
+    "name_normalized": "recurrent corneal erosion"
+  },
+  {
+    "name": "Refsum Syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A rare genetic disorder that leads to the accumulation of phytanic acid in the body.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_171",
+    "name_normalized": "refsum syndrome"
+  },
+  {
+    "name": "retained intraocular foreign body",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "The presence of a foreign object within the eye, which can lead to various complications.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_274",
+    "name_normalized": "retained intraocular foreign body"
+  },
+  {
+    "name": "Retained Lens Particle",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where lens material remains in the eye after surgery.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_107",
+    "name_normalized": "retained lens particle"
+  },
+  {
+    "name": "retinal artery occlusion",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Blockage of the retinal artery, which can lead to vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_252",
+    "name_normalized": "retinal artery occlusion"
+  },
+  {
+    "name": "retinal detachment",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Separation of the retina from the underlying supportive tissue.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_058",
+    "name_normalized": "retinal detachment"
+  },
+  {
+    "name": "retinal vascular disease",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A group of conditions affecting the blood vessels in the retina.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_254",
+    "name_normalized": "retinal vascular disease"
+  },
+  {
+    "name": "Retinoblastoma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A malignant tumor of the retina, primarily affecting children.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_100",
+    "name_normalized": "retinoblastoma"
+  },
+  {
+    "name": "Retinopathy of Prematurity",
+    "type": "DISEASE",
+    "synonyms": [
+      "ROP"
+    ],
+    "description": "A condition affecting premature infants, leading to abnormal retinal development.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_241",
+    "name_normalized": "retinopathy of prematurity"
+  },
+  {
+    "name": "Retrobulbar optic neuritis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inflammation of the optic nerve behind the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_216",
+    "name_normalized": "retrobulbar optic neuritis"
+  },
+  {
+    "name": "Riley–Day Dysautonomia",
+    "type": "DISEASE",
+    "synonyms": [
+      "Familial Dysautonomia"
+    ],
+    "description": "A genetic disorder affecting the autonomic nervous system.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_172",
+    "name_normalized": "riley–day dysautonomia"
+  },
+  {
+    "name": "rod monochromatism",
+    "type": "DISEASE",
+    "synonyms": [
+      "achromatopsia"
+    ],
+    "description": "A condition characterized by the absence of cone photoreceptors, leading to color blindness.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_223",
+    "name_normalized": "rod monochromatism"
+  },
+  {
+    "name": "rod–cone dystrophy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A type of retinal dystrophy that affects both rod and cone photoreceptors.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_194",
+    "name_normalized": "rod–cone dystrophy"
+  },
+  {
+    "name": "Ruptured globe",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where the eye is punctured or torn.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_247",
+    "name_normalized": "ruptured globe"
+  },
+  {
+    "name": "Sarcoidosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An inflammatory disease that can affect multiple organs, including the eyes.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_236",
+    "name_normalized": "sarcoidosis"
+  },
+  {
+    "name": "Scleral laceration",
+    "type": "DISEASE",
+    "synonyms": [
+      "scleral rupture"
+    ],
+    "description": "A tear or cut in the sclera, the white outer coating of the eyeball.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_204",
+    "name_normalized": "scleral laceration"
+  },
+  {
+    "name": "Sebaceous carcinoma",
+    "type": "DISEASE",
+    "synonyms": [
+      "cutaneous neoplasm"
+    ],
+    "description": "A type of skin cancer originating from sebaceous glands.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_003",
+    "name_normalized": "sebaceous carcinoma"
+  },
+  {
+    "name": "Seeding from a posterior segment tumor",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "The spread of tumor cells from a tumor located in the posterior segment of the eye to the iris.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_268",
+    "name_normalized": "seeding from a posterior segment tumor"
+  },
+  {
+    "name": "seventh cranial nerve palsy",
+    "type": "DISEASE",
+    "synonyms": [
+      "facial nerve palsy"
+    ],
+    "description": "Weakness or paralysis of the facial muscles due to dysfunction of the seventh cranial nerve.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_019",
+    "name_normalized": "seventh cranial nerve palsy"
+  },
+  {
+    "name": "Sickle Cell Retinopathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A complication of sickle cell disease affecting the retina.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_234",
+    "name_normalized": "sickle cell retinopathy"
+  },
+  {
+    "name": "siderosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition caused by the deposition of iron in tissues, often due to retained intraocular foreign bodies.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_273",
+    "name_normalized": "siderosis"
+  },
+  {
+    "name": "sixth cranial nerve palsy",
+    "type": "DISEASE",
+    "synonyms": [
+      "abducens nerve palsy"
+    ],
+    "description": "A condition characterized by the inability to move the eye laterally due to dysfunction of the sixth cranial nerve.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_023",
+    "name_normalized": "sixth cranial nerve palsy"
+  },
+  {
+    "name": "Sjögren syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An autoimmune disorder characterized by dry eyes and dry mouth.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_116",
+    "name_normalized": "sjögren syndrome"
+  },
+  {
+    "name": "spectacle problem",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Issues related to the use of corrective lenses that can affect vision.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_034",
+    "name_normalized": "spectacle problem"
+  },
+  {
+    "name": "Spielmeyer–Vogt syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A rare genetic disorder that affects the retina and leads to vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_197",
+    "name_normalized": "spielmeyer–vogt syndrome"
+  },
+  {
+    "name": "Staphylococcal hypersensitivity",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An allergic reaction to staphylococcal antigens.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_157",
+    "name_normalized": "staphylococcal hypersensitivity"
+  },
+  {
+    "name": "staphylococci",
+    "type": "DISEASE",
+    "synonyms": [
+      "Staphylococcus"
+    ],
+    "description": "Bacteria that can lead to various infections, including conjunctivitis.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_153",
+    "name_normalized": "staphylococci"
+  },
+  {
+    "name": "Stargardt disease",
+    "type": "DISEASE",
+    "synonyms": [
+      "fundus flavimaculatus"
+    ],
+    "description": "A genetic eye disorder that causes progressive vision loss.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_192",
+    "name_normalized": "stargardt disease"
+  },
+  {
+    "name": "status-post refractive surgery",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "The condition of the eye after undergoing refractive surgery.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_038",
+    "name_normalized": "status-post refractive surgery"
+  },
+  {
+    "name": "Stevens–Johnson syndrome",
+    "type": "DISEASE",
+    "synonyms": [
+      "SJS"
+    ],
+    "description": "A severe skin reaction that can affect mucous membranes, including the eyes.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_120",
+    "name_normalized": "stevens–johnson syndrome"
+  },
+  {
+    "name": "Sturge–Weber syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A neurocutaneous syndrome characterized by facial capillary malformations and neurological abnormalities.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_110",
+    "name_normalized": "sturge–weber syndrome"
+  },
+  {
+    "name": "subconjunctival hemorrhage",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Bleeding underneath the conjunctiva, often resolving spontaneously.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_190",
+    "name_normalized": "subconjunctival hemorrhage"
+  },
+  {
+    "name": "Superficial punctate keratopathy",
+    "type": "DISEASE",
+    "synonyms": [
+      "SPK"
+    ],
+    "description": "A condition characterized by small, superficial lesions on the cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_052",
+    "name_normalized": "superficial punctate keratopathy"
+  },
+  {
+    "name": "superior limbic keratoconjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "Micropannus",
+      "SLK"
+    ],
+    "description": "A condition characterized by inflammation of the superior limbic conjunctiva and cornea.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_155",
+    "name_normalized": "superior limbic keratoconjunctivitis"
+  },
+  {
+    "name": "superior vena cava obstruction",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where the superior vena cava is compressed or obstructed, affecting blood flow.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_113",
+    "name_normalized": "superior vena cava obstruction"
+  },
+  {
+    "name": "Syphilis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A sexually transmitted infection that can cause ocular complications.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_237",
+    "name_normalized": "syphilis"
+  },
+  {
+    "name": "Talc Retinopathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A retinal condition caused by talc emboli from intravenous drug use.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_242",
+    "name_normalized": "talc retinopathy"
+  },
+  {
+    "name": "third cranial nerve palsy",
+    "type": "DISEASE",
+    "synonyms": [
+      "oculomotor nerve palsy"
+    ],
+    "description": "A condition resulting in the inability to move the eye due to dysfunction of the third cranial nerve.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_024",
+    "name_normalized": "third cranial nerve palsy"
+  },
+  {
+    "name": "thyroid eye disease",
+    "type": "DISEASE",
+    "synonyms": [
+      "Graves' ophthalmopathy",
+      "thyroid-associated orbitopathy"
+    ],
+    "description": "An autoimmune condition affecting the eyes associated with thyroid disease.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_020",
+    "name_normalized": "thyroid eye disease"
+  },
+  {
+    "name": "tic douloureux",
+    "type": "DISEASE",
+    "synonyms": [
+      "trigeminal neuralgia"
+    ],
+    "description": "A chronic pain condition affecting the trigeminal nerve in the face.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_015",
+    "name_normalized": "tic douloureux"
+  },
+  {
+    "name": "Tourette syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A neurological disorder characterized by repetitive, involuntary movements and vocalizations.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_014",
+    "name_normalized": "tourette syndrome"
+  },
+  {
+    "name": "Toxic Anterior Segment Syndrome",
+    "type": "DISEASE",
+    "synonyms": [
+      "Contaminant during intraocular surgery"
+    ],
+    "description": "A reaction to contaminants during eye surgery.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_106",
+    "name_normalized": "toxic anterior segment syndrome"
+  },
+  {
+    "name": "toxic optic neuropathy",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Optic neuropathy caused by toxic substances such as alcohol or tobacco.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_219",
+    "name_normalized": "toxic optic neuropathy"
+  },
+  {
+    "name": "Trauma",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Injury to the eye or surrounding structures.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_001",
+    "name_normalized": "trauma"
+  },
+  {
+    "name": "Trichiasis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition where eyelashes grow inward, causing irritation to the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_042",
+    "name_normalized": "trichiasis"
+  },
+  {
+    "name": "Trichotillomania",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A psychological condition characterized by compulsive hair pulling.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_009",
+    "name_normalized": "trichotillomania"
+  },
+  {
+    "name": "Tuberculosis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "An infectious disease that can affect the iris.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_263",
+    "name_normalized": "tuberculosis"
+  },
+  {
+    "name": "uveal neoplasm",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A tumor located in the uveal tract of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_134",
+    "name_normalized": "uveal neoplasm"
+  },
+  {
+    "name": "uveitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Inflammation of the uvea, the middle layer of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_146",
+    "name_normalized": "uveitis"
+  },
+  {
+    "name": "venous congestion",
+    "type": "DISEASE",
+    "synonyms": [
+      "venous stasis"
+    ],
+    "description": "A condition where blood flow is obstructed in the venous system.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_125",
+    "name_normalized": "venous congestion"
+  },
+  {
+    "name": "Vernal keratoconjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A seasonal allergic conjunctivitis that occurs primarily in children and young adults.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_160",
+    "name_normalized": "vernal keratoconjunctivitis"
+  },
+  {
+    "name": "vertebrobasilar artery insufficiency",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A condition resulting from reduced blood flow in the vertebrobasilar system, potentially affecting ocular function.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_032",
+    "name_normalized": "vertebrobasilar artery insufficiency"
+  },
+  {
+    "name": "Viral Conjunctivitis",
+    "type": "DISEASE",
+    "synonyms": [
+      "viral eye infection"
+    ],
+    "description": "Conjunctivitis caused by viral infections.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_066",
+    "name_normalized": "viral conjunctivitis"
+  },
+  {
+    "name": "vitamin A deficiency",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A lack of vitamin A that can lead to vision problems.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_117",
+    "name_normalized": "vitamin a deficiency"
+  },
+  {
+    "name": "vitreous opacities",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "Cloudiness or floaters in the vitreous humor of the eye.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_077",
+    "name_normalized": "vitreous opacities"
+  },
+  {
+    "name": "Waardenburg syndrome",
+    "type": "DISEASE",
+    "synonyms": [],
+    "description": "A genetic condition characterized by hearing loss and changes in pigmentation, including heterochromia.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "disease_271",
+    "name_normalized": "waardenburg syndrome"
+  }
+]

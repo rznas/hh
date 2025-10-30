@@ -1,0 +1,27 @@
+{
+  "extraction_method": "llm_enhanced",
+  "model": "openai/gpt-4o-mini",
+  "total_relationships": 2101,
+  "by_type": {
+    "presents_with": 447,
+    "associated_with": 631,
+    "can_cause": 263,
+    "diagnosed_with": 227,
+    "treated_with": 474,
+    "contraindicated_with": 59
+  },
+  "statistics": {
+    "blocks_processed": 1309,
+    "total_blocks": 1309,
+    "llm_calls": 1309,
+    "total_tokens": 1519348,
+    "total_cost_usd": 12.6,
+    "avg_cost_per_block": 0.0096,
+    "avg_relationships_per_block": 1.61
+  },
+  "confidence_breakdown": {
+    "high_confidence_0.9+": 2033,
+    "medium_confidence_0.7-0.9": 68,
+    "low_confidence_<0.7": 0
+  }
+}

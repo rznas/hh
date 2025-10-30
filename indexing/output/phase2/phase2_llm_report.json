@@ -1,0 +1,21 @@
+{
+  "extraction_method": "llm_enhanced",
+  "model": "openai/gpt-4o-mini",
+  "total_unique_entities": 348,
+  "by_type": {
+    "symptom": 13,
+    "sign": 26,
+    "disease": 282,
+    "treatment": 25,
+    "diagnostic_test": 2
+  },
+  "statistics": {
+    "blocks_processed": 50,
+    "total_blocks": 50,
+    "llm_calls": 41,
+    "total_tokens": 51555,
+    "total_cost_usd": 0.56,
+    "avg_cost_per_block": 0.0111,
+    "avg_entities_per_block": 6.96
+  }
+}

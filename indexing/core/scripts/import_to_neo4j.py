@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 class Neo4jImporter:
-    def __init__(self, uri: str, username: str, password: str):
+    def __init__(self, uri: str="bolt://localhost:7687", username: str="neo4j", password: str="password"):
         """Initialize Neo4j connection.
 
         Args:

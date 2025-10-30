@@ -1,787 +1,215 @@
 [
   {
-    "entity_id": "symptom_001",
-    "name": "Irritation",
-    "name_normalized": "irritation",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 1,
-    "chapters": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 26
-  },
-  {
-    "entity_id": "symptom_002",
-    "name": "Discharge",
-    "name_normalized": "discharge",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 1,
-    "chapters": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      12
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 54
-  },
-  {
-    "entity_id": "symptom_003",
-    "name": "Ache",
-    "name_normalized": "ache",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 1,
-    "chapters": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 63
-  },
-  {
-    "entity_id": "symptom_004",
-    "name": "Pain",
-    "name_normalized": "pain",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 1,
-    "chapters": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      9,
-      10,
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 193
-  },
-  {
+    "name": "blindness",
+    "type": "SYMPTOM",
+    "synonyms": [],
+    "description": "Loss of vision.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
     "entity_id": "symptom_005",
-    "name": "Headache",
-    "name_normalized": "headache",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 1,
-    "chapters": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 50
+    "name_normalized": "blindness"
   },
   {
+    "name": "discharge",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "exudate"
+    ],
+    "description": "Fluid that is released from the eye, often indicating infection or irritation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
     "entity_id": "symptom_006",
-    "name": "Spots",
-    "name_normalized": "spots",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 2,
-    "chapters": [
-      2,
-      3,
-      4,
-      8,
-      10,
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 14
+    "name_normalized": "discharge"
   },
   {
+    "name": "emotional state",
+    "type": "SYMPTOM",
+    "synonyms": [],
+    "description": "A psychological condition that may affect tear production.",
+    "confidence": 0.7,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
     "entity_id": "symptom_007",
-    "name": "Night Blindness",
-    "name_normalized": "night blindness",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 2,
-    "chapters": [
-      2,
-      8,
-      11,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 5
+    "name_normalized": "emotional state"
   },
   {
-    "entity_id": "symptom_008",
-    "name": "Blind Spot",
-    "name_normalized": "blind spot",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 2,
-    "chapters": [
-      2,
-      9,
-      11,
-      12
+    "name": "itching",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "pruritus"
     ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 6
-  },
-  {
-    "entity_id": "symptom_009",
-    "name": "Photophobia",
-    "name_normalized": "photophobia",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 55
-  },
-  {
+    "description": "A sensation that provokes the desire to scratch the conjunctiva.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
     "entity_id": "symptom_010",
-    "name": "Itching",
-    "name_normalized": "itching",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      6,
-      10,
-      12
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 19
+    "name_normalized": "itching"
   },
   {
-    "entity_id": "symptom_011",
-    "name": "Blurred Vision",
-    "name_normalized": "blurred vision",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      7,
-      9,
-      10,
-      11,
-      12,
-      13
+    "name": "normal vision",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "normal sight",
+      "clear vision"
     ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 24
+    "description": "The state of having full visual capability without impairment.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_002",
+    "name_normalized": "normal vision"
   },
   {
+    "name": "photophobia",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "light sensitivity"
+    ],
+    "description": "Discomfort or pain in bright light, often associated with conjunctival inflammation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
     "entity_id": "symptom_012",
-    "name": "Tearing",
-    "name_normalized": "tearing",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 45
+    "name_normalized": "photophobia"
   },
   {
+    "name": "photosensitivity",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "light sensitivity"
+    ],
+    "description": "Increased sensitivity to light, often causing discomfort or pain.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_003",
+    "name_normalized": "photosensitivity"
+  },
+  {
+    "name": "poor blink reflex",
+    "type": "SYMPTOM",
+    "synonyms": [],
+    "description": "Reduced ability to blink, which can lead to dryness and irritation.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_008",
+    "name_normalized": "poor blink reflex"
+  },
+  {
+    "name": "redness",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "hyperemia"
+    ],
+    "description": "Increased blood flow to the conjunctiva leading to a red appearance.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_009",
+    "name_normalized": "redness"
+  },
+  {
+    "name": "severe aniseikonia",
+    "type": "SYMPTOM",
+    "synonyms": [],
+    "description": "A condition where there is a significant difference in the perceived size of images between the two eyes.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_004",
+    "name_normalized": "severe aniseikonia"
+  },
+  {
+    "name": "Severe dehydration",
+    "type": "SYMPTOM",
+    "synonyms": [],
+    "description": "A condition resulting from excessive loss of body fluids.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
     "entity_id": "symptom_013",
-    "name": "Foreign Body Sensation",
-    "name_normalized": "foreign body sensation",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 28
+    "name_normalized": "severe dehydration"
   },
   {
-    "entity_id": "symptom_014",
-    "name": "Discomfort",
-    "name_normalized": "discomfort",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      9,
-      13
+    "name": "tearing",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "epiphora"
     ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 9
+    "description": "Excessive production of tears often associated with conjunctival irritation.",
+    "confidence": 1.0,
+    "metadata": {
+      "chapter": 2,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_011",
+    "name_normalized": "tearing"
   },
   {
-    "entity_id": "symptom_015",
-    "name": "Purulent Discharge",
-    "name_normalized": "purulent discharge",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+    "name": "vision",
+    "type": "SYMPTOM",
+    "synonyms": [
+      "sight",
+      "visual perception"
     ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 9
-  },
-  {
-    "entity_id": "symptom_016",
-    "name": "Floaters",
-    "name_normalized": "floaters",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      11,
-      12
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 18
-  },
-  {
-    "entity_id": "symptom_017",
-    "name": "Decreased Vision",
-    "name_normalized": "decreased vision",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 68
-  },
-  {
-    "entity_id": "symptom_018",
-    "name": "Glare",
-    "name_normalized": "glare",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 7
-  },
-  {
-    "entity_id": "symptom_019",
-    "name": "Diplopia",
-    "name_normalized": "diplopia",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      6,
-      7,
-      8,
-      9,
-      10,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 43
-  },
-  {
-    "entity_id": "symptom_020",
-    "name": "Distortion",
-    "name_normalized": "distortion",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      5,
-      6,
-      9,
-      11,
-      14
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 8
-  },
-  {
-    "entity_id": "symptom_021",
-    "name": "Vision Loss",
-    "name_normalized": "vision loss",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 18
-  },
-  {
-    "entity_id": "symptom_022",
-    "name": "Eye Pain",
-    "name_normalized": "eye pain",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      5,
-      9,
-      10,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 11
-  },
-  {
-    "entity_id": "symptom_023",
-    "name": "Ocular Pain",
-    "name_normalized": "ocular pain",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 3,
-    "chapters": [
-      3,
-      4,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 10
-  },
-  {
-    "entity_id": "symptom_024",
-    "name": "Crusting",
-    "name_normalized": "crusting",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      5
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 5
-  },
-  {
-    "entity_id": "symptom_025",
-    "name": "Dryness",
-    "name_normalized": "dryness",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      5
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 6
-  },
-  {
-    "entity_id": "symptom_026",
-    "name": "Burning",
-    "name_normalized": "burning",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      5,
-      10,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 9
-  },
-  {
-    "entity_id": "symptom_027",
-    "name": "Dry Eyes",
-    "name_normalized": "dry eyes",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      5,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 10
-  },
-  {
-    "entity_id": "symptom_028",
-    "name": "Blurry Vision",
-    "name_normalized": "blurry vision",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      9,
-      10,
-      11
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 4
-  },
-  {
-    "entity_id": "symptom_029",
-    "name": "Halos",
-    "name_normalized": "halos",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      5,
-      7,
-      8,
-      9,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 11
-  },
-  {
-    "entity_id": "symptom_030",
-    "name": "Reduced Vision",
-    "name_normalized": "reduced vision",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 4,
-    "chapters": [
-      4,
-      8,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 3
-  },
-  {
-    "entity_id": "symptom_031",
-    "name": "Double Vision",
-    "name_normalized": "double vision",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 6,
-    "chapters": [
-      6,
-      7,
-      10,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 19
-  },
-  {
-    "entity_id": "symptom_032",
-    "name": "Veil",
-    "name_normalized": "veil",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 6,
-    "chapters": [
-      6,
-      7,
-      13,
-      14
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 4
-  },
-  {
-    "entity_id": "symptom_033",
-    "name": "Scotoma",
-    "name_normalized": "scotoma",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 9,
-    "chapters": [
-      9,
-      10,
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 13
-  },
-  {
-    "entity_id": "symptom_034",
-    "name": "Loss Of Vision",
-    "name_normalized": "loss of vision",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 10,
-    "chapters": [
-      10,
-      11
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 8
-  },
-  {
-    "entity_id": "symptom_035",
-    "name": "Photopsia",
-    "name_normalized": "photopsia",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 11,
-    "chapters": [
-      11,
-      12,
-      13
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 6
-  },
-  {
-    "entity_id": "symptom_036",
-    "name": "Curtain",
-    "name_normalized": "curtain",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 11,
-    "chapters": [
-      11
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 4
-  },
-  {
-    "entity_id": "symptom_037",
-    "name": "Flashing Lights",
-    "name_normalized": "flashing lights",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 11,
-    "chapters": [
-      11
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 4
-  },
-  {
-    "entity_id": "symptom_038",
-    "name": "Metamorphopsia",
-    "name_normalized": "metamorphopsia",
-    "type": "symptom",
-    "category": "ocular",
-    "red_flag": false,
-    "chapter": 11,
-    "chapters": [
-      11,
-      12
-    ],
-    "section": null,
-    "associated_conditions": [],
-    "variations": [],
-    "mention_count": 3
+    "description": "The ability to see, which may be temporarily impaired.",
+    "confidence": 0.9,
+    "metadata": {
+      "chapter": 1,
+      "section": "",
+      "extraction_method": "llm",
+      "model": "openai/gpt-4o-mini"
+    },
+    "entity_id": "symptom_001",
+    "name_normalized": "vision"
   }
 ]
