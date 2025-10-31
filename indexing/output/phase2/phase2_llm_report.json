@@ -1,21 +1,43 @@
 {
   "extraction_method": "llm_enhanced",
-  "model": "openai/gpt-4o-mini",
-  "total_unique_entities": 348,
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "total_unique_entities": 8575,
   "by_type": {
-    "symptom": 13,
-    "sign": 26,
-    "disease": 282,
-    "treatment": 25,
-    "diagnostic_test": 2
+    "etiology": 573,
+    "disease": 2254,
+    "sign": 1421,
+    "symptom": 535,
+    "treatment": 635,
+    "procedure": 633,
+    "anatomy": 701,
+    "complication": 227,
+    "risk_factor": 237,
+    "injury": 19,
+    "medication": 649,
+    "differential": 11,
+    "lab_test": 464,
+    "imaging": 205,
+    "material": 1,
+    "medical_problem": 1,
+    "organization": 1,
+    "infection": 6,
+    "condition": 1,
+    "description": 1
   },
   "statistics": {
-    "blocks_processed": 50,
-    "total_blocks": 50,
-    "llm_calls": 41,
-    "total_tokens": 51555,
-    "total_cost_usd": 0.56,
-    "avg_cost_per_block": 0.0111,
-    "avg_entities_per_block": 6.96
+    "blocks_processed": 1574,
+    "total_blocks": 1726,
+    "llm_calls": 1468,
+    "total_tokens": 1829967,
+    "total_cost_usd": 16.24,
+    "avg_cost_per_block": 0.0103,
+    "avg_entities_per_block": 5.45
+  },
+  "errors": {
+    "api_errors": 0,
+    "json_errors": 0,
+    "validation_errors": 2,
+    "retry_count": 0,
+    "failed_blocks": 0
   }
 }

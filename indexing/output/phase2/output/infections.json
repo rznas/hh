@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Ethmoiditis",
+    "type": "INFECTION",
+    "confidence": 1.0,
+    "description": "Infection of the ethmoid sinus",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_002",
+    "name_normalized": "ethmoiditis"
+  },
+  {
+    "name": "Intraocular infection",
+    "type": "INFECTION",
+    "confidence": 1.0,
+    "description": "Infection within the eye",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_004",
+    "name_normalized": "intraocular infection"
+  },
+  {
+    "name": "Panophthalmitis",
+    "type": "INFECTION",
+    "confidence": 1.0,
+    "description": "Severe inflammation of the eye",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_003",
+    "name_normalized": "panophthalmitis"
+  },
+  {
+    "name": "Paranasal sinus infection",
+    "type": "INFECTION",
+    "confidence": 1.0,
+    "description": "Infection of the paranasal sinuses",
+    "synonyms": [
+      "Sinusitis"
+    ],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_001",
+    "name_normalized": "paranasal sinus infection"
+  },
+  {
+    "name": "Septic cavernous sinus thrombosis",
+    "type": "INFECTION",
+    "confidence": 1.0,
+    "description": "Infection and clotting of the cavernous sinus",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_006",
+    "name_normalized": "septic cavernous sinus thrombosis"
+  },
+  {
+    "name": "Systemic bacteremia",
+    "type": "INFECTION",
+    "confidence": 1.0,
+    "description": "Bacterial infection in the bloodstream",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_005",
+    "name_normalized": "systemic bacteremia"
+  }
+]

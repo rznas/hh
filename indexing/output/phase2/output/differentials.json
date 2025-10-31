@@ -1,0 +1,208 @@
+[
+  {
+    "confidence": 1.0,
+    "name": "Amelanotic choroidal mass",
+    "type": "DIFFERENTIAL",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_002",
+    "name_normalized": "amelanotic choroidal mass"
+  },
+  {
+    "name": "Behçet disease",
+    "type": "DIFFERENTIAL",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_001",
+    "name_normalized": "behçet disease"
+  },
+  {
+    "name": "Collaborative Normal Tension Glaucoma Study",
+    "type": "DIFFERENTIAL",
+    "confidence": 1.0,
+    "description": "A study on glaucoma",
+    "synonyms": [
+      "CNTGS"
+    ],
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_008",
+    "name_normalized": "collaborative normal tension glaucoma study"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Collaborative Normal-Tension Glaucoma Study Group",
+    "type": "DIFFERENTIAL",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_006",
+    "name_normalized": "collaborative normal-tension glaucoma study group"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Comitant OR Concomitant Esotropic Deviations",
+    "type": "DIFFERENTIAL",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_004",
+    "name_normalized": "comitant or concomitant esotropic deviations"
+  },
+  {
+    "name": "Differential Diagnosis",
+    "type": "DIFFERENTIAL",
+    "confidence": 1.0,
+    "description": "Alternative diagnoses to consider",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_005",
+    "name_normalized": "differential diagnosis"
+  },
+  {
+    "name": "Endophthalmitis Vitrectomy Study",
+    "type": "DIFFERENTIAL",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1511
+      }
+    ],
+    "entity_id": "differential_011",
+    "name_normalized": "endophthalmitis vitrectomy study"
+  },
+  {
+    "name": "Nonglaucomatous process",
+    "type": "DIFFERENTIAL",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_007",
+    "name_normalized": "nonglaucomatous process"
+  },
+  {
+    "name": "Retinal astrocytic hamartoma",
+    "type": "DIFFERENTIAL",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_003",
+    "name_normalized": "retinal astrocytic hamartoma"
+  },
+  {
+    "name": "Sympathetic ophthalmia",
+    "type": "DIFFERENTIAL",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1493
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1542
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1639
+      }
+    ],
+    "entity_id": "differential_009",
+    "name_normalized": "sympathetic ophthalmia"
+  },
+  {
+    "confidence": 1.0,
+    "name": "The Optic Neuritis Study Group",
+    "type": "DIFFERENTIAL",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "differential_010",
+    "name_normalized": "the optic neuritis study group"
+  }
+]

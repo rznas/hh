@@ -1,0 +1,19 @@
+[
+  {
+    "name": "self-limited process",
+    "type": "DESCRIPTION",
+    "confidence": 0.8,
+    "description": "a condition that resolves on its own",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_001",
+    "name_normalized": "self-limited process"
+  }
+]

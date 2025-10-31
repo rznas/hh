@@ -243,7 +243,7 @@ Every loaded entity/edge includes metadata:
   "type": "anatomy",
   "metadata": {
     "extraction_method": "llm",
-    "model": "anthropic/claude-sonnet-4.5",
+    "model": "openai/gpt-4o-mini",
     "loaded_from": "/path/to/anatomy_llm.json",
     "config_mode": "llm",
     "chapter": 4,

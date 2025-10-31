@@ -1,0 +1,4254 @@
+[
+  {
+    "name": "A-mode ultrasonography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1690
+      }
+    ],
+    "entity_id": "imaging_184",
+    "name_normalized": "a-mode ultrasonography"
+  },
+  {
+    "name": "A-scan",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1689
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1690
+      }
+    ],
+    "entity_id": "imaging_164",
+    "name_normalized": "a-scan"
+  },
+  {
+    "name": "A-scan US",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_084",
+    "name_normalized": "a-scan us"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Abdominal CT Scan",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_075",
+    "name_normalized": "abdominal ct scan"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Abdominal imaging",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_070",
+    "name_normalized": "abdominal imaging"
+  },
+  {
+    "confidence": 1.0,
+    "name": "abdominal ultrasound",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1663
+      }
+    ],
+    "entity_id": "imaging_147",
+    "name_normalized": "abdominal ultrasound"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Abnormal macular ocular coherence tomography (OCT)",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_122",
+    "name_normalized": "abnormal macular ocular coherence tomography (oct)"
+  },
+  {
+    "name": "abnormalities on MRI",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_111",
+    "name_normalized": "abnormalities on mri"
+  },
+  {
+    "name": "adaptive optics",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "entity_id": "imaging_204",
+    "name_normalized": "adaptive optics"
+  },
+  {
+    "name": "amplitude-modulated ultrasonography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1689
+      }
+    ],
+    "entity_id": "imaging_165",
+    "name_normalized": "amplitude-modulated ultrasonography"
+  },
+  {
+    "name": "Angiographic imaging",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_058",
+    "name_normalized": "angiographic imaging"
+  },
+  {
+    "name": "Angiography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_027",
+    "name_normalized": "angiography"
+  },
+  {
+    "name": "anterior segment OCT",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1622
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1724
+      }
+    ],
+    "entity_id": "imaging_145",
+    "name_normalized": "anterior segment oct"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Anterior segment optical coherence tomography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_019",
+    "name_normalized": "anterior segment optical coherence tomography"
+  },
+  {
+    "name": "apparent diffusion coefficient (ADC) image",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      }
+    ],
+    "entity_id": "imaging_162",
+    "name_normalized": "apparent diffusion coefficient (adc) image"
+  },
+  {
+    "name": "Autofluorescence",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1706
+      }
+    ],
+    "entity_id": "imaging_088",
+    "name_normalized": "autofluorescence"
+  },
+  {
+    "confidence": 1.0,
+    "name": "axial images",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      }
+    ],
+    "entity_id": "imaging_152",
+    "name_normalized": "axial images"
+  },
+  {
+    "name": "Axial view",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_028",
+    "name_normalized": "axial view"
+  },
+  {
+    "name": "B-mode US",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1698
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1695
+      }
+    ],
+    "synonyms": [
+      "B-mode ultrasound",
+      "Brightness-mode ultrasound"
+    ],
+    "entity_id": "imaging_185",
+    "name_normalized": "b-mode us"
+  },
+  {
+    "name": "B-scan",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1692
+      }
+    ],
+    "synonyms": [
+      "B-scan exam"
+    ],
+    "entity_id": "imaging_036",
+    "name_normalized": "b-scan"
+  },
+  {
+    "name": "B-scan ultrasonography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1494
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1548
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1674
+      }
+    ],
+    "synonyms": [
+      "US"
+    ],
+    "entity_id": "imaging_009",
+    "name_normalized": "b-scan ultrasonography"
+  },
+  {
+    "confidence": 1.0,
+    "name": "B-scan ultrasound",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1541
+      }
+    ],
+    "entity_id": "imaging_014",
+    "name_normalized": "b-scan ultrasound"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Blue laser",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_196",
+    "name_normalized": "blue laser"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Bone radiographs",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_069",
+    "name_normalized": "bone radiographs"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Bone Scan",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_040",
+    "name_normalized": "bone scan"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Bone scanning",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1687
+      }
+    ],
+    "entity_id": "imaging_168",
+    "name_normalized": "bone scanning"
+  },
+  {
+    "name": "bone windows",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      }
+    ],
+    "entity_id": "imaging_025",
+    "name_normalized": "bone windows"
+  },
+  {
+    "name": "brain imaging",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_026",
+    "name_normalized": "brain imaging"
+  },
+  {
+    "name": "Brain MRI",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1679
+      }
+    ],
+    "entity_id": "imaging_108",
+    "name_normalized": "brain mri"
+  },
+  {
+    "name": "bubble study",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_133",
+    "name_normalized": "bubble study"
+  },
+  {
+    "name": "carotid angiogram",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_095",
+    "name_normalized": "carotid angiogram"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Carotid arteriography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_136",
+    "name_normalized": "carotid arteriography"
+  },
+  {
+    "name": "Carotid Doppler",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "Imaging modality to assess carotid artery pathology",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_128",
+    "name_normalized": "carotid doppler"
+  },
+  {
+    "name": "carotid Doppler ultrasound",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1686
+      }
+    ],
+    "entity_id": "imaging_163",
+    "name_normalized": "carotid doppler ultrasound"
+  },
+  {
+    "name": "Carotid Dopplers",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_087",
+    "name_normalized": "carotid dopplers"
+  },
+  {
+    "name": "Carotid noninvasive studies",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_106",
+    "name_normalized": "carotid noninvasive studies"
+  },
+  {
+    "name": "Catheter Angiography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_101",
+    "name_normalized": "catheter angiography"
+  },
+  {
+    "name": "Cerebral Angiography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_102",
+    "name_normalized": "cerebral angiography"
+  },
+  {
+    "name": "Cerebral arteriography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1683
+      }
+    ],
+    "entity_id": "imaging_079",
+    "name_normalized": "cerebral arteriography"
+  },
+  {
+    "name": "Chest computed tomography (CT)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "Imaging modality to assess chest pathology",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_130",
+    "name_normalized": "chest computed tomography (ct)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Chest CT",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1540
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1688
+      }
+    ],
+    "entity_id": "imaging_045",
+    "name_normalized": "chest ct"
+  },
+  {
+    "name": "Chest imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_063",
+    "name_normalized": "chest imaging"
+  },
+  {
+    "name": "chest radiograph",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1494
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1541
+      }
+    ],
+    "entity_id": "imaging_044",
+    "name_normalized": "chest radiograph"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Chest radiographs",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_068",
+    "name_normalized": "chest radiographs"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Chest x-ray",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1569
+      }
+    ],
+    "entity_id": "imaging_049",
+    "name_normalized": "chest x-ray"
+  },
+  {
+    "name": "CNS Imaging",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_098",
+    "name_normalized": "cns imaging"
+  },
+  {
+    "name": "Color Doppler imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_062",
+    "name_normalized": "color doppler imaging"
+  },
+  {
+    "confidence": 1.0,
+    "name": "color Doppler studies",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1682
+      }
+    ],
+    "entity_id": "imaging_172",
+    "name_normalized": "color doppler studies"
+  },
+  {
+    "name": "Computed tomography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "CT",
+    "synonyms": [
+      "CT"
+    ],
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_073",
+    "name_normalized": "computed tomography"
+  },
+  {
+    "name": "Computed Tomography (CT)",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1672
+      }
+    ],
+    "entity_id": "imaging_023",
+    "name_normalized": "computed tomography (ct)"
+  },
+  {
+    "name": "computed tomography (CT) scan",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_010",
+    "name_normalized": "computed tomography (ct) scan"
+  },
+  {
+    "name": "computer image",
+    "type": "IMAGING",
+    "confidence": 0.9,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      }
+    ],
+    "entity_id": "imaging_157",
+    "name_normalized": "computer image"
+  },
+  {
+    "name": "Confocal biomicroscopy",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_043",
+    "name_normalized": "confocal biomicroscopy"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Confocal scanning laser ophthalmoscopy",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1718
+      }
+    ],
+    "entity_id": "imaging_197",
+    "name_normalized": "confocal scanning laser ophthalmoscopy"
+  },
+  {
+    "name": "Contrast-Enhanced CTA",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_099",
+    "name_normalized": "contrast-enhanced cta"
+  },
+  {
+    "name": "conventional \"closed\" MRI scanners",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      }
+    ],
+    "entity_id": "imaging_159",
+    "name_normalized": "conventional \"closed\" mri scanners"
+  },
+  {
+    "confidence": 1.0,
+    "name": "conventional arteriography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1682
+      }
+    ],
+    "entity_id": "imaging_173",
+    "name_normalized": "conventional arteriography"
+  },
+  {
+    "name": "Conventional radiography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1672
+      }
+    ],
+    "entity_id": "imaging_149",
+    "name_normalized": "conventional radiography"
+  },
+  {
+    "name": "corneal endothelial specular microscopy",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_092",
+    "name_normalized": "corneal endothelial specular microscopy"
+  },
+  {
+    "name": "Corneal tomography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1724
+      }
+    ],
+    "entity_id": "imaging_051",
+    "name_normalized": "corneal tomography"
+  },
+  {
+    "confidence": 1.0,
+    "name": "coronal images",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      }
+    ],
+    "entity_id": "imaging_153",
+    "name_normalized": "coronal images"
+  },
+  {
+    "name": "Coronal view",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_029",
+    "name_normalized": "coronal view"
+  },
+  {
+    "confidence": 1.0,
+    "name": "cross-sectional planar images",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      }
+    ],
+    "entity_id": "imaging_151",
+    "name_normalized": "cross-sectional planar images"
+  },
+  {
+    "name": "CT",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1494
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1651
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1687
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1674
+      }
+    ],
+    "entity_id": "imaging_021",
+    "name_normalized": "ct"
+  },
+  {
+    "name": "CT angiography (CTA)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_094",
+    "name_normalized": "ct angiography (cta)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "CT chest",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1541
+      }
+    ],
+    "entity_id": "imaging_142",
+    "name_normalized": "ct chest"
+  },
+  {
+    "name": "CT imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_020",
+    "name_normalized": "ct imaging"
+  },
+  {
+    "name": "CT of the orbit and midface",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_024",
+    "name_normalized": "ct of the orbit and midface"
+  },
+  {
+    "name": "CT or MRI of the brain",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1494
+      }
+    ],
+    "entity_id": "imaging_139",
+    "name_normalized": "ct or mri of the brain"
+  },
+  {
+    "confidence": 1.0,
+    "name": "CT protocols",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_037",
+    "name_normalized": "ct protocols"
+  },
+  {
+    "name": "CT scan",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      }
+    ],
+    "synonyms": [
+      "CT exam"
+    ],
+    "entity_id": "imaging_007",
+    "name_normalized": "ct scan"
+  },
+  {
+    "confidence": 1.0,
+    "name": "CT scan of the chest",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_110",
+    "name_normalized": "ct scan of the chest"
+  },
+  {
+    "confidence": 1.0,
+    "name": "CTA",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1686
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1682
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      }
+    ],
+    "entity_id": "imaging_054",
+    "name_normalized": "cta"
+  },
+  {
+    "confidence": 1.0,
+    "name": "CXR",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1540
+      }
+    ],
+    "entity_id": "imaging_143",
+    "name_normalized": "cxr"
+  },
+  {
+    "name": "Diffusion weighted imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A type of MRI sequence",
+    "synonyms": [
+      "DWI"
+    ],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_118",
+    "name_normalized": "diffusion weighted imaging"
+  },
+  {
+    "name": "Diffusion weighted imaging (DWI)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      }
+    ],
+    "entity_id": "imaging_161",
+    "name_normalized": "diffusion weighted imaging (dwi)"
+  },
+  {
+    "name": "disc imaging",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_089",
+    "name_normalized": "disc imaging"
+  },
+  {
+    "name": "Disc photos",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_082",
+    "name_normalized": "disc photos"
+  },
+  {
+    "name": "Doppler technology",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1698
+      }
+    ],
+    "entity_id": "imaging_186",
+    "name_normalized": "doppler technology"
+  },
+  {
+    "name": "Doppler US",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_120",
+    "name_normalized": "doppler us"
+  },
+  {
+    "name": "Duplex Doppler US",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A type of ultrasound imaging",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_119",
+    "name_normalized": "duplex doppler us"
+  },
+  {
+    "name": "DWI",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1679
+      }
+    ],
+    "entity_id": "imaging_176",
+    "name_normalized": "dwi"
+  },
+  {
+    "name": "Echocardiogram",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_104",
+    "name_normalized": "echocardiogram"
+  },
+  {
+    "name": "electrocardiography (ECG)",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_131",
+    "name_normalized": "electrocardiography (ecg)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Enhanced depth imaging OCT",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_191",
+    "name_normalized": "enhanced depth imaging oct"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Fat suppression",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1679
+      }
+    ],
+    "entity_id": "imaging_067",
+    "name_normalized": "fat suppression"
+  },
+  {
+    "name": "Fluorescein angiogram",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_017",
+    "name_normalized": "fluorescein angiogram"
+  },
+  {
+    "name": "fluorescein angiography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1492
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1637
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1704
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1706
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "entity_id": "imaging_005",
+    "name_normalized": "fluorescein angiography"
+  },
+  {
+    "name": "fundus autofluorescence",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "entity_id": "imaging_203",
+    "name_normalized": "fundus autofluorescence"
+  },
+  {
+    "name": "Fundus autofluorescence (FAF)",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_127",
+    "name_normalized": "fundus autofluorescence (faf)"
+  },
+  {
+    "name": "Fundus photography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_083",
+    "name_normalized": "fundus photography"
+  },
+  {
+    "name": "Gadolinium-Enhanced MRI",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1648
+      }
+    ],
+    "entity_id": "imaging_100",
+    "name_normalized": "gadolinium-enhanced mri"
+  },
+  {
+    "name": "Gallium scan",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A medical imaging technique",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1688
+      }
+    ],
+    "entity_id": "imaging_178",
+    "name_normalized": "gallium scan"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Gallium scanning",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1687
+      }
+    ],
+    "entity_id": "imaging_170",
+    "name_normalized": "gallium scanning"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Green laser",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_195",
+    "name_normalized": "green laser"
+  },
+  {
+    "name": "Head coil",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "Type of coil used in MRI for bilateral orbital views",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1680
+      }
+    ],
+    "entity_id": "imaging_174",
+    "name_normalized": "head coil"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Head CT Scan",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_076",
+    "name_normalized": "head ct scan"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Heidelberg retinal tomography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1718
+      }
+    ],
+    "entity_id": "imaging_199",
+    "name_normalized": "heidelberg retinal tomography"
+  },
+  {
+    "name": "Holter monitor",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_105",
+    "name_normalized": "holter monitor"
+  },
+  {
+    "name": "Holter monitoring",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_132",
+    "name_normalized": "holter monitoring"
+  },
+  {
+    "name": "HRT",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_086",
+    "name_normalized": "hrt"
+  },
+  {
+    "name": "Imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_031",
+    "name_normalized": "imaging"
+  },
+  {
+    "name": "Imaging studies",
+    "type": "IMAGING",
+    "confidence": 0.8,
+    "description": "medical tests that use various technologies to produce images of the body",
+    "synonyms": [
+      "radiologic studies",
+      "diagnostic imaging"
+    ],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_123",
+    "name_normalized": "imaging studies"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Imaging studies of the brain",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_097",
+    "name_normalized": "imaging studies of the brain"
+  },
+  {
+    "name": "Indirect ophthalmoscope",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A tool used for examination",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_034",
+    "name_normalized": "indirect ophthalmoscope"
+  },
+  {
+    "name": "Indocyanine green angiography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A photographic method of ocular angiography",
+    "synonyms": [
+      "ICG angiography"
+    ],
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1710
+      }
+    ],
+    "entity_id": "imaging_187",
+    "name_normalized": "indocyanine green angiography"
+  },
+  {
+    "name": "Intravenous fluorescein angiogram",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_072",
+    "name_normalized": "intravenous fluorescein angiogram"
+  },
+  {
+    "name": "Intravenous fluorescein angiography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1663
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1703
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1710
+      }
+    ],
+    "synonyms": [
+      "Fluorescein angiography"
+    ],
+    "entity_id": "imaging_125",
+    "name_normalized": "intravenous fluorescein angiography"
+  },
+  {
+    "name": "IVFA",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1494
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1541
+      }
+    ],
+    "entity_id": "imaging_126",
+    "name_normalized": "ivfa"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Liver–spleen scanning",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1687
+      }
+    ],
+    "entity_id": "imaging_169",
+    "name_normalized": "liver–spleen scanning"
+  },
+  {
+    "name": "macular OCT",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "optical coherence tomography of the macula",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_121",
+    "name_normalized": "macular oct"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Magnetic resonance angiography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_135",
+    "name_normalized": "magnetic resonance angiography"
+  },
+  {
+    "name": "Magnetic resonance angiography (MRA)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_093",
+    "name_normalized": "magnetic resonance angiography (mra)"
+  },
+  {
+    "name": "Magnetic resonance imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1561
+      }
+    ],
+    "synonyms": [
+      "MRI"
+    ],
+    "entity_id": "imaging_022",
+    "name_normalized": "magnetic resonance imaging"
+  },
+  {
+    "name": "magnetic resonance imaging (MRI)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1672
+      }
+    ],
+    "entity_id": "imaging_013",
+    "name_normalized": "magnetic resonance imaging (mri)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Magnetic resonance venography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1684
+      }
+    ],
+    "entity_id": "imaging_156",
+    "name_normalized": "magnetic resonance venography"
+  },
+  {
+    "name": "Magnetic resonance venography (MRV)",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_114",
+    "name_normalized": "magnetic resonance venography (mrv)"
+  },
+  {
+    "name": "Mammogram",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_064",
+    "name_normalized": "mammogram"
+  },
+  {
+    "confidence": 1.0,
+    "name": "MRA",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1686
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1682
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1683
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      }
+    ],
+    "entity_id": "imaging_055",
+    "name_normalized": "mra"
+  },
+  {
+    "name": "MRI",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1561
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1562
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1645
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1651
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1667
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1684
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1683
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1688
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      }
+    ],
+    "synonyms": [
+      "MRI exam",
+      "MRI of the brain",
+      "Magnetic Resonance Imaging",
+      "Magnetic resonance imaging",
+      "nuclear magnetic resonance imaging"
+    ],
+    "entity_id": "imaging_008",
+    "name_normalized": "mri"
+  },
+  {
+    "name": "MRI brain",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1663
+      }
+    ],
+    "entity_id": "imaging_112",
+    "name_normalized": "mri brain"
+  },
+  {
+    "name": "MRI brain and orbit",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_080",
+    "name_normalized": "mri brain and orbit"
+  },
+  {
+    "name": "MRI of the brain",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1657
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1669
+      }
+    ],
+    "entity_id": "imaging_103",
+    "name_normalized": "mri of the brain"
+  },
+  {
+    "name": "MRI of the brain and brainstem",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_107",
+    "name_normalized": "mri of the brain and brainstem"
+  },
+  {
+    "name": "MRI scan",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_115",
+    "name_normalized": "mri scan"
+  },
+  {
+    "name": "MRV",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_113",
+    "name_normalized": "mrv"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Multicolor laser imaging",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_193",
+    "name_normalized": "multicolor laser imaging"
+  },
+  {
+    "name": "multiplanar images",
+    "type": "IMAGING",
+    "confidence": 0.9,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      }
+    ],
+    "entity_id": "imaging_158",
+    "name_normalized": "multiplanar images"
+  },
+  {
+    "name": "muscle light",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "a diagnostic tool",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_096",
+    "name_normalized": "muscle light"
+  },
+  {
+    "name": "Neuroimaging",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1651
+      }
+    ],
+    "synonyms": [
+      "CT scan",
+      "MRI",
+      "brain scan"
+    ],
+    "entity_id": "imaging_041",
+    "name_normalized": "neuroimaging"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Nuclear medicine imaging",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1687
+      }
+    ],
+    "entity_id": "imaging_167",
+    "name_normalized": "nuclear medicine imaging"
+  },
+  {
+    "name": "OCT",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1492
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1525
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1622
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1648
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1693
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "synonyms": [
+      "Optical coherence tomography",
+      "macular OCT",
+      "optical coherence tomography"
+    ],
+    "entity_id": "imaging_001",
+    "name_normalized": "oct"
+  },
+  {
+    "name": "OCT angiography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_137",
+    "name_normalized": "oct angiography"
+  },
+  {
+    "name": "OCT macula",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1651
+      }
+    ],
+    "entity_id": "imaging_146",
+    "name_normalized": "oct macula"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Oculoplethysmography",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_134",
+    "name_normalized": "oculoplethysmography"
+  },
+  {
+    "name": "open scanners",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1677
+      }
+    ],
+    "entity_id": "imaging_160",
+    "name_normalized": "open scanners"
+  },
+  {
+    "name": "operating microscope",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "equipment used for examination and procedure",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_042",
+    "name_normalized": "operating microscope"
+  },
+  {
+    "name": "Ophthalmic Plast Reconstr Surg",
+    "type": "IMAGING",
+    "confidence": 0.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_059",
+    "name_normalized": "ophthalmic plast reconstr surg"
+  },
+  {
+    "name": "ophthalmoscope",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_117",
+    "name_normalized": "ophthalmoscope"
+  },
+  {
+    "name": "Optical coherence tomography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A diagnostic imaging procedure to visualize the layers of the eye",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1714
+      }
+    ],
+    "entity_id": "imaging_052",
+    "name_normalized": "optical coherence tomography"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Optical coherence tomography (OCT)",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_038",
+    "name_normalized": "optical coherence tomography (oct)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "optical sectioning",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1718
+      }
+    ],
+    "entity_id": "imaging_198",
+    "name_normalized": "optical sectioning"
+  },
+  {
+    "name": "Orbital B-scan ultrasonography",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_035",
+    "name_normalized": "orbital b-scan ultrasonography"
+  },
+  {
+    "name": "Orbital color doppler imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "Imaging modality",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_109",
+    "name_normalized": "orbital color doppler imaging"
+  },
+  {
+    "name": "Orbital color Doppler US",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_078",
+    "name_normalized": "orbital color doppler us"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Orbital CT",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_074",
+    "name_normalized": "orbital ct"
+  },
+  {
+    "name": "orbital CT scan",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_056",
+    "name_normalized": "orbital ct scan"
+  },
+  {
+    "name": "Orbital Doppler",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "Imaging modality to assess orbital pathology",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_129",
+    "name_normalized": "orbital doppler"
+  },
+  {
+    "name": "Orbital imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A diagnostic test used to visualize the orbit and surrounding structures",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_060",
+    "name_normalized": "orbital imaging"
+  },
+  {
+    "name": "Orbital US",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_061",
+    "name_normalized": "orbital us"
+  },
+  {
+    "confidence": 1.0,
+    "name": "parasagittal images",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      }
+    ],
+    "entity_id": "imaging_154",
+    "name_normalized": "parasagittal images"
+  },
+  {
+    "name": "Parasagittal view",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_030",
+    "name_normalized": "parasagittal view"
+  },
+  {
+    "name": "Penlight",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A tool used for examination",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_033",
+    "name_normalized": "penlight"
+  },
+  {
+    "name": "PET/CT",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A medical imaging technique",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1688
+      }
+    ],
+    "entity_id": "imaging_180",
+    "name_normalized": "pet/ct"
+  },
+  {
+    "confidence": 1.0,
+    "name": "PET/CT Scan",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_077",
+    "name_normalized": "pet/ct scan"
+  },
+  {
+    "name": "photographic method",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "method for visualization using fluorescein",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1709
+      }
+    ],
+    "entity_id": "imaging_188",
+    "name_normalized": "photographic method"
+  },
+  {
+    "name": "plain film x-ray",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_012",
+    "name_normalized": "plain film x-ray"
+  },
+  {
+    "name": "Plain films",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1672
+      }
+    ],
+    "entity_id": "imaging_148",
+    "name_normalized": "plain films"
+  },
+  {
+    "name": "pneumotonometer",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "device for measuring intraocular pressure",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_003",
+    "name_normalized": "pneumotonometer"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Positron emission tomography (PET)",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1687
+      }
+    ],
+    "entity_id": "imaging_171",
+    "name_normalized": "positron emission tomography (pet)"
+  },
+  {
+    "name": "Positron emission tomography/CT",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_066",
+    "name_normalized": "positron emission tomography/ct"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Radioiodinated metaiodobenzylguanidine scintigraphy",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_071",
+    "name_normalized": "radioiodinated metaiodobenzylguanidine scintigraphy"
+  },
+  {
+    "name": "rebound tonometer",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "device for measuring intraocular pressure",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_004",
+    "name_normalized": "rebound tonometer"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Red laser",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_194",
+    "name_normalized": "red laser"
+  },
+  {
+    "name": "reimage",
+    "type": "IMAGING",
+    "confidence": 0.9,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_032",
+    "name_normalized": "reimage"
+  },
+  {
+    "name": "Renal ultrasound",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_085",
+    "name_normalized": "renal ultrasound"
+  },
+  {
+    "name": "retroillumination",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1546
+      }
+    ],
+    "entity_id": "imaging_047",
+    "name_normalized": "retroillumination"
+  },
+  {
+    "name": "Rotating Scheimpflug photography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1724
+      }
+    ],
+    "entity_id": "imaging_202",
+    "name_normalized": "rotating scheimpflug photography"
+  },
+  {
+    "name": "S curve",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1690
+      }
+    ],
+    "entity_id": "imaging_183",
+    "name_normalized": "s curve"
+  },
+  {
+    "name": "scan",
+    "type": "IMAGING",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1691
+      }
+    ],
+    "entity_id": "imaging_181",
+    "name_normalized": "scan"
+  },
+  {
+    "name": "Scanning slit",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1724
+      }
+    ],
+    "entity_id": "imaging_201",
+    "name_normalized": "scanning slit"
+  },
+  {
+    "name": "Scintigraphy",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A medical imaging technique",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1688
+      }
+    ],
+    "entity_id": "imaging_177",
+    "name_normalized": "scintigraphy"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Serial imaging",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1725
+      }
+    ],
+    "entity_id": "imaging_205",
+    "name_normalized": "serial imaging"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Skeletal Survey",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_039",
+    "name_normalized": "skeletal survey"
+  },
+  {
+    "name": "Slit lamp",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A device used to examine the eye under magnification",
+    "synonyms": [
+      "Slit lamp biomicroscope"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_006",
+    "name_normalized": "slit lamp"
+  },
+  {
+    "confidence": 1.0,
+    "name": "slit lamp beam",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_048",
+    "name_normalized": "slit lamp beam"
+  },
+  {
+    "name": "slit lamp photos",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_091",
+    "name_normalized": "slit lamp photos"
+  },
+  {
+    "name": "soft tissue imaging",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1683
+      }
+    ],
+    "entity_id": "imaging_175",
+    "name_normalized": "soft tissue imaging"
+  },
+  {
+    "confidence": 1.0,
+    "name": "soft tissue windows",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      }
+    ],
+    "entity_id": "imaging_155",
+    "name_normalized": "soft tissue windows"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Spectral domain OCT",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_189",
+    "name_normalized": "spectral domain oct"
+  },
+  {
+    "name": "Specular microscopy",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "entity_id": "imaging_050",
+    "name_normalized": "specular microscopy"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Swept-source OCT",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_192",
+    "name_normalized": "swept-source oct"
+  },
+  {
+    "name": "T1",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "Magnetic Resonance Imaging (MRI) sequence",
+    "synonyms": [
+      "T1-weighted imaging"
+    ],
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1678
+      }
+    ],
+    "entity_id": "imaging_150",
+    "name_normalized": "t1"
+  },
+  {
+    "name": "Technetium-99m-tagged red blood cell study",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "A medical imaging technique",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1688
+      }
+    ],
+    "entity_id": "imaging_179",
+    "name_normalized": "technetium-99m-tagged red blood cell study"
+  },
+  {
+    "confidence": 1.0,
+    "name": "three-dimensional image",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1718
+      }
+    ],
+    "entity_id": "imaging_200",
+    "name_normalized": "three-dimensional image"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Time domain OCT",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1715
+      }
+    ],
+    "entity_id": "imaging_190",
+    "name_normalized": "time domain oct"
+  },
+  {
+    "name": "tomography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "imaging modality",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_046",
+    "name_normalized": "tomography"
+  },
+  {
+    "name": "Tono-Pen",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "device for measuring intraocular pressure",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_002",
+    "name_normalized": "tono-pen"
+  },
+  {
+    "name": "Transesophageal echocardiogram",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      }
+    ],
+    "entity_id": "imaging_140",
+    "name_normalized": "transesophageal echocardiogram"
+  },
+  {
+    "name": "Transthoracic echocardiogram",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      }
+    ],
+    "entity_id": "imaging_141",
+    "name_normalized": "transthoracic echocardiogram"
+  },
+  {
+    "confidence": 1.0,
+    "name": "UBM",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1521
+      }
+    ],
+    "synonyms": [
+      "UBM exam"
+    ],
+    "entity_id": "imaging_015",
+    "name_normalized": "ubm"
+  },
+  {
+    "name": "UBM (Ultrasonic Biomicroscopy)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_016",
+    "name_normalized": "ubm (ultrasonic biomicroscopy)"
+  },
+  {
+    "name": "ultrasonic waves",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1689
+      }
+    ],
+    "entity_id": "imaging_166",
+    "name_normalized": "ultrasonic waves"
+  },
+  {
+    "name": "ultrasonographic biomicroscopy",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1695
+      }
+    ],
+    "synonyms": [
+      "UBM",
+      "Ultrasonic biomicroscopy"
+    ],
+    "entity_id": "imaging_053",
+    "name_normalized": "ultrasonographic biomicroscopy"
+  },
+  {
+    "name": "Ultrasonographic “T” sign",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1493
+      }
+    ],
+    "entity_id": "imaging_138",
+    "name_normalized": "ultrasonographic “t” sign"
+  },
+  {
+    "name": "Ultrasonography",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "reveals a long axial length",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1689
+      }
+    ],
+    "entity_id": "imaging_057",
+    "name_normalized": "ultrasonography"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Ultrasonography (US)",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_124",
+    "name_normalized": "ultrasonography (us)"
+  },
+  {
+    "name": "Ultrasound",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "description": "a medical imaging modality that uses high-frequency sound waves to produce images",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1492
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1693
+      }
+    ],
+    "entity_id": "imaging_116",
+    "name_normalized": "ultrasound"
+  },
+  {
+    "name": "Ultrasound (A-scan)",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_081",
+    "name_normalized": "ultrasound (a-scan)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Ultrasound biomicroscopy",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_018",
+    "name_normalized": "ultrasound biomicroscopy"
+  },
+  {
+    "name": "ultrasound biomicroscopy (UBM)",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_011",
+    "name_normalized": "ultrasound biomicroscopy (ubm)"
+  },
+  {
+    "confidence": 1.0,
+    "name": "US",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1692
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1714
+      }
+    ],
+    "entity_id": "imaging_182",
+    "name_normalized": "us"
+  },
+  {
+    "name": "US biomicroscopy",
+    "type": "IMAGING",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1622
+      }
+    ],
+    "entity_id": "imaging_144",
+    "name_normalized": "us biomicroscopy"
+  },
+  {
+    "confidence": 1.0,
+    "name": "US biomicroscopy (UBM)",
+    "type": "IMAGING",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_090",
+    "name_normalized": "us biomicroscopy (ubm)"
+  },
+  {
+    "name": "Whole-body imaging",
+    "type": "IMAGING",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "imaging_065",
+    "name_normalized": "whole-body imaging"
+  }
+]

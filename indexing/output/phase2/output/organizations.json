@@ -1,0 +1,19 @@
+[
+  {
+    "name": "American Academy of Ophthalmology",
+    "type": "ORGANIZATION",
+    "confidence": 1.0,
+    "description": "a professional organization",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_001",
+    "name_normalized": "american academy of ophthalmology"
+  }
+]

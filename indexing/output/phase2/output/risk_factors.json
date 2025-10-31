@@ -1,0 +1,4376 @@
+[
+  {
+    "name": "Admission to a healthcare or long-term care facility within the past year",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_094",
+    "name_normalized": "admission to a healthcare or long-term care facility within the past year"
+  },
+  {
+    "name": "Advanced Patient Age",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_159",
+    "name_normalized": "advanced patient age"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Age",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_067",
+    "name_normalized": "age"
+  },
+  {
+    "name": "age 20 to 50 years",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_150",
+    "name_normalized": "age 20 to 50 years"
+  },
+  {
+    "name": "Age 5 years or younger",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_103",
+    "name_normalized": "age 5 years or younger"
+  },
+  {
+    "name": "Age 50-80 years",
+    "type": "RISK_FACTOR",
+    "confidence": 0.9,
+    "description": "Risk factor for condition",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_196",
+    "name_normalized": "age 50-80 years"
+  },
+  {
+    "name": "age older than 55 years",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_066",
+    "name_normalized": "age older than 55 years"
+  },
+  {
+    "name": "Age ≥55 years",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "A risk factor for Giant Cell Arteritis",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_154",
+    "name_normalized": "age ≥55 years"
+  },
+  {
+    "name": "Age-related",
+    "type": "RISK_FACTOR",
+    "confidence": 0.7,
+    "description": "a risk factor for bilateral presentation",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_200",
+    "name_normalized": "age-related"
+  },
+  {
+    "name": "Alcohol use",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "A risk factor for Pseudo-Purtscher retinopathy",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_019",
+    "name_normalized": "alcohol use"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Alcoholic beverages",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_193",
+    "name_normalized": "alcoholic beverages"
+  },
+  {
+    "name": "Alcoholism",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Condition increasing risk of other diseases",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_153",
+    "name_normalized": "alcoholism"
+  },
+  {
+    "name": "allergen exposure",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_027",
+    "name_normalized": "allergen exposure"
+  },
+  {
+    "name": "anesthesia risk",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "increased risk due to obstructive sleep apnea",
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_085",
+    "name_normalized": "anesthesia risk"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Antibiotic exposure",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_041",
+    "name_normalized": "antibiotic exposure"
+  },
+  {
+    "name": "Aphakia",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_187",
+    "name_normalized": "aphakia"
+  },
+  {
+    "name": "arid climate",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_026",
+    "name_normalized": "arid climate"
+  },
+  {
+    "name": "arteriosclerotic risk factors",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_174",
+    "name_normalized": "arteriosclerotic risk factors"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Asian",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1491
+      }
+    ],
+    "entity_id": "risk_factor_203",
+    "name_normalized": "asian"
+  },
+  {
+    "name": "Asian individuals",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_075",
+    "name_normalized": "asian individuals"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Atopy",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_032",
+    "name_normalized": "atopy"
+  },
+  {
+    "name": "Bleeding disorder",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_061",
+    "name_normalized": "bleeding disorder"
+  },
+  {
+    "name": "Caffeine",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_086",
+    "name_normalized": "caffeine"
+  },
+  {
+    "name": "Cardiovascular",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_166",
+    "name_normalized": "cardiovascular"
+  },
+  {
+    "name": "Cardiovascular Risk Factors",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "Risk factors for glaucoma",
+    "synonyms": [
+      "Hypertension",
+      "High Cholesterol"
+    ],
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_136",
+    "name_normalized": "cardiovascular risk factors"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Caucasian race",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_116",
+    "name_normalized": "caucasian race"
+  },
+  {
+    "confidence": 1.0,
+    "name": "CCT",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_137",
+    "name_normalized": "cct"
+  },
+  {
+    "name": "Cephalosporin allergy",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_059",
+    "name_normalized": "cephalosporin allergy"
+  },
+  {
+    "name": "child",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_021",
+    "name_normalized": "child"
+  },
+  {
+    "name": "Childhood",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_058",
+    "name_normalized": "childhood"
+  },
+  {
+    "name": "children",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1570
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1590
+      }
+    ],
+    "description": "age group typically affected by the condition",
+    "entity_id": "risk_factor_014",
+    "name_normalized": "children"
+  },
+  {
+    "name": "Children/Adolescents",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_165",
+    "name_normalized": "children/adolescents"
+  },
+  {
+    "name": "Chronic alcoholism",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Long-term alcohol abuse",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1602
+      }
+    ],
+    "entity_id": "risk_factor_228",
+    "name_normalized": "chronic alcoholism"
+  },
+  {
+    "name": "Chronic contact lens wear",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_035",
+    "name_normalized": "chronic contact lens wear"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Cigarette smoking",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_194",
+    "name_normalized": "cigarette smoking"
+  },
+  {
+    "name": "coffee",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "example of hot beverage",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_063",
+    "name_normalized": "coffee"
+  },
+  {
+    "name": "computer work",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_030",
+    "name_normalized": "computer work"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Contact lens overwear",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 1,
+        "section": "Differential Diagnosis of Ocular Symptoms",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_003",
+    "name_normalized": "contact lens overwear"
+  },
+  {
+    "name": "contact lens use",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_050",
+    "name_normalized": "contact lens use"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Contact lens warpage",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1725
+      }
+    ],
+    "entity_id": "risk_factor_239",
+    "name_normalized": "contact lens warpage"
+  },
+  {
+    "name": "Contact lens wear",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1639
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "entity_id": "risk_factor_010",
+    "name_normalized": "contact lens wear"
+  },
+  {
+    "name": "contact lens wearer",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "risk factor for infection",
+    "synonyms": [
+      "contact lens use"
+    ],
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_038",
+    "name_normalized": "contact lens wearer"
+  },
+  {
+    "name": "Contact lens wearers",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_023",
+    "name_normalized": "contact lens wearers"
+  },
+  {
+    "name": "Contact lens–related problem",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 1,
+        "section": "Differential Diagnosis of Ocular Symptoms",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_001",
+    "name_normalized": "contact lens–related problem"
+  },
+  {
+    "name": "Contact with someone known to have MRSA",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_093",
+    "name_normalized": "contact with someone known to have mrsa"
+  },
+  {
+    "name": "Contamination",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_017",
+    "name_normalized": "contamination"
+  },
+  {
+    "name": "COPD",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Contraindication for topical β-blocker",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_146",
+    "name_normalized": "copd"
+  },
+  {
+    "name": "crowded conditions",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_057",
+    "name_normalized": "crowded conditions"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Daily-Wear Soft Contact Lens Wearers",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_042",
+    "name_normalized": "daily-wear soft contact lens wearers"
+  },
+  {
+    "confidence": 1.0,
+    "name": "daughters",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_169",
+    "name_normalized": "daughters"
+  },
+  {
+    "confidence": 0.8,
+    "name": "delay of definitive treatment",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_016",
+    "name_normalized": "delay of definitive treatment"
+  },
+  {
+    "name": "delay until primary surgical repair",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_018",
+    "name_normalized": "delay until primary surgical repair"
+  },
+  {
+    "name": "Demographics",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "characteristics of the population",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_107",
+    "name_normalized": "demographics"
+  },
+  {
+    "name": "developing countries",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1558
+      }
+    ],
+    "entity_id": "risk_factor_056",
+    "name_normalized": "developing countries"
+  },
+  {
+    "name": "Diabetes",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1512
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1546
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1545
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1549
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1622
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1639
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1708
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "synonyms": [
+      "Diabetes Mellitus",
+      "Diabetes mellitus",
+      "Diabetic",
+      "Diabetic retinopathy"
+    ],
+    "entity_id": "risk_factor_008",
+    "name_normalized": "diabetes"
+  },
+  {
+    "name": "Diabetic ketoacidosis",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_156",
+    "name_normalized": "diabetic ketoacidosis"
+  },
+  {
+    "name": "Diet",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_172",
+    "name_normalized": "diet"
+  },
+  {
+    "name": "Dietary deficiency",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Lack of essential nutrients",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1602
+      }
+    ],
+    "entity_id": "risk_factor_227",
+    "name_normalized": "dietary deficiency"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Difficult follow up",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_131",
+    "name_normalized": "difficult follow up"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Early adulthood",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_071",
+    "name_normalized": "early adulthood"
+  },
+  {
+    "name": "East Asian descent",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_141",
+    "name_normalized": "east asian descent"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Elderly patients",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_158",
+    "name_normalized": "elderly patients"
+  },
+  {
+    "name": "Elevated cholesterol",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_135",
+    "name_normalized": "elevated cholesterol"
+  },
+  {
+    "name": "emotional stress",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "environmental factor inducing signs and symptoms",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_065",
+    "name_normalized": "emotional stress"
+  },
+  {
+    "name": "Endemic area",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1569
+      }
+    ],
+    "entity_id": "risk_factor_218",
+    "name_normalized": "endemic area"
+  },
+  {
+    "name": "environmental factors",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_052",
+    "name_normalized": "environmental factors"
+  },
+  {
+    "confidence": 1.0,
+    "name": "equatorial regions",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_034",
+    "name_normalized": "equatorial regions"
+  },
+  {
+    "confidence": 1.0,
+    "name": "European descent",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_145",
+    "name_normalized": "european descent"
+  },
+  {
+    "name": "Excessive alcohol use",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1546
+      }
+    ],
+    "entity_id": "risk_factor_216",
+    "name_normalized": "excessive alcohol use"
+  },
+  {
+    "name": "exposed suture",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1510
+      }
+    ],
+    "entity_id": "risk_factor_087",
+    "name_normalized": "exposed suture"
+  },
+  {
+    "name": "extended-wear contact lenses",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_049",
+    "name_normalized": "extended-wear contact lenses"
+  },
+  {
+    "name": "Fabry disease carrier state",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_007",
+    "name_normalized": "fabry disease carrier state"
+  },
+  {
+    "name": "Familial",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "Indicating a possible genetic or familial link",
+    "synonyms": [
+      "Genetic",
+      "Hereditary"
+    ],
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_009",
+    "name_normalized": "familial"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Family history",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1610
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1648
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1645
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1657
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1669
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1663
+      }
+    ],
+    "entity_id": "risk_factor_120",
+    "name_normalized": "family history"
+  },
+  {
+    "name": "Family history of eye disease",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_129",
+    "name_normalized": "family history of eye disease"
+  },
+  {
+    "name": "Family history of glaucoma",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_144",
+    "name_normalized": "family history of glaucoma"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Family history of keratoconus",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_051",
+    "name_normalized": "family history of keratoconus"
+  },
+  {
+    "name": "Family history of ocular disease",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_125",
+    "name_normalized": "family history of ocular disease"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Family history of retinal break",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_189",
+    "name_normalized": "family history of retinal break"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Family history of retinal detachment",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_190",
+    "name_normalized": "family history of retinal detachment"
+  },
+  {
+    "name": "family members",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_113",
+    "name_normalized": "family members"
+  },
+  {
+    "name": "fellowship training in neuroradiology",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1683
+      }
+    ],
+    "entity_id": "risk_factor_235",
+    "name_normalized": "fellowship training in neuroradiology"
+  },
+  {
+    "name": "Female",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1491
+      }
+    ],
+    "entity_id": "risk_factor_151",
+    "name_normalized": "female"
+  },
+  {
+    "name": "Female carriers",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1609
+      }
+    ],
+    "entity_id": "risk_factor_229",
+    "name_normalized": "female carriers"
+  },
+  {
+    "name": "female sex",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_142",
+    "name_normalized": "female sex"
+  },
+  {
+    "name": "G-6-PD deficiency",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_069",
+    "name_normalized": "g-6-pd deficiency"
+  },
+  {
+    "confidence": 1.0,
+    "name": "general health",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_198",
+    "name_normalized": "general health"
+  },
+  {
+    "name": "Genetics",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1593
+      }
+    ],
+    "entity_id": "risk_factor_224",
+    "name_normalized": "genetics"
+  },
+  {
+    "name": "Hemodialysis",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1533
+      }
+    ],
+    "entity_id": "risk_factor_096",
+    "name_normalized": "hemodialysis"
+  },
+  {
+    "name": "High blood pressure",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_167",
+    "name_normalized": "high blood pressure"
+  },
+  {
+    "name": "High hyperopia",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_195",
+    "name_normalized": "high hyperopia"
+  },
+  {
+    "name": "High suspicion of malignancy",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_112",
+    "name_normalized": "high suspicion of malignancy"
+  },
+  {
+    "name": "High-risk criteria",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "Criteria that determine the risk of complications",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_199",
+    "name_normalized": "high-risk criteria"
+  },
+  {
+    "confidence": 1.0,
+    "name": "high-risk sexual activity",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1541
+      }
+    ],
+    "entity_id": "risk_factor_215",
+    "name_normalized": "high-risk sexual activity"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Hispanic",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1491
+      }
+    ],
+    "entity_id": "risk_factor_205",
+    "name_normalized": "hispanic"
+  },
+  {
+    "name": "History of MRSA infection or colonization",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_091",
+    "name_normalized": "history of mrsa infection or colonization"
+  },
+  {
+    "confidence": 1.0,
+    "name": "History of previous retinal break",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_191",
+    "name_normalized": "history of previous retinal break"
+  },
+  {
+    "confidence": 1.0,
+    "name": "History of previous retinal detachment",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_192",
+    "name_normalized": "history of previous retinal detachment"
+  },
+  {
+    "name": "HIV infection",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "risk factor for infections in immunocompromised patients",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_104",
+    "name_normalized": "hiv infection"
+  },
+  {
+    "name": "HLA-B*15:02",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1593
+      }
+    ],
+    "entity_id": "risk_factor_225",
+    "name_normalized": "hla-b*15:02"
+  },
+  {
+    "name": "HLA-B*58:01",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1593
+      }
+    ],
+    "entity_id": "risk_factor_226",
+    "name_normalized": "hla-b*58:01"
+  },
+  {
+    "name": "HLA-B27",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_004",
+    "name_normalized": "hla-b27"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Hospital exposure",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_040",
+    "name_normalized": "hospital exposure"
+  },
+  {
+    "name": "hot beverages",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "environmental factor inducing signs and symptoms",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_062",
+    "name_normalized": "hot beverages"
+  },
+  {
+    "name": "hygienic conditions",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_060",
+    "name_normalized": "hygienic conditions"
+  },
+  {
+    "name": "Hypercholesterolemia",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_046",
+    "name_normalized": "hypercholesterolemia"
+  },
+  {
+    "name": "Hyperlipidemia",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "synonyms": [
+      "High cholesterol"
+    ],
+    "entity_id": "risk_factor_045",
+    "name_normalized": "hyperlipidemia"
+  },
+  {
+    "name": "I.v. drug use",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_097",
+    "name_normalized": "i.v. drug use"
+  },
+  {
+    "name": "Immune Deficiency State",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_054",
+    "name_normalized": "immune deficiency state"
+  },
+  {
+    "name": "Immunocompromised",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1533
+      }
+    ],
+    "entity_id": "risk_factor_015",
+    "name_normalized": "immunocompromised"
+  },
+  {
+    "name": "Immunocompromised hosts",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_179",
+    "name_normalized": "immunocompromised hosts"
+  },
+  {
+    "name": "immunocompromised patients",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1535
+      }
+    ],
+    "entity_id": "risk_factor_207",
+    "name_normalized": "immunocompromised patients"
+  },
+  {
+    "name": "Immunocompromised state",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1537
+      }
+    ],
+    "entity_id": "risk_factor_214",
+    "name_normalized": "immunocompromised state"
+  },
+  {
+    "name": "Immunosuppression",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1543
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1542
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1590
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1639
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1675
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1701
+      }
+    ],
+    "description": "A treatment approach that involves suppressing the immune system",
+    "entity_id": "risk_factor_011",
+    "name_normalized": "immunosuppression"
+  },
+  {
+    "name": "Immunosuppressive illness",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_109",
+    "name_normalized": "immunosuppressive illness"
+  },
+  {
+    "name": "Impaired renal function",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_101",
+    "name_normalized": "impaired renal function"
+  },
+  {
+    "confidence": 0.8,
+    "name": "inadequate protective eyewear",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_033",
+    "name_normalized": "inadequate protective eyewear"
+  },
+  {
+    "name": "Incarceration within the past 12 months",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_098",
+    "name_normalized": "incarceration within the past 12 months"
+  },
+  {
+    "name": "increased age",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_140",
+    "name_normalized": "increased age"
+  },
+  {
+    "name": "Indwelling catheter",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1537
+      }
+    ],
+    "entity_id": "risk_factor_208",
+    "name_normalized": "indwelling catheter"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Initial IOP",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_138",
+    "name_normalized": "initial iop"
+  },
+  {
+    "name": "Intravenous drug use",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1537
+      }
+    ],
+    "entity_id": "risk_factor_209",
+    "name_normalized": "intravenous drug use"
+  },
+  {
+    "name": "iodine allergy",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1712
+      }
+    ],
+    "entity_id": "risk_factor_237",
+    "name_normalized": "iodine allergy"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Ionizing radiation",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1545
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1673
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1703
+      }
+    ],
+    "entity_id": "risk_factor_124",
+    "name_normalized": "ionizing radiation"
+  },
+  {
+    "name": "labile hypertension",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_164",
+    "name_normalized": "labile hypertension"
+  },
+  {
+    "name": "lattice retinal degeneration",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_149",
+    "name_normalized": "lattice retinal degeneration"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Life expectancy",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_134",
+    "name_normalized": "life expectancy"
+  },
+  {
+    "name": "Long-term indwelling line or catheter",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1533
+      }
+    ],
+    "entity_id": "risk_factor_213",
+    "name_normalized": "long-term indwelling line or catheter"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Low birth weight",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_115",
+    "name_normalized": "low birth weight"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Low blood sugar",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_182",
+    "name_normalized": "low blood sugar"
+  },
+  {
+    "name": "male",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_148",
+    "name_normalized": "male"
+  },
+  {
+    "name": "Male gender",
+    "type": "RISK_FACTOR",
+    "confidence": 0.9,
+    "description": "Risk factor for condition",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_197",
+    "name_normalized": "male gender"
+  },
+  {
+    "name": "male predilection",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_081",
+    "name_normalized": "male predilection"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Male sex",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_117",
+    "name_normalized": "male sex"
+  },
+  {
+    "name": "Marked obesity",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Condition of being severely overweight, which may increase the risk of complications during MRI",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1680
+      }
+    ],
+    "entity_id": "risk_factor_234",
+    "name_normalized": "marked obesity"
+  },
+  {
+    "name": "Men",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_180",
+    "name_normalized": "men"
+  },
+  {
+    "name": "menopause",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_024",
+    "name_normalized": "menopause"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Middle Eastern",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1491
+      }
+    ],
+    "entity_id": "risk_factor_204",
+    "name_normalized": "middle eastern"
+  },
+  {
+    "confidence": 1.0,
+    "name": "middle-aged to elderly patients",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_072",
+    "name_normalized": "middle-aged to elderly patients"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Native American",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1491
+      }
+    ],
+    "entity_id": "risk_factor_206",
+    "name_normalized": "native american"
+  },
+  {
+    "name": "near work",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "prolonged and intense periods of near work as a risk factor",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1579
+      }
+    ],
+    "entity_id": "risk_factor_221",
+    "name_normalized": "near work"
+  },
+  {
+    "name": "Neurofibromatosis type I",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Risk factor for neurofibroma",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_110",
+    "name_normalized": "neurofibromatosis type i"
+  },
+  {
+    "name": "Neurofibromatosis type II",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "Risk factor for neurilemmoma",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_111",
+    "name_normalized": "neurofibromatosis type ii"
+  },
+  {
+    "name": "Newborns",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_005",
+    "name_normalized": "newborns"
+  },
+  {
+    "name": "Noncompliance",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_047",
+    "name_normalized": "noncompliance"
+  },
+  {
+    "name": "Noncompliance with outpatient treatment and follow up",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_102",
+    "name_normalized": "noncompliance with outpatient treatment and follow up"
+  },
+  {
+    "name": "noncontact lens wearer",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "lower risk factor for infection",
+    "synonyms": [
+      "non-contact lens use"
+    ],
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_039",
+    "name_normalized": "noncontact lens wearer"
+  },
+  {
+    "name": "Noncontact lens wearers",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_020",
+    "name_normalized": "noncontact lens wearers"
+  },
+  {
+    "name": "Normal aging",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_076",
+    "name_normalized": "normal aging"
+  },
+  {
+    "name": "obese patients",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_080",
+    "name_normalized": "obese patients"
+  },
+  {
+    "name": "obesity",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_160",
+    "name_normalized": "obesity"
+  },
+  {
+    "confidence": 0.8,
+    "name": "occupational necessity",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_201",
+    "name_normalized": "occupational necessity"
+  },
+  {
+    "name": "Older patients",
+    "type": "RISK_FACTOR",
+    "confidence": 0.7,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1577
+      }
+    ],
+    "entity_id": "risk_factor_223",
+    "name_normalized": "older patients"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Optic nerve appearance",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_139",
+    "name_normalized": "optic nerve appearance"
+  },
+  {
+    "name": "Participation in sports that include skin-to-skin contact or sharing of equipment and clothing",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_099",
+    "name_normalized": "participation in sports that include skin-to-skin contact or sharing of equipment and clothing"
+  },
+  {
+    "name": "patient reliability",
+    "type": "RISK_FACTOR",
+    "confidence": 0.9,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_013",
+    "name_normalized": "patient reliability"
+  },
+  {
+    "name": "patient risk factors",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "factors influencing treatment approach",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_183",
+    "name_normalized": "patient risk factors"
+  },
+  {
+    "name": "pediatric",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_106",
+    "name_normalized": "pediatric"
+  },
+  {
+    "name": "pediatric use",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "a consideration for medication use",
+    "synonyms": [
+      "childhood",
+      "youth"
+    ],
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_173",
+    "name_normalized": "pediatric use"
+  },
+  {
+    "name": "Penicillin allergy",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1504
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1525
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1531
+      }
+    ],
+    "entity_id": "risk_factor_090",
+    "name_normalized": "penicillin allergy"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Phakic patients",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_186",
+    "name_normalized": "phakic patients"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Physical health",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_132",
+    "name_normalized": "physical health"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Pigmented skin",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1491
+      }
+    ],
+    "entity_id": "risk_factor_202",
+    "name_normalized": "pigmented skin"
+  },
+  {
+    "name": "Placement of a permanent indwelling catheter",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_095",
+    "name_normalized": "placement of a permanent indwelling catheter"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Poor compliance",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_130",
+    "name_normalized": "poor compliance"
+  },
+  {
+    "name": "Poor diet",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1603
+      }
+    ],
+    "entity_id": "risk_factor_230",
+    "name_normalized": "poor diet"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Poor Lens Hygiene",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_043",
+    "name_normalized": "poor lens hygiene"
+  },
+  {
+    "name": "Poor personal hygiene",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_100",
+    "name_normalized": "poor personal hygiene"
+  },
+  {
+    "confidence": 0.8,
+    "name": "poorly cooperative patients",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1692
+      }
+    ],
+    "entity_id": "risk_factor_236",
+    "name_normalized": "poorly cooperative patients"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Positive family history",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_178",
+    "name_normalized": "positive family history"
+  },
+  {
+    "name": "postmenopause",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_025",
+    "name_normalized": "postmenopause"
+  },
+  {
+    "name": "Postmenstrual age",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_121",
+    "name_normalized": "postmenstrual age"
+  },
+  {
+    "name": "Postpartum",
+    "type": "RISK_FACTOR",
+    "confidence": 0.7,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1561
+      }
+    ],
+    "description": "Time period after childbirth, potentially related to certain conditions",
+    "entity_id": "risk_factor_175",
+    "name_normalized": "postpartum"
+  },
+  {
+    "name": "Predisposing Conditions",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_184",
+    "name_normalized": "predisposing conditions"
+  },
+  {
+    "name": "Pregnancy",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 2,
+        "section": "Differential Diagnosis of Ocular Signs",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1500
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1566
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1564
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1570
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1621
+      }
+    ],
+    "entity_id": "risk_factor_006",
+    "name_normalized": "pregnancy"
+  },
+  {
+    "name": "Premature",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_128",
+    "name_normalized": "premature"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Premature Birth",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_119",
+    "name_normalized": "premature birth"
+  },
+  {
+    "name": "Prematurity",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_114",
+    "name_normalized": "prematurity"
+  },
+  {
+    "confidence": 0.8,
+    "name": "preoperative IOP >22 mm Hg",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_152",
+    "name_normalized": "preoperative iop >22 mm hg"
+  },
+  {
+    "name": "Preterm infants",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_118",
+    "name_normalized": "preterm infants"
+  },
+  {
+    "name": "Previous intraocular surgery",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_079",
+    "name_normalized": "previous intraocular surgery"
+  },
+  {
+    "name": "Previous RD",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_188",
+    "name_normalized": "previous rd"
+  },
+  {
+    "name": "primigravida",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1558
+      }
+    ],
+    "entity_id": "risk_factor_217",
+    "name_normalized": "primigravida"
+  },
+  {
+    "name": "Prior ocular surgery",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_143",
+    "name_normalized": "prior ocular surgery"
+  },
+  {
+    "name": "prolonged reading",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "may precipitate episodes of inability to relax the ciliary muscles",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1580
+      }
+    ],
+    "entity_id": "risk_factor_220",
+    "name_normalized": "prolonged reading"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Pseudophakic patients",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_185",
+    "name_normalized": "pseudophakic patients"
+  },
+  {
+    "name": "Puberty",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_068",
+    "name_normalized": "puberty"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Puerto Rican descent",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1608
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1610
+      }
+    ],
+    "entity_id": "risk_factor_231",
+    "name_normalized": "puerto rican descent"
+  },
+  {
+    "name": "reading",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_029",
+    "name_normalized": "reading"
+  },
+  {
+    "name": "Recent abdominal surgery",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1533
+      }
+    ],
+    "entity_id": "risk_factor_212",
+    "name_normalized": "recent abdominal surgery"
+  },
+  {
+    "name": "Recent hospitalization",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1533
+      }
+    ],
+    "entity_id": "risk_factor_211",
+    "name_normalized": "recent hospitalization"
+  },
+  {
+    "name": "Recent medical procedures",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1529
+      }
+    ],
+    "entity_id": "risk_factor_210",
+    "name_normalized": "recent medical procedures"
+  },
+  {
+    "name": "Recurrent skin infections",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_092",
+    "name_normalized": "recurrent skin infections"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Renal insufficiency",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 12,
+        "section": "Uveitis",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1525
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1680
+      }
+    ],
+    "entity_id": "risk_factor_048",
+    "name_normalized": "renal insufficiency"
+  },
+  {
+    "name": "Repetitive eye rubbing",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_077",
+    "name_normalized": "repetitive eye rubbing"
+  },
+  {
+    "name": "risk",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_088",
+    "name_normalized": "risk"
+  },
+  {
+    "name": "risk factors",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1646
+      }
+    ],
+    "entity_id": "risk_factor_127",
+    "name_normalized": "risk factors"
+  },
+  {
+    "confidence": 1.0,
+    "name": "School age",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_126",
+    "name_normalized": "school age"
+  },
+  {
+    "name": "Severe malnutrition",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_171",
+    "name_normalized": "severe malnutrition"
+  },
+  {
+    "name": "shellfish allergy",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1712
+      }
+    ],
+    "entity_id": "risk_factor_238",
+    "name_normalized": "shellfish allergy"
+  },
+  {
+    "name": "sickle cell",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_012",
+    "name_normalized": "sickle cell"
+  },
+  {
+    "name": "Sleep position",
+    "type": "RISK_FACTOR",
+    "confidence": 0.7,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_083",
+    "name_normalized": "sleep position"
+  },
+  {
+    "name": "sleeping face down",
+    "type": "RISK_FACTOR",
+    "confidence": 0.7,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_084",
+    "name_normalized": "sleeping face down"
+  },
+  {
+    "name": "Sleeping prone",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_082",
+    "name_normalized": "sleeping prone"
+  },
+  {
+    "name": "Smoker",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_177",
+    "name_normalized": "smoker"
+  },
+  {
+    "name": "smoking",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_028",
+    "name_normalized": "smoking"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Social health",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_133",
+    "name_normalized": "social health"
+  },
+  {
+    "confidence": 1.0,
+    "name": "soft contact lens wear",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_037",
+    "name_normalized": "soft contact lens wear"
+  },
+  {
+    "name": "soft contact lens wearers",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_074",
+    "name_normalized": "soft contact lens wearers"
+  },
+  {
+    "confidence": 1.0,
+    "name": "sons",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_168",
+    "name_normalized": "sons"
+  },
+  {
+    "name": "stressful situations",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "associated with inability to relax the ciliary muscles",
+    "synonyms": [
+      "stress"
+    ],
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1580
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1583
+      }
+    ],
+    "entity_id": "risk_factor_219",
+    "name_normalized": "stressful situations"
+  },
+  {
+    "name": "Stroke risk factors",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_176",
+    "name_normalized": "stroke risk factors"
+  },
+  {
+    "name": "Sulfa allergy",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_162",
+    "name_normalized": "sulfa allergy"
+  },
+  {
+    "name": "Sun/UV Exposure",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_055",
+    "name_normalized": "sun/uv exposure"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Swiss descent",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1608
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1610
+      }
+    ],
+    "entity_id": "risk_factor_232",
+    "name_normalized": "swiss descent"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Systemic Diseases",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_044",
+    "name_normalized": "systemic diseases"
+  },
+  {
+    "name": "systemic factors",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_053",
+    "name_normalized": "systemic factors"
+  },
+  {
+    "name": "Systemic illness",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "synonyms": [
+      "Systemic disease"
+    ],
+    "entity_id": "risk_factor_036",
+    "name_normalized": "systemic illness"
+  },
+  {
+    "name": "tea",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "example of hot beverage",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_064",
+    "name_normalized": "tea"
+  },
+  {
+    "name": "teenagers",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "description": "age group at risk",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1579
+      }
+    ],
+    "entity_id": "risk_factor_222",
+    "name_normalized": "teenagers"
+  },
+  {
+    "name": "television viewing",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_031",
+    "name_normalized": "television viewing"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Teratogenic effects",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1604
+      }
+    ],
+    "entity_id": "risk_factor_233",
+    "name_normalized": "teratogenic effects"
+  },
+  {
+    "name": "Tobacco/alcohol or other substance abuse",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_170",
+    "name_normalized": "tobacco/alcohol or other substance abuse"
+  },
+  {
+    "confidence": 1.0,
+    "name": "Uncontrolled blood pressure",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_181",
+    "name_normalized": "uncontrolled blood pressure"
+  },
+  {
+    "name": "Uncorrected refractive error",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 1,
+        "section": "Differential Diagnosis of Ocular Symptoms",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 13,
+        "section": "General Ophthalmic Problems",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1574
+      }
+    ],
+    "entity_id": "risk_factor_002",
+    "name_normalized": "uncorrected refractive error"
+  },
+  {
+    "name": "unreliable patient",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_022",
+    "name_normalized": "unreliable patient"
+  },
+  {
+    "name": "Use of rigid contact lenses",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 6,
+        "section": "Eyelid",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_078",
+    "name_normalized": "use of rigid contact lenses"
+  },
+  {
+    "name": "Vasculopathic risk factors",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_155",
+    "name_normalized": "vasculopathic risk factors"
+  },
+  {
+    "name": "Vasculopathy",
+    "type": "RISK_FACTOR",
+    "confidence": 1,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_105",
+    "name_normalized": "vasculopathy"
+  },
+  {
+    "name": "Visual development risk",
+    "type": "RISK_FACTOR",
+    "confidence": 0.8,
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_123",
+    "name_normalized": "visual development risk"
+  },
+  {
+    "name": "Vitamin D deficiency",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_089",
+    "name_normalized": "vitamin d deficiency"
+  },
+  {
+    "name": "weight gain",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_161",
+    "name_normalized": "weight gain"
+  },
+  {
+    "name": "Whites",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_073",
+    "name_normalized": "whites"
+  },
+  {
+    "name": "young adult",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 9,
+        "section": "Glaucoma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_147",
+    "name_normalized": "young adult"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Young adulthood",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_070",
+    "name_normalized": "young adulthood"
+  },
+  {
+    "name": "young adults",
+    "type": "RISK_FACTOR",
+    "confidence": 1.0,
+    "description": "age group typically affected by the condition",
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_108",
+    "name_normalized": "young adults"
+  },
+  {
+    "confidence": 0.8,
+    "name": "young age",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_122",
+    "name_normalized": "young age"
+  },
+  {
+    "confidence": 0.8,
+    "name": "Young patients",
+    "type": "RISK_FACTOR",
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_157",
+    "name_normalized": "young patients"
+  },
+  {
+    "name": "Young, overweight females",
+    "type": "RISK_FACTOR",
+    "confidence": 0,
+    "metadata": [
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "risk_factor_163",
+    "name_normalized": "young, overweight females"
+  }
+]

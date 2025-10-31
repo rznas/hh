@@ -20,15 +20,21 @@ from openai import OpenAI
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+import sys
 
 SCRIPT_DIR = Path(__file__).parent
 PHASE1_DIR = SCRIPT_DIR.parent.parent / "phase1"
 PHASE2_DIR = SCRIPT_DIR.parent.parent / "phase2"
 PHASE3_DIR = SCRIPT_DIR.parent
+INVALID_RESPONSES_DIR = PHASE3_DIR / "invalid_responses"
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI2OTAyNTk3MWYwN2ViNTczMjgzZmIxMjkiLCJ0eXBlIjoiYWlfa2V5IiwiaWF0IjoxNzYxNzYxNjQ5fQ.Wllnd6Fn-fghYv1uk18ZoXNXHDRw30vDiEwNBQXUqR8")
-OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://ai.liara.ir/api/68721419652cec5504661aec/v1")
-OPENAI_MODEL_NAME = os.environ.get("OPENAI_MODEL_NAME", "anthropic/claude-sonnet-4.5")
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from llm_schema_utils import InvalidResponseHandler, SchemaValidator
+
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI2OTA0ZTRlNzZhMjI0NjZkMzJjZjRjZDIiLCJ0eXBlIjoiYWlfa2V5IiwiaWF0IjoxNzYxOTI4NDIzfQ.OTuh9hdtjeF6Bi2xrqVnOlam_HGfKNniVyoUbjqfHbs")
+OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://ai.liara.ir/api/6904e4e0298745c23b64f56d/v1")
+OPENAI_MODEL_NAME = os.environ.get("OPENAI_MODEL_NAME", "meta-llama/llama-3.3-70b-instruct")
 
 for var in ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"]:
     os.environ.pop(var, None)
@@ -42,6 +48,7 @@ class ExtractionStats:
     blocks_processed: int = 0
     relationships_extracted: int = 0
     total_cost: float = 0.0
+    schema_validation_failures: int = 0
 
 
 COMPLICATION_EXTRACTION_PROMPT = """You are extracting complication and progression relationships from medical text.
@@ -112,17 +119,19 @@ def load_diseases() -> Dict[str, str]:
     return {e.get("name", "").lower(): e.get("entity_id", "") for e in entities}
 
 
-def extract_complications_with_llm(text_block: Dict, stats: ExtractionStats, diseases: Dict[str, str]) -> List[Dict]:
+def extract_complications_with_llm(text_block: Dict, stats: ExtractionStats, diseases: Dict[str, str], invalid_handler: InvalidResponseHandler) -> List[Dict]:
     text = text_block.get("text", "")
     if not text or len(text.strip()) < 100:
         return []
+
+    prompt = COMPLICATION_EXTRACTION_PROMPT.format(text=text)
 
     try:
         response = client.chat.completions.create(
             model=OPENAI_MODEL_NAME,
             max_tokens=1500,
             temperature=0.0,
-            messages=[{"role": "user", "content": COMPLICATION_EXTRACTION_PROMPT.format(text=text[:3500])}],
+            messages=[{"role": "user", "content": prompt}],
             response_format={
                 "type": "json_schema",
                 "json_schema": {
@@ -136,7 +145,27 @@ def extract_complications_with_llm(text_block: Dict, stats: ExtractionStats, dis
         with stats_lock:
             stats.total_cost += (response.usage.prompt_tokens * 5 + response.usage.completion_tokens * 15) / 1000000
 
-        result = json.loads(response.choices[0].message.content.strip())
+        # Parse and validate response
+        response_text = response.choices[0].message.content.strip()
+        is_valid, parsed_json, error_msg = SchemaValidator.validate(
+            response_text,
+            COMPLICATION_SCHEMA,
+            strict=True
+        )
+
+        if not is_valid:
+            with stats_lock:
+                stats.schema_validation_failures += 1
+            invalid_handler.record_invalid_response(
+                text_block=text_block,
+                prompt=prompt,
+                llm_response=response_text,
+                error=error_msg,
+                schema=COMPLICATION_SCHEMA
+            )
+            return []
+
+        result = parsed_json
         relationships = result.get("relationships", [])
 
         # Resolve entity IDs
@@ -168,6 +197,15 @@ def extract_complications_with_llm(text_block: Dict, stats: ExtractionStats, dis
         return resolved_edges
 
     except Exception as e:
+        error_type = type(e).__name__
+        print(f"  ⚠ Error extracting complications ({error_type}): {e}")
+        invalid_handler.record_connection_error(
+            text_block=text_block,
+            prompt=prompt,
+            error=e,
+            error_message=f"Error extracting complications: {error_type}",
+            retry_count=0
+        )
         return []
 
 
@@ -192,11 +230,14 @@ def main():
         print(COMPLICATION_EXTRACTION_PROMPT.format(text=text_blocks[0].get("text", "")[:500]))
         return
 
+    # Initialize invalid response handler
+    invalid_handler = InvalidResponseHandler(INVALID_RESPONSES_DIR, "complications")
+
     stats = ExtractionStats()
     all_edges = []
 
     with ThreadPoolExecutor(max_workers=args.num_workers) as executor:
-        futures = {executor.submit(extract_complications_with_llm, block, stats, diseases): block for block in text_blocks}
+        futures = {executor.submit(extract_complications_with_llm, block, stats, diseases, invalid_handler): block for block in text_blocks}
 
         for future in tqdm(as_completed(futures), total=len(futures)):
             edges = future.result()
@@ -216,6 +257,11 @@ def main():
         json.dump(temporal_edges, f, indent=2, ensure_ascii=False)
     print(f"  ✓ temporal_follows: {len(temporal_edges)}")
 
+    # Save invalid responses for manual review
+    invalid_count, invalid_file = invalid_handler.save_invalid_responses()
+    if invalid_count > 0:
+        print(f"  ⚠ {invalid_count} invalid responses saved to {invalid_file}")
+
     report = {
         "method": "llm",
         "total": len(all_edges),
@@ -223,12 +269,14 @@ def main():
         "by_type": {
             "complicates": len(complicates_edges),
             "temporal_follows": len(temporal_edges)
-        }
+        },
+        "schema_validation_failures": stats.schema_validation_failures
     }
     with open(PHASE3_DIR / "phase3_complications_llm_report.json", "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
 
     print(f"\n✓ Total: {len(all_edges)} | Cost: ${stats.total_cost:.2f}")
+    print(f"Schema Validation Failures: {stats.schema_validation_failures}")
 
 
 if __name__ == "__main__":

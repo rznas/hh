@@ -45,19 +45,25 @@ from openai import OpenAI
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+import sys
 
 # Paths
 PHASE1_DIR = Path(__file__).parent / "output" / "phase1"
 PHASE2_DIR = Path(__file__).parent / "output" / "phase2"
 PHASE3_DIR = Path(__file__).parent / "output" / "phase3"
+INVALID_RESPONSES_DIR = PHASE3_DIR / "invalid_responses"
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from llm_schema_utils import InvalidResponseHandler, SchemaValidator
 
 # Create output directory
 PHASE3_DIR.mkdir(parents=True, exist_ok=True)
 
 # OpenAI client with custom base URL
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI2OTAyNTk3MWYwN2ViNTczMjgzZmIxMjkiLCJ0eXBlIjoiYWlfa2V5IiwiaWF0IjoxNzYxNzYxNjQ5fQ.Wllnd6Fn-fghYv1uk18ZoXNXHDRw30vDiEwNBQXUqR8")
-OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://ai.liara.ir/api/68721419652cec5504661aec/v1")
-OPENAI_MODEL_NAME = os.environ.get("OPENAI_MODEL_NAME", "openai/gpt-4o-mini")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI2OTA0ZTRlNzZhMjI0NjZkMzJjZjRjZDIiLCJ0eXBlIjoiYWlfa2V5IiwiaWF0IjoxNzYxOTI4NDIzfQ.OTuh9hdtjeF6Bi2xrqVnOlam_HGfKNniVyoUbjqfHbs")
+OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://ai.liara.ir/api/6904e4e0298745c23b64f56d/v1")
+OPENAI_MODEL_NAME = os.environ.get("OPENAI_MODEL_NAME", "meta-llama/llama-3.3-70b-instruct")
 
 # Disable environment-based proxy settings to avoid SOCKS proxy issues
 os.environ.pop("HTTP_PROXY", None)
@@ -82,6 +88,7 @@ class ExtractionStats:
     llm_calls: int = 0
     total_tokens: int = 0
     total_cost: float = 0.0
+    schema_validation_failures: int = 0
 
 
 RELATIONSHIP_EXTRACTION_PROMPT = """You are a medical knowledge graph expert extracting relationships between medical entities from The Wills Eye Manual.
@@ -213,7 +220,8 @@ def find_entities_in_text(
 def extract_relationships_with_llm(
     text_block: Dict,
     entities_found: Dict[str, List[str]],
-    stats: ExtractionStats
+    stats: ExtractionStats,
+    invalid_handler: InvalidResponseHandler
 ) -> List[Dict]:
     """Use LLM to extract relationships from a text block."""
 
@@ -224,7 +232,7 @@ def extract_relationships_with_llm(
 
     # Prepare prompt
     prompt = RELATIONSHIP_EXTRACTION_PROMPT.format(
-        text=text_block.get("text", "")[:2000],  # Limit text length
+        text=text_block.get("text", ""),
         diseases=", ".join(entities_found["diseases"][:10]),
         symptoms=", ".join(entities_found["symptoms"][:10]),
         signs=", ".join(entities_found["signs"][:10]),
@@ -245,13 +253,14 @@ def extract_relationships_with_llm(
         )
 
         # Update stats
-        stats.llm_calls += 1
-        stats.total_tokens += response.usage.prompt_tokens + response.usage.completion_tokens
+        with stats_lock:
+            stats.llm_calls += 1
+            stats.total_tokens += response.usage.prompt_tokens + response.usage.completion_tokens
 
-        # Cost calculation (GPT-4o pricing: $5/1M input, $15/1M output)
-        input_cost = response.usage.prompt_tokens * 5 / 1000000
-        output_cost = response.usage.completion_tokens * 15 / 1000000
-        stats.total_cost += input_cost + output_cost
+            # Cost calculation (GPT-4o pricing: $5/1M input, $15/1M output)
+            input_cost = response.usage.prompt_tokens * 5 / 1000000
+            output_cost = response.usage.completion_tokens * 15 / 1000000
+            stats.total_cost += input_cost + output_cost
 
         # Parse response
         response_text = response.choices[0].message.content.strip()
@@ -262,7 +271,46 @@ def extract_relationships_with_llm(
         elif "```" in response_text:
             response_text = response_text.split("```")[1].split("```")[0].strip()
 
-        relationships = json.loads(response_text)
+        # Validate JSON structure (expect array of relationship objects)
+        try:
+            relationships = json.loads(response_text)
+
+            # Validate it's a list
+            if not isinstance(relationships, list):
+                error_msg = f"Expected array but got {type(relationships).__name__}"
+                with stats_lock:
+                    stats.schema_validation_failures += 1
+                invalid_handler.record_invalid_response(
+                    text_block=text_block,
+                    prompt=prompt,
+                    llm_response=response_text,
+                    error=error_msg,
+                    schema={"type": "array"}
+                )
+                return []
+
+            # Validate each relationship has required fields
+            valid_relationships = []
+            for rel in relationships:
+                if isinstance(rel, dict) and all(k in rel for k in ["source_entity", "target_entity", "relationship_type"]):
+                    valid_relationships.append(rel)
+                else:
+                    # Skip invalid items but don't fail the whole batch
+                    continue
+
+            relationships = valid_relationships
+
+        except json.JSONDecodeError as e:
+            with stats_lock:
+                stats.schema_validation_failures += 1
+            invalid_handler.record_invalid_response(
+                text_block=text_block,
+                prompt=prompt,
+                llm_response=response_text,
+                error=f"JSON parsing error: {str(e)}",
+                schema={"type": "array"}
+            )
+            return []
 
         # Add metadata to each relationship
         chapter = text_block.get("chapter_number")
@@ -276,17 +324,21 @@ def extract_relationships_with_llm(
                 "model": OPENAI_MODEL_NAME
             }
 
-        stats.relationships_extracted += len(relationships)
+        with stats_lock:
+            stats.relationships_extracted += len(relationships)
 
         return relationships
 
-    except json.JSONDecodeError as e:
-        print(f"  ⚠ JSON decode error: {e}")
-        print(f"  Response: {response_text[:200]}")
-        return []
-
     except Exception as e:
-        print(f"  ⚠ Error extracting relationships: {e}")
+        error_type = type(e).__name__
+        print(f"  ⚠ Error extracting relationships ({error_type}): {e}")
+        invalid_handler.record_connection_error(
+            text_block=text_block,
+            prompt=prompt,
+            error=e,
+            error_message=f"Error extracting relationships: {error_type}",
+            retry_count=0
+        )
         return []
 
 
@@ -298,10 +350,11 @@ def process_block_parallel(
     symptoms: List[Dict],
     signs: List[Dict],
     treatments: List[Dict],
-    tests: List[Dict]
+    tests: List[Dict],
+    invalid_handler: InvalidResponseHandler
 ) -> Tuple[List[Dict], int]:
     """Process a single block and return mapped relationships with block index."""
-    relationships = extract_relationships_with_llm(block, entities_found, stats)
+    relationships = extract_relationships_with_llm(block, entities_found, stats, invalid_handler)
 
     # Map to entity IDs
     mapped = map_to_entity_ids(relationships, diseases, symptoms, signs, treatments, tests)
@@ -495,6 +548,9 @@ def main():
     # Extract relationships with checkpoint support
     print("\n[4/5] Extracting relationships with LLM...")
 
+    # Initialize invalid response handler
+    invalid_handler = InvalidResponseHandler(INVALID_RESPONSES_DIR, "relationships")
+
     # Load checkpoint if it exists (unless --no-checkpoint flag)
     if args.no_checkpoint:
         print("  ⚠ Checkpoint ignored (--no-checkpoint flag)")
@@ -532,7 +588,8 @@ def main():
                 symptoms,
                 signs,
                 treatments,
-                tests
+                tests,
+                invalid_handler
             ): idx
             for idx, (block, entities_found) in enumerate(remaining_blocks, start=start_index)
         }
@@ -584,6 +641,11 @@ def main():
         json.dump(unique_relationships, f, indent=2)
     print(f"\n✓ Saved to: {output_file}")
 
+    # Save invalid responses for manual review
+    invalid_count, invalid_file = invalid_handler.save_invalid_responses()
+    if invalid_count > 0:
+        print(f"  ⚠ {invalid_count} invalid responses saved to {invalid_file}")
+
     # Generate report
     report = {
         "extraction_method": "llm_enhanced",
@@ -597,7 +659,8 @@ def main():
             "total_tokens": stats.total_tokens,
             "total_cost_usd": round(stats.total_cost, 2),
             "avg_cost_per_block": round(stats.total_cost / stats.blocks_processed, 4) if stats.blocks_processed > 0 else 0,
-            "avg_relationships_per_block": round(len(unique_relationships) / stats.blocks_processed, 2) if stats.blocks_processed > 0 else 0
+            "avg_relationships_per_block": round(len(unique_relationships) / stats.blocks_processed, 2) if stats.blocks_processed > 0 else 0,
+            "schema_validation_failures": stats.schema_validation_failures
         }
     }
 
@@ -638,6 +701,7 @@ def main():
     print(f"  • Total: ${stats.total_cost:.2f}")
     print(f"  • Per block: ${stats.total_cost / stats.blocks_processed:.4f}")
     print(f"  • Total tokens: {stats.total_tokens:,}")
+    print(f"\nSchema Validation Failures: {stats.schema_validation_failures}")
     print("=" * 80)
 
 

@@ -1,0 +1,364 @@
+[
+  {
+    "name": "chorioretinal rupture",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "resulting from shock waves caused by a high-velocity missile",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_017",
+    "name_normalized": "chorioretinal rupture"
+  },
+  {
+    "name": "Complex trauma",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Complex trauma involving the orbital rim or displacement of the lateral wall and/or the zygomatic arch",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_012",
+    "name_normalized": "complex trauma"
+  },
+  {
+    "name": "conjunctival lacerations",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "large conjunctival lacerations",
+    "synonyms": [
+      "conjunctival injury",
+      "conjunctival wound"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_004",
+    "name_normalized": "conjunctival lacerations"
+  },
+  {
+    "name": "Dislocated Lens",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Complete dislocation of the lens",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_007",
+    "name_normalized": "dislocated lens"
+  },
+  {
+    "name": "Extraocular muscle entrapment",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "A condition where the extraocular muscles are trapped or pinched",
+    "synonyms": [
+      "Muscle entrapment"
+    ],
+    "metadata": [
+      {
+        "chapter": 1,
+        "section": "Differential Diagnosis of Ocular Symptoms",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_002",
+    "name_normalized": "extraocular muscle entrapment"
+  },
+  {
+    "name": "fractures",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "breaks in the bone",
+    "synonyms": [
+      "bone fractures"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1674
+      },
+      {
+        "chapter": 14,
+        "section": "Imaging Modalities in Ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "block_index": 1679
+      }
+    ],
+    "entity_id": "entity_010",
+    "name_normalized": "fractures"
+  },
+  {
+    "name": "Intracranial trauma",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Intracranial trauma with asymmetric damage to the prechiasmal optic nerves",
+    "synonyms": [
+      "Head trauma",
+      "Brain injury"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_016",
+    "name_normalized": "intracranial trauma"
+  },
+  {
+    "name": "Le Fort II",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Complex fractures of the midface (zygomatic complex, Le Fort II)",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_013",
+    "name_normalized": "le fort ii"
+  },
+  {
+    "name": "Le Fort III",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Complex fractures of the skull base (Le Fort III)",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_014",
+    "name_normalized": "le fort iii"
+  },
+  {
+    "name": "ocular damage",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "concomitant ocular damage",
+    "synonyms": [
+      "eye damage",
+      "eye injury"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_005",
+    "name_normalized": "ocular damage"
+  },
+  {
+    "name": "ocular injuries",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "eye injuries",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_008",
+    "name_normalized": "ocular injuries"
+  },
+  {
+    "name": "Open globe injury",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "serious eye injury",
+    "synonyms": [
+      "penetrating eye injury"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 11,
+        "section": "Retina",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_003",
+    "name_normalized": "open globe injury"
+  },
+  {
+    "name": "Orbital floor fractures",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Large orbital floor fractures (>50%) or large combined medial wall and orbital floor fractures",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_011",
+    "name_normalized": "orbital floor fractures"
+  },
+  {
+    "name": "orbital injuries",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "injuries around the eye",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_009",
+    "name_normalized": "orbital injuries"
+  },
+  {
+    "name": "Orbital trauma",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Injury to the orbit",
+    "synonyms": [
+      "Orbital injury"
+    ],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 10,
+        "section": "Neuro-ophthalmology",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_018",
+    "name_normalized": "orbital trauma"
+  },
+  {
+    "name": "Orbital wall fracture",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "A fracture of the bones surrounding the eye",
+    "synonyms": [
+      "Blowout fracture"
+    ],
+    "metadata": [
+      {
+        "chapter": 1,
+        "section": "Differential Diagnosis of Ocular Symptoms",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_001",
+    "name_normalized": "orbital wall fracture"
+  },
+  {
+    "name": "Retained intraorbital foreign body",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Foreign body retained in the orbit",
+    "synonyms": [],
+    "metadata": [
+      {
+        "chapter": 7,
+        "section": "Orbit",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_019",
+    "name_normalized": "retained intraorbital foreign body"
+  },
+  {
+    "name": "Retinal trauma",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Severe retinal trauma",
+    "synonyms": [
+      "Retinal injury"
+    ],
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_015",
+    "name_normalized": "retinal trauma"
+  },
+  {
+    "name": "Subluxated Lens",
+    "type": "INJURY",
+    "confidence": 1.0,
+    "description": "Partial dislocation of the lens",
+    "metadata": [
+      {
+        "chapter": 3,
+        "section": "Trauma",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_006",
+    "name_normalized": "subluxated lens"
+  }
+]

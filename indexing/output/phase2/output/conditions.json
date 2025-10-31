@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Visually handicapped",
+    "type": "CONDITION",
+    "confidence": 0.9,
+    "description": "Having a significant visual impairment",
+    "synonyms": [
+      "Visually impaired",
+      "Blind"
+    ],
+    "metadata": [
+      {
+        "chapter": 8,
+        "section": "Pediatrics",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_001",
+    "name_normalized": "visually handicapped"
+  }
+]

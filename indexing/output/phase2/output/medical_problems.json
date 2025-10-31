@@ -1,0 +1,24 @@
+[
+  {
+    "name": "allergies",
+    "type": "MEDICAL_PROBLEM",
+    "confidence": 1.0,
+    "description": "medical problem",
+    "metadata": [
+      {
+        "chapter": 4,
+        "section": "Cornea",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      },
+      {
+        "chapter": 5,
+        "section": "Conjunctiva/Sclera/Iris/External Disease",
+        "extraction_method": "llm",
+        "model": "meta-llama/llama-3.3-70b-instruct"
+      }
+    ],
+    "entity_id": "entity_001",
+    "name_normalized": "allergies"
+  }
+]
