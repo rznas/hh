@@ -1,0 +1,246 @@
+{
+  "phase": "7.2",
+  "title": "Urgency Classification Validation Report",
+  "generated_at": "2025-10-30T20:32:57.001632",
+  "validation": {
+    "statistics": {
+      "total_diseases": 990,
+      "diseases_with_urgency": 990,
+      "diseases_without_urgency": 0,
+      "urgency_distribution": {
+        "urgent": 147,
+        "emergent": 380,
+        "non_urgent": 463
+      },
+      "diseases_without_source": []
+    },
+    "issues": [
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Superior Staining Contact Lens–Related Disorder (E.G.",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Contact Lens–Related Disorder (E",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Foreign Body Under The Upper Eyelid",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Floppy Eyelid Syndrome",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Superior Limbic Keratoconjunctivitis (Slk)",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Vernal Conjunctivitis",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Interpalpebral Staining Dry Eye Syndrome",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Ultraviolet Burn/Photokeratopathy",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Inferior Staining Blepharitis",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Topical Drug Toxicity (E",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Trichiasis/Distichiasis",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Entropion Or Ectropion",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Mild Chemical Injury",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Thygeson Superficial Punctate Keratitis",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Anterior Corneal Dystrophy",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Previous Traumatic Corneal Abrasion",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Stromal Corneal Dystrophy",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Corneal Degeneration",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Keratorefractive",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      },
+      {
+        "severity": "critical",
+        "type": "invalid_urgency_level",
+        "disease": "Evaporative",
+        "urgency": "non_urgent",
+        "valid_values": [
+          "urgent",
+          "non-urgent",
+          "emergent"
+        ]
+      }
+    ],
+    "status": "fail"
+  },
+  "summary": {
+    "status": "fail",
+    "diseases_with_urgency": 990,
+    "critical_issues": 20
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "phase": "7.2",
+  "title": "Red Flag Validation Report",
+  "generated_at": "2025-10-30T20:32:57.001599",
+  "validation": {
+    "statistics": {
+      "total_red_flags_in_graph": 103,
+      "total_red_flags_in_source": 10,
+      "red_flags_by_type": {
+        "Disease": 103
+      },
+      "missing_red_flags": [
+        "sudden vision loss",
+        "temporal arteritis",
+        "severe trauma",
+        "acute angle closure glaucoma",
+        "endophthalmitis"
+      ],
+      "extra_red_flags": [
+        "xanthogranuloma",
+        "diagnosis",
+        "cranial nerve palsy",
+        "chorioretinitis",
+        "severe chemical burns",
+        "coagulopathy",
+        "high-flow (direct) carotid–cavernous fistula",
+        "optic nerve sheath hematoma",
+        "maculopathy",
+        "conjunctival laceration"
+      ],
+      "coverage": 50.0
+    },
+    "issues": [
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Nongranulomatous Anterior Uveitis",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Traumatic Microhyphema Or Hyphema",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Traumatic Corneal Abrasion",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Traumatic Retinal Detachment",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Occult Trauma",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Neovascularization Of The Iris Or Angle (E",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Blood Dyscrasias And Coagulopathies",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Iris–Intraocular Lens Chafing",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Herpetic Keratouveitis",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Use Of Anticoagulants (E",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Orbital Edema And Hemorrhage With Or Without A Blowout Fracture",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Laceration Or Direct Contusion Of Eoms",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Bilateral, Asymmetric Ton",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Severe Retinal Trauma",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Traumatic, Diffuse Vh",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Intracranial Trauma With Asymmetric Damage To The Prechiasmal Optic Nerves",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "White Without Pressure",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Myelinated Nerve Fiber Layer",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Chorioretinitis Sclopetaria",
+        "urgency": "urgent",
+        "expected": "emergent"
+      },
+      {
+        "severity": "critical",
+        "type": "red_flag_urgency_mismatch",
+        "disease": "Lacquer Cracks Of High Myopia",
+        "urgency": "urgent",
+        "expected": "emergent"
+      }
+    ],
+    "status": "fail"
+  },
+  "summary": {
+    "status": "fail",
+    "coverage": 50.0,
+    "critical_issues": 20
+  }
+}

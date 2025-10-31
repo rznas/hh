@@ -1,0 +1,64 @@
+{
+  "phase": "7.1",
+  "title": "Relationship Validation Report",
+  "generated_at": "2025-10-30T20:32:50.974881",
+  "validation": {
+    "statistics": {
+      "total_edges": 28941,
+      "orphaned_edges": [
+        {
+          "edge": "disease_007 -> Etiology of Spontaneous Hyphema or Microhyphema",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_008 -> Etiology of Spontaneous Hyphema or Microhyphema",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_009 -> Etiology of Spontaneous Hyphema or Microhyphema",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_022 -> Differential Diagnosis of a Traumatic Afferent Pupillary Defect",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_025 -> Differential Diagnosis of a Traumatic Afferent Pupillary Defect",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_081 -> Etiology",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_090 -> Etiology",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_094 -> Etiology",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_096 -> Etiology",
+          "missing": "target"
+        },
+        {
+          "edge": "disease_100 -> Etiology",
+          "missing": "target"
+        }
+      ],
+      "invalid_directionality": [],
+      "circular_relationships": [],
+      "validation_passed": 28836,
+      "validation_failed": 105
+    },
+    "issues": [],
+    "status": "fail"
+  },
+  "summary": {
+    "total_edges": 28941,
+    "passed": 28836,
+    "failed": 105,
+    "status": "fail"
+  }
+}

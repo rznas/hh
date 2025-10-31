@@ -116,16 +116,51 @@ ENTITY_EXTRACTION_PROMPT = """You are a medical knowledge graph expert extractin
 - Confidence: 1.0 for explicit, clear entities; 0.7-0.9 for contextual/implied entities
 - Focus on medical accuracy and completeness
 
-**Output Format (JSON):**
-Return a JSON object with this exact structure:
-```json
-{{"entities": [{{"name": "entity name as appears in text", "type": "DISEASE|SYMPTOM|SIGN|TREATMENT|DIAGNOSTIC_TEST", "synonyms": ["alternative name 1", "alternative name 2"], "description": "brief description from context","confidence": 0.0-1.0}}]}}
-```
-
 **Text to analyze:**
-{text}
+{text}"""
 
-Return ONLY valid JSON, no additional text or markdown formatting."""
+# JSON Schema for structured output
+ENTITY_EXTRACTION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "entities": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Entity name as appears in text"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": ["DISEASE", "SYMPTOM", "SIGN", "TREATMENT", "DIAGNOSTIC_TEST"],
+                        "description": "Type of medical entity"
+                    },
+                    "synonyms": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "Alternative names for this entity"
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Brief description from context"
+                    },
+                    "confidence": {
+                        "type": "number",
+                        "minimum": 0.0,
+                        "maximum": 1.0,
+                        "description": "Confidence score for this extraction"
+                    }
+                },
+                "required": ["name", "type", "confidence"],
+                "additionalProperties": False
+            }
+        }
+    },
+    "required": ["entities"],
+    "additionalProperties": False
+}
 
 
 def load_text_blocks() -> List[Dict]:
@@ -146,7 +181,7 @@ def extract_entities_with_llm(text_block: Dict, stats: ExtractionStats) -> List[
     prompt = ENTITY_EXTRACTION_PROMPT.format(text=text[:3000])  # Limit text length
 
     try:
-        # Call OpenAI
+        # Call OpenAI with structured output
         response = client.chat.completions.create(
             model=OPENAI_MODEL_NAME,
             max_tokens=2000,
@@ -154,7 +189,15 @@ def extract_entities_with_llm(text_block: Dict, stats: ExtractionStats) -> List[
             messages=[{
                 "role": "user",
                 "content": prompt
-            }]
+            }],
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "entity_extraction",
+                    "strict": True,
+                    "schema": ENTITY_EXTRACTION_SCHEMA
+                }
+            }
         )
 
         # Update stats
@@ -167,15 +210,8 @@ def extract_entities_with_llm(text_block: Dict, stats: ExtractionStats) -> List[
             output_cost = response.usage.completion_tokens * 15 / 1000000
             stats.total_cost += input_cost + output_cost
 
-        # Parse response
+        # Parse response (structured output returns valid JSON directly)
         response_text = response.choices[0].message.content.strip()
-
-        # Extract JSON from response (handle markdown code blocks)
-        if "```json" in response_text:
-            response_text = response_text.split("```json")[1].split("```")[0].strip()
-        elif "```" in response_text:
-            response_text = response_text.split("```")[1].split("```")[0].strip()
-
         result = json.loads(response_text)
         entities = result.get("entities", [])
 

@@ -1,0 +1,59 @@
+{
+  "phase": 7,
+  "title": "Knowledge Graph Validation Summary",
+  "generated_at": "2025-10-30T20:33:44.162092",
+  "overall_status": "fail",
+  "validation_results": {
+    "data_quality": {
+      "entity_validation": "fail",
+      "relationship_validation": "fail",
+      "entities_passed": 1889,
+      "entities_failed": 113,
+      "relationships_passed": 28836,
+      "relationships_failed": 105
+    },
+    "medical_accuracy": {
+      "red_flag_validation": "fail",
+      "urgency_validation": "fail",
+      "consistency_validation": "pass",
+      "red_flag_coverage": 50.0,
+      "diseases_with_urgency": 990
+    }
+  },
+  "key_findings": {
+    "strengths": [
+      "1889 entities validated successfully",
+      "28836 relationships validated successfully",
+      "No duplicate entity IDs found",
+      "All diseases have urgency classifications",
+      "624 diseases have symptoms",
+      "567 diseases have treatments"
+    ],
+    "issues": [
+      "113 entities with incomplete properties",
+      "105 relationships with issues",
+      "Red flag coverage: 50.0%",
+      "20 critical red flag issues",
+      "20 critical urgency issues"
+    ]
+  },
+  "recommendations": [
+    "Review and fix entities with incomplete properties (missing descriptions)",
+    "Investigate orphaned relationships (edges with missing nodes)",
+    "Improve red flag coverage to ensure all emergent conditions are captured",
+    "Review urgency classifications for accuracy against Wills Eye Manual",
+    "Add descriptions for symptom and sign entities",
+    "Validate diseases without symptoms or treatments"
+  ],
+  "next_steps": [
+    "Phase 8: Create test scenarios for GraphRAG queries",
+    "Phase 8: Test Neo4j import and query performance",
+    "Phase 8: Generate final deliverables"
+  ],
+  "critical_failures": [
+    "entity_validation",
+    "relationship_validation",
+    "red_flag_validation",
+    "urgency_validation"
+  ]
+}

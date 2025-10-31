@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "description": "Configuration for choosing between baseline and LLM extraction outputs",
+  "default_mode": "baseline",
+  "modes": {
+    "baseline": {
+      "description": "Use pattern-matching baseline extraction (faster, no API costs)",
+      "cost": "free",
+      "speed": "fast"
+    },
+    "llm": {
+      "description": "Use LLM-enhanced extraction (higher quality, API costs)",
+      "cost": "paid",
+      "speed": "slower"
+    },
+    "hybrid": {
+      "description": "Use LLM outputs where available, fallback to baseline",
+      "cost": "paid (partial)",
+      "speed": "medium"
+    },
+    "merged": {
+      "description": "Merge both outputs with LLM preferred for conflicts",
+      "cost": "paid",
+      "speed": "fast (post-processing)"
+    }
+  },
+  "entity_sources": {
+    "anatomy": {
+      "baseline": "phase2/anatomy.json",
+      "llm": "phase2/anatomy_llm.json",
+      "active_mode": "baseline"
+    },
+    "etiology": {
+      "baseline": "phase2/etiology.json",
+      "llm": "phase2/etiology_llm.json",
+      "active_mode": "baseline"
+    },
+    "risk_factors": {
+      "baseline": "phase2/risk_factors.json",
+      "llm": "phase2/risk_factors_llm.json",
+      "active_mode": "baseline"
+    },
+    "medications": {
+      "baseline": "phase2/medications.json",
+      "llm": "phase2/medications_llm.json",
+      "active_mode": "baseline"
+    },
+    "procedures": {
+      "baseline": "phase2/procedures.json",
+      "llm": "phase2/procedures_llm.json",
+      "active_mode": "baseline"
+    },
+    "chapters": {
+      "baseline": "phase2/chapters.json",
+      "llm": null,
+      "active_mode": "baseline",
+      "note": "Structure extraction doesn't require LLM"
+    },
+    "sections": {
+      "baseline": "phase2/sections.json",
+      "llm": null,
+      "active_mode": "baseline",
+      "note": "Structure extraction doesn't require LLM"
+    },
+    "diseases": {
+      "baseline": "phase2/diseases.json",
+      "llm": "phase2/diseases.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction, no compensation needed"
+    },
+    "symptoms": {
+      "baseline": "phase2/symptoms.json",
+      "llm": "phase2/symptoms.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction, no compensation needed"
+    },
+    "signs": {
+      "baseline": "phase2/signs.json",
+      "llm": "phase2/signs.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction, no compensation needed"
+    },
+    "treatments": {
+      "baseline": "phase2/treatments.json",
+      "llm": "phase2/treatments.json",
+      "active_mode": "baseline",
+      "note": "Original merged file, use medications/procedures separately"
+    },
+    "diagnostic_tests": {
+      "baseline": "phase2/diagnostic_tests.json",
+      "llm": "phase2/diagnostic_tests.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction, no compensation needed"
+    }
+  },
+  "edge_sources": {
+    "caused_by": {
+      "baseline": "phase3/caused_by_edges.json",
+      "llm": "phase3/caused_by_edges_llm.json",
+      "active_mode": "baseline"
+    },
+    "affects": {
+      "baseline": "phase3/affects_edges.json",
+      "llm": "phase3/affects_edges_llm.json",
+      "active_mode": "baseline"
+    },
+    "increases_risk": {
+      "baseline": "phase3/increases_risk_edges.json",
+      "llm": "phase3/increases_risk_edges_llm.json",
+      "active_mode": "baseline"
+    },
+    "contraindicates": {
+      "baseline": "phase3/contraindicates_edges.json",
+      "llm": "phase3/contraindicates_edges_llm.json",
+      "active_mode": "baseline"
+    },
+    "complicates": {
+      "baseline": "phase3/complicates_edges.json",
+      "llm": "phase3/complicates_edges_llm.json",
+      "active_mode": "baseline"
+    },
+    "temporal_follows": {
+      "baseline": "phase3/temporal_follows_edges.json",
+      "llm": "phase3/temporal_follows_edges_llm.json",
+      "active_mode": "baseline"
+    },
+    "presents_with": {
+      "baseline": "phase3/graphrag_edges.json",
+      "llm": "phase3/graphrag_edges.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction, filter by relationship_type"
+    },
+    "treated_with": {
+      "baseline": "phase3/graphrag_edges.json",
+      "llm": "phase3/graphrag_edges.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction, filter by relationship_type"
+    },
+    "associated_with": {
+      "baseline": "phase3/graphrag_edges.json",
+      "llm": "phase3/graphrag_edges.json",
+      "active_mode": "baseline",
+      "note": "Existing extraction (should be shows_sign), filter by relationship_type"
+    }
+  }
+}

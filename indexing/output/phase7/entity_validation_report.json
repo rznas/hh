@@ -1,0 +1,85 @@
+{
+  "phase": "7.1",
+  "title": "Entity Validation Report",
+  "generated_at": "2025-10-30T20:32:50.974860",
+  "validation": {
+    "statistics": {
+      "total_nodes": 2002,
+      "unique_ids": 2002,
+      "duplicate_ids": [],
+      "missing_required_fields": [],
+      "incomplete_properties": [
+        {
+          "id": "symptom_001",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_002",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_003",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_004",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_005",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_006",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_007",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_008",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_009",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "symptom_010",
+          "missing": [
+            "description"
+          ]
+        }
+      ],
+      "validation_passed": 1889,
+      "validation_failed": 113
+    },
+    "issues": [],
+    "status": "fail"
+  },
+  "summary": {
+    "total_nodes": 2002,
+    "passed": 1889,
+    "failed": 113,
+    "status": "fail"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "7.2",
+  "title": "Medical Consistency Validation Report",
+  "generated_at": "2025-10-30T20:32:57.001638",
+  "validation": {
+    "statistics": {
+      "diseases_with_symptoms": 624,
+      "diseases_with_treatments": 567,
+      "diseases_without_symptoms": [
+        "Nongranulomatous Anterior Uveitis",
+        "Traumatic Microhyphema Or Hyphema",
+        "Traumatic Corneal Abrasion",
+        "Traumatic Retinal Detachment",
+        "Occult Trauma",
+        "Neovascularization Of The Iris Or Angle (E",
+        "Blood Dyscrasias And Coagulopathies",
+        "Iris–Intraocular Lens Chafing",
+        "Use Of Anticoagulants (E",
+        "Orbital Edema And Hemorrhage With Or Without A Blowout Fracture"
+      ],
+      "diseases_without_treatments": [
+        "Nongranulomatous Anterior Uveitis",
+        "Traumatic Microhyphema Or Hyphema",
+        "Traumatic Corneal Abrasion",
+        "Traumatic Retinal Detachment",
+        "Occult Trauma",
+        "Neovascularization Of The Iris Or Angle (E",
+        "Blood Dyscrasias And Coagulopathies",
+        "Iris–Intraocular Lens Chafing",
+        "Use Of Anticoagulants (E",
+        "Orbital Edema And Hemorrhage With Or Without A Blowout Fracture"
+      ]
+    },
+    "issues": [],
+    "status": "pass"
+  },
+  "summary": {
+    "status": "pass"
+  }
+}
